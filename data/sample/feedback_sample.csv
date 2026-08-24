@@ -1,0 +1,651 @@
+﻿feedback_id,user_email,agent,content,created_at
+fb_00001,duonglnd@techcombank.com.vn,TÀI Chat,Làm sao để tạo mục lục tự động vậy team? Mong team xem giúp ạ.,2026-02-26T08:08:00
+fb_00002,main20@techcombank.com.vn,The Translator,"The Translator rất hữu ích, tiết kiệm cho mình vài tiếng mỗi tuần. Cảm ơn team! Mong team xem giúp ạ.",2026-02-26T11:03:00
+fb_00003,hungln5@techcombank.com.vn,The Powerpoint-er,"The Powerpoint-er is very slow, a 20 page file takes almost 10 minutes. This started last week.",2026-02-26T15:44:00
+fb_00004,tuanhdl@techcombank.com.vn,The Powerpoint-er,Cho hỏi file và feedback có bị dùng để train model không?,2026-02-26T15:44:00
+fb_00005,anhnv33@techcombank.com.vn,TÀI Chat,"Em mới dùng nên hơi lúng túng, muốn lưu lại lịch sử hội thoại thì bấm ở đâu ạ?",2026-02-26T16:14:00
+fb_00006,anhhvl5@techcombank.com.vn,The Powerpoint-er,Vietnamese characters are broken in the exported CSV file.,2026-02-26T20:17:00
+fb_00007,sonlh@techcombank.com.vn,The Analyst,"The Analyst saves me hours every week, great work. Thanks!",2026-02-26T20:31:00
+fb_00008,anhl32@techcombank.com.vn,The Analyst,"Quick question, vietnamese characters are broken in the exported DOCX file. I am on Chrome.",2026-02-27T09:53:00
+fb_00009,khanhhtd7@techcombank.com.vn,TÀI Chat,Làm sao để trích xuất bảng từ file PDF vậy team? Cảm ơn team!,2026-02-27T11:17:00
+fb_00010,phuongb@techcombank.com.vn,The Translator,"Cho mình hỏi, làm sao để chuyển dữ liệu Excel thành biểu đồ vậy team? Cảm ơn nhiều ạ.",2026-02-27T14:54:00
+fb_00011,linhvvd2@techcombank.com.vn,TÀI Chat,"TÀI Chat is very slow, a 20 page file takes almost 10 minutes. I am on Chrome.",2026-02-27T15:16:00
+fb_00012,ngocppn27@techcombank.com.vn,The Summarizer,The Summarizer: It fails with 'Something went wrong' and no further detail.,2026-02-27T16:20:00
+fb_00013,tuanddn28@techcombank.com.vn,The Translator,Vietnamese characters are broken in the exported Markdown file.,2026-03-01T17:35:00
+fb_00014,ngocll13@techcombank.com.vn,The Translator,"Gửi nhầm, bỏ qua giúp mình nhé.",2026-03-02T09:52:00
+fb_00015,duonglnd@techcombank.com.vn,The Translator,"Nút so sánh hai phiên bản tài liệu nằm khuất quá, mình tìm mãi mới thấy.",2026-03-02T10:23:00
+fb_00016,minhpn1@techcombank.com.vn,The Powerpoint-er,"Dùng The Powerpoint-er soạn bản nháp rồi chỉnh lại, hiệu quả tốt hơn mình nghĩ. Mong team xem giúp ạ.",2026-03-02T10:50:00
+fb_00017,sonldh2@techcombank.com.vn,The Translator,"The Translator: Font tiếng Việt trong file DOCX xuất ra bị lỗi, mất dấu hết.",2026-03-02T14:08:00
+fb_00018,chipnh9@techcombank.com.vn,The Powerpoint-er,"Hi team, could you run a training session for our department?",2026-03-02T14:24:00
+fb_00019,longhd11@techcombank.com.vn,The Researcher,"The Researcher chạy được nửa chừng rồi đứng, không ra kết quả cũng không báo lỗi. Rất mong sớm nhận được phản hồi.",2026-03-02T15:54:00
+fb_00020,ngocppn27@techcombank.com.vn,The Analyst,Nhờ team hỗ trợ: có tài liệu hướng dẫn dùng The Analyst chi tiết hơn không? Bản trên SharePoint hơi sơ sài.,2026-03-03T08:55:00
+fb_00021,longhb@techcombank.com.vn,The Summarizer,Có video hướng dẫn nào ngắn gọn cho người mới không? Cảm ơn team!,2026-03-03T09:37:00
+fb_00022,haib6@techcombank.com.vn,The Translator,Đề xuất nhỏ: thêm option adjust the tone of the translation thì workflow của team mình gọn hơn nhiều.,2026-03-03T10:07:00
+fb_00023,anhhvl5@techcombank.com.vn,TÀI Chat,"Hello, the landing page is confusing for a first time user. Appreciate the help.",2026-03-03T11:16:00
+fb_00024,chidpl11@techcombank.com.vn,The Translator,"Chào team, muốn đăng ký buổi demo The Translator cho team khoảng 20 người.",2026-03-03T13:36:00
+fb_00025,haitd15@techcombank.com.vn,The Powerpoint-er,Where is the setting to summarize a long document? Appreciate the help.,2026-03-04T11:06:00
+fb_00026,tuandbl9@techcombank.com.vn,The Summarizer,"Wifi tầng 12 yếu quá, họp online hay rớt.",2026-03-04T15:38:00
+fb_00027,tuanvdb@techcombank.com.vn,The Translator,Is there an API so we can call The Translator from our own tools?,2026-03-04T16:40:00
+fb_00028,phuongnh32@techcombank.com.vn,TÀI Chat,"Xin chào team, cho hỏi TÀI Chat có cách nào đổi ngôn ngữ output không? Mong team xem giúp ạ.",2026-03-04T17:05:00
+fb_00029,haidvn@techcombank.com.vn,The Powerpoint-er,"Hi all, any chance of a mobile friendly version?",2026-03-05T08:46:00
+fb_00030,duonglnd@techcombank.com.vn,The Translator,"Xin chào team, cho hỏi file và feedback có bị dùng để train model không? Cảm ơn team!",2026-03-05T09:02:00
+fb_00031,main20@techcombank.com.vn,The Powerpoint-er,"Xin chào team, xin quyền dùng The Powerpoint-er thì làm thủ tục ở đâu ạ? Đã thử lại vài lần vẫn vậy.",2026-03-05T09:42:00
+fb_00032,mainn@techcombank.com.vn,The Summarizer,Tài liệu mật cấp phòng thì có được phép đưa lên TÀI Studio không? Mong team xem giúp ạ.,2026-03-05T10:32:00
+fb_00033,longdt14@techcombank.com.vn,TÀI Chat,The summary drops the most important section of the document. Please advise.,2026-03-05T10:56:00
+fb_00034,thucddd40@techcombank.com.vn,The Translator,"Chào team, chất lượng dịch cải thiện rõ so với hồi đầu năm. Cảm ơn nhiều ạ.",2026-03-06T09:34:00
+fb_00035,chidpl11@techcombank.com.vn,The Powerpoint-er,The Powerpoint-er: Response time in the morning is basically unusable. It happens with every file I try. Thanks!,2026-03-06T11:32:00
+fb_00036,haib6@techcombank.com.vn,The Powerpoint-er,"Team ơi, dịch xong thì mất hết định dạng bảng biểu trong file gốc.",2026-03-06T11:59:00
+fb_00037,main20@techcombank.com.vn,TÀI Chat,Test thử xem form này có hoạt động không.,2026-03-07T22:49:00
+fb_00038,thucdlh@techcombank.com.vn,TÀI Chat,Feature request: let us edit the result directly in the UI. Thank you in advance.,2026-03-08T09:17:00
+fb_00039,phuongltp14@techcombank.com.vn,The Analyst,"The Analyst dịch sai khá nhiều thuật ngữ chuyên ngành ngân hàng, mình phải sửa lại gần hết. Đã thử lại vài lần vẫn vậy.",2026-03-09T14:16:00
+fb_00040,anhnv33@techcombank.com.vn,TÀI Chat,Nếu TÀI Chat hỗ trợ thêm định dạng DOCX thì tiện hơn nhiều. Rất mong sớm nhận được phản hồi.,2026-03-09T15:28:00
+fb_00041,maidl11@techcombank.com.vn,The Analyst,"The Analyst is very slow, a 20 page file takes almost 10 minutes.",2026-03-09T15:32:00
+fb_00042,minhhp@techcombank.com.vn,The Translator,"The Translator: Hi team, only the first sheet of my Excel workbook gets processed.",2026-03-09T16:36:00
+fb_00043,hain@techcombank.com.vn,The Powerpoint-er,Please add PDF support in The Powerpoint-er.,2026-03-10T10:07:00
+fb_00044,tuanddn28@techcombank.com.vn,TÀI Chat,"Mình không biết cách trích xuất bảng từ file PDF trong TÀI Chat, có hướng dẫn nào không ạ?",2026-03-10T15:21:00
+fb_00045,minhhp@techcombank.com.vn,The Summarizer,"Xin chào team, mình muốn tóm tắt tài liệu dài nhưng không biết bắt đầu từ đâu.",2026-03-10T15:27:00
+fb_00046,chidpl11@techcombank.com.vn,The Analyst,Nhờ team hỗ trợ: nên có chế độ tối cho đỡ mỏi mắt.,2026-03-10T16:11:00
+fb_00047,longhb@techcombank.com.vn,The Translator,"Dùng The Translator soạn bản nháp rồi chỉnh lại, hiệu quả tốt hơn mình nghĩ.",2026-03-11T10:47:00
+fb_00048,phuongltp14@techcombank.com.vn,TÀI Chat,N/A,2026-03-11T11:11:00
+fb_00049,quangln28@techcombank.com.vn,The Translator,"Tài liệu hơn 100 trang thì bị cắt giữa chừng, phần sau không được xử lý. Mình dùng hằng ngày cho công việc nên khá bất tiện. Nhờ team hỗ trợ giúp mình nhé.",2026-03-11T14:54:00
+fb_00050,maivhb@techcombank.com.vn,The Researcher,"Hi team, it would help a lot if we could save frequently used prompts as templates. Appreciate the help.",2026-03-11T16:35:00
+fb_00051,khanhhtd7@techcombank.com.vn,TÀI Chat,Please add DOCX support in TÀI Chat. Please advise.,2026-03-12T08:29:00
+fb_00052,anhn@techcombank.com.vn,The Powerpoint-er,Nên có chế độ tối cho đỡ mỏi mắt.,2026-03-12T11:29:00
+fb_00053,duonglnd@techcombank.com.vn,TÀI Chat,Team có tổ chức buổi training dùng TÀI Studio cho phòng mình được không ạ? Cảm ơn team!,2026-03-12T13:39:00
+fb_00054,trangdt@techcombank.com.vn,The Summarizer,Có API để gọi The Summarizer từ hệ thống nội bộ của phòng mình không?,2026-03-13T09:29:00
+fb_00055,khanhhtd7@techcombank.com.vn,TÀI Chat,"Quick question, only the first sheet of my Excel workbook gets processed. Please advise.",2026-03-13T14:34:00
+fb_00056,chipnh9@techcombank.com.vn,The Powerpoint-er,The Powerpoint-er: Processing large files got noticeably slower this month.,2026-03-13T15:33:00
+fb_00057,namdl@techcombank.com.vn,The Powerpoint-er,The Powerpoint-er: Could you run a training session for our department? Please advise.,2026-03-16T09:32:00
+fb_00058,thaobp8@techcombank.com.vn,TÀI Chat,"Mình không đăng nhập được vào TÀI Studio, báo là không có quyền truy cập. Rất mong sớm nhận được phản hồi.",2026-03-16T10:39:00
+fb_00059,duonglnd@techcombank.com.vn,The Powerpoint-er,"Nhờ team hỗ trợ: đăng nhập SSO xong thì bị đá về trang chủ, vào lại vẫn vậy.",2026-03-16T13:58:00
+fb_00060,trangvpv9@techcombank.com.vn,The Powerpoint-er,Dịch xong thì mất hết định dạng bảng biểu trong file gốc. Cảm ơn team!,2026-03-16T14:58:00
+fb_00061,hungnlp@techcombank.com.vn,TÀI Chat,File Excel nhiều sheet thì chỉ đọc được sheet đầu tiên. Đã thử lại vài lần vẫn vậy.,2026-03-16T15:27:00
+fb_00062,thaobp8@techcombank.com.vn,TÀI Chat,"TÀI Chat saves me hours every week, great work.",2026-03-17T10:58:00
+fb_00063,main20@techcombank.com.vn,The Translator,"Xin thêm tính năng xuất file PPT ra PDF, hiện mình vẫn phải làm tay bước đó.",2026-03-17T15:10:00
+fb_00064,minhp@techcombank.com.vn,The Translator,The Translator: The page goes blank right after I upload a file. This started last week.,2026-03-17T16:39:00
+fb_00065,trangld@techcombank.com.vn,The Analyst,"New user here, could you point me to a guide for The Analyst?",2026-03-17T20:50:00
+fb_00066,hunghld21@techcombank.com.vn,The Researcher,Is there a short onboarding video for new users? Thank you in advance.,2026-03-18T08:56:00
+fb_00067,thucdlh@techcombank.com.vn,The Translator,The landing page is confusing for a first time user. Thank you in advance.,2026-03-18T13:38:00
+fb_00068,anhl5@techcombank.com.vn,The Summarizer,"Xin chào team, dữ liệu mình upload có được lưu lại không? Tài liệu nội bộ thì có an toàn không ạ?",2026-03-19T10:13:00
+fb_00069,anhn@techcombank.com.vn,The Translator,"Em mới dùng nên hơi lúng túng, muốn đổi ngôn ngữ output thì bấm ở đâu ạ?",2026-03-19T10:31:00
+fb_00070,haib6@techcombank.com.vn,The Translator,"Dùng The Translator soạn bản nháp rồi chỉnh lại, hiệu quả tốt hơn mình nghĩ. Mong team xem giúp ạ.",2026-03-19T11:20:00
+fb_00071,linhnl9@techcombank.com.vn,TÀI Chat,"TÀI Chat: Hello, it fails with 'Something went wrong' and no further detail.",2026-03-19T16:54:00
+fb_00072,anhn@techcombank.com.vn,TÀI Chat,"Tìm mãi không thấy chỗ trích xuất bảng từ file PDF, nhờ team chỉ giúp. Mong team xem giúp ạ.",2026-03-19T20:49:00
+fb_00073,maidl11@techcombank.com.vn,The Translator,"Nhờ team hỗ trợ: em mới dùng nên hơi lúng túng, muốn chuyển dữ liệu Excel thành biểu đồ thì bấm ở đâu ạ? Rất mong sớm nhận được phản hồi.",2026-03-20T13:13:00
+fb_00074,linhvvd2@techcombank.com.vn,The Researcher,"Hello, could you run a training session for our department?",2026-03-20T15:24:00
+fb_00075,minhdd19@techcombank.com.vn,The Analyst,"Tìm mãi không thấy chỗ so sánh hai phiên bản tài liệu, nhờ team chỉ giúp. Rất mong sớm nhận được phản hồi.",2026-03-20T15:45:00
+fb_00076,haidvn@techcombank.com.vn,The Translator,"Team ơi, đề xuất nhỏ: thêm option generate a table of contents thì workflow của team mình gọn hơn nhiều.",2026-03-20T20:45:00
+fb_00077,thaondt@techcombank.com.vn,TÀI Chat,"Hi team, is the uploaded document stored anywhere? These are internal files.",2026-03-23T08:19:00
+fb_00078,linhnl9@techcombank.com.vn,The Translator,"The Translator: Hi team, only the first sheet of my Excel workbook gets processed.",2026-03-23T09:22:00
+fb_00079,anhl12@techcombank.com.vn,TÀI Chat,Is the uploaded document stored anywhere? These are internal files. Thanks!,2026-03-23T09:53:00
+fb_00080,mainln@techcombank.com.vn,The Powerpoint-er,"Xin chào team, upload file xong thì màn hình trắng luôn, phải F5 lại từ đầu. Đã thử lại vài lần vẫn vậy.",2026-03-24T11:50:00
+fb_00081,maidb@techcombank.com.vn,The Translator,"Xin chào team, The Translator chạy chậm quá, một file 20 trang mất gần 10 phút. Rất mong sớm nhận được phản hồi.",2026-03-24T14:06:00
+fb_00082,minhn37@techcombank.com.vn,The Powerpoint-er,"The Powerpoint-er saves me hours every week, great work.",2026-03-24T16:16:00
+fb_00083,duonglnd@techcombank.com.vn,The Researcher,Mong team bổ sung tính năng so sánh hai phiên bản tài liệu cho The Researcher.,2026-03-24T16:48:00
+fb_00084,thucl28@techcombank.com.vn,TÀI Chat,1,2026-03-24T17:25:00
+fb_00085,hainbd26@techcombank.com.vn,TÀI Chat,"Nhờ team hỗ trợ: TÀI Chat rất hữu ích, tiết kiệm cho mình vài tiếng mỗi tuần. Cảm ơn team! Cảm ơn nhiều ạ.",2026-03-25T08:47:00
+fb_00086,anhnv33@techcombank.com.vn,TÀI Chat,Cho hỏi thủ tục đăng ký nghỉ phép làm ở đâu ạ?,2026-03-25T11:04:00
+fb_00087,minhpn1@techcombank.com.vn,The Summarizer,Tài liệu mật cấp phòng thì có được phép đưa lên TÀI Studio không? Cảm ơn nhiều ạ.,2026-03-25T14:13:00
+fb_00088,thaon8@techcombank.com.vn,TÀI Chat,"File của mình 60MB, upload lên thì báo vượt giới hạn. Có cách nào tăng không ạ? Nhờ team hỗ trợ giúp mình nhé.",2026-03-25T14:28:00
+fb_00089,minhddd40@techcombank.com.vn,The Analyst,"Quick question, how do I adjust the tone of the translation in The Analyst? Thanks!",2026-03-25T16:55:00
+fb_00090,duongt@techcombank.com.vn,TÀI Chat,"Nhờ team hỗ trợ: session bị timeout liên tục, đang làm dở thì mất hết nội dung.",2026-03-26T10:23:00
+fb_00091,phuongd34@techcombank.com.vn,TÀI Chat,tốt,2026-03-26T10:41:00
+fb_00092,sonpll13@techcombank.com.vn,TÀI Chat,How do I extract tables from a PDF in TÀI Chat? Thank you in advance.,2026-03-26T13:06:00
+fb_00093,linhndd@techcombank.com.vn,The Researcher,Bản tóm tắt bỏ mất đúng phần quan trọng nhất của tài liệu. Mong team xem giúp ạ.,2026-03-26T13:42:00
+fb_00094,main32@techcombank.com.vn,The Analyst,Getting a 500 error every time I hit generate on The Analyst. I am on Chrome.,2026-03-26T15:51:00
+fb_00095,anhn@techcombank.com.vn,TÀI Chat,"Team ơi, TÀI Chat bị lỗi khi export, error message: 'Request failed with status code 500'. Nhờ team check giúp.",2026-03-27T09:42:00
+fb_00096,chipnh9@techcombank.com.vn,TÀI Chat,"Nhờ team hỗ trợ: chữ trong ô nhập prompt nhỏ quá, nhìn không rõ. Mong team xem giúp ạ.",2026-03-27T15:20:00
+fb_00097,phuongb@techcombank.com.vn,TÀI Chat,"New user here, could you point me to a guide for TÀI Chat? Thank you in advance.",2026-03-27T15:34:00
+fb_00098,duonglnd@techcombank.com.vn,The Summarizer,"Nút tóm tắt tài liệu dài nằm khuất quá, mình tìm mãi mới thấy.",2026-03-27T17:17:00
+fb_00099,anhn@techcombank.com.vn,The Powerpoint-er,:)),2026-03-30T08:20:00
+fb_00100,hungnlp@techcombank.com.vn,The Summarizer,"Chào team, mình không biết cách so sánh hai phiên bản tài liệu trong The Summarizer, có hướng dẫn nào không ạ? Mong team xem giúp ạ.",2026-03-30T09:45:00
+fb_00101,tuann@techcombank.com.vn,The Powerpoint-er,"The Powerpoint-er is very slow, a 20 page file takes almost 10 minutes.",2026-03-30T15:08:00
+fb_00102,linhndd@techcombank.com.vn,The Powerpoint-er,Nhờ team hỗ trợ: mong team bổ sung tính năng trích xuất bảng từ file PDF cho The Powerpoint-er.,2026-03-31T08:07:00
+fb_00103,anhl12@techcombank.com.vn,The Summarizer,Is the uploaded document stored anywhere? These are internal files. Please advise.,2026-03-31T09:45:00
+fb_00104,haib6@techcombank.com.vn,The Powerpoint-er,"Mình bấm generate thì báo lỗi 500, thử lại 3 lần vẫn vậy.",2026-03-31T14:28:00
+fb_00105,ngocv14@techcombank.com.vn,The Summarizer,"The Summarizer: Kết quả trả về không khớp với dữ liệu mình upload, số liệu bị lệch. Mình dùng hằng ngày cho công việc nên khá bất tiện.",2026-03-31T14:31:00
+fb_00106,hungl1@techcombank.com.vn,The Analyst,"Font tiếng Việt trong file CSV xuất ra bị lỗi, mất dấu hết.",2026-03-31T16:06:00
+fb_00107,anhhvl5@techcombank.com.vn,TÀI Chat,"Nhờ team hỗ trợ: giờ cao điểm buổi sáng gần như không dùng nổi, cứ quay vòng vòng mãi.",2026-03-31T16:45:00
+fb_00108,yenpdb@techcombank.com.vn,The Powerpoint-er,"The Powerpoint-er: Chào team, có video hướng dẫn nào ngắn gọn cho người mới không? Cảm ơn nhiều ạ.",2026-04-01T09:26:00
+fb_00109,anhl5@techcombank.com.vn,The Powerpoint-er,The summary drops the most important section of the document. Thanks!,2026-04-01T13:26:00
+fb_00110,anhl12@techcombank.com.vn,The Translator,"I cannot log in, it says I do not have permission. It happens with every file I try. Appreciate the help.",2026-04-01T15:18:00
+fb_00111,hungln5@techcombank.com.vn,The Powerpoint-er,"The Powerpoint-er: Quick question, is there a short onboarding video for new users?",2026-04-01T15:31:00
+fb_00112,tuandbl9@techcombank.com.vn,TÀI Chat,"TÀI Chat: The latest update feels much faster, thank you.",2026-04-01T15:47:00
+fb_00113,anhl12@techcombank.com.vn,TÀI Chat,"Hi all, are our files used for model training? Thank you in advance.",2026-04-01T16:52:00
+fb_00114,anhl5@techcombank.com.vn,TÀI Chat,"Kết quả dài mà không có thanh cuộn riêng, đọc rất mệt. Rất mong sớm nhận được phản hồi.",2026-04-01T17:15:00
+fb_00115,ngocppn27@techcombank.com.vn,The Translator,"The Translator có hỗ trợ lưu lại lịch sử hội thoại không, hay phải làm tay?",2026-04-01T22:42:00
+fb_00116,anhl5@techcombank.com.vn,The Powerpoint-er,"Team ơi, có thể thêm chế độ chỉnh sửa kết quả ngay trên giao diện không ạ? Cảm ơn team!",2026-04-02T11:32:00
+fb_00117,hain@techcombank.com.vn,The Powerpoint-er,Is there a way to summarize a long document? I could not find the option.,2026-04-02T14:32:00
+fb_00118,phuongb@techcombank.com.vn,TÀI Chat,"TÀI Chat: Hi all, i cannot log in, it says I do not have permission.",2026-04-02T15:15:00
+fb_00119,tuanhdl@techcombank.com.vn,The Powerpoint-er,The Powerpoint-er: Only the first sheet of my Excel workbook gets processed.,2026-04-02T15:21:00
+fb_00120,anhl5@techcombank.com.vn,The Translator,chưa dùng,2026-04-02T17:25:00
+fb_00121,hainbd26@techcombank.com.vn,TÀI Chat,PDF scan dạng ảnh thì TÀI Chat đọc không ra chữ nào. Nhờ team hỗ trợ giúp mình nhé.,2026-04-03T15:50:00
+fb_00122,ngocdd28@techcombank.com.vn,TÀI Chat,TÀI Chat: Are our files used for model training?,2026-04-06T08:00:00
+fb_00123,duonglnd@techcombank.com.vn,The Powerpoint-er,"Team ơi, The Powerpoint-er chạy được nửa chừng rồi đứng, không ra kết quả cũng không báo lỗi. Cảm ơn nhiều ạ.",2026-04-06T09:42:00
+fb_00124,anhnv33@techcombank.com.vn,The Analyst,Please add XLSX support in The Analyst.,2026-04-07T16:37:00
+fb_00125,duonglnd@techcombank.com.vn,The Powerpoint-er,"The Powerpoint-er: The latest update feels much faster, thank you. Thanks!",2026-04-07T16:55:00
+fb_00126,hunghld21@techcombank.com.vn,TÀI Chat,"TÀI Chat keeps mistranslating banking terminology, I had to fix almost every line.",2026-04-08T08:38:00
+fb_00127,linhln21@techcombank.com.vn,The Translator,Scanned PDFs are not recognized at all.,2026-04-08T10:11:00
+fb_00128,maivld@techcombank.com.vn,The Translator,"Giao diện hơi rối, người mới vào không biết bắt đầu từ đâu.",2026-04-08T14:25:00
+fb_00129,maidl11@techcombank.com.vn,The Researcher,"Cho mình hỏi, rất mong có bản dùng được trên điện thoại. Cảm ơn team!",2026-04-08T16:19:00
+fb_00130,sonlh@techcombank.com.vn,The Powerpoint-er,What prompt should I use to upload multiple files at once?,2026-04-08T17:09:00
+fb_00131,mainn@techcombank.com.vn,The Translator,"Chào team, cho hỏi file và feedback có bị dùng để train model không?",2026-04-09T08:04:00
+fb_00132,tuanhdl@techcombank.com.vn,The Powerpoint-er,"The Powerpoint-er saves me hours every week, great work. Appreciate the help.",2026-04-09T09:09:00
+fb_00133,minhn37@techcombank.com.vn,TÀI Chat,"Quick question, the page goes blank right after I upload a file. It happens with every file I try.",2026-04-09T09:23:00
+fb_00134,maid32@techcombank.com.vn,The Translator,"The Translator chạy được nửa chừng rồi đứng, không ra kết quả cũng không báo lỗi.",2026-04-09T09:25:00
+fb_00135,sonldh2@techcombank.com.vn,TÀI Chat,"Xin chào team, cho hỏi TÀI Chat có cách nào chỉnh giọng văn của bản dịch không?",2026-04-09T10:15:00
+fb_00136,hungt19@techcombank.com.vn,The Summarizer,"Không upload được file XLSX, hình như chỉ nhận PDF thôi?",2026-04-09T14:23:00
+fb_00137,phuongpp@techcombank.com.vn,The Summarizer,"Mình không biết cách tóm tắt tài liệu dài trong The Summarizer, có hướng dẫn nào không ạ?",2026-04-09T14:29:00
+fb_00138,main20@techcombank.com.vn,The Translator,"Hi team, upload fails for anything above the size limit, my file is 60MB. Appreciate the help.",2026-04-09T14:32:00
+fb_00139,anhl5@techcombank.com.vn,The Powerpoint-er,"Dùng The Powerpoint-er soạn bản nháp rồi chỉnh lại, hiệu quả tốt hơn mình nghĩ. Cảm ơn team!",2026-04-09T15:02:00
+fb_00140,anhnv33@techcombank.com.vn,The Translator,"Xin chào team, có tài liệu hướng dẫn dùng The Translator chi tiết hơn không? Bản trên SharePoint hơi sơ sài.",2026-04-09T15:30:00
+fb_00141,maivld@techcombank.com.vn,The Translator,"Getting a 500 error every time I hit generate on The Translator. Tried a few times, same result. Please advise.",2026-04-09T16:12:00
+fb_00142,hain5@techcombank.com.vn,The Analyst,Nếu The Analyst hỗ trợ thêm định dạng DOCX thì tiện hơn nhiều.,2026-04-09T17:08:00
+fb_00143,tuanhdl@techcombank.com.vn,The Analyst,"The Analyst: Xin chào team, có video hướng dẫn nào ngắn gọn cho người mới không?",2026-04-10T08:44:00
+fb_00144,main20@techcombank.com.vn,The Summarizer,"The Summarizer chạy chậm quá, một file 20 trang mất gần 10 phút.",2026-04-10T10:03:00
+fb_00145,chipnh9@techcombank.com.vn,TÀI Chat,"Xin chào team, font tiếng Việt trong file Markdown xuất ra bị lỗi, mất dấu hết.",2026-04-10T14:38:00
+fb_00146,ngocll13@techcombank.com.vn,The Summarizer,ko có gì,2026-04-10T15:25:00
+fb_00147,thaobp8@techcombank.com.vn,The Powerpoint-er,"Nhờ team hỗ trợ: bố cục slide The Powerpoint-er tạo ra lộn xộn, chữ tràn ra ngoài khung.",2026-04-10T15:35:00
+fb_00148,maivld@techcombank.com.vn,The Powerpoint-er,Nhờ team hỗ trợ: tốc độ xử lý file lớn chậm hơn hẳn so với tháng trước.,2026-04-11T17:35:00
+fb_00149,maivld@techcombank.com.vn,The Summarizer,Canteen hết cơm lúc 12h30 rồi.,2026-04-13T08:40:00
+fb_00150,hain@techcombank.com.vn,TÀI Chat,Mong team bổ sung tính năng xuất file PPT ra PDF cho TÀI Chat.,2026-04-13T10:04:00
+fb_00151,hain@techcombank.com.vn,The Translator,Could you run a training session for our department?,2026-04-14T13:48:00
+fb_00152,sonndn@techcombank.com.vn,The Powerpoint-er,"File của mình 60MB, upload lên thì báo vượt giới hạn. Có cách nào tăng không ạ?",2026-04-14T16:50:00
+fb_00153,duongl35@techcombank.com.vn,The Researcher,"Tài liệu hơn 100 trang thì bị cắt giữa chừng, phần sau không được xử lý.",2026-04-14T22:46:00
+fb_00154,phuongv@techcombank.com.vn,The Analyst,"Output của The Analyst bị lặp ý, đoạn sau nhắc lại gần nguyên đoạn trước. Cảm ơn team!",2026-04-15T11:46:00
+fb_00155,anhhvl5@techcombank.com.vn,TÀI Chat,Chất lượng dịch cải thiện rõ so với hồi đầu năm.,2026-04-15T14:04:00
+fb_00156,haib6@techcombank.com.vn,TÀI Chat,"Báo lỗi 'Something went wrong' mà không nói gì thêm, không biết sửa kiểu gì. Mình dùng trên Chrome.",2026-04-15T14:36:00
+fb_00157,longd@techcombank.com.vn,TÀI Chat,Response time in the morning is basically unusable. This started last week.,2026-04-16T09:18:00
+fb_00158,minhpn1@techcombank.com.vn,The Researcher,"Mình không biết cách so sánh hai phiên bản tài liệu trong The Researcher, có hướng dẫn nào không ạ?",2026-04-16T10:14:00
+fb_00159,chipnh9@techcombank.com.vn,TÀI Chat,"Wifi tầng 12 yếu quá, họp online hay rớt.",2026-04-16T10:36:00
+fb_00160,quangv31@techcombank.com.vn,TÀI Chat,"Cho mình hỏi, cho hỏi TÀI Chat có cách nào chuyển dữ liệu Excel thành biểu đồ không? Nhờ team hỗ trợ giúp mình nhé.",2026-04-16T13:08:00
+fb_00161,thuchnh26@techcombank.com.vn,TÀI Chat,"TÀI Chat rất hữu ích, tiết kiệm cho mình vài tiếng mỗi tuần. Cảm ơn team!",2026-04-16T15:50:00
+fb_00162,linhndd@techcombank.com.vn,The Summarizer,"The Summarizer: Nên có nút hoàn tác, lỡ tay generate lại là mất bản cũ.",2026-04-16T16:20:00
+fb_00163,anhl5@techcombank.com.vn,TÀI Chat,"Hi team, how do I request access to TÀI Chat? This started last week.",2026-04-17T09:09:00
+fb_00164,phuongb@techcombank.com.vn,TÀI Chat,What prompt should I use to generate a table of contents? Appreciate the help.,2026-04-17T09:13:00
+fb_00165,maiv@techcombank.com.vn,The Analyst,"The Analyst chạy chậm quá, một file 20 trang mất gần 10 phút. Cảm ơn nhiều ạ.",2026-04-17T09:23:00
+fb_00166,anhl5@techcombank.com.vn,The Summarizer,"Cho mình hỏi, rất mong có bản dùng được trên điện thoại.",2026-04-17T15:41:00
+fb_00167,longhd11@techcombank.com.vn,The Translator,"Nhờ team hỗ trợ: đăng nhập SSO xong thì bị đá về trang chủ, vào lại vẫn vậy. Không rõ do máy mình hay do hệ thống.",2026-04-17T16:22:00
+fb_00168,yentd22@techcombank.com.vn,The Translator,The Translator: Any chance of a mobile friendly version? Please advise.,2026-04-17T16:30:00
+fb_00169,duonglnd@techcombank.com.vn,The Translator,"Chào team, giao diện hơi rối, người mới vào không biết bắt đầu từ đâu.",2026-04-17T16:58:00
+fb_00170,linhnl9@techcombank.com.vn,TÀI Chat,"TÀI Chat dịch sai khá nhiều thuật ngữ chuyên ngành ngân hàng, mình phải sửa lại gần hết. Đã thử lại vài lần vẫn vậy. Rất mong sớm nhận được phản hồi.",2026-04-17T17:05:00
+fb_00171,linhvvd2@techcombank.com.vn,TÀI Chat,Dịch xong thì mất hết định dạng bảng biểu trong file gốc. Không rõ do máy mình hay do hệ thống.,2026-04-18T11:37:00
+fb_00172,maid32@techcombank.com.vn,TÀI Chat,"Hi team, could you run a training session for our department? Thank you in advance.",2026-04-19T11:54:00
+fb_00173,quangnd9@techcombank.com.vn,The Analyst,Mình muốn lưu lại lịch sử hội thoại nhưng không biết bắt đầu từ đâu. Rất mong sớm nhận được phản hồi.,2026-04-20T09:06:00
+fb_00174,maibn@techcombank.com.vn,The Powerpoint-er,Đề xuất nhỏ: thêm option change the output language thì workflow của team mình gọn hơn nhiều.,2026-04-20T14:14:00
+fb_00175,haib6@techcombank.com.vn,The Summarizer,It fails with 'Something went wrong' and no further detail.,2026-04-20T14:23:00
+fb_00176,thaon8@techcombank.com.vn,The Translator,"Xin chào team, có video hướng dẫn nào ngắn gọn cho người mới không? Nhờ team hỗ trợ giúp mình nhé.",2026-04-20T14:38:00
+fb_00177,minhddd40@techcombank.com.vn,TÀI Chat,"TÀI Chat: Chào team, làm sao để tóm tắt tài liệu dài vậy team?",2026-04-20T17:41:00
+fb_00178,anhl32@techcombank.com.vn,The Translator,SSO redirects me back to the landing page every time.,2026-04-21T10:03:00
+fb_00179,hungnlp@techcombank.com.vn,The Powerpoint-er,"The Powerpoint-er chạy chậm quá, một file 20 trang mất gần 10 phút. Tình trạng này bắt đầu từ tuần trước.",2026-04-21T10:05:00
+fb_00180,minhhp@techcombank.com.vn,The Translator,Có API để gọi The Translator từ hệ thống nội bộ của phòng mình không? Nhờ team hỗ trợ giúp mình nhé.,2026-04-21T11:14:00
+fb_00181,duonglnd@techcombank.com.vn,The Powerpoint-er,"Nhờ team hỗ trợ: The Powerpoint-er chạy chậm quá, một file 20 trang mất gần 10 phút. Mình dùng hằng ngày cho công việc nên khá bất tiện. Mong team xem giúp ạ.",2026-04-21T11:33:00
+fb_00182,ngocll13@techcombank.com.vn,TÀI Chat,"Session bị timeout liên tục, đang làm dở thì mất hết nội dung.",2026-04-21T15:30:00
+fb_00183,thaodbd38@techcombank.com.vn,The Researcher,"Bản cập nhật mới nhanh hơn hẳn, cảm ơn team đã lắng nghe phản hồi. Cảm ơn nhiều ạ.",2026-04-21T17:34:00
+fb_00184,ngocdd28@techcombank.com.vn,The Researcher,Đề xuất nhỏ: thêm option adjust the tone of the translation thì workflow của team mình gọn hơn nhiều. Rất mong sớm nhận được phản hồi.,2026-04-21T22:06:00
+fb_00185,anhl32@techcombank.com.vn,TÀI Chat,Response time in the morning is basically unusable.,2026-04-22T13:50:00
+fb_00186,linhnvd39@techcombank.com.vn,TÀI Chat,"Không upload được file DOCX, hình như chỉ nhận PDF thôi? Mình dùng hằng ngày cho công việc nên khá bất tiện. Cảm ơn team!",2026-04-22T15:15:00
+fb_00187,ngocppn27@techcombank.com.vn,TÀI Chat,"Hi all, the latest update feels much faster, thank you. Thank you in advance.",2026-04-22T16:10:00
+fb_00188,chidpl11@techcombank.com.vn,TÀI Chat,"TÀI Chat có hỗ trợ upload nhiều file cùng lúc không, hay phải làm tay? Rất mong sớm nhận được phản hồi.",2026-04-23T08:12:00
+fb_00189,anhnv33@techcombank.com.vn,The Analyst,Nhờ team hỗ trợ: làm sao để xuất file PPT ra PDF vậy team?,2026-04-23T09:30:00
+fb_00190,anhl12@techcombank.com.vn,The Powerpoint-er,"Hi all, getting a 500 error every time I hit generate on The Powerpoint-er. Appreciate the help.",2026-04-23T10:13:00
+fb_00191,maipd37@techcombank.com.vn,The Summarizer,"Xin chào team, làm sao để chuyển dữ liệu Excel thành biểu đồ vậy team? Rất mong sớm nhận được phản hồi.",2026-04-23T16:38:00
+fb_00192,duonglnd@techcombank.com.vn,The Translator,tốt,2026-04-24T09:09:00
+fb_00193,haib6@techcombank.com.vn,The Translator,Processing large files got noticeably slower this month.,2026-04-24T09:17:00
+fb_00194,phuongv@techcombank.com.vn,The Powerpoint-er,"Wifi tầng 12 yếu quá, họp online hay rớt.",2026-04-24T13:09:00
+fb_00195,hungvp@techcombank.com.vn,The Translator,The Translator: Rất mong có bản dùng được trên điện thoại.,2026-04-24T14:40:00
+fb_00196,ngocll13@techcombank.com.vn,The Translator,"Cho mình hỏi, rất mong có bản dùng được trên điện thoại. Rất mong sớm nhận được phản hồi.",2026-04-24T17:02:00
+fb_00197,phuonghl@techcombank.com.vn,The Translator,Test thử xem form này có hoạt động không.,2026-04-24T17:08:00
+fb_00198,anhl32@techcombank.com.vn,The Translator,"Team ơi, mình không đăng nhập được vào TÀI Studio, báo là không có quyền truy cập. Không rõ do máy mình hay do hệ thống. Cảm ơn nhiều ạ.",2026-04-24T17:41:00
+fb_00199,anhl12@techcombank.com.vn,The Powerpoint-er,"Font tiếng Việt trong file Markdown xuất ra bị lỗi, mất dấu hết. Không rõ do máy mình hay do hệ thống.",2026-04-25T08:23:00
+fb_00200,thaon8@techcombank.com.vn,TÀI Chat,Chất lượng dịch cải thiện rõ so với hồi đầu năm. Cảm ơn team!,2026-04-25T10:43:00
+fb_00201,haidvn@techcombank.com.vn,The Powerpoint-er,"Gửi nhầm, bỏ qua giúp mình nhé.",2026-04-25T11:57:00
+fb_00202,hungnlp@techcombank.com.vn,The Translator,The summary drops the most important section of the document. Appreciate the help.,2026-04-26T11:53:00
+fb_00203,chipnh9@techcombank.com.vn,The Summarizer,Is there a way to extract tables from a PDF? I could not find the option.,2026-04-26T15:52:00
+fb_00204,phuongltp14@techcombank.com.vn,The Researcher,"Xin chào team, có video hướng dẫn nào ngắn gọn cho người mới không?",2026-04-26T16:17:00
+fb_00205,main20@techcombank.com.vn,The Powerpoint-er,Any plan to integrate The Powerpoint-er with SharePoint?,2026-04-27T10:55:00
+fb_00206,longdl11@techcombank.com.vn,TÀI Chat,Vietnamese characters are broken in the exported XLSX file. I am on Chrome. Appreciate the help.,2026-04-27T15:44:00
+fb_00207,duonglnd@techcombank.com.vn,The Analyst,"Xin chào team, nhấn nút tải kết quả về thì không có gì xảy ra. Tình trạng này bắt đầu từ tuần trước.",2026-04-28T08:12:00
+fb_00208,phuongltp@techcombank.com.vn,The Summarizer,Muốn đăng ký buổi demo The Summarizer cho team khoảng 20 người.,2026-04-28T08:48:00
+fb_00209,linhndd@techcombank.com.vn,The Powerpoint-er,"Hi team, response time in the morning is basically unusable.",2026-04-28T09:06:00
+fb_00210,minhpn1@techcombank.com.vn,The Analyst,"Team ơi, The Analyst bị lỗi khi export, error message: 'Request failed with status code 500'. Nhờ team check giúp.",2026-04-28T09:57:00
+fb_00211,maiv@techcombank.com.vn,The Analyst,"The Analyst: Đăng nhập SSO xong thì bị đá về trang chủ, vào lại vẫn vậy. Mong team xem giúp ạ.",2026-04-28T10:07:00
+fb_00212,chidpl11@techcombank.com.vn,TÀI Chat,"Nút tạo mục lục tự động nằm khuất quá, mình tìm mãi mới thấy. Nhờ team hỗ trợ giúp mình nhé.",2026-04-28T10:33:00
+fb_00213,haib6@techcombank.com.vn,The Summarizer,Nếu nối được với Jira để tạo ticket luôn thì tiện lắm. Cảm ơn team!,2026-04-28T13:39:00
+fb_00214,maiv@techcombank.com.vn,TÀI Chat,Đề xuất: cho phép lưu prompt hay dùng thành template dùng lại.,2026-04-28T16:09:00
+fb_00215,minhhp@techcombank.com.vn,TÀI Chat,"The latest update feels much faster, thank you. Appreciate the help.",2026-04-29T09:41:00
+fb_00216,thaondt@techcombank.com.vn,The Summarizer,"Mình không biết cách upload nhiều file cùng lúc trong The Summarizer, có hướng dẫn nào không ạ?",2026-04-29T11:17:00
+fb_00217,anhl5@techcombank.com.vn,TÀI Chat,The page goes blank right after I upload a file. Please advise.,2026-04-29T11:38:00
+fb_00218,maidl11@techcombank.com.vn,The Powerpoint-er,ok,2026-04-29T14:33:00
+fb_00219,chidpl11@techcombank.com.vn,The Researcher,"Team ơi, PDF scan dạng ảnh thì The Researcher đọc không ra chữ nào. Đã thử lại vài lần vẫn vậy.",2026-04-29T15:20:00
+fb_00220,duongl35@techcombank.com.vn,The Translator,"Team ơi, team có tổ chức buổi training dùng TÀI Studio cho phòng mình được không ạ? Cảm ơn nhiều ạ.",2026-04-29T16:19:00
+fb_00221,thaobp8@techcombank.com.vn,TÀI Chat,"Team ơi, mong có nút gửi kết quả sang Teams cho nhanh.",2026-04-29T16:31:00
+fb_00222,hungt19@techcombank.com.vn,The Powerpoint-er,"The Powerpoint-er chạy chậm quá, một file 20 trang mất gần 10 phút.",2026-04-30T08:38:00
+fb_00223,quangv31@techcombank.com.vn,The Translator,"Hello, it would help a lot if we could save frequently used prompts as templates. Thank you in advance.",2026-04-30T09:17:00
+fb_00224,duongl35@techcombank.com.vn,The Summarizer,Nhấn nút tải kết quả về thì không có gì xảy ra.,2026-04-30T09:31:00
+fb_00225,hainbd26@techcombank.com.vn,The Powerpoint-er,Xin quyền dùng The Powerpoint-er thì làm thủ tục ở đâu ạ? Cảm ơn team!,2026-04-30T13:49:00
+fb_00226,minhhp@techcombank.com.vn,The Analyst,Cho hỏi file và feedback có bị dùng để train model không? Nhờ team hỗ trợ giúp mình nhé.,2026-04-30T14:27:00
+fb_00227,ngocll13@techcombank.com.vn,The Powerpoint-er,Muốn đăng ký buổi demo The Powerpoint-er cho team khoảng 20 người.,2026-04-30T14:56:00
+fb_00228,duonglnd@techcombank.com.vn,The Powerpoint-er,abc123,2026-05-01T09:09:00
+fb_00229,main20@techcombank.com.vn,The Translator,"Xin chào team, mong có nút gửi kết quả sang Teams cho nhanh. Rất mong sớm nhận được phản hồi.",2026-05-01T13:23:00
+fb_00230,thucnlp@techcombank.com.vn,TÀI Chat,"TÀI Chat: Cho mình hỏi, làm sao để chỉnh giọng văn của bản dịch vậy team?",2026-05-01T14:30:00
+fb_00231,anhhvl5@techcombank.com.vn,The Translator,Dữ liệu mình upload có được lưu lại không? Tài liệu nội bộ thì có an toàn không ạ? Mong team xem giúp ạ.,2026-05-03T16:29:00
+fb_00232,tuandbl9@techcombank.com.vn,The Powerpoint-er,PDF scan dạng ảnh thì The Powerpoint-er đọc không ra chữ nào.,2026-05-04T11:01:00
+fb_00233,hungn21@techcombank.com.vn,The Powerpoint-er,"Hi all, the result panel needs its own scrollbar, reading long output is painful. Please advise.",2026-05-04T14:52:00
+fb_00234,maidb@techcombank.com.vn,The Analyst,The Analyst: Processing large files got noticeably slower this month. Thank you in advance.,2026-05-04T16:05:00
+fb_00235,haib6@techcombank.com.vn,TÀI Chat,"TÀI Chat is very slow, a 20 page file takes almost 10 minutes.",2026-05-05T08:51:00
+fb_00236,tuann@techcombank.com.vn,TÀI Chat,Only the first sheet of my Excel workbook gets processed. This started last week.,2026-05-05T09:08:00
+fb_00237,maid25@techcombank.com.vn,The Analyst,"The Analyst có hỗ trợ tạo mục lục tự động không, hay phải làm tay? Mong team xem giúp ạ.",2026-05-05T10:34:00
+fb_00238,hain@techcombank.com.vn,TÀI Chat,Is there a short onboarding video for new users?,2026-05-05T10:36:00
+fb_00239,khanhdv@techcombank.com.vn,TÀI Chat,"Nhờ team hỗ trợ: dùng TÀI Chat soạn bản nháp rồi chỉnh lại, hiệu quả tốt hơn mình nghĩ.",2026-05-05T10:56:00
+fb_00240,trangdt@techcombank.com.vn,TÀI Chat,Muốn đăng ký buổi demo TÀI Chat cho team khoảng 20 người. Cảm ơn nhiều ạ.,2026-05-05T15:44:00
+fb_00241,hailbb@techcombank.com.vn,The Translator,"Chào team, chất lượng dịch cải thiện rõ so với hồi đầu năm. Cảm ơn nhiều ạ.",2026-05-05T15:55:00
+fb_00242,maittd20@techcombank.com.vn,The Analyst,abc123,2026-05-05T16:45:00
+fb_00243,namdl@techcombank.com.vn,TÀI Chat,"Quick question, translation quality has improved a lot since the start of the year.",2026-05-06T09:21:00
+fb_00244,haib6@techcombank.com.vn,The Analyst,The Analyst: Team có tổ chức buổi training dùng TÀI Studio cho phòng mình được không ạ?,2026-05-06T11:21:00
+fb_00245,linhndd@techcombank.com.vn,The Summarizer,"Hello, how do I export the deck to PDF in The Summarizer?",2026-05-06T13:10:00
+fb_00246,tuanlhd@techcombank.com.vn,The Powerpoint-er,:)),2026-05-06T13:33:00
+fb_00247,anhl12@techcombank.com.vn,The Analyst,"Hi team, vietnamese characters are broken in the exported CSV file.",2026-05-07T08:07:00
+fb_00248,anhn@techcombank.com.vn,The Powerpoint-er,"Xin chào team, đề xuất nhỏ: thêm option export the deck to PDF thì workflow của team mình gọn hơn nhiều.",2026-05-07T10:38:00
+fb_00249,chidpl11@techcombank.com.vn,TÀI Chat,"File của mình 60MB, upload lên thì báo vượt giới hạn. Có cách nào tăng không ạ? Mình dùng trên Chrome.",2026-05-07T11:09:00
+fb_00250,thaoh@techcombank.com.vn,The Translator,Tốc độ xử lý file lớn chậm hơn hẳn so với tháng trước.,2026-05-07T11:41:00
+fb_00251,tuanddn28@techcombank.com.vn,The Analyst,"Kết quả trả về không khớp với dữ liệu mình upload, số liệu bị lệch. Mong team xem giúp ạ.",2026-05-07T13:46:00
+fb_00252,hunghld21@techcombank.com.vn,The Translator,"Team ơi, muốn đăng ký buổi demo The Translator cho team khoảng 20 người.",2026-05-07T14:23:00
+fb_00253,sonldh2@techcombank.com.vn,The Powerpoint-er,Team có tổ chức buổi training dùng TÀI Studio cho phòng mình được không ạ? Mong team xem giúp ạ.,2026-05-07T15:54:00
+fb_00254,anhl12@techcombank.com.vn,TÀI Chat,"Xin chào team, có thể tích hợp TÀI Chat với SharePoint để lấy file trực tiếp không? Cảm ơn team!",2026-05-07T17:04:00
+fb_00255,anhl12@techcombank.com.vn,TÀI Chat,"Team ơi, có video hướng dẫn nào ngắn gọn cho người mới không?",2026-05-07T17:21:00
+fb_00256,duonglnd@techcombank.com.vn,The Analyst,Bản tóm tắt bỏ mất đúng phần quan trọng nhất của tài liệu.,2026-05-08T09:17:00
+fb_00257,duonglnd@techcombank.com.vn,The Summarizer,...,2026-05-08T09:46:00
+fb_00258,tuanhdl@techcombank.com.vn,The Translator,"Hello, processing large files got noticeably slower this month. This started last week.",2026-05-08T14:16:00
+fb_00259,phuongd34@techcombank.com.vn,The Analyst,It fails with 'Something went wrong' and no further detail. Appreciate the help.,2026-05-08T15:57:00
+fb_00260,maibn@techcombank.com.vn,The Analyst,Tài khoản mình bị mất quyền dùng The Analyst từ tuần trước mà không rõ lý do. Rất mong sớm nhận được phản hồi.,2026-05-09T09:08:00
+fb_00261,hunghld21@techcombank.com.vn,The Translator,"The Translator: Chào team, kết quả trả về không khớp với dữ liệu mình upload, số liệu bị lệch. Rất mong sớm nhận được phản hồi.",2026-05-09T10:07:00
+fb_00262,trangnhn17@techcombank.com.vn,TÀI Chat,"Hi all, any plan to integrate TÀI Chat with SharePoint?",2026-05-10T13:24:00
+fb_00263,tuanlhd@techcombank.com.vn,The Summarizer,The Summarizer: Dữ liệu mình upload có được lưu lại không? Tài liệu nội bộ thì có an toàn không ạ? Rất mong sớm nhận được phản hồi.,2026-05-10T15:51:00
+fb_00264,thaoh@techcombank.com.vn,The Summarizer,SSO redirects me back to the landing page every time. This started last week.,2026-05-11T08:14:00
+fb_00265,hungl1@techcombank.com.vn,TÀI Chat,"Bố cục slide TÀI Chat tạo ra lộn xộn, chữ tràn ra ngoài khung.",2026-05-11T09:32:00
+fb_00266,anhl32@techcombank.com.vn,The Summarizer,Test thử xem form này có hoạt động không.,2026-05-11T15:15:00
+fb_00267,phuongpp@techcombank.com.vn,The Powerpoint-er,"Output của The Powerpoint-er bị lặp ý, đoạn sau nhắc lại gần nguyên đoạn trước. Cảm ơn team!",2026-05-12T08:41:00
+fb_00268,thucnlp@techcombank.com.vn,The Summarizer,Dữ liệu mình upload có được lưu lại không? Tài liệu nội bộ thì có an toàn không ạ?,2026-05-12T09:43:00
+fb_00269,tuanddn28@techcombank.com.vn,The Researcher,"Mình bấm generate thì báo lỗi 500, thử lại 3 lần vẫn vậy. Mình dùng hằng ngày cho công việc nên khá bất tiện. Rất mong sớm nhận được phản hồi.",2026-05-12T10:57:00
+fb_00270,phuongd34@techcombank.com.vn,TÀI Chat,"Em mới dùng nên hơi lúng túng, muốn đổi ngôn ngữ output thì bấm ở đâu ạ? Nhờ team hỗ trợ giúp mình nhé.",2026-05-12T13:34:00
+fb_00271,namdl@techcombank.com.vn,The Powerpoint-er,Nhờ team hỗ trợ: có tài liệu hướng dẫn dùng The Powerpoint-er chi tiết hơn không? Bản trên SharePoint hơi sơ sài.,2026-05-12T14:22:00
+fb_00272,minhhp@techcombank.com.vn,The Translator,...,2026-05-12T22:29:00
+fb_00273,hailbb@techcombank.com.vn,The Powerpoint-er,Scanned PDFs are not recognized at all. This started last week. Thanks!,2026-05-13T08:42:00
+fb_00274,anhn@techcombank.com.vn,TÀI Chat,"TÀI Chat: Hello, where is the setting to upload multiple files at once?",2026-05-13T13:23:00
+fb_00275,hungnlp@techcombank.com.vn,The Powerpoint-er,:)),2026-05-13T14:48:00
+fb_00276,anhnv33@techcombank.com.vn,The Powerpoint-er,How do I adjust the tone of the translation in The Powerpoint-er? Appreciate the help.,2026-05-14T11:49:00
+fb_00277,thuchnh26@techcombank.com.vn,The Powerpoint-er,"Xin thêm tính năng tạo mục lục tự động, hiện mình vẫn phải làm tay bước đó. Mong team xem giúp ạ.",2026-05-14T11:54:00
+fb_00278,chidpl11@techcombank.com.vn,The Translator,good,2026-05-17T11:00:00
+fb_00279,trangl27@techcombank.com.vn,The Translator,"The Translator: Tài liệu hơn 100 trang thì bị cắt giữa chừng, phần sau không được xử lý. Không rõ do máy mình hay do hệ thống.",2026-05-18T10:09:00
+fb_00280,khanhhtd7@techcombank.com.vn,The Translator,"Chờ hơn 5 phút mới ra kết quả, lúc gấp thì gần như không dùng được. Mình dùng trên Chrome.",2026-05-18T10:17:00
+fb_00281,maid32@techcombank.com.vn,The Translator,"The Translator rất hữu ích, tiết kiệm cho mình vài tiếng mỗi tuần. Cảm ơn team! Mong team xem giúp ạ.",2026-05-19T09:53:00
+fb_00282,phuonghl@techcombank.com.vn,TÀI Chat,"Cho mình hỏi, nhấn nút tải kết quả về thì không có gì xảy ra.",2026-05-19T17:11:00
+fb_00283,maivhb@techcombank.com.vn,The Powerpoint-er,"Hi all, response time in the morning is basically unusable. Thanks!",2026-05-19T17:41:00
+fb_00284,maibn@techcombank.com.vn,The Powerpoint-er,"Hello, The Powerpoint-er is very slow, a 20 page file takes almost 10 minutes.",2026-05-20T09:57:00
+fb_00285,ngocll13@techcombank.com.vn,TÀI Chat,"Chào team, có video hướng dẫn nào ngắn gọn cho người mới không?",2026-05-20T10:40:00
+fb_00286,duonglnd@techcombank.com.vn,The Translator,Nhờ team hỗ trợ: xin quyền dùng The Translator thì làm thủ tục ở đâu ạ?,2026-05-20T15:50:00
+fb_00287,haib6@techcombank.com.vn,The Powerpoint-er,"The Powerpoint-er keeps mistranslating banking terminology, I had to fix almost every line.",2026-05-20T16:38:00
+fb_00288,trangld@techcombank.com.vn,The Summarizer,"Quick question, is there a way to adjust the tone of the translation? I could not find the option.",2026-05-21T11:34:00
+fb_00289,minhddd40@techcombank.com.vn,The Powerpoint-er,hay,2026-05-21T13:21:00
+fb_00290,mainln@techcombank.com.vn,The Analyst,"Tìm mãi không thấy chỗ tạo mục lục tự động, nhờ team chỉ giúp.",2026-05-21T13:32:00
+fb_00291,duongt@techcombank.com.vn,TÀI Chat,"Upload fails for anything above the size limit, my file is 60MB. It happens with every file I try. Thanks!",2026-05-21T14:37:00
+fb_00292,minhdd19@techcombank.com.vn,The Summarizer,"New user here, could you point me to a guide for The Summarizer?",2026-05-21T15:34:00
+fb_00293,trangl27@techcombank.com.vn,The Analyst,"Hi team, translation quality has improved a lot since the start of the year.",2026-05-22T11:06:00
+fb_00294,ngocppn27@techcombank.com.vn,TÀI Chat,"Cho mình hỏi, xin quyền dùng TÀI Chat thì làm thủ tục ở đâu ạ? Mình dùng trên Chrome.",2026-05-22T14:25:00
+fb_00295,thucd19@techcombank.com.vn,TÀI Chat,"TÀI Chat: Giờ cao điểm buổi sáng gần như không dùng nổi, cứ quay vòng vòng mãi. Đã thử lại vài lần vẫn vậy. Rất mong sớm nhận được phản hồi.",2026-05-22T22:28:00
+fb_00296,sonlh@techcombank.com.vn,The Powerpoint-er,Please add a dark mode. Thanks!,2026-05-23T10:47:00
+fb_00297,phuongpp@techcombank.com.vn,The Powerpoint-er,"Hi all, new user here, could you point me to a guide for The Powerpoint-er?",2026-05-24T14:38:00
+fb_00298,phuongd34@techcombank.com.vn,The Translator,"Team ơi, mong team bổ sung tính năng lưu lại lịch sử hội thoại cho The Translator. Rất mong sớm nhận được phản hồi.",2026-05-25T08:22:00
+fb_00299,ngocll13@techcombank.com.vn,The Powerpoint-er,Nhờ team hỗ trợ: nếu nối được với Jira để tạo ticket luôn thì tiện lắm.,2026-05-25T08:56:00
+fb_00300,minhdd19@techcombank.com.vn,The Analyst,"Tài liệu hơn 100 trang thì bị cắt giữa chừng, phần sau không được xử lý. Cảm ơn nhiều ạ.",2026-05-25T11:44:00
+fb_00301,maivld@techcombank.com.vn,TÀI Chat,N/A,2026-05-25T13:16:00
+fb_00302,chidpl11@techcombank.com.vn,TÀI Chat,TÀI Chat: The landing page is confusing for a first time user. Thank you in advance.,2026-05-25T14:27:00
+fb_00303,maiv@techcombank.com.vn,The Analyst,"Quick question, getting a 500 error every time I hit generate on The Analyst.",2026-05-25T15:02:00
+fb_00304,phuongb@techcombank.com.vn,TÀI Chat,"Hello, response time in the morning is basically unusable.",2026-05-25T15:51:00
+fb_00305,tuanvdb@techcombank.com.vn,TÀI Chat,"Team ơi, rất mong có bản dùng được trên điện thoại.",2026-05-25T15:52:00
+fb_00306,chidpl11@techcombank.com.vn,TÀI Chat,"Cho mình hỏi, chờ hơn 5 phút mới ra kết quả, lúc gấp thì gần như không dùng được. Không rõ do máy mình hay do hệ thống.",2026-05-25T16:30:00
+fb_00307,quangln28@techcombank.com.vn,The Powerpoint-er,"Bố cục slide The Powerpoint-er tạo ra lộn xộn, chữ tràn ra ngoài khung.",2026-05-25T17:17:00
+fb_00308,longdl11@techcombank.com.vn,The Summarizer,"Hi team, processing large files got noticeably slower this month. It happens with every file I try.",2026-05-25T17:41:00
+fb_00309,ngocdd28@techcombank.com.vn,The Translator,"Team ơi, giờ cao điểm buổi sáng gần như không dùng nổi, cứ quay vòng vòng mãi. Cảm ơn team!",2026-05-26T11:11:00
+fb_00310,chidpl11@techcombank.com.vn,The Analyst,"Team ơi, nhấn nút tải kết quả về thì không có gì xảy ra. Rất mong sớm nhận được phản hồi.",2026-05-26T11:54:00
+fb_00311,maiv@techcombank.com.vn,The Powerpoint-er,Xin quyền dùng The Powerpoint-er thì làm thủ tục ở đâu ạ? Mong team xem giúp ạ.,2026-05-26T13:16:00
+fb_00312,quangln28@techcombank.com.vn,The Powerpoint-er,Where is the setting to upload multiple files at once?,2026-05-26T13:25:00
+fb_00313,anhn@techcombank.com.vn,The Powerpoint-er,Numbers in the output do not match the file I uploaded. It happens with every file I try.,2026-05-26T14:10:00
+fb_00314,hungln5@techcombank.com.vn,The Translator,The Translator: Cho hỏi file và feedback có bị dùng để train model không?,2026-05-26T16:25:00
+fb_00315,thucl28@techcombank.com.vn,TÀI Chat,"Hello, scanned PDFs are not recognized at all. I am on Chrome. Please advise.",2026-05-27T09:21:00
+fb_00316,maid25@techcombank.com.vn,The Summarizer,"Font tiếng Việt trong file Markdown xuất ra bị lỗi, mất dấu hết.",2026-05-27T13:19:00
+fb_00317,anhn@techcombank.com.vn,The Researcher,"Team ơi, đăng nhập SSO xong thì bị đá về trang chủ, vào lại vẫn vậy.",2026-05-27T14:15:00
+fb_00318,chidpl11@techcombank.com.vn,The Translator,"Nút chuyển dữ liệu Excel thành biểu đồ nằm khuất quá, mình tìm mãi mới thấy.",2026-05-27T14:37:00
+fb_00319,minhhp@techcombank.com.vn,The Summarizer,"Hello, getting a 500 error every time I hit generate on The Summarizer. Appreciate the help.",2026-05-27T15:28:00
+fb_00320,hailbb@techcombank.com.vn,The Translator,"Xin chào team, rất mong có bản dùng được trên điện thoại. Rất mong sớm nhận được phản hồi.",2026-05-27T17:31:00
+fb_00321,maidl11@techcombank.com.vn,TÀI Chat,Nhấn nút tải kết quả về thì không có gì xảy ra. Đã thử lại vài lần vẫn vậy. Cảm ơn nhiều ạ.,2026-05-28T10:26:00
+fb_00322,minhn37@techcombank.com.vn,The Researcher,"Cho mình hỏi, giờ cao điểm buổi sáng gần như không dùng nổi, cứ quay vòng vòng mãi. Mình dùng hằng ngày cho công việc nên khá bất tiện. Cảm ơn nhiều ạ.",2026-05-28T11:33:00
+fb_00323,duongl35@techcombank.com.vn,The Summarizer,"Nút xuất file PPT ra PDF nằm khuất quá, mình tìm mãi mới thấy.",2026-05-28T13:03:00
+fb_00324,ngocppn27@techcombank.com.vn,The Powerpoint-er,Nhấn nút tải kết quả về thì không có gì xảy ra. Cảm ơn team!,2026-05-28T13:13:00
+fb_00325,phuongv@techcombank.com.vn,TÀI Chat,"Cho mình hỏi, đề xuất nhỏ: thêm option adjust the tone of the translation thì workflow của team mình gọn hơn nhiều.",2026-05-28T15:17:00
+fb_00326,anhl5@techcombank.com.vn,The Translator,PDF scan dạng ảnh thì The Translator đọc không ra chữ nào. Mình dùng trên Chrome.,2026-05-28T16:22:00
+fb_00327,tuanddn28@techcombank.com.vn,The Translator,"The Translator: Team ơi, mình muốn generate a table of contents nhưng không thấy option nào, guide ở đâu ạ?",2026-05-29T17:02:00
+fb_00328,maiv@techcombank.com.vn,TÀI Chat,Nhờ team hỗ trợ: đề xuất nhỏ: thêm option extract tables from a PDF thì workflow của team mình gọn hơn nhiều.,2026-05-29T22:37:00
+fb_00329,phuongd34@techcombank.com.vn,TÀI Chat,"TÀI Chat dịch sai khá nhiều thuật ngữ chuyên ngành ngân hàng, mình phải sửa lại gần hết. Mình dùng trên Chrome. Rất mong sớm nhận được phản hồi.",2026-05-30T15:37:00
+fb_00330,phuongltp@techcombank.com.vn,The Powerpoint-er,"Team ơi, bản cập nhật mới nhanh hơn hẳn, cảm ơn team đã lắng nghe phản hồi. Nhờ team hỗ trợ giúp mình nhé.",2026-05-30T16:15:00
+fb_00331,hain@techcombank.com.vn,The Powerpoint-er,The Powerpoint-er: Team có tổ chức buổi training dùng TÀI Studio cho phòng mình được không ạ?,2026-05-30T17:44:00
+fb_00332,thucl28@techcombank.com.vn,The Powerpoint-er,"Nhờ team hỗ trợ: chờ hơn 5 phút mới ra kết quả, lúc gấp thì gần như không dùng được. Cảm ơn nhiều ạ.",2026-05-31T10:46:00
+fb_00333,maivld@techcombank.com.vn,The Analyst,Muốn đăng ký buổi demo The Analyst cho team khoảng 20 người.,2026-06-01T09:03:00
+fb_00334,maiv@techcombank.com.vn,The Summarizer,aaaa,2026-06-01T10:57:00
+fb_00335,hain5@techcombank.com.vn,TÀI Chat,N/A,2026-06-01T11:03:00
+fb_00336,phuonghl@techcombank.com.vn,The Translator,asdf,2026-06-01T13:56:00
+fb_00337,thaoh@techcombank.com.vn,The Translator,Nhờ team hỗ trợ: nếu The Translator hỗ trợ thêm định dạng XLSX thì tiện hơn nhiều.,2026-06-02T10:10:00
+fb_00338,hungb@techcombank.com.vn,The Analyst,"It fails with 'Something went wrong' and no further detail. Tried a few times, same result.",2026-06-02T10:31:00
+fb_00339,anhnv33@techcombank.com.vn,The Summarizer,"The Summarizer saves me hours every week, great work. Appreciate the help.",2026-06-02T11:12:00
+fb_00340,main32@techcombank.com.vn,The Powerpoint-er,"Chào team, chờ hơn 5 phút mới ra kết quả, lúc gấp thì gần như không dùng được. Mình dùng trên Chrome.",2026-06-02T13:02:00
+fb_00341,sonndn@techcombank.com.vn,The Powerpoint-er,abc123,2026-06-02T14:24:00
+fb_00342,linhnl9@techcombank.com.vn,The Summarizer,"Cho mình hỏi, kết quả dài mà không có thanh cuộn riêng, đọc rất mệt.",2026-06-02T15:00:00
+fb_00343,hainbd26@techcombank.com.vn,The Translator,The Translator: Dịch xong thì mất hết định dạng bảng biểu trong file gốc. Cảm ơn nhiều ạ.,2026-06-02T15:11:00
+fb_00344,linhndd@techcombank.com.vn,The Translator,How do I request access to The Translator?,2026-06-02T15:36:00
+fb_00345,sonndn@techcombank.com.vn,TÀI Chat,"The latest update feels much faster, thank you.",2026-06-02T16:09:00
+fb_00346,anhl12@techcombank.com.vn,The Translator,"Cho mình hỏi, tài khoản mình bị mất quyền dùng The Translator từ tuần trước mà không rõ lý do. Mình dùng trên Chrome. Cảm ơn nhiều ạ.",2026-06-02T17:30:00
+fb_00347,linhnl9@techcombank.com.vn,TÀI Chat,"Báo lỗi 'Something went wrong' mà không nói gì thêm, không biết sửa kiểu gì.",2026-06-02T17:32:00
+fb_00348,phuongv@techcombank.com.vn,The Analyst,"Cho mình hỏi, xin quyền dùng The Analyst thì làm thủ tục ở đâu ạ?",2026-06-03T09:32:00
+fb_00349,ngocll13@techcombank.com.vn,TÀI Chat,"Team ơi, team ơi, mình muốn extract tables from a PDF nhưng không thấy option nào, guide ở đâu ạ?",2026-06-03T09:53:00
+fb_00350,khanhdv@techcombank.com.vn,TÀI Chat,"Dùng TÀI Chat soạn bản nháp rồi chỉnh lại, hiệu quả tốt hơn mình nghĩ.",2026-06-03T11:18:00
+fb_00351,maivld@techcombank.com.vn,TÀI Chat,Translation quality has improved a lot since the start of the year.,2026-06-03T11:40:00
+fb_00352,thaondt@techcombank.com.vn,The Translator,hay,2026-06-03T13:54:00
+fb_00353,haib6@techcombank.com.vn,The Translator,Mình muốn chuyển dữ liệu Excel thành biểu đồ nhưng không biết bắt đầu từ đâu.,2026-06-03T14:22:00
+fb_00354,trangdt@techcombank.com.vn,The Powerpoint-er,"The Powerpoint-er: Giờ cao điểm buổi sáng gần như không dùng nổi, cứ quay vòng vòng mãi.",2026-06-03T17:46:00
+fb_00355,duongl35@techcombank.com.vn,The Summarizer,tốt,2026-06-04T08:32:00
+fb_00356,anhhvl5@techcombank.com.vn,The Powerpoint-er,ko có gì,2026-06-04T13:00:00
+fb_00357,maittd20@techcombank.com.vn,The Powerpoint-er,"Hi all, SSO redirects me back to the landing page every time. It happens with every file I try. Please advise.",2026-06-04T20:29:00
+fb_00358,thaodbd38@techcombank.com.vn,The Powerpoint-er,"Chờ hơn 5 phút mới ra kết quả, lúc gấp thì gần như không dùng được. Mình dùng hằng ngày cho công việc nên khá bất tiện.",2026-06-05T08:04:00
+fb_00359,maid25@techcombank.com.vn,The Analyst,"Wifi tầng 12 yếu quá, họp online hay rớt.",2026-06-05T09:19:00
+fb_00360,sonldh2@techcombank.com.vn,The Powerpoint-er,"Xin chào team, PDF scan dạng ảnh thì The Powerpoint-er đọc không ra chữ nào.",2026-06-05T09:24:00
+fb_00361,chidpl11@techcombank.com.vn,TÀI Chat,Làm sao để xuất file PPT ra PDF vậy team?,2026-06-05T11:00:00
+fb_00362,phuongltp14@techcombank.com.vn,The Analyst,"Giờ cao điểm buổi sáng gần như không dùng nổi, cứ quay vòng vòng mãi.",2026-06-05T15:02:00
+fb_00363,maid25@techcombank.com.vn,TÀI Chat,"Cho mình hỏi, chờ hơn 5 phút mới ra kết quả, lúc gấp thì gần như không dùng được. Cảm ơn team!",2026-06-05T15:20:00
+fb_00364,haib6@techcombank.com.vn,TÀI Chat,hay,2026-06-05T15:50:00
+fb_00365,trangvpv9@techcombank.com.vn,The Translator,Cho hỏi file và feedback có bị dùng để train model không? Mong team xem giúp ạ.,2026-06-05T15:59:00
+fb_00366,tuanpd18@techcombank.com.vn,TÀI Chat,"Chào team, có thể thêm chế độ chỉnh sửa kết quả ngay trên giao diện không ạ?",2026-06-06T13:40:00
+fb_00367,thaoh@techcombank.com.vn,The Translator,"Xin chào team, team có tổ chức buổi training dùng TÀI Studio cho phòng mình được không ạ? Nhờ team hỗ trợ giúp mình nhé.",2026-06-06T17:46:00
+fb_00368,maivld@techcombank.com.vn,The Translator,"Chào team, kết quả trả về không khớp với dữ liệu mình upload, số liệu bị lệch. Rất mong sớm nhận được phản hồi.",2026-06-07T08:41:00
+fb_00369,anhl32@techcombank.com.vn,The Translator,"Quick question, upload fails for anything above the size limit, my file is 60MB. It happens with every file I try. Appreciate the help.",2026-06-07T14:06:00
+fb_00370,ngocppn27@techcombank.com.vn,The Summarizer,PDF scan dạng ảnh thì The Summarizer đọc không ra chữ nào. Tình trạng này bắt đầu từ tuần trước. Rất mong sớm nhận được phản hồi.,2026-06-08T08:54:00
+fb_00371,maid32@techcombank.com.vn,The Analyst,good,2026-06-08T10:04:00
+fb_00372,anhn@techcombank.com.vn,The Powerpoint-er,Canteen hết cơm lúc 12h30 rồi.,2026-06-08T10:38:00
+fb_00373,thucd19@techcombank.com.vn,TÀI Chat,hello,2026-06-08T10:57:00
+fb_00374,maivld@techcombank.com.vn,The Analyst,PDF scan dạng ảnh thì The Analyst đọc không ra chữ nào. Cảm ơn team!,2026-06-08T14:40:00
+fb_00375,phuongltp14@techcombank.com.vn,The Researcher,"Hi all, The Researcher keeps mistranslating banking terminology, I had to fix almost every line. Appreciate the help.",2026-06-08T15:07:00
+fb_00376,anhl12@techcombank.com.vn,The Powerpoint-er,"Nút chỉnh giọng văn của bản dịch nằm khuất quá, mình tìm mãi mới thấy.",2026-06-08T17:42:00
+fb_00377,longdl11@techcombank.com.vn,TÀI Chat,"Kết quả trả về không khớp với dữ liệu mình upload, số liệu bị lệch. Nhờ team hỗ trợ giúp mình nhé.",2026-06-09T09:19:00
+fb_00378,anhhvl5@techcombank.com.vn,The Translator,"Xin chào team, bản cập nhật mới nhanh hơn hẳn, cảm ơn team đã lắng nghe phản hồi.",2026-06-09T11:10:00
+fb_00379,haib6@techcombank.com.vn,The Translator,"Mình thấy output bị duplicate content ở phần cuối, please check giúp nhé.",2026-06-09T14:11:00
+fb_00380,minhn37@techcombank.com.vn,The Summarizer,"The Summarizer is very slow, a 20 page file takes almost 10 minutes. I am on Chrome. Thank you in advance.",2026-06-09T17:04:00
+fb_00381,phuongpp@techcombank.com.vn,The Powerpoint-er,The Powerpoint-er: What prompt should I use to adjust the tone of the translation?,2026-06-10T08:01:00
+fb_00382,sonlh@techcombank.com.vn,TÀI Chat,1,2026-06-10T10:00:00
+fb_00383,hungb@techcombank.com.vn,The Analyst,"Dùng The Analyst soạn bản nháp rồi chỉnh lại, hiệu quả tốt hơn mình nghĩ. Cảm ơn nhiều ạ.",2026-06-10T11:56:00
+fb_00384,minhv13@techcombank.com.vn,The Powerpoint-er,Getting a 500 error every time I hit generate on The Powerpoint-er.,2026-06-10T15:20:00
+fb_00385,tuann@techcombank.com.vn,TÀI Chat,Is the uploaded document stored anywhere? These are internal files. Appreciate the help.,2026-06-10T16:30:00
+fb_00386,tuanvdb@techcombank.com.vn,The Powerpoint-er,"Quick question, any plan to integrate The Powerpoint-er with SharePoint? Please advise.",2026-06-11T11:01:00
+fb_00387,ngocll13@techcombank.com.vn,The Translator,"Nhờ team hỗ trợ: đăng nhập SSO xong thì bị đá về trang chủ, vào lại vẫn vậy. Không rõ do máy mình hay do hệ thống.",2026-06-11T15:37:00
+fb_00388,anhl32@techcombank.com.vn,TÀI Chat,"TÀI Chat chạy chậm quá, một file 20 trang mất gần 10 phút. Cảm ơn team!",2026-06-11T15:43:00
+fb_00389,quangln28@techcombank.com.vn,The Powerpoint-er,The Powerpoint-er: Is there a short onboarding video for new users?,2026-06-11T16:13:00
+fb_00390,khanhhtd7@techcombank.com.vn,The Powerpoint-er,"Xin chào team, tài khoản mình bị mất quyền dùng The Powerpoint-er từ tuần trước mà không rõ lý do. Mình dùng trên Chrome.",2026-06-12T16:52:00
+fb_00391,linhnl9@techcombank.com.vn,The Powerpoint-er,asdf,2026-06-12T20:55:00
+fb_00392,ngocdd28@techcombank.com.vn,TÀI Chat,"Hi all, it fails with 'Something went wrong' and no further detail. Tried a few times, same result. Please advise.",2026-06-13T10:47:00
+fb_00393,anhhvl5@techcombank.com.vn,TÀI Chat,Muốn đăng ký buổi demo TÀI Chat cho team khoảng 20 người. Cảm ơn team!,2026-06-15T09:10:00
+fb_00394,anhl5@techcombank.com.vn,The Summarizer,chưa dùng,2026-06-15T09:15:00
+fb_00395,linhln21@techcombank.com.vn,The Summarizer,"Không upload được file PDF, hình như chỉ nhận PDF thôi? Tình trạng này bắt đầu từ tuần trước.",2026-06-15T10:00:00
+fb_00396,minhpn1@techcombank.com.vn,TÀI Chat,TÀI Chat: Nên có chế độ tối cho đỡ mỏi mắt.,2026-06-15T10:07:00
+fb_00397,duonglnd@techcombank.com.vn,The Summarizer,"Bố cục slide The Summarizer tạo ra lộn xộn, chữ tràn ra ngoài khung. Cảm ơn nhiều ạ.",2026-06-15T11:30:00
+fb_00398,quangv31@techcombank.com.vn,TÀI Chat,The generated content is too generic to be usable as is.,2026-06-15T11:44:00
+fb_00399,longhb@techcombank.com.vn,The Analyst,"Mình không biết cách tạo mục lục tự động trong The Analyst, có hướng dẫn nào không ạ?",2026-06-15T13:54:00
+fb_00400,duongt@techcombank.com.vn,TÀI Chat,TÀI Chat: Please add a dark mode. Please advise.,2026-06-15T14:58:00
+fb_00401,khanhhtd7@techcombank.com.vn,The Powerpoint-er,"Nên có nút hoàn tác, lỡ tay generate lại là mất bản cũ. Nhờ team hỗ trợ giúp mình nhé.",2026-06-15T22:16:00
+fb_00402,anhhvl5@techcombank.com.vn,TÀI Chat,"Font tiếng Việt trong file PPTX xuất ra bị lỗi, mất dấu hết. Mình dùng hằng ngày cho công việc nên khá bất tiện. Cảm ơn nhiều ạ.",2026-06-16T10:04:00
+fb_00403,anhl5@techcombank.com.vn,The Summarizer,"The Summarizer is very slow, a 20 page file takes almost 10 minutes.",2026-06-16T10:08:00
+fb_00404,anhnv33@techcombank.com.vn,The Translator,"The Translator: Báo lỗi 'Something went wrong' mà không nói gì thêm, không biết sửa kiểu gì.",2026-06-16T10:16:00
+fb_00405,minhn37@techcombank.com.vn,TÀI Chat,"Không upload được file XLSX, hình như chỉ nhận PDF thôi? Mong team xem giúp ạ.",2026-06-16T15:29:00
+fb_00406,minhpn1@techcombank.com.vn,The Powerpoint-er,"Đăng nhập SSO xong thì bị đá về trang chủ, vào lại vẫn vậy.",2026-06-17T09:17:00
+fb_00407,chidpl11@techcombank.com.vn,TÀI Chat,tốt,2026-06-17T09:31:00
+fb_00408,namdpn@techcombank.com.vn,TÀI Chat,Are our files used for model training?,2026-06-17T10:59:00
+fb_00409,haib6@techcombank.com.vn,TÀI Chat,The summary drops the most important section of the document.,2026-06-17T11:14:00
+fb_00410,anhhvl5@techcombank.com.vn,The Powerpoint-er,File Excel nhiều sheet thì chỉ đọc được sheet đầu tiên.,2026-06-17T13:55:00
+fb_00411,anhhvl5@techcombank.com.vn,The Translator,"Mình không đăng nhập được vào TÀI Studio, báo là không có quyền truy cập. Tình trạng này bắt đầu từ tuần trước.",2026-06-17T14:21:00
+fb_00412,ngocll13@techcombank.com.vn,TÀI Chat,"TÀI Chat: Không upload được file PPTX, hình như chỉ nhận PDF thôi? Mình dùng hằng ngày cho công việc nên khá bất tiện.",2026-06-17T14:40:00
+fb_00413,namdl@techcombank.com.vn,TÀI Chat,"Cho mình hỏi, PDF scan dạng ảnh thì TÀI Chat đọc không ra chữ nào.",2026-06-18T09:46:00
+fb_00414,haib6@techcombank.com.vn,TÀI Chat,"Cho mình hỏi, mình bấm generate thì báo lỗi 500, thử lại 3 lần vẫn vậy.",2026-06-18T10:15:00
+fb_00415,trangvpv9@techcombank.com.vn,The Analyst,"The Analyst: Hi team, i cannot log in, it says I do not have permission. I am on Chrome. Thank you in advance.",2026-06-18T14:47:00
+fb_00416,minhp@techcombank.com.vn,The Translator,Mong team bổ sung tính năng đổi ngôn ngữ output cho The Translator.,2026-06-18T15:30:00
+fb_00417,thucd19@techcombank.com.vn,TÀI Chat,"Hi team, it fails with 'Something went wrong' and no further detail. This started last week.",2026-06-19T08:38:00
+fb_00418,phuongd34@techcombank.com.vn,TÀI Chat,"Hello, the landing page is confusing for a first time user.",2026-06-19T09:25:00
+fb_00419,linhln21@techcombank.com.vn,The Translator,...,2026-06-19T09:37:00
+fb_00420,maipd37@techcombank.com.vn,TÀI Chat,Máy in tầng 8 kẹt giấy suốt.,2026-06-19T10:19:00
+fb_00421,maidl11@techcombank.com.vn,The Powerpoint-er,"Đăng nhập SSO xong thì bị đá về trang chủ, vào lại vẫn vậy.",2026-06-19T11:20:00
+fb_00422,trangvpv9@techcombank.com.vn,TÀI Chat,Có tài liệu hướng dẫn dùng TÀI Chat chi tiết hơn không? Bản trên SharePoint hơi sơ sài.,2026-06-19T13:16:00
+fb_00423,hainbd26@techcombank.com.vn,The Powerpoint-er,1,2026-06-19T13:43:00
+fb_00424,phuongltp@techcombank.com.vn,TÀI Chat,Canteen hết cơm lúc 12h30 rồi.,2026-06-19T16:34:00
+fb_00425,ngocppn27@techcombank.com.vn,The Translator,tốt,2026-06-19T22:25:00
+fb_00426,hain5@techcombank.com.vn,TÀI Chat,"Bản cập nhật mới nhanh hơn hẳn, cảm ơn team đã lắng nghe phản hồi.",2026-06-21T14:08:00
+fb_00427,anhl32@techcombank.com.vn,The Translator,"The Translator: Upload file xong thì màn hình trắng luôn, phải F5 lại từ đầu.",2026-06-22T13:55:00
+fb_00428,chipnh9@techcombank.com.vn,TÀI Chat,"Xin thêm tính năng chuyển dữ liệu Excel thành biểu đồ, hiện mình vẫn phải làm tay bước đó.",2026-06-22T14:40:00
+fb_00429,anhl5@techcombank.com.vn,TÀI Chat,Team có tổ chức buổi training dùng TÀI Studio cho phòng mình được không ạ?,2026-06-22T14:49:00
+fb_00430,namdl@techcombank.com.vn,The Summarizer,"The Summarizer rất hữu ích, tiết kiệm cho mình vài tiếng mỗi tuần. Cảm ơn team! Nhờ team hỗ trợ giúp mình nhé.",2026-06-22T15:21:00
+fb_00431,linhnvd39@techcombank.com.vn,The Translator,"Quick question, please add a dark mode.",2026-06-22T15:25:00
+fb_00432,sonldh2@techcombank.com.vn,The Analyst,Is there an API so we can call The Analyst from our own tools? Please advise.,2026-06-23T09:19:00
+fb_00433,chidpl11@techcombank.com.vn,The Summarizer,"Quick question, any plan to integrate The Summarizer with SharePoint? Thank you in advance.",2026-06-23T09:58:00
+fb_00434,chidpl11@techcombank.com.vn,The Translator,"Team ơi, mình không đăng nhập được vào TÀI Studio, báo là không có quyền truy cập. Không rõ do máy mình hay do hệ thống. Cảm ơn nhiều ạ.",2026-06-23T10:15:00
+fb_00435,mainn@techcombank.com.vn,The Translator,The Translator: Nhấn nút tải kết quả về thì không có gì xảy ra.,2026-06-23T15:25:00
+fb_00436,thucddd40@techcombank.com.vn,The Translator,"Hi team, response time in the morning is basically unusable. It happens with every file I try.",2026-06-23T17:02:00
+fb_00437,duonglnd@techcombank.com.vn,The Summarizer,It would help a lot if we could save frequently used prompts as templates.,2026-06-24T10:28:00
+fb_00438,tuandbl9@techcombank.com.vn,The Powerpoint-er,Xin quyền dùng The Powerpoint-er thì làm thủ tục ở đâu ạ? Cảm ơn team!,2026-06-24T14:07:00
+fb_00439,trangl27@techcombank.com.vn,The Summarizer,How do I request access to The Summarizer? I am on Chrome.,2026-06-24T15:07:00
+fb_00440,hungnlp@techcombank.com.vn,TÀI Chat,Any plan to integrate TÀI Chat with SharePoint?,2026-06-24T20:15:00
+fb_00441,hungt19@techcombank.com.vn,The Analyst,"The Analyst: Chờ hơn 5 phút mới ra kết quả, lúc gấp thì gần như không dùng được. Mình dùng hằng ngày cho công việc nên khá bất tiện.",2026-06-25T10:33:00
+fb_00442,anhn@techcombank.com.vn,The Powerpoint-er,"Đăng nhập SSO xong thì bị đá về trang chủ, vào lại vẫn vậy. Mình dùng trên Chrome.",2026-06-25T15:14:00
+fb_00443,maid32@techcombank.com.vn,The Analyst,The Analyst: Vietnamese characters are broken in the exported XLSX file. Thank you in advance.,2026-06-26T09:34:00
+fb_00444,namdl@techcombank.com.vn,TÀI Chat,Only the first sheet of my Excel workbook gets processed. It happens with every file I try.,2026-06-26T10:50:00
+fb_00445,yentd22@techcombank.com.vn,TÀI Chat,Processing large files got noticeably slower this month. This started last week. Thank you in advance.,2026-06-26T11:13:00
+fb_00446,thaobp8@techcombank.com.vn,TÀI Chat,"Nội dung sinh ra chung chung quá, không dùng được luôn mà phải viết lại từ đầu.",2026-06-26T13:35:00
+fb_00447,minhhp@techcombank.com.vn,The Translator,Any chance of a mobile friendly version?,2026-06-26T13:43:00
+fb_00448,thaon8@techcombank.com.vn,The Summarizer,"Hi all, SSO redirects me back to the landing page every time.",2026-06-26T15:49:00
+fb_00449,anhl12@techcombank.com.vn,TÀI Chat,"Upload fails for anything above the size limit, my file is 60MB. Thanks!",2026-06-26T15:51:00
+fb_00450,ngocppn27@techcombank.com.vn,TÀI Chat,"Mình không đăng nhập được vào TÀI Studio, báo là không có quyền truy cập. Rất mong sớm nhận được phản hồi.",2026-06-26T16:11:00
+fb_00451,anhn@techcombank.com.vn,TÀI Chat,"Chờ hơn 5 phút mới ra kết quả, lúc gấp thì gần như không dùng được.",2026-06-27T08:38:00
+fb_00452,anhhvl5@techcombank.com.vn,The Translator,Máy in tầng 8 kẹt giấy suốt.,2026-06-27T09:16:00
+fb_00453,thuchnh26@techcombank.com.vn,The Powerpoint-er,"Xin thêm tính năng lưu lại lịch sử hội thoại, hiện mình vẫn phải làm tay bước đó.",2026-06-27T16:39:00
+fb_00454,phuongv@techcombank.com.vn,TÀI Chat,"Xin chào team, giờ cao điểm buổi sáng gần như không dùng nổi, cứ quay vòng vòng mãi. Mình dùng hằng ngày cho công việc nên khá bất tiện.",2026-06-28T11:08:00
+fb_00455,main32@techcombank.com.vn,The Powerpoint-er,The page goes blank right after I upload a file.,2026-06-29T09:36:00
+fb_00456,phuongd34@techcombank.com.vn,The Powerpoint-er,"Cho mình hỏi, kết quả trả về không khớp với dữ liệu mình upload, số liệu bị lệch. Không rõ do máy mình hay do hệ thống.",2026-06-29T13:40:00
+fb_00457,tuandbl9@techcombank.com.vn,The Translator,"Team ơi, mình muốn upload multiple files at once nhưng không thấy option nào, guide ở đâu ạ? Nhờ team hỗ trợ giúp mình nhé.",2026-06-29T17:22:00
+fb_00458,phuongltp14@techcombank.com.vn,The Analyst,aaaa,2026-06-30T09:12:00
+fb_00459,namdpn@techcombank.com.vn,TÀI Chat,"Xin thêm tính năng upload nhiều file cùng lúc, hiện mình vẫn phải làm tay bước đó.",2026-06-30T09:28:00
+fb_00460,duongt@techcombank.com.vn,The Summarizer,"Quick question, please add a dark mode. Please advise.",2026-06-30T10:49:00
+fb_00461,thucddd40@techcombank.com.vn,The Summarizer,"Team ơi, muốn đăng ký buổi demo The Summarizer cho team khoảng 20 người.",2026-06-30T13:16:00
+fb_00462,maidl11@techcombank.com.vn,TÀI Chat,"Hi all, it would help a lot if we could save frequently used prompts as templates. Thanks!",2026-07-01T11:52:00
+fb_00463,hungt19@techcombank.com.vn,The Summarizer,The page goes blank right after I upload a file. It happens with every file I try.,2026-07-01T13:49:00
+fb_00464,tuantnn@techcombank.com.vn,The Translator,"Xin chào team, có tài liệu hướng dẫn dùng The Translator chi tiết hơn không? Bản trên SharePoint hơi sơ sài.",2026-07-01T16:55:00
+fb_00465,khanhhtd7@techcombank.com.vn,TÀI Chat,Nhờ team hỗ trợ: xin quyền dùng TÀI Chat thì làm thủ tục ở đâu ạ?,2026-07-01T20:35:00
+fb_00466,sonlh@techcombank.com.vn,The Powerpoint-er,The Powerpoint-er: Any chance of a mobile friendly version? Thank you in advance.,2026-07-02T09:56:00
+fb_00467,duongl35@techcombank.com.vn,The Translator,"The Translator: Team ơi, giao diện hơi rối, người mới vào không biết bắt đầu từ đâu.",2026-07-02T10:00:00
+fb_00468,thucddd40@techcombank.com.vn,The Translator,Test thử xem form này có hoạt động không.,2026-07-02T10:27:00
+fb_00469,minhpn1@techcombank.com.vn,TÀI Chat,"Cho mình hỏi, TÀI Chat chạy chậm quá, một file 20 trang mất gần 10 phút. Cảm ơn nhiều ạ.",2026-07-02T16:25:00
+fb_00470,duongt@techcombank.com.vn,TÀI Chat,"Quick question, could you run a training session for our department?",2026-07-02T20:24:00
+fb_00471,minhn37@techcombank.com.vn,The Summarizer,"Upload file xong thì màn hình trắng luôn, phải F5 lại từ đầu. Rất mong sớm nhận được phản hồi.",2026-07-03T08:31:00
+fb_00472,anhn@techcombank.com.vn,TÀI Chat,"Báo lỗi 'Something went wrong' mà không nói gì thêm, không biết sửa kiểu gì. Mong team xem giúp ạ.",2026-07-03T08:55:00
+fb_00473,trangl27@techcombank.com.vn,The Powerpoint-er,"The Powerpoint-er chạy chậm quá, một file 20 trang mất gần 10 phút. Mong team xem giúp ạ.",2026-07-03T10:48:00
+fb_00474,haib6@techcombank.com.vn,The Analyst,The Analyst: My session times out in the middle of a long task and I lose everything.,2026-07-03T11:34:00
+fb_00475,tuandbl9@techcombank.com.vn,The Translator,Feature request: let us edit the result directly in the UI.,2026-07-04T13:39:00
+fb_00476,tuanvdb@techcombank.com.vn,The Powerpoint-er,The Powerpoint-er: Tài liệu mật cấp phòng thì có được phép đưa lên TÀI Studio không?,2026-07-06T09:14:00
+fb_00477,haib6@techcombank.com.vn,The Analyst,Getting a 500 error every time I hit generate on The Analyst.,2026-07-06T10:42:00
+fb_00478,ngocll13@techcombank.com.vn,The Powerpoint-er,The Powerpoint-er: Response time in the morning is basically unusable. It happens with every file I try. Thanks!,2026-07-06T10:51:00
+fb_00479,thucl28@techcombank.com.vn,The Translator,Muốn đăng ký buổi demo The Translator cho team khoảng 20 người.,2026-07-06T14:32:00
+fb_00480,anhl32@techcombank.com.vn,The Summarizer,My session times out in the middle of a long task and I lose everything. I am on Chrome. Please advise.,2026-07-06T16:04:00
+fb_00481,anhl12@techcombank.com.vn,The Translator,test,2026-07-07T11:40:00
+fb_00482,thuch12@techcombank.com.vn,The Translator,"Kết quả dài mà không có thanh cuộn riêng, đọc rất mệt. Nhờ team hỗ trợ giúp mình nhé.",2026-07-07T14:08:00
+fb_00483,minhhp@techcombank.com.vn,TÀI Chat,"Chào team, xin quyền dùng TÀI Chat thì làm thủ tục ở đâu ạ?",2026-07-07T14:39:00
+fb_00484,phuongltp14@techcombank.com.vn,The Summarizer,Getting a 500 error every time I hit generate on The Summarizer. I am on Chrome.,2026-07-07T15:19:00
+fb_00485,thaoh@techcombank.com.vn,TÀI Chat,Cho hỏi file và feedback có bị dùng để train model không? Rất mong sớm nhận được phản hồi.,2026-07-07T16:34:00
+fb_00486,minhpn1@techcombank.com.vn,The Powerpoint-er,Đề xuất nhỏ: thêm option upload multiple files at once thì workflow của team mình gọn hơn nhiều. Rất mong sớm nhận được phản hồi.,2026-07-07T17:50:00
+fb_00487,thuchnh26@techcombank.com.vn,TÀI Chat,It would help a lot if we could save frequently used prompts as templates. Please advise.,2026-07-08T09:33:00
+fb_00488,longdt14@techcombank.com.vn,The Powerpoint-er,The Powerpoint-er: The landing page is confusing for a first time user. Please advise.,2026-07-08T11:48:00
+fb_00489,chidpl11@techcombank.com.vn,TÀI Chat,"Nhờ team hỗ trợ: mình không biết cách tóm tắt tài liệu dài trong TÀI Chat, có hướng dẫn nào không ạ? Cảm ơn team!",2026-07-08T16:08:00
+fb_00490,anhnv33@techcombank.com.vn,The Summarizer,Có tài liệu hướng dẫn dùng The Summarizer chi tiết hơn không? Bản trên SharePoint hơi sơ sài.,2026-07-08T17:42:00
+fb_00491,main20@techcombank.com.vn,The Powerpoint-er,"The Powerpoint-er rất hữu ích, tiết kiệm cho mình vài tiếng mỗi tuần. Cảm ơn team!",2026-07-09T10:09:00
+fb_00492,thuch12@techcombank.com.vn,The Analyst,"The Analyst: Báo lỗi 'Something went wrong' mà không nói gì thêm, không biết sửa kiểu gì. Đã thử lại vài lần vẫn vậy.",2026-07-09T14:03:00
+fb_00493,duongt@techcombank.com.vn,The Translator,"Chào team, PDF scan dạng ảnh thì The Translator đọc không ra chữ nào. Cảm ơn team!",2026-07-09T14:17:00
+fb_00494,trangld@techcombank.com.vn,TÀI Chat,N/A,2026-07-09T15:01:00
+fb_00495,ngocppn27@techcombank.com.vn,The Powerpoint-er,ko có gì,2026-07-09T16:32:00
+fb_00496,anhl12@techcombank.com.vn,The Summarizer,"Team ơi, kết quả dài mà không có thanh cuộn riêng, đọc rất mệt.",2026-07-09T17:52:00
+fb_00497,maivld@techcombank.com.vn,TÀI Chat,"Hi all, TÀI Chat is very slow, a 20 page file takes almost 10 minutes.",2026-07-10T10:01:00
+fb_00498,quangtnp38@techcombank.com.vn,The Summarizer,"The Summarizer: Nút đổi ngôn ngữ output nằm khuất quá, mình tìm mãi mới thấy. Rất mong sớm nhận được phản hồi.",2026-07-10T10:39:00
+fb_00499,thaobp8@techcombank.com.vn,TÀI Chat,Đề xuất nhỏ: thêm option change the output language thì workflow của team mình gọn hơn nhiều. Cảm ơn nhiều ạ.,2026-07-10T16:27:00
+fb_00500,hungln5@techcombank.com.vn,The Summarizer,"Wifi tầng 12 yếu quá, họp online hay rớt.",2026-07-10T16:37:00
+fb_00501,quangtnp38@techcombank.com.vn,The Powerpoint-er,The Powerpoint-er: Could you run a training session for our department? Please advise.,2026-07-11T14:20:00
+fb_00502,haib6@techcombank.com.vn,The Summarizer,"Giờ cao điểm buổi sáng gần như không dùng nổi, cứ quay vòng vòng mãi. Tình trạng này bắt đầu từ tuần trước. Nhờ team hỗ trợ giúp mình nhé.",2026-07-13T09:41:00
+fb_00503,yentd22@techcombank.com.vn,The Powerpoint-er,"Dùng The Powerpoint-er soạn bản nháp rồi chỉnh lại, hiệu quả tốt hơn mình nghĩ.",2026-07-13T15:24:00
+fb_00504,namdl@techcombank.com.vn,TÀI Chat,Please add a dark mode.,2026-07-14T16:12:00
+fb_00505,trangvpv9@techcombank.com.vn,TÀI Chat,good,2026-07-15T09:11:00
+fb_00506,duongl35@techcombank.com.vn,The Translator,"The Translator keeps mistranslating banking terminology, I had to fix almost every line.",2026-07-15T11:21:00
+fb_00507,anhhvl5@techcombank.com.vn,TÀI Chat,"Chào team, TÀI Chat rất hữu ích, tiết kiệm cho mình vài tiếng mỗi tuần. Cảm ơn team!",2026-07-15T11:33:00
+fb_00508,haitd15@techcombank.com.vn,The Translator,"The Translator rất hữu ích, tiết kiệm cho mình vài tiếng mỗi tuần. Cảm ơn team!",2026-07-15T14:25:00
+fb_00509,chidpl11@techcombank.com.vn,The Powerpoint-er,"Hi all, the result panel needs its own scrollbar, reading long output is painful.",2026-07-15T14:29:00
+fb_00510,tuandbl9@techcombank.com.vn,The Analyst,"Tìm mãi không thấy chỗ xuất file PPT ra PDF, nhờ team chỉ giúp. Rất mong sớm nhận được phản hồi.",2026-07-15T17:34:00
+fb_00511,haib6@techcombank.com.vn,TÀI Chat,"TÀI Chat: Hello, the landing page is confusing for a first time user.",2026-07-15T20:25:00
+fb_00512,anhl5@techcombank.com.vn,The Powerpoint-er,no comment,2026-07-16T08:21:00
+fb_00513,minhpn1@techcombank.com.vn,The Summarizer,Cho hỏi thủ tục đăng ký nghỉ phép làm ở đâu ạ?,2026-07-16T08:32:00
+fb_00514,anhhvl5@techcombank.com.vn,TÀI Chat,no comment,2026-07-16T09:37:00
+fb_00515,maibn@techcombank.com.vn,TÀI Chat,TÀI Chat: The summary drops the most important section of the document. Thanks!,2026-07-16T10:09:00
+fb_00516,main20@techcombank.com.vn,TÀI Chat,Có API để gọi TÀI Chat từ hệ thống nội bộ của phòng mình không?,2026-07-16T11:36:00
+fb_00517,main32@techcombank.com.vn,The Analyst,"Upload fails for anything above the size limit, my file is 60MB. Appreciate the help.",2026-07-16T13:33:00
+fb_00518,trangnhn17@techcombank.com.vn,TÀI Chat,What prompt should I use to generate a table of contents? Appreciate the help.,2026-07-16T15:52:00
+fb_00519,namb21@techcombank.com.vn,TÀI Chat,TÀI Chat: Tốc độ xử lý file lớn chậm hơn hẳn so với tháng trước.,2026-07-16T15:58:00
+fb_00520,haib6@techcombank.com.vn,The Analyst,"Hello, only the first sheet of my Excel workbook gets processed. This started last week. Thanks!",2026-07-16T17:28:00
+fb_00521,maid25@techcombank.com.vn,The Summarizer,aaaa,2026-07-17T10:50:00
+fb_00522,anhl12@techcombank.com.vn,The Summarizer,"Team ơi, output của The Summarizer bị lặp ý, đoạn sau nhắc lại gần nguyên đoạn trước. Không rõ do máy mình hay do hệ thống.",2026-07-17T13:38:00
+fb_00523,minhv13@techcombank.com.vn,The Powerpoint-er,Rất mong có bản dùng được trên điện thoại. Mong team xem giúp ạ.,2026-07-18T09:39:00
+fb_00524,linhndd@techcombank.com.vn,The Translator,"Nút đổi ngôn ngữ output nằm khuất quá, mình tìm mãi mới thấy. Mong team xem giúp ạ.",2026-07-18T15:03:00
+fb_00525,hailbb@techcombank.com.vn,The Translator,"The Translator: Team ơi, chất lượng dịch cải thiện rõ so với hồi đầu năm.",2026-07-20T09:02:00
+fb_00526,duonglnd@techcombank.com.vn,The Analyst,Có thể tích hợp The Analyst với SharePoint để lấy file trực tiếp không?,2026-07-20T09:29:00
+fb_00527,thuch12@techcombank.com.vn,The Powerpoint-er,"Team ơi, bố cục slide The Powerpoint-er tạo ra lộn xộn, chữ tràn ra ngoài khung. Đã thử lại vài lần vẫn vậy.",2026-07-20T10:11:00
+fb_00528,thaobp8@techcombank.com.vn,The Translator,The Translator: The landing page is confusing for a first time user.,2026-07-20T11:06:00
+fb_00529,maittd20@techcombank.com.vn,TÀI Chat,Mong team bổ sung tính năng tạo mục lục tự động cho TÀI Chat. Nhờ team hỗ trợ giúp mình nhé.,2026-07-20T16:27:00
+fb_00530,maidb@techcombank.com.vn,The Analyst,Is the uploaded document stored anywhere? These are internal files.,2026-07-20T16:40:00
+fb_00531,anhn@techcombank.com.vn,The Summarizer,"Team ơi, mình muốn compare two document versions nhưng không thấy option nào, guide ở đâu ạ?",2026-07-21T08:04:00
+fb_00532,phuongltp14@techcombank.com.vn,TÀI Chat,"Session bị timeout liên tục, đang làm dở thì mất hết nội dung. Đã thử lại vài lần vẫn vậy.",2026-07-21T08:33:00
+fb_00533,tuanvdb@techcombank.com.vn,The Translator,"Hello, how do I request access to The Translator? Please advise.",2026-07-21T11:21:00
+fb_00534,chidpl11@techcombank.com.vn,The Translator,Tài liệu mật cấp phòng thì có được phép đưa lên TÀI Studio không? Rất mong sớm nhận được phản hồi.,2026-07-21T11:57:00
+fb_00535,chidpl11@techcombank.com.vn,TÀI Chat,Muốn đăng ký buổi demo TÀI Chat cho team khoảng 20 người.,2026-07-21T14:46:00
+fb_00536,hungln5@techcombank.com.vn,TÀI Chat,"TÀI Chat có hỗ trợ trích xuất bảng từ file PDF không, hay phải làm tay?",2026-07-21T15:21:00
+fb_00537,chidpl11@techcombank.com.vn,TÀI Chat,"TÀI Chat: Session bị timeout liên tục, đang làm dở thì mất hết nội dung. Đã thử lại vài lần vẫn vậy.",2026-07-21T15:54:00
+fb_00538,trangvpv9@techcombank.com.vn,TÀI Chat,How do I summarize a long document in TÀI Chat?,2026-07-21T16:03:00
+fb_00539,thucdlh@techcombank.com.vn,TÀI Chat,"Nhờ team hỗ trợ: TÀI Chat rất hữu ích, tiết kiệm cho mình vài tiếng mỗi tuần. Cảm ơn team! Cảm ơn team!",2026-07-22T10:18:00
+fb_00540,sonbll@techcombank.com.vn,TÀI Chat,"I cannot log in, it says I do not have permission. Tried a few times, same result.",2026-07-22T17:02:00
+fb_00541,hainbd26@techcombank.com.vn,TÀI Chat,Cho hỏi TÀI Chat có cách nào tạo mục lục tự động không? Rất mong sớm nhận được phản hồi.,2026-07-23T09:31:00
+fb_00542,namdpn@techcombank.com.vn,The Analyst,Có video hướng dẫn nào ngắn gọn cho người mới không?,2026-07-23T14:17:00
+fb_00543,chipnh9@techcombank.com.vn,The Powerpoint-er,Nhờ team hỗ trợ: tài liệu mật cấp phòng thì có được phép đưa lên TÀI Studio không?,2026-07-23T14:50:00
+fb_00544,anhl32@techcombank.com.vn,The Researcher,"Mình bấm generate thì báo lỗi 500, thử lại 3 lần vẫn vậy. Cảm ơn team!",2026-07-23T16:07:00
+fb_00545,phuongltp@techcombank.com.vn,TÀI Chat,"Mình không biết cách tạo mục lục tự động trong TÀI Chat, có hướng dẫn nào không ạ? Cảm ơn team!",2026-07-23T17:28:00
+fb_00546,duonglnd@techcombank.com.vn,The Researcher,"Bản cập nhật mới nhanh hơn hẳn, cảm ơn team đã lắng nghe phản hồi. Cảm ơn nhiều ạ.",2026-07-23T17:28:00
+fb_00547,minhv13@techcombank.com.vn,The Powerpoint-er,"Hi team, please add XLSX support in The Powerpoint-er.",2026-07-23T22:04:00
+fb_00548,tuandbl9@techcombank.com.vn,The Powerpoint-er,"The Powerpoint-er: Nhờ team hỗ trợ: em mới dùng nên hơi lúng túng, muốn upload nhiều file cùng lúc thì bấm ở đâu ạ?",2026-07-24T10:35:00
+fb_00549,phuongd34@techcombank.com.vn,TÀI Chat,"Cho mình hỏi, em mới dùng nên hơi lúng túng, muốn tóm tắt tài liệu dài thì bấm ở đâu ạ? Nhờ team hỗ trợ giúp mình nhé.",2026-07-24T17:03:00
+fb_00550,longd@techcombank.com.vn,TÀI Chat,Dịch xong thì mất hết định dạng bảng biểu trong file gốc. Tình trạng này bắt đầu từ tuần trước. Cảm ơn nhiều ạ.,2026-07-24T20:15:00
+fb_00551,longhd11@techcombank.com.vn,The Analyst,"Hello, only the first sheet of my Excel workbook gets processed. This started last week. Thanks!",2026-07-27T10:10:00
+fb_00552,chipnh9@techcombank.com.vn,The Summarizer,The Summarizer: Mong có nút gửi kết quả sang Teams cho nhanh.,2026-07-27T14:07:00
+fb_00553,phuongd34@techcombank.com.vn,TÀI Chat,"Quick question, TÀI Chat keeps mistranslating banking terminology, I had to fix almost every line.",2026-07-27T17:44:00
+fb_00554,hungl1@techcombank.com.vn,The Translator,"Nhờ team hỗ trợ: không upload được file DOCX, hình như chỉ nhận PDF thôi? Đã thử lại vài lần vẫn vậy. Cảm ơn team!",2026-07-27T17:47:00
+fb_00555,minhv13@techcombank.com.vn,The Analyst,"The Analyst: Nên có nút hoàn tác, lỡ tay generate lại là mất bản cũ.",2026-07-28T10:30:00
+fb_00556,minhdd19@techcombank.com.vn,The Summarizer,"Giờ cao điểm buổi sáng gần như không dùng nổi, cứ quay vòng vòng mãi. Mình dùng trên Chrome. Rất mong sớm nhận được phản hồi.",2026-07-28T16:12:00
+fb_00557,tuann@techcombank.com.vn,The Powerpoint-er,The Powerpoint-er: Only the first sheet of my Excel workbook gets processed.,2026-07-28T16:38:00
+fb_00558,maivld@techcombank.com.vn,The Translator,"Upload fails for anything above the size limit, my file is 60MB. This started last week.",2026-07-29T09:04:00
+fb_00559,khanhhtd7@techcombank.com.vn,TÀI Chat,"TÀI Chat: Response time in the morning is basically unusable. Tried a few times, same result. Thanks!",2026-07-29T09:36:00
+fb_00560,tuanlhd@techcombank.com.vn,The Summarizer,The landing page is confusing for a first time user.,2026-07-29T11:07:00
+fb_00561,phuongpp@techcombank.com.vn,The Powerpoint-er,"Hello, any plan to integrate The Powerpoint-er with SharePoint? Please advise.",2026-07-29T15:11:00
+fb_00562,hungvp@techcombank.com.vn,The Powerpoint-er,"The Powerpoint-er chạy chậm quá, một file 20 trang mất gần 10 phút. Mình dùng hằng ngày cho công việc nên khá bất tiện.",2026-07-29T15:51:00
+fb_00563,anhnv33@techcombank.com.vn,TÀI Chat,Translation quality has improved a lot since the start of the year. Please advise.,2026-07-30T09:19:00
+fb_00564,namdl@techcombank.com.vn,The Translator,"Hi team, could you run a training session for our department? Please advise.",2026-07-30T10:02:00
+fb_00565,trangl27@techcombank.com.vn,The Translator,"Cho mình hỏi, output của The Translator bị lặp ý, đoạn sau nhắc lại gần nguyên đoạn trước.",2026-07-30T13:08:00
+fb_00566,anhnv33@techcombank.com.vn,TÀI Chat,"Cho mình hỏi, xin quyền dùng TÀI Chat thì làm thủ tục ở đâu ạ?",2026-08-02T22:15:00
+fb_00567,phuonghl@techcombank.com.vn,The Translator,"Team ơi, làm sao để trích xuất bảng từ file PDF vậy team? Nhờ team hỗ trợ giúp mình nhé.",2026-08-03T09:11:00
+fb_00568,tuandbl9@techcombank.com.vn,The Summarizer,Có API để gọi The Summarizer từ hệ thống nội bộ của phòng mình không? Rất mong sớm nhận được phản hồi.,2026-08-03T09:21:00
+fb_00569,chidpl11@techcombank.com.vn,The Researcher,Cho hỏi thủ tục đăng ký nghỉ phép làm ở đâu ạ?,2026-08-03T10:14:00
+fb_00570,minhn37@techcombank.com.vn,The Summarizer,Xin quyền dùng The Summarizer thì làm thủ tục ở đâu ạ?,2026-08-03T15:40:00
+fb_00571,chidpl11@techcombank.com.vn,The Analyst,"The Analyst saves me hours every week, great work. Thanks!",2026-08-03T16:24:00
+fb_00572,maidn38@techcombank.com.vn,TÀI Chat,"TÀI Chat: Team ơi, mình muốn đổi ngôn ngữ output nhưng không biết bắt đầu từ đâu. Nhờ team hỗ trợ giúp mình nhé.",2026-08-03T16:51:00
+fb_00573,minhpn1@techcombank.com.vn,TÀI Chat,Tài khoản mình bị mất quyền dùng TÀI Chat từ tuần trước mà không rõ lý do.,2026-08-04T10:40:00
+fb_00574,haib6@techcombank.com.vn,The Translator,"Output của The Translator bị lặp ý, đoạn sau nhắc lại gần nguyên đoạn trước. Đã thử lại vài lần vẫn vậy.",2026-08-04T14:54:00
+fb_00575,anhn@techcombank.com.vn,TÀI Chat,"I cannot log in, it says I do not have permission.",2026-08-04T16:33:00
+fb_00576,hungln5@techcombank.com.vn,TÀI Chat,"TÀI Chat chạy chậm quá, một file 20 trang mất gần 10 phút.",2026-08-05T10:14:00
+fb_00577,thaobn@techcombank.com.vn,The Translator,"Chờ hơn 5 phút mới ra kết quả, lúc gấp thì gần như không dùng được. Tình trạng này bắt đầu từ tuần trước.",2026-08-05T15:12:00
+fb_00578,chipnh9@techcombank.com.vn,The Powerpoint-er,tốt,2026-08-05T15:18:00
+fb_00579,anhn@techcombank.com.vn,TÀI Chat,Dữ liệu mình upload có được lưu lại không? Tài liệu nội bộ thì có an toàn không ạ? Nhờ team hỗ trợ giúp mình nhé.,2026-08-05T16:55:00
+fb_00580,minhn37@techcombank.com.vn,The Powerpoint-er,"Xin chào team, kết quả trả về không khớp với dữ liệu mình upload, số liệu bị lệch. Không rõ do máy mình hay do hệ thống. Cảm ơn nhiều ạ.",2026-08-06T09:48:00
+fb_00581,minhp@techcombank.com.vn,The Translator,"Output của The Translator bị lặp ý, đoạn sau nhắc lại gần nguyên đoạn trước.",2026-08-06T11:06:00
+fb_00582,duongl35@techcombank.com.vn,The Summarizer,"Upload file xong thì màn hình trắng luôn, phải F5 lại từ đầu. Không rõ do máy mình hay do hệ thống. Nhờ team hỗ trợ giúp mình nhé.",2026-08-06T17:10:00
+fb_00583,anhhvl5@techcombank.com.vn,The Powerpoint-er,Where is the setting to extract tables from a PDF?,2026-08-07T08:25:00
+fb_00584,hungb@techcombank.com.vn,The Analyst,tốt,2026-08-07T09:14:00
+fb_00585,haib6@techcombank.com.vn,TÀI Chat,Is there a way to adjust the tone of the translation? I could not find the option. Thanks!,2026-08-07T09:37:00
+fb_00586,minhp@techcombank.com.vn,TÀI Chat,Xin quyền dùng TÀI Chat thì làm thủ tục ở đâu ạ?,2026-08-07T09:43:00
+fb_00587,trangld@techcombank.com.vn,The Summarizer,"Không upload được file Markdown, hình như chỉ nhận PDF thôi?",2026-08-07T11:36:00
+fb_00588,hungn21@techcombank.com.vn,The Powerpoint-er,Is there a way to turn Excel data into charts? I could not find the option.,2026-08-07T13:09:00
+fb_00589,haib6@techcombank.com.vn,The Researcher,"The Researcher: Team ơi, file của mình 60MB, upload lên thì báo vượt giới hạn. Có cách nào tăng không ạ? Không rõ do máy mình hay do hệ thống. Cảm ơn nhiều ạ.",2026-08-07T17:32:00
+fb_00590,trangdt@techcombank.com.vn,The Powerpoint-er,"Cho mình hỏi, The Powerpoint-er rất hữu ích, tiết kiệm cho mình vài tiếng mỗi tuần. Cảm ơn team! Rất mong sớm nhận được phản hồi.",2026-08-09T11:32:00
+fb_00591,trangnhn17@techcombank.com.vn,The Translator,"The Translator: Hi all, i cannot log in, it says I do not have permission.",2026-08-10T13:09:00
+fb_00592,anhl32@techcombank.com.vn,The Summarizer,"Mình bấm generate thì báo lỗi 500, thử lại 3 lần vẫn vậy. Nhờ team hỗ trợ giúp mình nhé.",2026-08-10T13:41:00
+fb_00593,duongt@techcombank.com.vn,The Researcher,"Nhờ team hỗ trợ: The Researcher chạy chậm quá, một file 20 trang mất gần 10 phút. Nhờ team hỗ trợ giúp mình nhé.",2026-08-11T08:42:00
+fb_00594,anhnv33@techcombank.com.vn,The Analyst,"Em mới dùng nên hơi lúng túng, muốn xuất file PPT ra PDF thì bấm ở đâu ạ?",2026-08-11T09:03:00
+fb_00595,phuongltp14@techcombank.com.vn,The Powerpoint-er,"Team ơi, file Excel nhiều sheet thì chỉ đọc được sheet đầu tiên. Cảm ơn team!",2026-08-11T09:09:00
+fb_00596,tuantnn@techcombank.com.vn,The Summarizer,The Summarizer: Response time in the morning is basically unusable. I am on Chrome.,2026-08-11T10:23:00
+fb_00597,maittd20@techcombank.com.vn,The Summarizer,"Nên có nút hoàn tác, lỡ tay generate lại là mất bản cũ.",2026-08-11T13:05:00
+fb_00598,anhhvl5@techcombank.com.vn,The Translator,Could you run a training session for our department? Please advise.,2026-08-11T14:19:00
+fb_00599,hunghld21@techcombank.com.vn,TÀI Chat,"Cho mình hỏi, chờ hơn 5 phút mới ra kết quả, lúc gấp thì gần như không dùng được. Mình dùng trên Chrome.",2026-08-11T15:07:00
+fb_00600,chidpl11@techcombank.com.vn,TÀI Chat,Chất lượng dịch cải thiện rõ so với hồi đầu năm. Nhờ team hỗ trợ giúp mình nhé.,2026-08-11T15:35:00
+fb_00601,minhhp@techcombank.com.vn,The Powerpoint-er,Scanned PDFs are not recognized at all. Thank you in advance.,2026-08-12T10:41:00
+fb_00602,linhln21@techcombank.com.vn,The Powerpoint-er,How do I request access to The Powerpoint-er?,2026-08-12T14:20:00
+fb_00603,maidl11@techcombank.com.vn,TÀI Chat,"Nhờ team hỗ trợ: TÀI Chat chạy được nửa chừng rồi đứng, không ra kết quả cũng không báo lỗi.",2026-08-12T14:50:00
+fb_00604,phuongd34@techcombank.com.vn,The Translator,"Font tiếng Việt trong file PDF xuất ra bị lỗi, mất dấu hết.",2026-08-12T14:56:00
+fb_00605,hungt19@techcombank.com.vn,The Translator,Cho hỏi thủ tục đăng ký nghỉ phép làm ở đâu ạ?,2026-08-12T15:19:00
+fb_00606,minhn37@techcombank.com.vn,TÀI Chat,"TÀI Chat: Font tiếng Việt trong file Markdown xuất ra bị lỗi, mất dấu hết. Không rõ do máy mình hay do hệ thống.",2026-08-12T17:06:00
+fb_00607,hungnlp@techcombank.com.vn,The Translator,hello,2026-08-13T11:07:00
+fb_00608,minhpn1@techcombank.com.vn,The Analyst,Response time in the morning is basically unusable. Please advise.,2026-08-13T14:28:00
+fb_00609,trangl27@techcombank.com.vn,The Translator,"Cho mình hỏi, chữ trong ô nhập prompt nhỏ quá, nhìn không rõ.",2026-08-13T16:04:00
+fb_00610,anhhvl5@techcombank.com.vn,The Powerpoint-er,"The Powerpoint-er: Giao diện hơi rối, người mới vào không biết bắt đầu từ đâu. Rất mong sớm nhận được phản hồi.",2026-08-13T16:47:00
+fb_00611,anhl12@techcombank.com.vn,The Translator,"Chờ hơn 5 phút mới ra kết quả, lúc gấp thì gần như không dùng được. Cảm ơn nhiều ạ.",2026-08-14T08:20:00
+fb_00612,anhnv33@techcombank.com.vn,TÀI Chat,asdf,2026-08-14T13:34:00
+fb_00613,duongl35@techcombank.com.vn,The Analyst,Rất mong có bản dùng được trên điện thoại.,2026-08-14T14:34:00
+fb_00614,phuongltp14@techcombank.com.vn,The Powerpoint-er,Mong team bổ sung tính năng chỉnh giọng văn của bản dịch cho The Powerpoint-er.,2026-08-14T16:49:00
+fb_00615,phuongb@techcombank.com.vn,The Translator,"Upload file xong thì màn hình trắng luôn, phải F5 lại từ đầu.",2026-08-14T17:04:00
+fb_00616,mainn@techcombank.com.vn,The Analyst,Nhờ team hỗ trợ: tốc độ xử lý file lớn chậm hơn hẳn so với tháng trước. Mình dùng hằng ngày cho công việc nên khá bất tiện.,2026-08-14T22:58:00
+fb_00617,phuongv@techcombank.com.vn,The Translator,"Font tiếng Việt trong file Markdown xuất ra bị lỗi, mất dấu hết. Cảm ơn nhiều ạ.",2026-08-16T14:46:00
+fb_00618,longhb@techcombank.com.vn,TÀI Chat,Is there a short onboarding video for new users? Please advise.,2026-08-17T09:52:00
+fb_00619,ngocppn27@techcombank.com.vn,The Translator,"Hello, please add PDF support in The Translator. Thanks!",2026-08-17T11:26:00
+fb_00620,duonglnd@techcombank.com.vn,The Translator,Getting a 500 error every time I hit generate on The Translator. This started last week.,2026-08-17T14:49:00
+fb_00621,phuonghl@techcombank.com.vn,The Analyst,Không rõ phải nhập prompt thế nào để đổi ngôn ngữ output. Rất mong sớm nhận được phản hồi.,2026-08-17T14:59:00
+fb_00622,anhn@techcombank.com.vn,TÀI Chat,"Hi all, i cannot log in, it says I do not have permission. Appreciate the help.",2026-08-18T10:47:00
+fb_00623,thaoh@techcombank.com.vn,The Powerpoint-er,"Hi all, please add a dark mode. Appreciate the help.",2026-08-19T09:36:00
+fb_00624,longhd11@techcombank.com.vn,The Researcher,"The Researcher chạy được nửa chừng rồi đứng, không ra kết quả cũng không báo lỗi. Không rõ do máy mình hay do hệ thống.",2026-08-19T11:57:00
+fb_00625,phuongltp14@techcombank.com.vn,TÀI Chat,Only the first sheet of my Excel workbook gets processed. This started last week.,2026-08-19T14:03:00
+fb_00626,sonndn@techcombank.com.vn,The Summarizer,"Nhờ team hỗ trợ: tài liệu hơn 100 trang thì bị cắt giữa chừng, phần sau không được xử lý. Mong team xem giúp ạ.",2026-08-19T14:45:00
+fb_00627,namdl@techcombank.com.vn,TÀI Chat,"Team ơi, TÀI Chat bị lỗi khi export, error message: 'Request failed with status code 500'. Nhờ team check giúp. Mình dùng trên Chrome.",2026-08-19T15:05:00
+fb_00628,thucnlp@techcombank.com.vn,The Powerpoint-er,"The Powerpoint-er: Xin chào team, đề xuất: cho phép lưu prompt hay dùng thành template dùng lại.",2026-08-19T15:50:00
+fb_00629,trangnhn17@techcombank.com.vn,The Researcher,The page goes blank right after I upload a file. Thanks!,2026-08-20T09:18:00
+fb_00630,chidpl11@techcombank.com.vn,TÀI Chat,"Chào team, chất lượng dịch cải thiện rõ so với hồi đầu năm. Cảm ơn team!",2026-08-20T09:46:00
+fb_00631,tuanpd18@techcombank.com.vn,The Powerpoint-er,"New user here, could you point me to a guide for The Powerpoint-er?",2026-08-20T10:10:00
+fb_00632,anhl5@techcombank.com.vn,The Translator,"The Translator: Nhờ team hỗ trợ: nên có nút hoàn tác, lỡ tay generate lại là mất bản cũ. Mong team xem giúp ạ.",2026-08-20T11:23:00
+fb_00633,ngocv14@techcombank.com.vn,TÀI Chat,Nếu TÀI Chat hỗ trợ thêm định dạng Markdown thì tiện hơn nhiều.,2026-08-20T14:50:00
+fb_00634,hain@techcombank.com.vn,The Powerpoint-er,"Xin chào team, file của mình 60MB, upload lên thì báo vượt giới hạn. Có cách nào tăng không ạ?",2026-08-20T15:37:00
+fb_00635,hungb@techcombank.com.vn,The Powerpoint-er,Where is the setting to summarize a long document?,2026-08-20T16:51:00
+fb_00636,duonglnd@techcombank.com.vn,The Translator,...,2026-08-20T22:59:00
+fb_00637,phuongltp14@techcombank.com.vn,The Powerpoint-er,"Hi team, vietnamese characters are broken in the exported PPTX file.",2026-08-21T08:13:00
+fb_00638,chipnh9@techcombank.com.vn,The Powerpoint-er,"Dùng The Powerpoint-er soạn bản nháp rồi chỉnh lại, hiệu quả tốt hơn mình nghĩ. Cảm ơn team!",2026-08-21T09:28:00
+fb_00639,tuanhdl@techcombank.com.vn,The Translator,Xin quyền dùng The Translator thì làm thủ tục ở đâu ạ?,2026-08-21T10:01:00
+fb_00640,mainn@techcombank.com.vn,The Analyst,Không rõ phải nhập prompt thế nào để đổi ngôn ngữ output. Rất mong sớm nhận được phản hồi.,2026-08-21T10:33:00
+fb_00641,anhl32@techcombank.com.vn,The Translator,"Gửi nhầm, bỏ qua giúp mình nhé.",2026-08-21T11:03:00
+fb_00642,maidl11@techcombank.com.vn,The Translator,Có API để gọi The Translator từ hệ thống nội bộ của phòng mình không?,2026-08-21T14:39:00
+fb_00643,maittd20@techcombank.com.vn,The Powerpoint-er,The Powerpoint-er: The page goes blank right after I upload a file. This started last week. Thank you in advance.,2026-08-21T15:15:00
+fb_00644,hungt19@techcombank.com.vn,The Translator,How do I change the output language in The Translator? Thanks!,2026-08-21T15:22:00
+fb_00645,haib6@techcombank.com.vn,TÀI Chat,Có thể tích hợp TÀI Chat với SharePoint để lấy file trực tiếp không?,2026-08-21T15:44:00
+fb_00646,chidpl11@techcombank.com.vn,TÀI Chat,"Xin chào team, upload file xong thì màn hình trắng luôn, phải F5 lại từ đầu. Không rõ do máy mình hay do hệ thống. Cảm ơn nhiều ạ.",2026-08-21T15:53:00
+fb_00647,trangnhn17@techcombank.com.vn,The Powerpoint-er,"Xin chào team, session bị timeout liên tục, đang làm dở thì mất hết nội dung.",2026-08-22T10:47:00
+fb_00648,anhhvl5@techcombank.com.vn,TÀI Chat,"Chào team, không upload được file Markdown, hình như chỉ nhận PDF thôi?",2026-08-24T10:54:00
+fb_00649,maittd20@techcombank.com.vn,The Translator,"New user here, could you point me to a guide for The Translator? Thank you in advance.",2026-08-24T15:41:00
+fb_00650,anhhvl5@techcombank.com.vn,TÀI Chat,"Hi team, my session times out in the middle of a long task and I lose everything. Tried a few times, same result.",2026-08-24T16:49:00
