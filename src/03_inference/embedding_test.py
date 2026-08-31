@@ -158,6 +158,67 @@ class LMStudioEncoder:
         return vecs / np.clip(norms, 1e-12, None)     # L2-normalize -> dot == cosine
 
 
+class DatabricksEncoder:
+    """Encoder qwen3-embedding-0-6b trên Databricks Model Serving (AI-Gateway) — v3.3.
+
+    Interface KHỚP `LMStudioEncoder` (`encode(texts) -> (N,D) L2-norm`) ⇒ `classify.IntentClassifier`
+    chỉ đổi default encoder. Thay LM Studio local (spike shortcut) ⇒ B1 chạy được trên job/cron, đúng
+    architecture §5. Cùng base qwen3-0.6b ⇒ cùng không gian vector với exemplar đã calibrate (guard §R2).
+
+    httpx + truststore (mạng công ty MITM CA nội bộ) + token U2M từ profile — cùng khuôn reply_scenarios.
+    Endpoint OpenAI-compatible ở response (`data[].embedding`, `.index`); gọi thẳng httpx (khỏi lệ TLS OpenAI SDK).
+    """
+
+    EMBEDDINGS_PATH = "/ai-gateway/mlflow/v1/embeddings"
+
+    def __init__(
+        self,
+        model_name: str = "nonprod_ai.tsfai.qwen3-embedding-0-6b-sit-tai",
+        profile: str = "tcb-agent-sit",
+        dim: int | None = None,         # MRL: cắt chiều (256/512) nếu cần index gọn
+        timeout: float = 120.0,
+    ):
+        import os
+        import ssl
+
+        import httpx
+        import truststore
+
+        host = os.environ.get("DATABRICKS_HOST")
+        token = os.environ.get("DATABRICKS_TOKEN")
+        if not (host and token):
+            from databricks.sdk import WorkspaceClient
+
+            cfg = WorkspaceClient(profile=os.environ.get("DATABRICKS_PROFILE", profile)).config
+            host = cfg.host
+            token = cfg.authenticate().get("Authorization", "").replace("Bearer ", "")
+
+        ctx = truststore.SSLContext(ssl.PROTOCOL_TLS_CLIENT)
+        self.model_name = model_name
+        self.dim = dim
+        self._token = token
+        self.client = httpx.Client(base_url=host.rstrip("/"), verify=ctx, timeout=timeout)
+
+    def encode(self, texts: Sequence[str], batch_size: int = 32) -> np.ndarray:
+        texts = list(texts)
+        headers = {"Authorization": f"Bearer {self._token}", "Content-Type": "application/json"}
+        out: list[list[float]] = []
+        for i in range(0, len(texts), batch_size):
+            chunk = texts[i : i + batch_size]
+            resp = self.client.post(
+                self.EMBEDDINGS_PATH, headers=headers, json={"model": self.model_name, "input": chunk}
+            )
+            resp.raise_for_status()
+            data = resp.json().get("data", [])
+            out.extend(d["embedding"] for d in sorted(data, key=lambda d: d["index"]))
+
+        vecs = np.asarray(out, dtype=np.float32)
+        if self.dim:                                  # MRL truncate rồi mới norm lại
+            vecs = vecs[:, : self.dim]
+        norms = np.linalg.norm(vecs, axis=1, keepdims=True)
+        return vecs / np.clip(norms, 1e-12, None)     # L2-normalize -> dot == cosine
+
+
 # ------------------------------------------------------------------ matcher --
 
 class IntentMatcher:

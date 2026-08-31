@@ -3,7 +3,7 @@
 | Field | Value |
 |-------|-------|
 | **Date** | 2026-08-25 |
-| **Depends on** | Phase 1 đã qua acceptance (`docs/impl-phase1-intent-classification.md`) · `docs/architecture.md` v3.0 §4.2/§4.4 · `template/skill_create_email.md` |
+| **Depends on** | Intent Catalog v1 đã chốt (`docs/method-offline-intent-analysis.md`) · `docs/architecture.md` v3.0 §4.2/§4.4 · `template/skill_create_email.md` |
 | **Deliverable** | Job A `ingest-sync` · task B2 `draft` · B3 `deliver` · Job C `outcome-sync` · dashboard |
 
 ## 0. Phase này giải quyết cái gì

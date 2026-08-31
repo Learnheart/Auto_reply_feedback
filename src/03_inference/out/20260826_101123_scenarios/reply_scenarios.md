@@ -1,0 +1,153 @@
+# Kịch bản reply theo category (Tier A)
+
+> Routing deterministic theo `action_type` (§3.2). `we_resolved` là quyết định **per-feedback** (cần RAG hit), tầng category chỉ mô tả nhánh. `{name}`/`{feedback_summary}`/`{timeline}`/`{resolution}` do B2 điền runtime.
+
+**8 category · catalog:** `20260826_092038_llm/catalog_a.yaml`
+
+
+## bug_core_function_broken  
+`bug_core_function_broken` · action_type=`known_gap` · email_type=**we_listen** · tone=`roadmap` · route=`backlog_check`
+
+> Runtime: khớp backlog → 'team sẽ phát triển' + mốc từ status; không khớp → 'đã ghi nhận, sẽ cải thiện'.
+
+**VI**  
+Xin chào {name},
+
+Cảm ơn bạn đã phản hồi về vấn đề bạn gặp phải với TÀI Studio. Chúng tôi đã ghi nhận {feedback_summary} và hiểu rằng đây là sự cố ảnh hưởng trực tiếp đến trải nghiệm sử dụng của bạn. Đội ngũ kỹ thuật của TÀI Studio đang xem xét kỹ lưỡng vấn đề này và sẽ tiến hành cải thiện trong thời gian {timeline}.
+
+Chúng tôi rất trân trọng sự kiên nhẫn của bạn và sẽ cập nhật thêm khi có thông tin mới. Xin cảm ơn bạn đã đồng hành cùng TÀI Studio.
+
+**EN**  
+Hi {name},
+
+Thank you for reaching out to us about your experience with TÀI Studio. We have noted {feedback_summary} and fully understand how this impacts your ability to use the product. Our technical team is actively reviewing the issue and will be working on improvements within {timeline}.
+
+We truly appreciate your patience and will keep you updated as we make progress. Thank you for being part of TÀI Studio.
+
+
+## bug_output_quality_and_format  
+`bug_output_quality_and_format` · action_type=`known_gap` · email_type=**we_listen** · tone=`roadmap` · route=`backlog_check`
+
+> Runtime: khớp backlog → 'team sẽ phát triển' + mốc từ status; không khớp → 'đã ghi nhận, sẽ cải thiện'.
+
+**VI**  
+Xin chào {name},
+
+Cảm ơn bạn đã dành thời gian chia sẻ phản hồi với TÀI Studio. Chúng tôi đã ghi nhận {feedback_summary} và nhận thấy đây là vấn đề quan trọng cần được cải thiện để đảm bảo chất lượng đầu ra cho người dùng. Đội ngũ TÀI Studio đang nghiên cứu và sẽ có những cải tiến cụ thể trong thời gian {timeline}.
+
+Phản hồi của bạn giúp chúng tôi hoàn thiện sản phẩm tốt hơn mỗi ngày. Xin cảm ơn bạn đã tin tưởng và sử dụng TÀI Studio.
+
+**EN**  
+Hi {name},
+
+Thank you for taking the time to share your feedback with TÀI Studio. We have carefully noted {feedback_summary} and recognize this as an important area that needs improvement to ensure a high-quality experience for our users. Our team is looking into this and will be rolling out targeted improvements within {timeline}.
+
+Your feedback helps us build a better product every day. Thank you for your trust in TÀI Studio.
+
+
+## issue_usage_limit_and_system_policy  
+`issue_usage_limit_and_system_policy` · action_type=`known_gap` · email_type=**we_listen** · tone=`roadmap` · route=`backlog_check`
+
+> Runtime: khớp backlog → 'team sẽ phát triển' + mốc từ status; không khớp → 'đã ghi nhận, sẽ cải thiện'.
+
+**VI**  
+Xin chào {name},
+
+Cảm ơn bạn đã liên hệ và chia sẻ vấn đề bạn gặp phải với TÀI Studio. Chúng tôi đã ghi nhận {feedback_summary} và hiểu rằng việc thiếu thông tin rõ ràng về hạn mức hoặc chính sách hệ thống có thể gây ra nhiều bất tiện. Đội ngũ TÀI Studio đang xem xét cách cải thiện cách truyền đạt thông tin này đến người dùng và sẽ có cập nhật trong thời gian {timeline}.
+
+Chúng tôi mong muốn mang lại trải nghiệm minh bạch và thuận tiện hơn cho bạn. Xin cảm ơn bạn đã phản hồi và đồng hành cùng TÀI Studio.
+
+**EN**  
+Hi {name},
+
+Thank you for reaching out and letting us know about the situation you encountered with TÀI Studio. We have noted {feedback_summary} and understand that unclear information around usage limits or system policies can be genuinely frustrating. Our team is reviewing how we can communicate these policies more clearly and will have updates within {timeline}.
+
+We want to make your experience with TÀI Studio as transparent and smooth as possible. Thank you for your feedback and for being with us.
+
+
+## positive_feedback  
+`positive_feedback` · action_type=`ack_only` · email_type=**we_listen** · tone=`acknowledge` · route=`ack_neutral`
+
+> Ack trung tính (cảm ơn/ghi nhận), bỏ RAG + backlog (impl §5).
+
+**VI**  
+Xin chào {name},
+
+Cảm ơn bạn rất nhiều vì đã dành thời gian chia sẻ cảm nhận với TÀI Studio. Chúng tôi thực sự vui khi biết rằng {feedback_summary} và điều đó là nguồn động lực lớn cho cả đội ngũ. Biết rằng sản phẩm đang thực sự hữu ích với bạn là điều chúng tôi luôn hướng tới.
+
+Xin cảm ơn bạn đã tin tưởng và đồng hành cùng TÀI Studio. Chúng tôi rất mong tiếp tục được phục vụ bạn.
+
+**EN**  
+Hi {name},
+
+Thank you so much for taking the time to share your experience with TÀI Studio. We are genuinely delighted to hear that {feedback_summary} and it means a great deal to everyone on our team. Knowing that the product is making a real difference for you is exactly what we work toward.
+
+Thank you for your trust and for being part of the TÀI Studio community. We look forward to continuing to serve you.
+
+
+## request_new_feature_or_capability  
+`request_new_feature_or_capability` · action_type=`known_gap` · email_type=**we_listen** · tone=`roadmap` · route=`backlog_check`
+
+> Runtime: khớp backlog → 'team sẽ phát triển' + mốc từ status; không khớp → 'đã ghi nhận, sẽ cải thiện'.
+
+**VI**  
+Xin chào {name},
+
+Cảm ơn bạn đã gửi đề xuất đến TÀI Studio. Chúng tôi đã ghi nhận {feedback_summary} và đánh giá cao những ý kiến đóng góp giúp mở rộng khả năng của sản phẩm. Đội ngũ TÀI Studio sẽ xem xét đề xuất này trong quá trình lên kế hoạch phát triển và sẽ có thêm thông tin trong thời gian {timeline}.
+
+Chúng tôi luôn lắng nghe và trân trọng từng ý kiến từ người dùng. Xin cảm ơn bạn đã đồng hành cùng TÀI Studio.
+
+**EN**  
+Hi {name},
+
+Thank you for sharing your suggestion with TÀI Studio. We have noted {feedback_summary} and truly value ideas that help us expand what the product can do for our users. Our team will be considering this as part of our development planning and will have more to share within {timeline}.
+
+We always listen and appreciate every piece of input from our users. Thank you for being part of the TÀI Studio journey.
+
+
+## request_slide_quality_and_edit_improvement  
+`request_slide_quality_and_edit_improvement` · action_type=`known_gap` · email_type=**we_listen** · tone=`roadmap` · route=`backlog_check`
+
+> Runtime: khớp backlog → 'team sẽ phát triển' + mốc từ status; không khớp → 'đã ghi nhận, sẽ cải thiện'.
+
+**VI**  
+Xin chào {name},
+
+Cảm ơn bạn đã gửi phản hồi về chất lượng slide trên TÀI Studio. Chúng tôi đã ghi nhận {feedback_summary} và hiểu rằng thiết kế đẹp, khả năng chỉnh sửa linh hoạt và xuất file thuận tiện là những yếu tố then chốt với người dùng. Đội ngũ TÀI Studio đang tập trung cải thiện những khía cạnh này và sẽ có thêm thông tin trong thời gian {timeline}.
+
+Chúng tôi rất trân trọng sự đóng góp của bạn và sẽ tiếp tục nỗ lực nâng cao chất lượng sản phẩm. Xin cảm ơn bạn đã sử dụng TÀI Studio.
+
+**EN**  
+Hi {name},
+
+Thank you for your feedback on slide quality within TÀI Studio. We have noted {feedback_summary} and understand that polished design, flexible editing, and convenient export options are key to a great experience. Our team is actively focusing on these areas and will share more updates within {timeline}.
+
+We deeply appreciate your input and will keep working to raise the bar on product quality. Thank you for using TÀI Studio.
+
+
+## request_ux_and_ui_improvement  
+`request_ux_and_ui_improvement` · action_type=`known_gap` · email_type=**we_listen** · tone=`roadmap` · route=`backlog_check`
+
+> Runtime: khớp backlog → 'team sẽ phát triển' + mốc từ status; không khớp → 'đã ghi nhận, sẽ cải thiện'.
+
+**VI**  
+Xin chào {name},
+
+Cảm ơn bạn đã chia sẻ góc nhìn của mình về trải nghiệm sử dụng TÀI Studio. Chúng tôi đã ghi nhận {feedback_summary} và hiểu rằng một giao diện trực quan, dễ dùng là điều rất quan trọng với người dùng. Đội ngũ TÀI Studio đang xem xét các cải tiến liên quan và sẽ cập nhật thêm trong thời gian {timeline}.
+
+Những phản hồi như của bạn giúp chúng tôi xây dựng trải nghiệm ngày càng tốt hơn. Xin cảm ơn bạn đã tin tưởng TÀI Studio.
+
+**EN**  
+Hi {name},
+
+Thank you for sharing your thoughts on the TÀI Studio experience. We have noted {feedback_summary} and understand how much a clear, intuitive interface matters to our users. Our team is reviewing related improvements and will have updates to share within {timeline}.
+
+Feedback like yours helps us shape a better experience for everyone. Thank you for trusting TÀI Studio.
+
+
+## Chưa phân loại / không khớp intent nào  
+`unclassified` · action_type=`ack_only` · email_type=**— (KHÔNG auto-reply)** · tone=`escalate` · route=`manual_pm`
+
+> Sink §4.3 — KHÔNG auto-reply, chuyển PM xử tay (R1).
+
+_(không sinh copy — chuyển PM xử tay)_

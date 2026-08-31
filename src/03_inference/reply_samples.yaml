@@ -1,0 +1,110 @@
+# Bank kịch bản reply TĨNH cho các nhánh ack (không cần knowledge layer).
+#
+# Module: inference.draft (B2) — nguồn copy song ngữ cho respond.py.
+# Architecture: docs/architecture.md §4.3 (ack_only: praise→acknowledge, complaint→apology,
+#   unclassified→ack trung tính).
+# Impl: docs/impl-phase2-auto-feedback-flow.md §5 (nhánh ack bỏ RAG + backlog).
+# Template rule: template/skill_create_email.md (song ngữ VI/EN, KHÔNG em-dash, KHÔNG emoji,
+#   giọng ấm/tự nhiên, viết đúng "TÀI Studio").
+#
+# 3 nhóm khớp mapping trong respond.py:
+#   thank_you   ← praise      (ack_only, không tiêu cực)
+#   apology     ← complaint   (ack_only, tiêu cực)
+#   neutral_ack ← unclassified (dưới ngưỡng, không đoán nhãn)
+#
+# Placeholder GIỮ NGUYÊN cho runtime điền: {name} (deliver điền), {feedback_summary} (respond điền).
+# PM review/sửa file này trực tiếp; thêm/bớt mẫu là an toàn (picker chọn theo hash % số mẫu).
+
+thank_you:
+  - vi:
+      greeting: "Xin chào {name},"
+      body: "Cảm ơn bạn rất nhiều vì đã dành thời gian chia sẻ cảm nhận với TÀI Studio. Chúng tôi thực sự vui khi biết rằng {feedback_summary}. Những lời động viên như vậy là nguồn khích lệ lớn cho cả đội ngũ."
+      closing: "Chúng tôi rất mong tiếp tục được đồng hành cùng bạn. Xin cảm ơn bạn đã tin tưởng TÀI Studio."
+    en:
+      greeting: "Hi {name},"
+      body: "Thank you so much for taking the time to share your experience with TÀI Studio. We are genuinely glad to hear that {feedback_summary}. Encouragement like this means a great deal to our whole team."
+      closing: "We look forward to continuing this journey with you. Thank you for trusting TÀI Studio."
+  - vi:
+      greeting: "Xin chào {name},"
+      body: "Cảm ơn bạn đã gửi những lời tích cực đến TÀI Studio. Biết rằng {feedback_summary} khiến chúng tôi rất hạnh phúc và có thêm động lực để hoàn thiện sản phẩm mỗi ngày."
+      closing: "Rất mong bạn tiếp tục chia sẻ trải nghiệm với chúng tôi. Xin cảm ơn bạn đã đồng hành cùng TÀI Studio."
+    en:
+      greeting: "Hi {name},"
+      body: "Thank you for your kind words about TÀI Studio. Knowing that {feedback_summary} makes us truly happy and motivates us to keep improving the product every day."
+      closing: "We hope you will keep sharing your experience with us. Thank you for being part of TÀI Studio."
+  - vi:
+      greeting: "Xin chào {name},"
+      body: "Cảm ơn bạn đã phản hồi tích cực về TÀI Studio. Chúng tôi rất trân trọng khi {feedback_summary}, và đây chính là điều cả đội ngũ luôn hướng tới trong từng cải tiến."
+      closing: "Chúc bạn có thật nhiều trải nghiệm tốt cùng TÀI Studio. Xin chân thành cảm ơn bạn."
+    en:
+      greeting: "Hi {name},"
+      body: "Thank you for your positive feedback on TÀI Studio. We deeply appreciate that {feedback_summary}, and this is exactly what our team aims for with every improvement."
+      closing: "We wish you many great experiences with TÀI Studio. Thank you sincerely."
+  - vi:
+      greeting: "Xin chào {name},"
+      body: "Cảm ơn bạn đã tin dùng và chia sẻ cảm nhận với TÀI Studio. Thật vui khi {feedback_summary}. Phản hồi của bạn giúp chúng tôi biết mình đang đi đúng hướng."
+      closing: "Chúng tôi rất mong tiếp tục phục vụ bạn tốt hơn nữa. Xin cảm ơn bạn đã đồng hành cùng TÀI Studio."
+    en:
+      greeting: "Hi {name},"
+      body: "Thank you for using TÀI Studio and sharing your thoughts with us. It is wonderful to hear that {feedback_summary}. Your feedback tells us we are on the right track."
+      closing: "We look forward to serving you even better. Thank you for being with TÀI Studio."
+
+apology:
+  - vi:
+      greeting: "Xin chào {name},"
+      body: "Cảm ơn bạn đã phản hồi, và chúng tôi rất xin lỗi vì trải nghiệm chưa tốt bạn gặp phải với TÀI Studio khi {feedback_summary}. Chúng tôi hiểu điều này gây ra sự bất tiện cho bạn."
+      closing: "Rất mong bạn chia sẻ thêm chi tiết cụ thể để đội ngũ hỗ trợ và cải thiện đúng chỗ. Chúng tôi trân trọng sự thẳng thắn của bạn."
+    en:
+      greeting: "Hi {name},"
+      body: "Thank you for reaching out, and we are sorry for the experience you had with TÀI Studio when {feedback_summary}. We understand how inconvenient this must have been for you."
+      closing: "We would really appreciate more details so our team can support you and improve the right things. Thank you for your honest feedback."
+  - vi:
+      greeting: "Xin chào {name},"
+      body: "Trước hết, chúng tôi thành thật xin lỗi vì {feedback_summary} đã khiến bạn chưa hài lòng với TÀI Studio. Sự việc này không phản ánh đúng chất lượng mà chúng tôi mong muốn mang lại."
+      closing: "Bạn có thể cho chúng tôi biết thêm về tình huống cụ thể để đội ngũ xử lý sớm nhất không? Cảm ơn bạn đã kiên nhẫn với TÀI Studio."
+    en:
+      greeting: "Hi {name},"
+      body: "First of all, we sincerely apologize that {feedback_summary} left you unsatisfied with TÀI Studio. This does not reflect the quality we strive to deliver."
+      closing: "Could you share a bit more about the specific situation so our team can look into it as soon as possible? Thank you for your patience with TÀI Studio."
+  - vi:
+      greeting: "Xin chào {name},"
+      body: "Chúng tôi rất tiếc khi biết {feedback_summary}. Cảm ơn bạn đã dành thời gian nói cho chúng tôi biết, vì chính những phản hồi thẳng thắn giúp TÀI Studio nhận ra điều cần khắc phục."
+      closing: "Nếu tiện, bạn vui lòng mô tả thêm để đội ngũ hỗ trợ bạn nhanh và đúng hơn. Chúng tôi chân thành cảm ơn và mong bạn tiếp tục đồng hành."
+    en:
+      greeting: "Hi {name},"
+      body: "We are truly sorry to hear that {feedback_summary}. Thank you for taking the time to tell us, because honest feedback like this helps TÀI Studio see what needs fixing."
+      closing: "If convenient, please describe a little more so our team can help you faster and more accurately. We sincerely appreciate it and hope you will stay with us."
+  - vi:
+      greeting: "Xin chào {name},"
+      body: "Chúng tôi xin lỗi vì {feedback_summary} chưa mang lại trải nghiệm như bạn mong đợi ở TÀI Studio. Cảm giác của bạn là hoàn toàn chính đáng và chúng tôi tiếp nhận nghiêm túc."
+      closing: "Rất mong bạn gửi thêm thông tin chi tiết để chúng tôi hỗ trợ kịp thời. Cảm ơn bạn đã cho TÀI Studio cơ hội được lắng nghe và làm tốt hơn."
+    en:
+      greeting: "Hi {name},"
+      body: "We apologize that {feedback_summary} did not give you the experience you expected from TÀI Studio. Your feelings are completely valid and we take them seriously."
+      closing: "Please send us more detail so we can assist you promptly. Thank you for giving TÀI Studio the chance to listen and do better."
+
+neutral_ack:
+  - vi:
+      greeting: "Xin chào {name},"
+      body: "Cảm ơn bạn đã gửi phản hồi cho TÀI Studio. Đội ngũ đã ghi nhận nội dung bạn chia sẻ và sẽ xem xét kỹ để tiếp tục cải thiện sản phẩm."
+      closing: "Rất mong bạn tiếp tục đồng hành và chia sẻ thêm với chúng tôi. Xin cảm ơn bạn."
+    en:
+      greeting: "Hi {name},"
+      body: "Thank you for sending your feedback to TÀI Studio. Our team has noted what you shared and will review it carefully to keep improving the product."
+      closing: "We hope you will continue to share more with us. Thank you very much."
+  - vi:
+      greeting: "Xin chào {name},"
+      body: "Cảm ơn bạn đã dành thời gian phản hồi cho TÀI Studio. Chúng tôi đã tiếp nhận ý kiến của bạn và sẽ cân nhắc trong quá trình hoàn thiện sản phẩm."
+      closing: "Chúng tôi luôn trân trọng mọi đóng góp từ bạn. Xin cảm ơn bạn đã đồng hành cùng TÀI Studio."
+    en:
+      greeting: "Hi {name},"
+      body: "Thank you for taking the time to share your feedback with TÀI Studio. We have received your input and will take it into account as we continue to refine the product."
+      closing: "We always value every contribution from you. Thank you for being with TÀI Studio."
+  - vi:
+      greeting: "Xin chào {name},"
+      body: "Cảm ơn bạn đã liên hệ với TÀI Studio. Chúng tôi đã ghi nhận phản hồi của bạn và sẽ chuyển tới đội ngũ phù hợp để xem xét thêm."
+      closing: "Rất mong bạn tiếp tục cho chúng tôi biết trải nghiệm của bạn. Xin chân thành cảm ơn."
+    en:
+      greeting: "Hi {name},"
+      body: "Thank you for reaching out to TÀI Studio. We have noted your feedback and will pass it to the right team for further review."
+      closing: "We hope you will keep letting us know about your experience. Thank you sincerely."

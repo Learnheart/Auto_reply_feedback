@@ -1,0 +1,35 @@
+cluster_id,size,medoid_feedback_id,cohesion_mean_cos,cohesion_min_cos,nearest_cluster,separation_cos,medoid_content
+0,4,fb_0059,0.6526,0.4865,23,0.5898,I don't see my past ppt presentation here
+1,5,fb_0107,0.6747,0.5357,27,0.5715,Cần phiên bản tiếng việt
+2,10,fb_0110,0.665,0.4132,31,0.5781,Font chữ của slide bị lỗi
+3,11,fb_0142,0.6067,0.3615,1,0.5715,Vẫn có trang chưa được dịch
+4,3,fb_0189,0.7258,0.5359,5,0.6471,"I need to summary in to 10 pages of word for example, please give room for user to give further instruction"
+5,3,fb_0133,0.6896,0.4728,4,0.6471,"Home page: the Featured cards should be larger (The summarizer, The Brainstormer, etc.)"
+6,3,fb_0069,0.6834,0.5229,25,0.4476,Dự án bổ sung tính năng TÀI LIỆU THAM KHẢO DƯỚI HÌNH THỨC LÀ một đường link đính kèm (link tài liệu DMS/ hoặc website mà T…
+7,6,fb_0183,0.6832,0.5225,9,0.7046,No
+8,3,fb_0177,0.7785,0.6465,16,0.6702,Không có dữ liệu chuẩn
+9,7,fb_0015,0.6833,0.5171,7,0.7046,k phản hồi
+10,3,fb_0092,0.5469,0.3054,28,0.2865,"Bạn có thể so sánh với các Công ty khác như Đạm Phú Mỹ, Phân Bón Bình Điền, Hóa chất Miền Nam không?"
+11,10,fb_0050,0.5107,0.2965,24,0.521,"Cần phải bổ sung gấp tính năng cho upload các loại file và ảnh, để giúp làm rõ thông tin nhanh hơn. Ngoài ra cần bổ sung tính năng…"
+12,5,fb_0019,0.7708,0.6176,17,0.6254,Very good
+13,4,fb_0116,0.7811,0.6116,16,0.6699,"Hệ thống không dịch được file, chỉ chạy được 1 lúc rồi báo network error"
+14,4,fb_0055,0.6475,0.5129,4,0.5265,Nên có 1 dòng để user mô tả các thông tin cần tóm tắt thay vì để Agent tự lựa chọn thông tin
+15,6,fb_0009,0.7177,0.5205,16,0.8077,lỗi
+16,7,fb_0010,0.678,0.5084,15,0.8077,lỗi không dùng được
+17,3,fb_0104,0.7524,0.4629,12,0.6254,"tuyệt vời, <3 10 điểm"
+18,6,fb_0135,0.6989,0.5195,12,0.6196,tks so much . its helpful
+19,3,fb_0079,0.6374,0.3599,4,0.4581,dề xuất cho nhiều hơn 4000 ký tự để yêu cầu chi tiết hơn. bên cạnh đó Tài chỉ làm tốt lần đầu và yêu cầu chỉnh sửa thì tài làm chưa tốt
+20,3,fb_0065,0.7142,0.5702,3,0.5372,Silde tạo chưa đẹp
+21,3,fb_0099,0.7112,0.5127,31,0.6021,"thiết kế slide chưa đẹp. Các dữ liệu chi tiết theo bảng biểu bị AI loại trừ, chỉ tóm tắt chung tổng quan --> Cần đào tạo thêm :)"
+22,3,fb_0125,0.7031,0.5507,4,0.4929,The powerpoint-er cần bổ sung năng lực tiếp nhận ý kiến phản hồi và yêu cầu hoàn thiện/ bổ sung của người dùng và re-generate sli…
+23,5,fb_0061,0.6764,0.5314,33,0.6236,I want to save the progress of slides that I am creating
+24,3,fb_0154,0.7962,0.683,4,0.57,"Upload file docx, trong file có capture hình ảnh chưa thông tin -> Không đọc được nội dung file."
+25,7,fb_0018,0.6449,0.5343,24,0.546,Tài có thể giúp tạo format dựa trên dư liệu file excel có sẵn đưa vào ko
+26,4,fb_0105,0.7178,0.5799,31,0.6156,hãy tạo slide theo mẫu trình bày của TCB
+27,3,fb_0178,0.782,0.6567,28,0.6993,Need to improve pdf translation
+28,4,fb_0036,0.641,0.3664,27,0.6993,"translators does not work translates customer complaints, emails with responses with names, is there an alternate way to translate …"
+29,3,fb_0143,0.7485,0.5317,26,0.6007,It's should be more picture about techcombank on all slide
+30,3,fb_0169,0.852,0.5561,16,0.4847,SP rất đỉnh. có thể chuyển thể nguyên file cực hữu ích. Tuy nhiên khi sử dụng vẫn chưa dùng được vì …
+31,5,fb_0002,0.6381,0.3223,23,0.618,"TAI studio ko work, input file nhưng ko gen ra slide"
+32,4,fb_0062,0.6993,0.5844,33,0.6081,"Đang viết quá ngắn gọn, mỗi tình huống cần để 1 slide riêng. Hình ảnh về chất lượng nợ giữ nguyên silde ban đầu"
+33,3,fb_0119,0.7202,0.5404,23,0.6236,I want to consolidate slide 2 and 3 into 1 slide only

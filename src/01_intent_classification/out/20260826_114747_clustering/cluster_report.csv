@@ -1,0 +1,192 @@
+cluster_id,feedback_id,agent,is_medoid,cosine_to_medoid,content
+0,fb_0059,the-powerpoint-er,1,1.0,I don't see my past ppt presentation here
+0,fb_0134,the-powerpoint-er,0,0.5889,I have lot of charts and visualize want to input into the slide but it's not available that option that yet
+0,fb_0017,tai,0,0.5352,"Searching for previous chats is very limited. Is this keyword match, semantic, hybrid?"
+0,fb_0153,the-ai-visionary,0,0.4865,Agent chưa lưu lịch sử các lần trò chuyện trước.
+1,fb_0107,tai,1,1.0,Cần phiên bản tiếng việt
+1,fb_0032,tai,0,0.7041,"Bạn ơi, có giao diện tiếng việt không ạ ?"
+1,fb_0023,tai,0,0.587,Chat MCP O365 bằng ENG nhưng câu trả lời bằng tiếng Việt
+1,fb_0071,the-translator,0,0.5466,Nên thêm ngôn ngữ đầu ra là Tiếng Trung. Thêm Source file là dịch hình ảnh ạ.
+1,fb_0129,the-translator,0,0.5357,Tại sao bàn dịch ra tiếng Việt vẫm là tiếng anh
+2,fb_0110,the-powerpoint-er,1,1.0,Font chữ của slide bị lỗi
+2,fb_0088,the-translator,0,0.7153,Bản dịch bị lỗi font từ trang 3
+2,fb_0147,the-powerpoint-er,0,0.7129,Lỗi font tiếng Việt
+2,fb_0155,the-powerpoint-er,0,0.709,font chữ hơi xấu
+2,fb_0038,the-translator,0,0.6958,"không dịch hết tiếng Anh trong văn bản, output ra bị lỗi font"
+2,fb_0073,the-powerpoint-er,0,0.6749,"Lỗi font chữ tiếng việt, nên có lựa chọn font chữ, hoặc font chữ mặc định nên tốt hơn"
+2,fb_0054,the-powerpoint-er,0,0.6019,"cỡ chữ hơi nhỏ, sử dụng nhiều màu sắc, độ tương phản giữa nền và chữ chưa cao"
+2,fb_0090,the-powerpoint-er,0,0.5876,"TĂNG FONT SIZE LÊN, CHỮ BÉ LẮM"
+2,fb_0152,the-canvas-designer,0,0.5395,Chữ và icon trên màn hình quá nhỏ các sếp ơi
+2,fb_0026,the-scholar,0,0.4132,Mấy cái nút này mầu xấu quá dùng màu xanh không ổn ?
+3,fb_0142,the-translator,1,1.0,Vẫn có trang chưa được dịch
+3,fb_0034,the-translator,0,0.7431,Nhiều đoạn không được dịch
+3,fb_0058,the-translator,0,0.7035,có một số trang slide không dịch mà để nguyên chữ tiếng anh
+3,fb_0031,the-translator,0,0.661,Vẫn còn 1 đoạn nội dung tiếng Việt (không phải từ chuyên môn) chưa dịch
+3,fb_0117,the-powerpoint-er,0,0.6313,tài liệu chưa trả ra được dưới dạng onepage như tôi yêu cầu
+3,fb_0008,the-translator,0,0.5583,The translator không có lịch sử ạ :) lúc nãy em chờ nóa dịch chán chê mòi xong vô tình tab đấy refresh lại thì nóa mất luôn 😳
+3,fb_0167,the-translator,0,0.5403,"đã dịch xong văn bản đầu, mới có 2 tragn thôi"
+3,fb_0149,the-translator,0,0.5266,hiện tại đang ko dịch được.
+3,fb_0051,the-translator,0,0.4806,"Tài không chỉ dịch được khoảng 10% văn bản up lên, còn lại thì để nguyên"
+3,fb_0157,the-summarizer,0,0.4673,The Summarizer: Chuyển từ tiếng Anh sáng Việt ok nhưng sau đó chuyển từ Việt sang tiếng Anh chưa work.
+3,fb_0144,tai,0,0.3615,"KHi dịch từ tiếng Anh sang tiếng Việt, có những từ không phải từ chuyên ngành hoặc danh từ riêng nhưng vẫn không dduwocj chuy…"
+4,fb_0189,the-summarizer,1,1.0,"I need to summary in to 10 pages of word for example, please give room for user to give further instruction"
+4,fb_0096,the-powerpoint-er,0,0.6416,nút generate outline không hoạt đông
+4,fb_0166,the-summarizer,0,0.5359,cái summarizer này đang bịa ra MIK mà trong khi ko có MIK mà là Masterise
+5,fb_0133,tai-studio,1,1.0,"Home page: the Featured cards should be larger (The summarizer, The Brainstormer, etc.)"
+5,fb_0158,the-summarizer,0,0.5961,Nên tách chuyển nút Summarize lên box Drop files. Hiện đa... người dùng phải tự Delete …
+5,fb_0176,tai-studio,0,0.4728,@ box doesnt contain and resize
+6,fb_0069,the-powerpoint-er,1,1.0,Dự án bổ sung tính năng TÀI LIỆU THAM KHẢO DƯỚI HÌNH THỨC LÀ một đường link đính kèm (link tài liệu DMS/ hoặc website mà T…
+6,fb_0097,the-brainstormer,0,0.5273,"Add a function to add files such as docx, pptx, pdf, images to get more context to have a better brainstorming tasks"
+6,fb_0074,the-powerpoint-er,0,0.5229,Có add được nhiều file tham khảo không nhỉ?
+7,fb_0183,the-powerpoint-er,1,1.0,No
+7,fb_0121,the-powerpoint-er,0,0.7253,uew
+7,fb_0172,the-powerpoint-er,0,0.6429,xịnnnn
+7,fb_0106,the-brainstormer,0,0.6173,It is asking too much questions
+7,fb_0138,tai,0,0.5912,Trang rất hỗn
+7,fb_0030,the-powerpoint-er,0,0.5225,càng làm càng xấu
+8,fb_0177,the-ai-visionary,1,1.0,Không có dữ liệu chuẩn
+8,fb_0042,the-summarizer,0,0.689,không ra được kết quả
+8,fb_0179,tai,0,0.6465,Dữ liệu outdate
+9,fb_0015,tai,1,1.0,k phản hồi
+9,fb_0006,tai,0,0.8042,Không phản hồi
+9,fb_0021,tai,0,0.6544,"Tài chưa đưa ra trả lời, still runing"
+9,fb_0174,tai,0,0.649,Test feedback
+9,fb_0150,the-brainstormer,0,0.6058,Em có feedback như sau ạ …
+9,fb_0005,tai,0,0.5523,K trả lời nội dung nào khi hỏi
+9,fb_0033,the-ai-coach,0,0.5171,"Tôi yêu cầu đưa ra câu trả lời MOM thì có câu trả lời sau đó biến mất sau 1-2phut - hiện thị nội dung: 'I'm sorry, i can't help with that"
+10,fb_0092,the-powerpoint-er,1,1.0,"Bạn có thể so sánh với các Công ty khác như Đạm Phú Mỹ, Phân Bón Bình Điền, Hóa chất Miền Nam không?"
+10,fb_0067,the-translator,0,0.3352,1. Đàm bào doanh nghiệp = ĐBDN = Corporate Assurance…
+10,fb_0091,the-summarizer,0,0.3054,"Bổ sung tính năng so sánh, phát hiện điểm khác biệt giữa các văn bản (ví dụ thông tư/văn bản mới cập nhật nội dung gì so với văn bả…"
+11,fb_0050,the-brainstormer,1,1.0,"Cần phải bổ sung gấp tính năng cho upload các loại file và ảnh, để giúp làm rõ thông tin nhanh hơn. Ngoài ra cần bổ sung tính năng…"
+11,fb_0141,the-brainstormer,0,0.619,"anh/ chị cho thêm tính năng gửi hình ảnh để trao đổi thông tin cho đỡ phải brief lại thông tin bằng các nhập, từ đó rút ngắn thời gian t…"
+11,fb_0086,the-summarizer,0,0.5406,nên bổ sung định dạng audio/ video
+11,fb_0182,the-powerpoint-er,0,0.5297,Agent này nên bổ sugn tính năng sau:…
+11,fb_0137,the-powerpoint-er,0,0.5177,Cho phép thao tác paste ảnh nội dung cần thiết kế slide để thao tác nhanh hơn (giống copilot)
+11,fb_0070,the-imaginator,0,0.459,"Dự án có thể bổ sung cho phép input mô hình ảnh, sau đó chỉnh sửa thành hình ảnh mình mong muốn theo đúng mô tả và concept …"
+11,fb_0037,the-powerpoint-er,0,0.4153,bổ sung thêm giúp tôi pah6n tích chi tiết theo từng lực lượng bán
+11,fb_0045,the-brainstormer,0,0.3713,"Cho phép share. Các chat với nhiều người, nhất là brainstormer"
+11,fb_0047,the-brainstormer,0,0.358,Có nút sao chép để sao chép nhanh kết quả Tài trả ra
+11,fb_0126,the-powerpoint-er,0,0.2965,Hãy bổ sung phân loại Level giá Product va Customer Level
+12,fb_0019,the-scholar,1,1.0,Very good
+12,fb_0187,the-translator,0,0.8348,Very good result
+12,fb_0132,the-powerpoint-er,0,0.7718,GOOD
+12,fb_0180,tai,0,0.63,Cool
+12,fb_0128,the-powerpoint-er,0,0.6176,loved
+13,fb_0116,the-translator,1,1.0,"Hệ thống không dịch được file, chỉ chạy được 1 lúc rồi báo network error"
+13,fb_0109,the-translator,0,0.7664,Dịch file gồm cả bảng biểu có thể bị lỗi và báo network error
+13,fb_0060,the-translator,0,0.7466,"Đã upload file nhưng k dịch đc, liên tục báo interrupt"
+13,fb_0160,tai,0,0.6116,- Bug: Dịch file chứa PII vẫn hiển thị nút tải nhưng không tải được…
+14,fb_0055,the-summarizer,1,1.0,Nên có 1 dòng để user mô tả các thông tin cần tóm tắt thay vì để Agent tự lựa chọn thông tin
+14,fb_0114,the-summarizer,0,0.5526,Nội dung tóm tắt quá ngắn > có thể bổ sung thêm phần input số ký tự/độ dài của tóm tắt
+14,fb_0016,tai-studio,0,0.5247,The automatic scrolling/marquee for Trending agents is just meh. Let's turn it into just a manual scroll.
+14,fb_0024,the-whiteboarder,0,0.5129,"Dear anh chị, owner của agent review lại hướng dẫn sử dụng, user đọc hướng dẫn nhưng chưa rõ phải thao tác như thế nào. Ví dụ t…"
+15,fb_0009,tai,1,1.0,lỗi
+15,fb_0089,the-powerpoint-er,0,0.8291,lỗi liên tục
+15,fb_0191,the-powerpoint-er,0,0.7239,lỗi truy cập k vào đc
+15,fb_0185,the-brainstormer,0,0.7084,coundn't acess
+15,fb_0111,the-powerpoint-er,0,0.5242,LLM: LLM: structured output failed: No JSON found after all strategies: line 1 column 1 (char 0)
+15,fb_0028,the-powerpoint-er,0,0.5205,LLM: LLM: structured output failed: No JSON found after all strategies: line 1 column 1 (char 0)…
+16,fb_0010,tai,1,1.0,lỗi không dùng được
+16,fb_0011,tai,0,0.8298,tôi không sử dụng được
+16,fb_0035,the-brainstormer,0,0.6829,Nút copy không hoạt động
+16,fb_0012,tai,0,0.6094,tôi đang ko sử dụng được Tài studio…
+16,fb_0007,the-brainstormer,0,0.5883,Tại sao cứ báo tôi bị hết hạn mức không sử dụng được
+16,fb_0004,tai,0,0.5273,TL;DR: There must be a clear indicator when a person is out of credits....
+16,fb_0056,tai,0,0.5084,"Team ơi, usage limit của mỗi period dc tính như nào. khi nào được reset. …"
+17,fb_0104,the-powerpoint-er,1,1.0,"tuyệt vời, <3 10 điểm"
+17,fb_0087,the-powerpoint-er,0,0.7944,tuyệt vời
+17,fb_0102,the-powerpoint-er,0,0.4629,Lần đầu dùng thử và rất ưng cái bụng. Cảm ơn!!!
+18,fb_0135,the-powerpoint-er,1,1.0,tks so much . its helpful
+18,fb_0130,the-powerpoint-er,0,0.8035,tks
+18,fb_0027,tai,0,0.6893,this is amazing
+18,fb_0162,tai,0,0.6481,thật sự hữu ích
+18,fb_0115,the-summarizer,0,0.5331,Chức năng này khá hay
+18,fb_0136,the-powerpoint-er,0,0.5195,Khá quá nhờ em Tài uí
+19,fb_0079,the-powerpoint-er,1,1.0,dề xuất cho nhiều hơn 4000 ký tự để yêu cầu chi tiết hơn. bên cạnh đó Tài chỉ làm tốt lần đầu và yêu cầu chỉnh sửa thì tài làm chưa tốt
+19,fb_0048,the-powerpoint-er,0,0.5523,"nội dung sơ sài, chưa theo đúng yêu c ầu"
+19,fb_0080,the-summarizer,0,0.3599,Các tầng thành viên bù trừ: Các thành viên bù trừ trực tiếp phải duy trì vốn tối thiểu là 1.000 tỷ đồng; các thành viên bù trừ chung (n…
+20,fb_0065,the-powerpoint-er,1,1.0,Silde tạo chưa đẹp
+20,fb_0077,the-imaginator,0,0.5724,"hình ảnh còn chưa đẹp, ví dụ hình theo style Oil painting"
+20,fb_0164,the-powerpoint-er,0,0.5702,Slide đẹp hơn Kiro
+21,fb_0099,the-powerpoint-er,1,1.0,"thiết kế slide chưa đẹp. Các dữ liệu chi tiết theo bảng biểu bị AI loại trừ, chỉ tóm tắt chung tổng quan --> Cần đào tạo thêm :)"
+21,fb_0029,the-powerpoint-er,0,0.621,"Tự bịa khá nhiều thông tin, cần phải có bước comment sau khi đã lên slide draft để chỉnh AI đi đúng hướng"
+21,fb_0003,the-ai-visionary,0,0.5127,TL;DR: We should sunset AI Visionary and just replace it with AI Coach. The knowledge grounding of AI Visionary seems to be very …
+22,fb_0125,tai-studio,1,1.0,The powerpoint-er cần bổ sung năng lực tiếp nhận ý kiến phản hồi và yêu cầu hoàn thiện/ bổ sung của người dùng và re-generate sli…
+22,fb_0145,the-powerpoint-er,0,0.5587,"an interactive loop of Human feedback and agent fix. Ngoài ra, slide design chưa ổn về layout, text arrangement (overlap), size of tex…"
+22,fb_0053,the-powerpoint-er,0,0.5507,Hỗ trợ xử lý nhanh việc lên ý tưởng cho 1 bài thuyết trình
+23,fb_0061,the-powerpoint-er,1,1.0,I want to save the progress of slides that I am creating
+23,fb_0100,the-powerpoint-er,0,0.6672,Bổ sung tính năng cho download từng trang slide và cho quay trở về version trước của trang slide.
+23,fb_0093,the-powerpoint-er,0,0.6169,ở mục slide bên trái tạo thêm nút xóa slide sau khi thấy thừa
+23,fb_0159,the-summarizer,0,0.5664,Nên tích hợp tính năng tạo Slide với nội dung sau khi summar…
+23,fb_0190,tai,0,0.5314,"Tài Studio cần bổ sung nơi lưu trữ những sản phẩm Tài Studio đã tạo ra. Ví dụ khi tôi tạo ra các slide xong, xuất xong thì những slide…"
+24,fb_0154,the-summarizer,1,1.0,"Upload file docx, trong file có capture hình ảnh chưa thông tin -> Không đọc được nội dung file."
+24,fb_0175,the-powerpoint-er,0,0.7056,received a failed to parse the file error when uploading a PPTX file
+24,fb_0057,the-powerpoint-er,0,0.683,"không cho upload nhiều file tài liệu cùng lúc, không nhận đình dạng file excel và ảnh"
+25,fb_0018,the-powerpoint-er,1,1.0,Tài có thể giúp tạo format dựa trên dư liệu file excel có sẵn đưa vào ko
+25,fb_0168,the-powerpoint-er,0,0.6629,"- Cho phép upload file excel dữ liệu, từ dữ liệu thô define insights để làm báo cáo tự động dựa trên dữ liệu…"
+25,fb_0041,tai,0,0.5935,Ko đưa dữ liệu bằng excel và hình ảnh được
+25,fb_0076,the-brainstormer,0,0.5882,"chưa hỗ trợ xuất kết quả ra file excel, như hiện tại mình phải cop ra copilot nhờ xuất excel giúp"
+25,fb_0014,the-powerpoint-er,0,0.58,chưa chuyển thể data trong excel thành chart trong ppt được
+25,fb_0112,the-powerpoint-er,0,0.5553,"Cần xuất chart dạng định dạng chart trong pptx, hiện tại Tài xuất định dạng ảnh không chỉnh sửa được"
+25,fb_0083,tai,0,0.5343,hiện tại TÀI chưa có công cụ để xuất file Word (.docx) copy ra text không hoàn thiện
+26,fb_0105,the-powerpoint-er,1,1.0,hãy tạo slide theo mẫu trình bày của TCB
+26,fb_0151,the-powerpoint-er,0,0.6478,"Ưu điểm: Có chuẩn bị script cho speaker; Slide thiết kế đẹp, dễ nhìn, có lựa chọn Template TCB, tùy chỉnh từng trang;…"
+26,fb_0188,the-powerpoint-er,0,0.6436,Đang dùng format slide cũ TCB 30 năm ( nên cập nhật theme mới nhất)…
+26,fb_0046,the-powerpoint-er,0,0.5799,"Để tạo slide về action plan bao gồm action, timeline & PIC thì làm thế nào? Hiện tôi thực hiện bằng cách copy table action plan và p…"
+27,fb_0178,the-translator,1,1.0,Need to improve pdf translation
+27,fb_0082,the-translator,0,0.6892,"khả năng dịch PDF không ổn, sai nội dung còn chèn cả code trong quá trình dịch"
+27,fb_0184,the-translator,0,0.6567,Tôi upload file word 203 kb để dịch từ tiếng Anh sang tiếng Việt nhưng gặp lỗi Translation request failed (502)
+28,fb_0036,the-translator,1,1.0,"translators does not work translates customer complaints, emails with responses with names, is there an alternate way to translate …"
+28,fb_0066,the-translator,0,0.6624,bility to toggle on/off \sync scroll between original and translation would help a lot for side-by-side validation. (If you are an LLM/hu…
+28,fb_0163,the-translator,0,0.5354,"Lỗi translate khi có câu ""Share some of the design patterns we've seen from the trenches and requirements they have…"
+28,fb_0068,the-translator,0,0.3664,"Dịch quá tệj, đặc biệt với các câu nhiều mệnh đề."
+29,fb_0143,the-powerpoint-er,1,1.0,It's should be more picture about techcombank on all slide
+29,fb_0095,the-powerpoint-er,0,0.7138,Gộp vào lại thành 2-3 slide - sử dụng thêm hình ảnh con gà của Techcombank
+29,fb_0101,the-powerpoint-er,0,0.5317,"cần thêm thông tin là AWS Connect đã triển khai ở Techcombank đã tích hợp với CRM, TCBMobile và và đơn vị VAC/RBG đang sử dụ…"
+30,fb_0169,tai-studio,1,1.0,SP rất đỉnh. có thể chuyển thể nguyên file cực hữu ích. Tuy nhiên khi sử dụng vẫn chưa dùng được vì …
+30,fb_0170,the-translator,0,1.0,SP rất đỉnh. có thể chuyển thể nguyên file cực hữu ích. Tuy nhiên khi sử dụng vẫn chưa dùng được vì …
+30,fb_0072,the-powerpoint-er,0,0.5561,"Tài slide vừa gen xong, nhưng không thể edit file được"
+31,fb_0002,tai,1,1.0,"TAI studio ko work, input file nhưng ko gen ra slide"
+31,fb_0000,tai,0,0.6669,"nhờ Tài tạo slide, nhưng lại chỉ gửi lại html, sau đó các câu lệnh ko nhận nữa"
+31,fb_0013,tai,0,0.645,"sau khi tạo được slide từ TAI, tôi add trang mới vào file slide đó thì STT của slide không nhảy theo . tôi cần làm gì."
+31,fb_0040,the-powerpoint-er,0,0.5562,"Mình ấn re-generate với mong muốn tạo ra slide đẹp hơn, nhưng lại xấu hơn version đầu. Muốn quay lại lấy version đầu nhưng ko được"
+31,fb_0181,the-canvas-designer,0,0.3223,Ko mở đc Graphics designer.
+32,fb_0062,the-powerpoint-er,1,1.0,"Đang viết quá ngắn gọn, mỗi tình huống cần để 1 slide riêng. Hình ảnh về chất lượng nợ giữ nguyên silde ban đầu"
+32,fb_0063,the-powerpoint-er,0,0.6199,"Từ slide số 4, hãy làm mỗi slide là 1 vấn đề, kèm theo thách thức, giải pháp tôi đã lựa chọn và những đề xuất tới HO nếu có. 4 nhóm…"
+32,fb_0081,the-powerpoint-er,0,0.5928,tôi nghĩ cần đưa thêm hình ảnh tượng trưng thì slide sẽ đẹp va 2chuey6n nghiệp hơn. và bạn vui lo2mng báo sát vào nội dung tôi đã gửi
+32,fb_0098,the-powerpoint-er,0,0.5844,Còn thiếu nhiều nội dung quá> Hãy bổ sung cho đầu đủ. Giới hạn tối đa 8 slides
+33,fb_0119,the-powerpoint-er,1,1.0,I want to consolidate slide 2 and 3 into 1 slide only
+33,fb_0078,the-powerpoint-er,0,0.6203,"giữ nguyên 2 slide đầu, với cấu trúc các phần như vậy"
+33,fb_0064,the-powerpoint-er,0,0.5404,Tôi muốn gộp ba targer vào 1 bảng. như sau: hãy thiết kế theo dạng bảng:…
+-1,fb_0001,tai,0,,"chưa tạo dc 1 slide, mà phải tối thiểu 2 slide"
+-1,fb_0020,tai,0,,Vui lòng để song ngữ cho tên của các agents không thì người dùng tìm mệt lắm. Thanks.
+-1,fb_0022,the-imaginator,0,,"lịch sử lưu ảnh của Tài Thiết kế hơi ít ,muốn tìm lại ảnh cũ hơn thì k thấy"
+-1,fb_0025,tai,0,,TAI Chat repeatedly tried to write and rewrite the same html page multiple times until I had to explicitly stop it (eating thru my budg…
+-1,fb_0039,the-powerpoint-er,0,,"Bổ sung thêm định dạng html và md cho reference , document để đảm bảo trong flow làm việc, internal user có thể tiện lợi move qu…"
+-1,fb_0043,the-translator,0,,"bị lỗi table of contents, table of figures"
+-1,fb_0044,the-translator,0,,Nên thêm mục các từ ngữ chuyên ngành hay dịch sai để người dùng tự input trước khi dịch.
+-1,fb_0049,the-powerpoint-er,0,,Làm slide không dùng đc ạ
+-1,fb_0052,tai,0,,"tuyệt vời. Tài chat xử lý nhanh và hỗ trợ phân tích, so sánh các nội dung văn bản rõ ràng"
+-1,fb_0075,the-summarizer,0,,Báo lỗi Filename contains disallowed characters or patterns nhưng không báo cụ thể disallowed character or pattern là gì để đặt lại. …
+-1,fb_0084,the-imaginator,0,,Thêm ảnh tham chiếu (reference) giống Figma Wave được không ạ
+-1,fb_0085,the-brainstormer,0,,"Em hỏi chút, khi em sử dụng AI này và up chứng từ lên để AI hỗ trợ, có bị tính vi phạm an ninh thông tin không?"
+-1,fb_0094,the-brainstormer,0,,"Đang brainstorm dở, muốn vào lại để brainstorm tiếp thì lại bị session expired, ko vào lại được"
+-1,fb_0103,the-powerpoint-er,0,,"Export ra file pptx bị vỡ font chữ, không đẹp như preview"
+-1,fb_0108,the-brainstormer,0,,Xmind user không có thì không dùng được mục này
+-1,fb_0113,the-brainstormer,0,,Chưa muốn kết thúc luồng brainstorm nhưng session đã complete và ko mở lại được
+-1,fb_0118,the-translator,0,,tài file dịch về sao
+-1,fb_0120,the-powerpoint-er,0,,Very quickly
+-1,fb_0122,the-summarizer,0,,thống kê tuyến đường vi mô team phạm hương
+-1,fb_0123,the-summarizer,0,,hãy giúp mình thống kê các tuyến đường vi mô của các bạn
+-1,fb_0124,the-powerpoint-er,0,,"Màn hình khi đưa yêu cầu edit rất khó sử dụng, button send feedback che mất phần option chọn chỉ nhìn thấy cancel, vì cảm giác kh…"
+-1,fb_0127,the-translator,0,,"tôi muốn dịch cả văn bản, mà Tài chỉ dịch cho tôi mỗi tiêu đề"
+-1,fb_0131,the-translator,0,,làm sao tôi biết được bạn đang dịch đúng
+-1,fb_0139,the-brainstormer,0,,ko cung cấp dưới dạng bảng được
+-1,fb_0140,the-brainstormer,0,,"trường hợp typing nhiều dòng trong ô chat thì không thể lăn chuột để xem các dòng đã nhập, thay vào đó phải dùng nút trỏ lên/ xuốn…"
+-1,fb_0146,the-powerpoint-er,0,,Có thể kết hợp powerpointer với translator được không?
+-1,fb_0148,the-translator,0,,"why it was blocked by guardrail????guardrail blocked (input): The input contains a reference to 'Anthropic, PBC' in option D, which is …"
+-1,fb_0156,tai,0,,"Trà kết quả xong tự crash => I'm sorry, I can't help with that. Let me know if there's something else I can assist you with."
+-1,fb_0161,the-translator,0,,"Tôi gửi 1 file ppt, trong đó có phần ảnh (báo cáo export từ hệ thống) và phần word (đánh giá insight). Khi sử dụng tính năng transl…"
+-1,fb_0165,the-powerpoint-er,0,,"khi đi đến bước xem Outline mà chưa ưng ý, muốn quay lại bước brief để sửa prompt, thì ấn nút back (ở góc trái phía trên) thì lại đi…"
+-1,fb_0171,the-translator,0,,"các thông tin như chức danh, bộ phận nên được chuẩn hóa theo bộ của HR, ví dụ: SENIOR SPECIALIST --> SENIOR EXPERT, bộ p…"
+-1,fb_0173,tai,0,,"The guardrail seems to trigger quite late. Chat was showing me the document summary and then in the end, it clears the respons…"

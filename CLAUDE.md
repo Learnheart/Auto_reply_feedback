@@ -63,7 +63,7 @@ summary: <one-line description of what this is about>
 **Bắt buộc trước khi code:**
 
 1. **ĐỌC `docs/architecture.md` trước tiên** — cụ thể là §2 (Overview / System boundary), §3 (High-Level Architecture + bảng *Trách nhiệm từng module*), §4 (Data Flow + Data layer), §5 (Technology Stack). Kèm theo đó, đọc doc implementation của phase đang làm:
-   - `docs/impl-phase1-intent-classification.md`
+   - `docs/method-offline-intent-analysis.md` (Phase 0 — method DS chốt Intent Catalog)
    - `docs/impl-phase2-auto-feedback-flow.md`
 2. **Định vị module.** Mọi file code MỚI phải ánh xạ đúng **một** module đã có trong bảng *Trách nhiệm từng module* (`ingest-sync`, `inference.classify`, `inference.draft`, `inference.deliver`, `outcome-sync`, `unclassified_pool`, `shared`, Intent Catalog). Không tự ý đặt file ngoài các module này.
 3. **Giữ đúng ranh giới hệ thống.** Những thứ architecture đã tuyên bố là *ngoài hệ thống* hoặc *non-goal* (offline intent analysis, taxonomy versioning/mapping, auto-send, auto-tạo ticket Jira, Databricks App) **KHÔNG được implement** trong scope này.
@@ -80,7 +80,7 @@ summary: <one-line description of what this is about>
    """
    Module: inference.classify (B1)
    Architecture: docs/architecture.md §3 Trách nhiệm từng module, §4.3 Threshold routing
-   Impl: docs/impl-phase1-intent-classification.md §3
+   Catalog contract: docs/method-offline-intent-analysis.md §10 (schema intents.yaml)
    """
    ```
 6. **Không lệch kiến trúc trong im lặng.** Nếu hiện thực cần khác architecture (thêm module, đổi data contract, đổi thứ tự flow, đổi stack) thì:

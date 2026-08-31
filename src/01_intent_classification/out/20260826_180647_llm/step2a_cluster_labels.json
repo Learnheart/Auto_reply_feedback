@@ -1,0 +1,447 @@
+{
+  "n_clusters": 34,
+  "clusters": [
+    {
+      "cluster_id": 3,
+      "label": "incomplete_translation_output",
+      "description": "Nhiều trang/đoạn văn bản không được dịch, dịch thiếu nội dung, mất kết quả dịch khi refresh, không xuất được định dạng one-page theo yêu cầu.",
+      "action_type": "known_gap",
+      "size": 11,
+      "dominant_category": "idea",
+      "samples": [
+        "Vẫn có trang chưa được dịch",
+        "Nhiều đoạn không được dịch",
+        "có một số trang slide không dịch mà để nguyên chữ tiếng anh"
+      ]
+    },
+    {
+      "cluster_id": 2,
+      "label": "broken_font_and_text_display_in_output",
+      "description": "Lỗi font chữ tiếng Việt trong slide/bản dịch, font xấu, cỡ chữ nhỏ, tương phản màu kém, thiếu tùy chọn chọn font mặc định.",
+      "action_type": "known_gap",
+      "size": 10,
+      "dominant_category": "bug",
+      "samples": [
+        "Font chữ của slide bị lỗi",
+        "Bản dịch bị lỗi font từ trang 3",
+        "Lỗi font tiếng Việt"
+      ]
+    },
+    {
+      "cluster_id": 11,
+      "label": "request_multimodal_input_and_chat_sharing",
+      "description": "Yêu cầu bổ sung upload ảnh, audio, video làm input; paste ảnh trực tiếp vào chat; phân tích ảnh/chỉnh sửa hình; và chia sẻ chat với nhiều người.",
+      "action_type": "known_gap",
+      "size": 10,
+      "dominant_category": "idea",
+      "samples": [
+        "Cần phải bổ sung gấp tính năng cho upload các loại file và ảnh, để giúp làm rõ thông tin nhanh hơn. Ngoài ra cần bổ sung tính năng…",
+        "anh/ chị cho thêm tính năng gửi hình ảnh để trao đổi thông tin cho đỡ phải brief lại thông tin bằng các nhập, từ đó rút ngắn thời gian t…",
+        "nên bổ sung định dạng audio/ video"
+      ]
+    },
+    {
+      "cluster_id": 9,
+      "label": "agent_no_response_or_response_disappears",
+      "description": "Agent không phản hồi, đang chạy mãi không ra kết quả, hoặc câu trả lời xuất hiện rồi biến mất sau 1-2 phút.",
+      "action_type": "known_gap",
+      "size": 7,
+      "dominant_category": "bug",
+      "samples": [
+        "k phản hồi",
+        "Không phản hồi",
+        "Tài chưa đưa ra trả lời, still runing"
+      ]
+    },
+    {
+      "cluster_id": 16,
+      "label": "usage_limit_unclear_and_copy_button_broken",
+      "description": "Người dùng không hiểu cơ chế tính và reset usage limit, nút copy không hoạt động, thiếu chỉ báo rõ ràng khi hết credit",
+      "action_type": "known_gap",
+      "size": 7,
+      "dominant_category": "bug",
+      "samples": [
+        "lỗi không dùng được",
+        "tôi không sử dụng được",
+        "Nút copy không hoạt động"
+      ]
+    },
+    {
+      "cluster_id": 25,
+      "label": "excel_data_import_export_integration",
+      "description": "Yêu cầu nhập dữ liệu từ Excel để tạo báo cáo/insight tự động, xuất kết quả ra Excel, chuyển data Excel thành chart trong PPT, xuất chart dạng editable thay vì ảnh, xuất file Word hoàn chỉnh",
+      "action_type": "known_gap",
+      "size": 7,
+      "dominant_category": "idea",
+      "samples": [
+        "Tài có thể giúp tạo format dựa trên dư liệu file excel có sẵn đưa vào ko",
+        "- Cho phép upload file excel dữ liệu, từ dữ liệu thô define insights để làm báo cáo tự động dựa trên dữ liệu…",
+        "Ko đưa dữ liệu bằng excel và hình ảnh được"
+      ]
+    },
+    {
+      "cluster_id": 7,
+      "label": "vague_negative_general_sentiment",
+      "description": "Phản hồi mơ hồ, cảm xúc tiêu cực hoặc tích cực không rõ nội dung cụ thể, không cung cấp thông tin actionable.",
+      "action_type": "ack_only",
+      "size": 6,
+      "dominant_category": "other",
+      "samples": [
+        "No",
+        "uew",
+        "xịnnnn"
+      ]
+    },
+    {
+      "cluster_id": 15,
+      "label": "platform_access_and_llm_structured_output_error",
+      "description": "Người dùng không truy cập được hệ thống hoặc gặp lỗi LLM structured output (No JSON found), gây mất khả năng sử dụng",
+      "action_type": "known_gap",
+      "size": 6,
+      "dominant_category": "bug",
+      "samples": [
+        "lỗi",
+        "lỗi liên tục",
+        "lỗi truy cập k vào đc"
+      ]
+    },
+    {
+      "cluster_id": 18,
+      "label": "positive_feature_usefulness_feedback",
+      "description": "Người dùng đánh giá tính năng hữu ích và thú vị, cảm ơn đội ngũ phát triển",
+      "action_type": "ack_only",
+      "size": 6,
+      "dominant_category": "praise",
+      "samples": [
+        "tks so much . its helpful",
+        "tks",
+        "this is amazing"
+      ]
+    },
+    {
+      "cluster_id": 1,
+      "label": "ui_and_output_language_support",
+      "description": "Yêu cầu giao diện tiếng Việt, đầu ra đa ngôn ngữ (Tiếng Trung), và phản ánh kết quả trả về sai ngôn ngữ so với yêu cầu.",
+      "action_type": "known_gap",
+      "size": 5,
+      "dominant_category": "idea",
+      "samples": [
+        "Cần phiên bản tiếng việt",
+        "Bạn ơi, có giao diện tiếng việt không ạ ?",
+        "Chat MCP O365 bằng ENG nhưng câu trả lời bằng tiếng Việt"
+      ]
+    },
+    {
+      "cluster_id": 12,
+      "label": "positive_general_feedback",
+      "description": "Người dùng bày tỏ sự hài lòng chung với sản phẩm bằng các từ ngắn gọn tích cực",
+      "action_type": "ack_only",
+      "size": 5,
+      "dominant_category": "praise",
+      "samples": [
+        "Very good",
+        "Very good result",
+        "GOOD"
+      ]
+    },
+    {
+      "cluster_id": 23,
+      "label": "slide_version_history_and_storage_missing",
+      "description": "Thiếu tính năng lưu lịch sử phiên bản slide, lưu trữ sản phẩm đã tạo, xóa slide, download từng trang và tích hợp với kết quả summarize",
+      "action_type": "known_gap",
+      "size": 5,
+      "dominant_category": "idea",
+      "samples": [
+        "I want to save the progress of slides that I am creating",
+        "Bổ sung tính năng cho download từng trang slide và cho quay trở về version trước của trang slide.",
+        "ở mục slide bên trái tạo thêm nút xóa slide sau khi thấy thừa"
+      ]
+    },
+    {
+      "cluster_id": 31,
+      "label": "slide_generation_functional_bugs",
+      "description": "Không gen được slide từ file input, trả về HTML thay vì slide, STT slide không cập nhật khi thêm trang, không thể quay lại version slide cũ sau re-generate, không mở được Graphics Designer",
+      "action_type": "known_gap",
+      "size": 5,
+      "dominant_category": "idea",
+      "samples": [
+        "TAI studio ko work, input file nhưng ko gen ra slide",
+        "nhờ Tài tạo slide, nhưng lại chỉ gửi lại html, sau đó các câu lệnh ko nhận nữa",
+        "sau khi tạo được slide từ TAI, tôi add trang mới vào file slide đó thì STT của slide không nhảy theo . tôi cần làm gì."
+      ]
+    },
+    {
+      "cluster_id": 0,
+      "label": "missing_chat_history_and_slide_import",
+      "description": "Người dùng không thấy lịch sử trò chuyện/presentation cũ, không thể import chart/visual vào slide, và tìm kiếm lịch sử chat bị hạn chế.",
+      "action_type": "known_gap",
+      "size": 4,
+      "dominant_category": "bug",
+      "samples": [
+        "I don't see my past ppt presentation here",
+        "I have lot of charts and visualize want to input into the slide but it's not available that option that yet",
+        "Searching for previous chats is very limited. Is this keyword match, semantic, hybrid?"
+      ]
+    },
+    {
+      "cluster_id": 13,
+      "label": "file_translation_network_error",
+      "description": "Lỗi dịch file thất bại, báo network error hoặc interrupt, bao gồm file có bảng biểu và file chứa PII không tải được kết quả",
+      "action_type": "known_gap",
+      "size": 4,
+      "dominant_category": "bug",
+      "samples": [
+        "Hệ thống không dịch được file, chỉ chạy được 1 lúc rồi báo network error",
+        "Dịch file gồm cả bảng biểu có thể bị lỗi và báo network error",
+        "Đã upload file nhưng k dịch đc, liên tục báo interrupt"
+      ]
+    },
+    {
+      "cluster_id": 14,
+      "label": "ux_improvement_summary_and_agent_guidance",
+      "description": "Đề xuất cải thiện UX: cho phép user nhập yêu cầu tóm tắt tùy chỉnh, điều chỉnh độ dài tóm tắt, thay marquee bằng manual scroll, và cải thiện hướng dẫn sử dụng agent",
+      "action_type": "known_gap",
+      "size": 4,
+      "dominant_category": "other",
+      "samples": [
+        "Nên có 1 dòng để user mô tả các thông tin cần tóm tắt thay vì để Agent tự lựa chọn thông tin",
+        "Nội dung tóm tắt quá ngắn > có thể bổ sung thêm phần input số ký tự/độ dài của tóm tắt",
+        "The automatic scrolling/marquee for Trending agents is just meh. Let's turn it into just a manual scroll."
+      ]
+    },
+    {
+      "cluster_id": 26,
+      "label": "tcb_branded_slide_template",
+      "description": "Yêu cầu tạo slide theo đúng template/brand TCB, cập nhật theme mới nhất, hỗ trợ tạo slide action plan có table với timeline và PIC",
+      "action_type": "answer_from_kb",
+      "size": 4,
+      "dominant_category": "idea",
+      "samples": [
+        "hãy tạo slide theo mẫu trình bày của TCB",
+        "Ưu điểm: Có chuẩn bị script cho speaker; Slide thiết kế đẹp, dễ nhìn, có lựa chọn Template TCB, tùy chỉnh từng trang;…",
+        "Đang dùng format slide cũ TCB 30 năm ( nên cập nhật theme mới nhất)…"
+      ]
+    },
+    {
+      "cluster_id": 28,
+      "label": "translation_quality_complex_sentences",
+      "description": "Dịch sai với email/câu phức nhiều mệnh đề, thiếu tính năng sync scroll song song bản gốc và bản dịch để kiểm tra, lỗi dịch với một số cấu trúc câu cụ thể",
+      "action_type": "known_gap",
+      "size": 4,
+      "dominant_category": "bug",
+      "samples": [
+        "translators does not work translates customer complaints, emails with responses with names, is there an alternate way to translate …",
+        "bility to toggle on/off \\sync scroll between original and translation would help a lot for side-by-side validation. (If you are an LLM/hu…",
+        "Lỗi translate khi có câu \"Share some of the design patterns we've seen from the trenches and requirements they have…"
+      ]
+    },
+    {
+      "cluster_id": 32,
+      "label": "slide_content_structure_refinement",
+      "description": "Yêu cầu điều chỉnh cấu trúc slide: tách mỗi vấn đề thành slide riêng, bổ sung nội dung còn thiếu, thêm hình ảnh minh họa, giới hạn số slide tối đa",
+      "action_type": "answer_from_kb",
+      "size": 4,
+      "dominant_category": "idea",
+      "samples": [
+        "Đang viết quá ngắn gọn, mỗi tình huống cần để 1 slide riêng. Hình ảnh về chất lượng nợ giữ nguyên silde ban đầu",
+        "Từ slide số 4, hãy làm mỗi slide là 1 vấn đề, kèm theo thách thức, giải pháp tôi đã lựa chọn và những đề xuất tới HO nếu có. 4 nhóm…",
+        "tôi nghĩ cần đưa thêm hình ảnh tượng trưng thì slide sẽ đẹp va 2chuey6n nghiệp hơn. và bạn vui lo2mng báo sát vào nội dung tôi đã gửi"
+      ]
+    },
+    {
+      "cluster_id": 4,
+      "label": "summarizer_instruction_and_accuracy_issue",
+      "description": "Summarizer không nhận thêm hướng dẫn từ người dùng (số trang, định dạng), nút generate outline không hoạt động, và tóm tắt bịa thông tin sai.",
+      "action_type": "known_gap",
+      "size": 3,
+      "dominant_category": "bug",
+      "samples": [
+        "I need to summary in to 10 pages of word for example, please give room for user to give further instruction",
+        "nút generate outline không hoạt đông",
+        "cái summarizer này đang bịa ra MIK mà trong khi ko có MIK mà là Masterise"
+      ]
+    },
+    {
+      "cluster_id": 5,
+      "label": "homepage_and_ui_layout_improvement",
+      "description": "Đề xuất cải thiện giao diện: card trang chủ nhỏ, nút Summarize đặt sai vị trí, mention box không resize đúng.",
+      "action_type": "known_gap",
+      "size": 3,
+      "dominant_category": "idea",
+      "samples": [
+        "Home page: the Featured cards should be larger (The summarizer, The Brainstormer, etc.)",
+        "Nên tách chuyển nút Summarize lên box Drop files. Hiện đa... người dùng phải tự Delete …",
+        "@ box doesnt contain and resize"
+      ]
+    },
+    {
+      "cluster_id": 6,
+      "label": "request_reference_file_and_link_attachment",
+      "description": "Yêu cầu bổ sung tính năng đính kèm nhiều file tham khảo (docx, pptx, pdf, ảnh, link DMS/website) để cung cấp context tốt hơn.",
+      "action_type": "known_gap",
+      "size": 3,
+      "dominant_category": "idea",
+      "samples": [
+        "Dự án bổ sung tính năng TÀI LIỆU THAM KHẢO DƯỚI HÌNH THỨC LÀ một đường link đính kèm (link tài liệu DMS/ hoặc website mà T…",
+        "Add a function to add files such as docx, pptx, pdf, images to get more context to have a better brainstorming tasks",
+        "Có add được nhiều file tham khảo không nhỉ?"
+      ]
+    },
+    {
+      "cluster_id": 8,
+      "label": "outdated_or_missing_knowledge_base_data",
+      "description": "Dữ liệu trong hệ thống không chuẩn, lỗi thời hoặc không trả ra được kết quả do thiếu dữ liệu.",
+      "action_type": "known_gap",
+      "size": 3,
+      "dominant_category": "idea",
+      "samples": [
+        "Không có dữ liệu chuẩn",
+        "không ra được kết quả",
+        "Dữ liệu outdate"
+      ]
+    },
+    {
+      "cluster_id": 10,
+      "label": "request_cross_document_comparison_feature",
+      "description": "Yêu cầu tính năng so sánh nội dung giữa nhiều văn bản/công ty, phát hiện điểm khác biệt giữa các phiên bản tài liệu.",
+      "action_type": "known_gap",
+      "size": 3,
+      "dominant_category": "idea",
+      "samples": [
+        "Bạn có thể so sánh với các Công ty khác như Đạm Phú Mỹ, Phân Bón Bình Điền, Hóa chất Miền Nam không?",
+        "1. Đàm bào doanh nghiệp = ĐBDN = Corporate Assurance…",
+        "Bổ sung tính năng so sánh, phát hiện điểm khác biệt giữa các văn bản (ví dụ thông tư/văn bản mới cập nhật nội dung gì so với văn bả…"
+      ]
+    },
+    {
+      "cluster_id": 17,
+      "label": "positive_first_impression_feedback",
+      "description": "Người dùng bày tỏ ấn tượng rất tốt, đặc biệt sau lần đầu trải nghiệm sản phẩm",
+      "action_type": "ack_only",
+      "size": 3,
+      "dominant_category": "praise",
+      "samples": [
+        "tuyệt vời, <3 10 điểm",
+        "tuyệt vời",
+        "Lần đầu dùng thử và rất ưng cái bụng. Cảm ơn!!!"
+      ]
+    },
+    {
+      "cluster_id": 19,
+      "label": "output_quality_shallow_and_input_char_limit_too_short",
+      "description": "Nội dung đầu ra sơ sài, không theo đúng yêu cầu, AI làm kém khi chỉnh sửa lần 2, giới hạn ký tự input 4000 quá ngắn",
+      "action_type": "known_gap",
+      "size": 3,
+      "dominant_category": "idea",
+      "samples": [
+        "dề xuất cho nhiều hơn 4000 ký tự để yêu cầu chi tiết hơn. bên cạnh đó Tài chỉ làm tốt lần đầu và yêu cầu chỉnh sửa thì tài làm chưa tốt",
+        "nội dung sơ sài, chưa theo đúng yêu c ầu",
+        "Các tầng thành viên bù trừ: Các thành viên bù trừ trực tiếp phải duy trì vốn tối thiểu là 1.000 tỷ đồng; các thành viên bù trừ chung (n…"
+      ]
+    },
+    {
+      "cluster_id": 20,
+      "label": "slide_visual_design_quality_feedback",
+      "description": "Người dùng nhận xét thiết kế slide chưa đẹp, hình ảnh minh họa chưa đạt yêu cầu thẩm mỹ",
+      "action_type": "known_gap",
+      "size": 3,
+      "dominant_category": "idea",
+      "samples": [
+        "Silde tạo chưa đẹp",
+        "hình ảnh còn chưa đẹp, ví dụ hình theo style Oil painting",
+        "Slide đẹp hơn Kiro"
+      ]
+    },
+    {
+      "cluster_id": 21,
+      "label": "slide_ai_hallucination_and_data_omission",
+      "description": "AI tự bịa thông tin, bỏ sót dữ liệu chi tiết dạng bảng biểu khi tạo slide, thiếu bước phản hồi để định hướng lại AI",
+      "action_type": "known_gap",
+      "size": 3,
+      "dominant_category": "bug",
+      "samples": [
+        "thiết kế slide chưa đẹp. Các dữ liệu chi tiết theo bảng biểu bị AI loại trừ, chỉ tóm tắt chung tổng quan --> Cần đào tạo thêm :)",
+        "Tự bịa khá nhiều thông tin, cần phải có bước comment sau khi đã lên slide draft để chỉnh AI đi đúng hướng",
+        "TL;DR: We should sunset AI Visionary and just replace it with AI Coach. The knowledge grounding of AI Visionary seems to be very …"
+      ]
+    },
+    {
+      "cluster_id": 22,
+      "label": "slide_agent_iterative_feedback_loop_missing",
+      "description": "Thiếu tính năng vòng lặp phản hồi người dùng để AI chỉnh sửa và hoàn thiện slide, layout và text arrangement còn lỗi",
+      "action_type": "known_gap",
+      "size": 3,
+      "dominant_category": "idea",
+      "samples": [
+        "The powerpoint-er cần bổ sung năng lực tiếp nhận ý kiến phản hồi và yêu cầu hoàn thiện/ bổ sung của người dùng và re-generate sli…",
+        "an interactive loop of Human feedback and agent fix. Ngoài ra, slide design chưa ổn về layout, text arrangement (overlap), size of tex…",
+        "Hỗ trợ xử lý nhanh việc lên ý tưởng cho 1 bài thuyết trình"
+      ]
+    },
+    {
+      "cluster_id": 24,
+      "label": "unsupported_file_format_upload",
+      "description": "Lỗi khi upload file DOCX/PPTX có hình ảnh nhúng, không hỗ trợ upload nhiều file cùng lúc, không nhận file Excel và ảnh",
+      "action_type": "known_gap",
+      "size": 3,
+      "dominant_category": "bug",
+      "samples": [
+        "Upload file docx, trong file có capture hình ảnh chưa thông tin -> Không đọc được nội dung file.",
+        "received a failed to parse the file error when uploading a PPTX file",
+        "không cho upload nhiều file tài liệu cùng lúc, không nhận đình dạng file excel và ảnh"
+      ]
+    },
+    {
+      "cluster_id": 27,
+      "label": "pdf_word_translation_error",
+      "description": "Dịch PDF sai nội dung và chèn code lạ, dịch file Word thất bại lỗi 502, chất lượng dịch PDF kém",
+      "action_type": "known_gap",
+      "size": 3,
+      "dominant_category": "bug",
+      "samples": [
+        "Need to improve pdf translation",
+        "khả năng dịch PDF không ổn, sai nội dung còn chèn cả code trong quá trình dịch",
+        "Tôi upload file word 203 kb để dịch từ tiếng Anh sang tiếng Việt nhưng gặp lỗi Translation request failed (502)"
+      ]
+    },
+    {
+      "cluster_id": 29,
+      "label": "slide_content_tcb_specific_context",
+      "description": "Yêu cầu bổ sung hình ảnh thương hiệu Techcombank vào slide, thêm thông tin triển khai thực tế tại TCB vào nội dung",
+      "action_type": "answer_from_kb",
+      "size": 3,
+      "dominant_category": "idea",
+      "samples": [
+        "It's should be more picture about techcombank on all slide",
+        "Gộp vào lại thành 2-3 slide - sử dụng thêm hình ảnh con gà của Techcombank",
+        "cần thêm thông tin là AWS Connect đã triển khai ở Techcombank đã tích hợp với CRM, TCBMobile và và đơn vị VAC/RBG đang sử dụ…"
+      ]
+    },
+    {
+      "cluster_id": 30,
+      "label": "generated_slide_not_editable",
+      "description": "Slide được tạo xong nhưng không thể chỉnh sửa/edit file, tính năng chuyển thể file chưa dùng được",
+      "action_type": "known_gap",
+      "size": 3,
+      "dominant_category": "idea",
+      "samples": [
+        "SP rất đỉnh. có thể chuyển thể nguyên file cực hữu ích. Tuy nhiên khi sử dụng vẫn chưa dùng được vì …",
+        "SP rất đỉnh. có thể chuyển thể nguyên file cực hữu ích. Tuy nhiên khi sử dụng vẫn chưa dùng được vì …",
+        "Tài slide vừa gen xong, nhưng không thể edit file được"
+      ]
+    },
+    {
+      "cluster_id": 33,
+      "label": "slide_merge_and_layout_adjustment",
+      "description": "Yêu cầu gộp nhiều slide thành một, giữ nguyên cấu trúc slide chỉ định, thiết kế lại nội dung theo dạng bảng",
+      "action_type": "answer_from_kb",
+      "size": 3,
+      "dominant_category": "idea",
+      "samples": [
+        "I want to consolidate slide 2 and 3 into 1 slide only",
+        "giữ nguyên 2 slide đầu, với cấu trúc các phần như vậy",
+        "Tôi muốn gộp ba targer vào 1 bảng. như sau: hãy thiết kế theo dạng bảng:…"
+      ]
+    }
+  ]
+}

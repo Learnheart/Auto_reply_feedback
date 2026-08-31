@@ -12,7 +12,7 @@ summary: Sinh bộ dữ liệu feedback giả lập thay cho Feedback datalake (
 
 - **Module:** *không có module mới.* Đây là **dev fixture đứng thay SOURCE LAYER → "Feedback datalake"** (§2 Input), tức là input của `inference.classify` (B1). Không có dòng code nào trong `src/afr/` ở deliverable này.
 - **Sections:** `docs/architecture.md` §2 Overview → Input (bảng nguồn *Feedback datalake*: `feedback_id`, `user_email`, `content`, `agent`, `created_at`), §2 Assumptions A4 (≥500 mẫu lịch sử) và A5 (PII), §4.5 Data layer, §6.1 R1 (`unclassified_rate`).
-- **Impl doc:** `docs/impl-phase1-intent-classification.md` §2 Step 0 (Data audit), Step 1 (Preprocess), Step 3 (Cluster / noise rate).
+- **Impl doc:** `docs/method-offline-intent-analysis.md` §2 (Data audit / Preprocess), §4 (Cluster / noise rate).
 - **Data contract:** schema của nguồn *Feedback datalake* trong §2. Fixture giữ **đúng tên trường** của nguồn thật; không thêm/bớt trường nào vào contract.
 
 ## Problem statement

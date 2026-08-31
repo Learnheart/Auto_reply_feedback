@@ -1,24 +1,24 @@
 # Auto User Feedback Email — Solution Architecture Design
 
-| Field | Value |
-|-------|-------|
-| **Author** | Solution Architect |
-| **Date** | 2026-08-24 |
-| **Plan Version** | v3.0 |
-| **Status** | Draft |
-| **Product** | TÀI Studio (AI Foundation, Techcombank) |
-| **Supersedes** | v2.0 (Job-based, discovery-in-system) |
+| Field                  | Value                                    |
+| ---------------------- | ---------------------------------------- |
+| **Author**       | Solution Architect                       |
+| **Date**         | 2026-08-24                               |
+| **Plan Version** | v3.0                                     |
+| **Status**       | Draft                                    |
+| **Product**      | TÀI Studio (AI Foundation, Techcombank) |
+| **Supersedes**   | v2.0 (Job-based, discovery-in-system)    |
 
 ### Changelog vs v2.0
 
-| Thay đổi ở mức module | Lý do |
-|---|---|
-| **Gỡ `discovery` job ra khỏi ranh giới hệ thống** | Intent analysis chạy **một lần, offline**. Không còn là job có lịch. Databricks Jobs chỉ chứa intent đã chốt. |
-| **Gỡ human gate lifecycle (`candidate→active→archived`)** | Không có version thứ hai trong scope này thì không có gì để chuyển trạng thái. Thay bằng **Intent Catalog** — một artifact tĩnh, version bằng git. |
-| **`taxonomy_version` / `intent_mapping` → bỏ khỏi Phase 1** | Máy móc versioning chỉ có nghĩa khi refresh. Giữ lại `catalog_version` dạng string để không phải migrate khi re-run vào scope. |
-| **`inference` job tách từ 2 → 3 task: `classify` → `draft` → `deliver`** | Tách sinh nội dung (đắt, LLM) khỏi đẩy ra Graph (rẻ, hay lỗi mạng). Graph fail thì retry `deliver` mà không phải trả tiền sinh lại draft. |
-| **Thêm `unclassified_pool`** | Taxonomy đóng băng ⇒ không có cơ chế hấp thụ feedback lạ. Bảng này tích lũy chúng làm input sẵn sàng cho scope re-run sau. |
-| Số job: **4 → 3** | `ingest-sync`, `inference`, `outcome-sync`. |
+| Thay đổi ở mức module                                                                   | Lý do                                                                                                                                                                    |
+| ------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Gỡ `discovery` job ra khỏi ranh giới hệ thống**                              | Intent analysis chạy**một lần, offline**. Không còn là job có lịch. Databricks Jobs chỉ chứa intent đã chốt.                                           |
+| **Gỡ human gate lifecycle (`candidate→active→archived`)**                        | Không có version thứ hai trong scope này thì không có gì để chuyển trạng thái. Thay bằng**Intent Catalog** — một artifact tĩnh, version bằng git. |
+| **`taxonomy_version` / `intent_mapping` → bỏ khỏi Phase 1**                    | Máy móc versioning chỉ có nghĩa khi refresh. Giữ lại`catalog_version` dạng string để không phải migrate khi re-run vào scope.                              |
+| **`inference` job tách từ 2 → 3 task: `classify` → `draft` → `deliver`** | Tách sinh nội dung (đắt, LLM) khỏi đẩy ra Graph (rẻ, hay lỗi mạng). Graph fail thì retry`deliver` mà không phải trả tiền sinh lại draft.               |
+| **Thêm `unclassified_pool`**                                                       | Taxonomy đóng băng ⇒ không có cơ chế hấp thụ feedback lạ. Bảng này tích lũy chúng làm input sẵn sàng cho scope re-run sau.                             |
+| Số job:**4 → 3**                                                                    | `ingest-sync`, `inference`, `outcome-sync`.                                                                                                                         |
 
 ---
 
@@ -28,15 +28,15 @@
 
 **Objectives:**
 
-| # | Objective | Cách đo |
-|---|---|---|
-| O1 | Intent Catalog được chốt **trước khi** hệ thống chạy production | Artifact tồn tại trong git + Delta, có người ký duyệt |
-| O2 | Phân loại feedback mới với confidence đo được | Cosine similarity tới exemplar vector; phân bố 3 vùng ngưỡng |
-| O3 | Mỗi feedback đủ điều kiện có đúng 1 draft trong đúng folder | Idempotency theo `feedback_id`; 0 draft trùng |
-| O4 | Không rò rỉ thông tin nội bộ ra email user | 0 email trong Sent còn chứa marker `INTERNAL` |
-| O5 | Thu được outcome approve / edit / reject | ≥90% draft xác định được outcome sau 7 ngày |
-| O6 | Feedback → draft ≤ 24h | `feedback.created_at` → `drafted_at` |
-| O7 | Feedback không khớp intent nào được **giữ lại**, không mất | 100% `flag=unclassified` có mặt trong `unclassified_pool` |
+| #  | Objective                                                                     | Cách đo                                                          |
+| -- | ----------------------------------------------------------------------------- | ------------------------------------------------------------------ |
+| O1 | Intent Catalog được chốt**trước khi** hệ thống chạy production | Artifact tồn tại trong git + Delta, có người ký duyệt       |
+| O2 | Phân loại feedback mới với confidence đo được                         | Cosine similarity tới exemplar vector; phân bố 3 vùng ngưỡng |
+| O3 | Mỗi feedback đủ điều kiện có đúng 1 draft trong đúng folder        | Idempotency theo`feedback_id`; 0 draft trùng                    |
+| O4 | Không rò rỉ thông tin nội bộ ra email user                              | 0 email trong Sent còn chứa marker`INTERNAL`                   |
+| O5 | Thu được outcome approve / edit / reject                                   | ≥90% draft xác định được outcome sau 7 ngày                |
+| O6 | Feedback → draft ≤ 24h                                                      | `feedback.created_at` → `drafted_at`                          |
+| O7 | Feedback không khớp intent nào được**giữ lại**, không mất     | 100%`flag=unclassified` có mặt trong `unclassified_pool`     |
 
 **Non-goal scope này:** re-run intent analysis, taxonomy versioning/mapping, auto-send, tự tạo ticket Jira, Databricks App.
 
@@ -50,33 +50,33 @@
 
 ### Input
 
-| Nguồn | Định dạng | Trường chính | Nhịp |
-|---|---|---|---|
-| **Intent Catalog** | YAML trong git + Delta table `intent_catalog` | `intent_id`, `label`, `description`, `action_type`, `email_template_id`, `exemplar_vectors`, `threshold_high`, `threshold_low` | **Một lần** (bàn giao) |
-| **Feedback datalake** | Delta (có sẵn) | `feedback_id`, `user_email`, `content`, `agent`, `created_at` | Hàng ngày |
-| **OneDrive userguide** | File qua Microsoft Graph | `driveItemId`, `lastModifiedDateTime`, nội dung | Theo lịch / on-change |
-| **Jira backlog** | JSON qua Jira REST | `key`, `summary`, `status`, `issuetype` | Theo lịch |
+| Nguồn                       | Định dạng                                   | Trường chính                                                                                                                                | Nhịp                           |
+| ---------------------------- | ---------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------- |
+| **Intent Catalog**     | YAML trong git + Delta table`intent_catalog` | `intent_id`, `label`, `description`, `action_type`, `email_template_id`, `exemplar_vectors`, `threshold_high`, `threshold_low` | **Một lần** (bàn giao) |
+| **Feedback datalake**  | Delta (có sẵn)                               | `feedback_id`, `user_email`, `content`, `agent`, `created_at`                                                                        | Hàng ngày                     |
+| **OneDrive userguide** | File qua Microsoft Graph                       | `driveItemId`, `lastModifiedDateTime`, nội dung                                                                                           | Theo lịch / on-change          |
+| **Jira backlog**       | JSON qua Jira REST                             | `key`, `summary`, `status`, `issuetype`                                                                                                | Theo lịch                      |
 
 ### Output
 
-| Đích | Định dạng | Nội dung |
-|---|---|---|
-| **Outlook shared mailbox** | Draft HTML trong `mailFolder` theo intent | Block INTERNAL (PM xóa) + thân email VI/EN + citation |
-| `feedback_processing` | Delta row | intent, confidence, flag, draft ref, outcome |
-| `unclassified_pool` | Delta row | Feedback không khớp intent nào — nguyên liệu cho scope sau |
-| `development_insight` / `insight_theme` | Delta row | Insight functional/quality |
+| Đích                                      | Định dạng                               | Nội dung                                                        |
+| ------------------------------------------- | ------------------------------------------ | ---------------------------------------------------------------- |
+| **Outlook shared mailbox**            | Draft HTML trong`mailFolder` theo intent | Block INTERNAL (PM xóa) + thân email VI/EN + citation          |
+| `feedback_processing`                     | Delta row                                  | intent, confidence, flag, draft ref, outcome                     |
+| `unclassified_pool`                       | Delta row                                  | Feedback không khớp intent nào — nguyên liệu cho scope sau |
+| `development_insight` / `insight_theme` | Delta row                                  | Insight functional/quality                                       |
 
 ### Assumptions & Constraints
 
-| # | Giả định | Nếu sai |
-|---|---|---|
-| A1 | Volume ~20–100 feedback/ngày | >200/ngày → PM không duyệt xuể bằng Outlook |
-| A2 | Xin được Graph `Mail.ReadWrite` trên shared mailbox | Rơi về `.eml`: mất routing folder **và** mất `outcome-sync` |
-| A3 | Người duyệt duy nhất là PM | Nhiều người → không có khóa chống trùng ở Outlook |
-| A4 | Feedback lịch sử ≥ ~500 mẫu cho phân tích offline | Ít hơn → bỏ HDBSCAN, cho LLM đọc trực tiếp theo lô |
-| A5 | PII được phép qua Databricks Model Serving nội bộ | Phải mask trước khi embed/prompt |
-| A6 | **Phân bố intent ổn định trong ~6 tháng** | Sai → `unclassified` phình nhanh, phải kéo re-run vào sớm hơn dự kiến |
-| A7 | 1 feedback → 1 email (không gộp theo user) | Muốn gộp → đổi khóa idempotency và template |
+| #  | Giả định                                              | Nếu sai                                                                        |
+| -- | -------------------------------------------------------- | ------------------------------------------------------------------------------- |
+| A1 | Volume ~20–100 feedback/ngày                           | >200/ngày → PM không duyệt xuể bằng Outlook                               |
+| A2 | Xin được Graph`Mail.ReadWrite` trên shared mailbox | Rơi về`.eml`: mất routing folder **và** mất `outcome-sync`       |
+| A3 | Người duyệt duy nhất là PM                          | Nhiều người → không có khóa chống trùng ở Outlook                     |
+| A4 | Feedback lịch sử ≥ ~500 mẫu cho phân tích offline  | Ít hơn → bỏ HDBSCAN, cho LLM đọc trực tiếp theo lô                     |
+| A5 | PII được phép qua Databricks Model Serving nội bộ  | Phải mask trước khi embed/prompt                                             |
+| A6 | **Phân bố intent ổn định trong ~6 tháng**    | Sai →`unclassified` phình nhanh, phải kéo re-run vào sớm hơn dự kiến |
+| A7 | 1 feedback → 1 email (không gộp theo user)            | Muốn gộp → đổi khóa idempotency và template                              |
 
 > **A6 là giả định mới và nguy hiểm nhất của v3.0.** Khi taxonomy đóng băng, hệ thống không có khả năng học nhãn mới. Đo `unclassified_rate` hàng tuần là điều kiện sống của giả định này (§6.1 R1).
 
@@ -121,12 +121,12 @@
          │                       ▼                       ▼
          │            ┌────────────────────────────────────────────┐
          │            │  JOB A: ingest-sync           (lịch: tuần) │
-         │            │  chunk → embed → index KB · sync backlog    │
+         │            │  userguide→page store (agent) · sync backlog│
          │            └───────────────────┬────────────────────────┘
          │                                ▼
          │            ┌────────────────────────────────────────────┐
          │            │  KNOWLEDGE LAYER                            │
-         │            │  Vector Search (userguide) · backlog_ref    │
+         │            │  userguide_page[agent] (whole) · backlog_ref│
          │            └───────────────────┬────────────────────────┘
          │                                │ retrieve
          ▼                                ▼
@@ -135,7 +135,7 @@
   │                                                                            │
   │  ┌──────────────────┐    ┌──────────────────┐    ┌──────────────────┐      │
   │  │ TASK B1 classify │───▶│ TASK B2 draft    │───▶│ TASK B3 deliver  │      │
-  │  │ embed feedback   │    │ RAG userguide    │    │ ensure mailFolder│      │
+  │  │ embed feedback   │    │ route agent→page │    │ ensure mailFolder│      │
   │  │ cosine→exemplar  │    │ + backlog check  │    │ POST draft (Graph)│     │
   │  │ threshold routing│    │ + insight extract│    │ ghi draft_ref     │     │
   │  │ ghi classification│   │ render HTML→Delta│    │                   │     │
@@ -168,24 +168,29 @@
                                                     SQL dashboard (metrics)
 
   ┌───────────────────────────────────────────────────────────────────────────┐
-  │ CROSS-CUTTING: Model Serving (Sonnet 4.6 · Haiku 4.5 · Qwen3-embedding)    │
+  │ CROSS-CUTTING: Model Serving (Haiku 4.5 draft · Sonnet 4.6 fallback ·      │
+  │                Qwen3-embedding) via AI-Gateway (/ai-gateway/mlflow/v1)      │
   │ Unity Catalog · Secret scopes · structlog · Databricks Asset Bundles       │
   └───────────────────────────────────────────────────────────────────────────┘
 ```
 
 ### Trách nhiệm từng module
 
-| Module | Trách nhiệm (một dòng) | Trong Databricks Job? |
-|---|---|---|
-| Offline intent analysis | Sinh và chốt bộ intent từ feedback lịch sử — chạy một lần | ❌ Ngoài hệ thống |
-| **Intent Catalog** | Artifact tĩnh: định nghĩa intent + exemplar vector + ngưỡng; version bằng git tag | ❌ Input tĩnh |
-| `ingest-sync` (Job A) | Đồng bộ userguide → Vector Search, backlog → `backlog_ref`; re-index khi `lastModifiedDateTime` đổi | ✅ |
-| `inference.classify` (B1) | Embed feedback mới → cosine tới exemplar → gán intent + confidence → routing 3 vùng | ✅ |
-| `inference.draft` (B2) | RAG userguide + đối chiếu backlog + trích insight → render HTML, **ghi vào Delta** (chưa đẩy đi) | ✅ |
-| `inference.deliver` (B3) | Đảm bảo `mailFolder` tồn tại, POST draft qua Graph, ghi `draft_ref` — retry được độc lập | ✅ |
-| `outcome-sync` (Job C) | Đối soát Drafts/Sent xác định outcome + phát hiện rò rỉ INTERNAL | ✅ |
-| `unclassified_pool` | Tích lũy feedback không khớp intent nào — bàn giao cho scope re-run | ✅ (bảng) |
-| `shared` (library) | Client Model Serving / Graph / Jira, config, pydantic models, Delta helper | ✅ (dùng chung) |
+| Module                      | Trách nhiệm (một dòng)                                                                                                                                                                 | Trong Databricks Job? |
+| --------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | --------------------- |
+| Offline intent analysis     | Sinh và chốt bộ intent từ feedback lịch sử — chạy một lần                                                                                                                        | ❌ Ngoài hệ thống  |
+| **Intent Catalog**    | Artifact tĩnh: định nghĩa intent + exemplar vector + ngưỡng; version bằng git tag                                                                                                   | ❌ Input tĩnh        |
+| `ingest-sync` (Job A)     | Đồng bộ userguide → store`userguide_page` (nguyên page/function, khoá theo `agent`), backlog → `backlog_ref`; refresh khi `version` page đổi                              | ✅                    |
+| `inference.classify` (B1) | Embed feedback mới → cosine tới exemplar → gán intent + confidence → routing 3 vùng                                                                                                 | ✅                    |
+| `inference.draft` (B2)    | Route`agent → userguide_page` → nạp **cả page** cho LLM sinh câu trả lời + đối chiếu backlog + trích insight → render HTML, **ghi vào Delta** (chưa đẩy đi) | ✅                    |
+| `inference.deliver` (B3)  | Đảm bảo`mailFolder` tồn tại, POST draft qua Graph, ghi `draft_ref` — retry được độc lập                                                                                    | ✅                    |
+| `outcome-sync` (Job C)    | Đối soát Drafts/Sent xác định outcome + phát hiện rò rỉ INTERNAL                                                                                                                 | ✅                    |
+| `unclassified_pool`       | Tích lũy feedback không khớp intent nào — bàn giao cho scope re-run                                                                                                                 | ✅ (bảng)            |
+| `shared` (library)        | Client Model Serving / Graph / Jira, config, pydantic models, Delta helper                                                                                                                 | ✅ (dùng chung)      |
+
+> **Knowledge layer — quyết định v3.1 (thay Vector Search):** userguide **không** chunk/embed/index. Thay vào đó dựng theo hướng **định tuyến**: feedback đã mang sẵn cột `agent` (chính là tên function), userguide phân trang theo function ⇒ B2 tra `agent → userguide_page` và nạp **cả page** cho LLM sinh câu trả lời. Đổi lấy: bỏ hoàn toàn gánh nặng chunk-change-detection + re-embed; change-detection về mức **page `version`**; và **giảm R6** (không có index riêng để lệch nguồn — page đọc lúc inference chính là nguồn). `agent` là *prior mềm*: không map được page hoặc LLM báo không trả lời được từ tài liệu ⇒ rơi về `we_listen`. Chi tiết + lý do vì sao whole-page thắng keyword/text-search: `docs/2026-08-26/knowledge-retrieval-strategy/plan.md`.
+
+> **Cập nhật v3.2 — backlog cũng whole-content → LLM (bỏ cosine):** cả HAI nguồn knowledge nay theo cùng một khuôn: **snapshot in-memory một lần/run → nạp toàn bộ nội dung cho LLM → trả lời theo lô (batch prompting)**. Userguide route `agent → page` (nạp cả page); backlog (`known_gap`) **bỏ cosine/embedding**, nạp **toàn bộ danh sách backlog hiện hành** (open, non-Done, `sprint is EMPTY`) vào prompt để LLM tự đối chiếu từng feedback với một hạng mục. Batch amortize context (page/danh sách backlog) trên K feedback/call ⇒ cắt token. `known_gap` phục vụ cả `request_feature` lẫn `report_bug`. Gate an toàn giữ nguyên: không khớp / index lỗi ⇒ `hit=False` ⇒ `we_listen`/ghi nhận chung, không hứa nhầm. Chi tiết: `docs/2026-08-27/knowledge-layer-batch/plan.md`.
 
 ---
 
@@ -229,6 +234,8 @@ Phân tích offline kết thúc bằng một artifact được commit vào git v
 ### 4.2 Flow B — Inference hằng ngày (happy path)
 
 Ba task nối tiếp trong một job. Mỗi task ghi trạng thái vào Delta trước khi task sau chạy, nên retry được từng chặng.
+
+> **Lưu ý v3.1/v3.2:** bước "retrieve" của B2 trong sơ đồ dưới (khối *Vector Search KB* / "retrieve chunk userguide") nay là **whole-content → LLM theo lô**, không còn Vector Search/chunk/embedding cho cả hai nguồn: userguide tra `agent → userguide_page` (nạp cả page), backlog nạp **toàn bộ danh sách backlog** vào prompt (bỏ cosine — v3.2). B2 lọc feedback về nhóm cần knowledge (`answer_from_kb` + `known_gap`), snapshot knowledge một lần/run, rồi batch-prompt (gom userguide theo `agent`; backlog một lô chung). Xem §3 (note Knowledge layer v3.1/v3.2) + `docs/2026-08-27/knowledge-layer-batch/plan.md`.
 
 ```
 ┌─────────┐ ┌──────────┐ ┌──────────┐ ┌──────────┐ ┌─────────┐ ┌────────┐ ┌────────┐
@@ -384,7 +391,13 @@ unclassified_pool(
 )
 
 -- KNOWLEDGE
-backlog_ref(jira_key PK, summary, description, status, issuetype, embedding, synced_at)
+-- userguide KHÔNG chunk/embed/index — lưu nguyên page/function, khoá theo agent (v3.1).
+--   change-detection ở mức page: so `version` Confluence, refresh khi lệch (R6 fail-loud).
+--   agent chưa map ⇒ B2 coi như không có tài liệu ⇒ we_listen.
+userguide_page(agent PK, page_id, version, title, markdown, last_modified, synced_at)
+-- backlog KHÔNG chunk/embed/index (v3.2) — nạp cả danh sách cho LLM đối chiếu (bỏ cosine).
+--   cột `embedding` giữ trong schema nhưng KHÔNG sinh/dùng ở luồng hiện tại (whole-set → LLM).
+backlog_ref(jira_key PK, summary, description, status, issuetype, embedding /*unused v3.2*/, synced_at)
 
 -- INSIGHT
 development_insight(insight_id PK, feedback_id, agent, contribution_type, subtype,
@@ -401,30 +414,31 @@ metrics_event(event_id PK, feedback_id, event_type, payload, created_at)
 
 ## 5. Technology Stack
 
-| Layer | Techstack | Detail (why this choice) |
-|-------|-----------|--------------------------|
-| Ngôn ngữ | Python 3.12 | Hệ sinh thái embedding/LLM đầy đủ; khớp Databricks runtime; một ngôn ngữ cho cả 3 job + library phân tích |
-| Dependency | `uv` + `pyproject.toml` | Lockfile deterministic, build nhanh trong CI; ra wheel để `python_wheel_task` gọi trực tiếp |
-| **Phân tích offline** | Databricks notebook (ad-hoc, không lịch) | Chạy một lần nên không cần đóng gói thành job. Notebook giữ được cả code lẫn kết quả review để audit về sau — quan trọng vì đây là artifact PM đã ký duyệt |
-| **Intent Catalog** | YAML trong git + bảng Delta | Git cho phép review qua PR và biết ai đổi gì; Delta cho job đọc nhanh. **Nguồn sự thật là git**, Delta chỉ là bản load — tránh trường hợp ai đó sửa thẳng bảng rồi không ai biết |
-| Orchestration | Databricks Jobs / Workflows | Có sẵn, không dựng thêm Airflow. Multi-task DAG cho phép `classify→draft→deliver` retry từng chặng — chính là lý do chọn thay vì gọi tuần tự trong một script |
-| Compute | Serverless / job cluster nhỏ | Job chạy rồi tắt, không trả tiền idle. **Không còn HDBSCAN trong production** nên nhu cầu RAM giảm hẳn so với v2.0 |
-| LLM (draft + insight) | Model Serving `claude-sonnet-4-6-sit-tai` | Viết email song ngữ có văn phong và trích insight cần suy luận ngữ nghĩa. Endpoint nội bộ ⇒ PII không rời nền tảng |
-| LLM (dự phòng batch) | Model Serving `claude-haiku-4-5-sit-tai` | Cho nhánh few-shot classify nếu embedding tỏ ra yếu, hoặc ack ngắn cho `unclassified` — rẻ hơn nhiều ở nơi không cần suy luận sâu |
-| Embedding | Model Serving `databricks-qwen3-embedding-0-6b` | Đa ngôn ngữ (feedback VI/EN lẫn lộn). **Bắt buộc dùng đúng model đã dùng lúc phân tích offline** — exemplar vector chỉ có nghĩa trong cùng không gian vector |
-| Vector store | Databricks Vector Search | Sync trực tiếp từ Delta nên không phải tự viết pipeline đồng bộ index; nằm trong UC nên thừa hưởng phân quyền |
-| Data store | Delta Lake / Unity Catalog | ACID + time travel để truy vết draft sai; UC cho governance và lineage — gần như bắt buộc trong môi trường ngân hàng |
-| Schema | `pydantic` v2 | Ép structured output của LLM về schema chặt; fail sớm thay vì ghi rác vào Delta |
-| Config | `pydantic-settings` + job parameters | Window, model name, tên folder nằm ở config. Ngưỡng thì nằm trong catalog vì chúng thuộc về intent, không thuộc về run |
-| Email delivery | Microsoft Graph API (`msal` + `httpx`) | Lựa chọn duy nhất đặt được draft vào folder theo intent, và là điều kiện tiên quyết để `outcome-sync` đọc Sent |
-| Email fallback | `.eml` + `X-Unsent:1` | Nếu A2 sai. Mất routing folder **và** mất outcome tracking — không ngang giá, cần coi là phương án suy giảm |
-| Jira | Jira REST API (`httpx`) | Chỉ đọc ở scope này; vài endpoint không đáng kéo SDK nặng |
-| Secrets | Databricks secret scopes | Graph client secret, Jira token — không nằm trong code hay notebook |
-| Auth (job → external) | Azure AD service principal | Job chạy không có người ngồi sau; tránh phụ thuộc tài khoản cá nhân PM |
-| Deploy | Databricks Asset Bundles | 3 job trong một `databricks.yml`, deploy SIT → prod bằng một lệnh; định nghĩa job nằm trong git thay vì chỉnh tay trên UI |
-| Test | `pytest` + mock endpoint | Unit test cho routing/threshold/render template — phần logic thuần, không cần LLM thật. Integration mock Graph để CI chạy offline |
-| Observability | `structlog` + `metrics_event` + job alert | Log JSON query được; metric nghiệp vụ ghi vào Delta vì đó là dữ liệu sản phẩm chứ không phải debug output |
-| Dashboard | Databricks SQL dashboard | Không dựng app ở scope này; SQL dashboard trên `metrics_event` đủ cho O5/O6/`unclassified_rate` với chi phí gần bằng không |
+| Layer                         | Techstack                                                                     | Detail (why this choice)                                                                                                                                                                                                                                                                                                                                          |
+| ----------------------------- | ----------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Ngôn ngữ                    | Python 3.12                                                                   | Hệ sinh thái embedding/LLM đầy đủ; khớp Databricks runtime; một ngôn ngữ cho cả 3 job + library phân tích                                                                                                                                                                                                                                            |
+| Dependency                    | `uv` + `pyproject.toml`                                                   | Lockfile deterministic, build nhanh trong CI; ra wheel để`python_wheel_task` gọi trực tiếp                                                                                                                                                                                                                                                                 |
+| **Phân tích offline** | Databricks notebook (ad-hoc, không lịch)                                    | Chạy một lần nên không cần đóng gói thành job. Notebook giữ được cả code lẫn kết quả review để audit về sau — quan trọng vì đây là artifact PM đã ký duyệt                                                                                                                                                                         |
+| **Intent Catalog**      | YAML trong git + bảng Delta                                                  | Git cho phép review qua PR và biết ai đổi gì; Delta cho job đọc nhanh.**Nguồn sự thật là git**, Delta chỉ là bản load — tránh trường hợp ai đó sửa thẳng bảng rồi không ai biết                                                                                                                                                 |
+| Orchestration                 | Databricks Jobs / Workflows                                                   | Có sẵn, không dựng thêm Airflow. Multi-task DAG cho phép`classify→draft→deliver` retry từng chặng — chính là lý do chọn thay vì gọi tuần tự trong một script                                                                                                                                                                                |
+| Compute                       | Serverless / job cluster nhỏ                                                 | Job chạy rồi tắt, không trả tiền idle.**Không còn HDBSCAN trong production** nên nhu cầu RAM giảm hẳn so với v2.0                                                                                                                                                                                                                              |
+| LLM (draft + knowledge, **v3.3**) | AI-Gateway Responses`nonprod_ai.tsfai.claude-haiku-4-5-sit-tai`         | **v3.3: Haiku 4.5 thay Sonnet làm model draft/knowledge CHÍNH** (answer_from_kb, known_gap, sinh copy scenario). Lý do: feedback ngắn + câu trả lời grounded template-driven không cần suy luận sâu; Haiku rẻ hơn ~3× (~$2 vs $6/tháng ở 100 fb/ngày). Gate `answerable=false → we_listen` chặn bịa. Gọi qua **AI-Gateway MLflow Responses API** (`/ai-gateway/mlflow/v1/responses`; `system→instructions`, `max_tokens→max_output_tokens`) thay OpenAI `/serving-endpoints`. Endpoint nội bộ ⇒ PII không rời nền tảng |
+| LLM (dự phòng chất lượng)   | Model Serving`claude-sonnet-4-6-sit-tai`                                    | **v3.3: Sonnet hạ xuống fallback** — bật lại cho nhánh draft/knowledge nếu Haiku giảm chất lượng ở câu trả lời KB dài (giữ tên endpoint trong config). Trade-off của việc chọn Haiku: suy luận ngữ nghĩa yếu hơn                                                                                                                     |
+| Embedding                     | AI-Gateway Embeddings`nonprod_ai.tsfai.qwen3-embedding-0-6b-sit-tai` (1024-dim) | Đa ngôn ngữ (feedback VI/EN lẫn lộn).**Bắt buộc dùng đúng model đã dùng lúc phân tích offline** — exemplar vector chỉ có nghĩa trong cùng không gian vector. **v3.3: đưa embedding classify B1 từ LM Studio local (spike) về đúng Databricks Model Serving** (`/ai-gateway/mlflow/v1/embeddings`); cùng base qwen3-0.6b ⇒ cùng không gian vector, threshold catalog giữ nguyên. Dùng cho: classify feedback (B1). **Userguide KHÔNG còn embed** (v3.1 — whole-page routing); **backlog cũng KHÔNG còn embed** (v3.2 — whole-set → LLM). Embedding nay chỉ phục vụ B1 classify |
+| Userguide store (v3.1)        | Bảng Delta`userguide_page` (nguyên page/function) + map `agent → page` | **Thay Databricks Vector Search cho userguide.** Feedback đã có `agent`, userguide phân trang theo function ⇒ định tuyến bằng tra bảng, nạp cả page cho LLM — bỏ chunk/embed/index và toàn bộ chunk-change-detection. Corpus ~chục page nên whole-page vừa context. Đổi lại: page rất dài phải lọc theo heading (xem plan §6) |
+| Backlog store (v3.2)          | Bảng Delta`backlog_ref` (nguyên danh sách) — **whole-set → LLM**   | **Thay cosine/Vector Search cho backlog.** Corpus backlog ~chục issue (open, non-Done, `sprint is EMPTY`) đủ nhỏ để nạp cả danh sách vào prompt ⇒ LLM đối chiếu từng feedback với một hạng mục, bỏ embedding + calibrate ngưỡng cosine. Batch amortize danh sách backlog trên K feedback/call. Đổi lại: token/call tăng theo (số backlog × K); backlog phình to phải quay lại tiền lọc |
+| Data store                    | Delta Lake / Unity Catalog                                                    | ACID + time travel để truy vết draft sai; UC cho governance và lineage — gần như bắt buộc trong môi trường ngân hàng                                                                                                                                                                                                                                |
+| Schema                        | `pydantic` v2                                                               | Ép structured output của LLM về schema chặt; fail sớm thay vì ghi rác vào Delta                                                                                                                                                                                                                                                                           |
+| Config                        | `pydantic-settings` + job parameters                                        | Window, model name, tên folder nằm ở config. Ngưỡng thì nằm trong catalog vì chúng thuộc về intent, không thuộc về run                                                                                                                                                                                                                              |
+| Email delivery                | Microsoft Graph API (`msal` + `httpx`)                                    | Lựa chọn duy nhất đặt được draft vào folder theo intent, và là điều kiện tiên quyết để`outcome-sync` đọc Sent                                                                                                                                                                                                                               |
+| Email fallback                | `.eml` + `X-Unsent:1`                                                     | Nếu A2 sai. Mất routing folder**và** mất outcome tracking — không ngang giá, cần coi là phương án suy giảm                                                                                                                                                                                                                                     |
+| Jira                          | Jira REST API (`httpx`)                                                     | Chỉ đọc ở scope này; vài endpoint không đáng kéo SDK nặng                                                                                                                                                                                                                                                                                              |
+| Secrets                       | Databricks secret scopes                                                      | Graph client secret, Jira token — không nằm trong code hay notebook                                                                                                                                                                                                                                                                                            |
+| Auth (job → external)        | Azure AD service principal                                                    | Job chạy không có người ngồi sau; tránh phụ thuộc tài khoản cá nhân PM                                                                                                                                                                                                                                                                               |
+| Deploy                        | Databricks Asset Bundles                                                      | 3 job trong một`databricks.yml`, deploy SIT → prod bằng một lệnh; định nghĩa job nằm trong git thay vì chỉnh tay trên UI                                                                                                                                                                                                                            |
+| Test                          | `pytest` + mock endpoint                                                    | Unit test cho routing/threshold/render template — phần logic thuần, không cần LLM thật. Integration mock Graph để CI chạy offline                                                                                                                                                                                                                        |
+| Observability                 | `structlog` + `metrics_event` + job alert                                 | Log JSON query được; metric nghiệp vụ ghi vào Delta vì đó là dữ liệu sản phẩm chứ không phải debug output                                                                                                                                                                                                                                        |
+| Dashboard                     | Databricks SQL dashboard                                                      | Không dựng app ở scope này; SQL dashboard trên`metrics_event` đủ cho O5/O6/`unclassified_rate` với chi phí gần bằng không                                                                                                                                                                                                                         |
 
 ---
 
@@ -446,17 +460,20 @@ metrics_event(event_id PK, feedback_id, event_type, payload, created_at)
 
 **R6 — Re-index KB âm thầm sai.** Userguide đổi mà index không đổi ⇒ RAG trả lời sai một cách tự tin, kèm citation trông thuyết phục. Failure mode nguy hiểm nhất vì nó trông giống thành công. *Giảm thiểu:* đưa `lastModifiedDateTime` của chunk vào citation; `ingest-sync` fail loud khi phát hiện lệch.
 
+> **v3.1 giảm R6 về mặt cấu trúc:** bỏ index riêng — B2 nạp *nguyên page* đọc lúc inference, nên không còn "index lệch nguồn". Còn lại một dạng nhẹ hơn: `userguide_page` cache cũ hơn Confluence ⇒ giải bằng `version` trong citation + `ingest-sync` refresh khi `version` lệch. Đánh đổi mới: **routing sai `agent`** (feedback gắn agent này nhưng nội dung về function khác) ⇒ nạp nhầm page ⇒ dựa vào cổng `answerable=False → we_listen` để không trả lời sai.
+
 **R7 — Không có khóa chống trùng ở Outlook.** Nếu A3 sai, hai người có thể cùng gửi một draft. Outlook không giải quyết được ở tầng công cụ.
 
 ### 6.2 Trade-offs made & những gì đã cố tình hoãn
 
-| Đánh đổi | Được | Mất | Lý do chấp nhận |
-|---|---|---|---|
-| Intent analysis offline, không phải job | Production đơn giản hẳn: 3 job thay vì 4, không HDBSCAN/UMAP trong runtime, không lifecycle versioning | Không tự học nhãn mới (R1) | Đúng nguyên tắc: **đừng tự động hóa việc bạn mới làm một lần**. Tự động hóa discovery trước khi biết nó chạy tốt là đầu tư mù |
-| Catalog là artifact git, không phải bảng có thể ghi | Review qua PR, biết ai đổi gì, rollback bằng git revert | Đổi intent phải deploy, không sửa nóng được | Trong ngân hàng, "sửa nóng bộ nhãn đang phân loại email gửi khách" là thứ nên khó, không nên dễ |
-| Tách `deliver` khỏi `draft` | Retry lỗi Graph không phải trả tiền sinh lại LLM | Thêm một task, thêm một trạng thái | Chi phí gần bằng không, lợi ích hiện ngay lần đầu Graph throttle |
-| `unclassified_pool` chỉ tích lũy, không xử lý | Không mất dữ liệu; scope re-run có sẵn input | Chưa tạo ra giá trị gì ở scope này | Bảng append-only là chi phí thấp nhất để giữ cửa mở |
-| Hoãn: re-run, versioning, app, auto-send, tự tạo ticket | Scope gọn, ship được | — | Tất cả đều two-way door, mở sau không phải viết lại |
+| Đánh đổi                                               | Được                                                                                                       | Mất                                                                                         | Lý do chấp nhận                                                                                                                                                                                                  |
+| ---------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Intent analysis offline, không phải job                  | Production đơn giản hẳn: 3 job thay vì 4, không HDBSCAN/UMAP trong runtime, không lifecycle versioning | Không tự học nhãn mới (R1)                                                              | Đúng nguyên tắc:**đừng tự động hóa việc bạn mới làm một lần**. Tự động hóa discovery trước khi biết nó chạy tốt là đầu tư mù                                                   |
+| Catalog là artifact git, không phải bảng có thể ghi  | Review qua PR, biết ai đổi gì, rollback bằng git revert                                                  | Đổi intent phải deploy, không sửa nóng được                                         | Trong ngân hàng, "sửa nóng bộ nhãn đang phân loại email gửi khách" là thứ nên khó, không nên dễ                                                                                                   |
+| Tách`deliver` khỏi `draft`                           | Retry lỗi Graph không phải trả tiền sinh lại LLM                                                        | Thêm một task, thêm một trạng thái                                                     | Chi phí gần bằng không, lợi ích hiện ngay lần đầu Graph throttle                                                                                                                                          |
+| `unclassified_pool` chỉ tích lũy, không xử lý      | Không mất dữ liệu; scope re-run có sẵn input                                                            | Chưa tạo ra giá trị gì ở scope này                                                    | Bảng append-only là chi phí thấp nhất để giữ cửa mở                                                                                                                                                       |
+| Userguide: whole-page routing thay Vector Search (v3.1)    | Bỏ chunk/embed + chunk-change-detection; routing chính xác theo function; giảm R6                         | Không có passage-precision nếu page phình to; phụ thuộc độ đúng của cột`agent` | Corpus nhỏ + feedback đã mang`agent` + userguide phân trang theo function ⇒ tra bảng đủ; whole-page cùng chi phí maintenance như text-search nhưng chất lượng cao hơn (LLM bắc cầu ngữ nghĩa) |
+| Hoãn: re-run, versioning, app, auto-send, tự tạo ticket | Scope gọn, ship được                                                                                      | —                                                                                           | Tất cả đều two-way door, mở sau không phải viết lại                                                                                                                                                        |
 
 ### 6.3 Recommendations & next steps
 

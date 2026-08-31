@@ -1,0 +1,97 @@
+{
+  "meta": {
+    "catalog": "/Users/linhbk3/Documents/Projects/Auto_reply_feedback/src/01_intent_classification/out/20260826_092038_llm/catalog_a.yaml",
+    "n_scenarios": 8,
+    "chat_model": "databricks-claude-sonnet-4-6"
+  },
+  "scenarios": [
+    {
+      "intent_id": "bug_core_function_broken",
+      "label": "bug_core_function_broken",
+      "action_type": "known_gap",
+      "email_type": "we_listen",
+      "route": "backlog_check",
+      "tone": "roadmap",
+      "note": "Runtime: khớp backlog → 'team sẽ phát triển' + mốc từ status; không khớp → 'đã ghi nhận, sẽ cải thiện'.",
+      "vi": {},
+      "en": {}
+    },
+    {
+      "intent_id": "bug_output_quality_and_format",
+      "label": "bug_output_quality_and_format",
+      "action_type": "known_gap",
+      "email_type": "we_listen",
+      "route": "backlog_check",
+      "tone": "roadmap",
+      "note": "Runtime: khớp backlog → 'team sẽ phát triển' + mốc từ status; không khớp → 'đã ghi nhận, sẽ cải thiện'.",
+      "vi": {},
+      "en": {}
+    },
+    {
+      "intent_id": "issue_usage_limit_and_system_policy",
+      "label": "issue_usage_limit_and_system_policy",
+      "action_type": "known_gap",
+      "email_type": "we_listen",
+      "route": "backlog_check",
+      "tone": "roadmap",
+      "note": "Runtime: khớp backlog → 'team sẽ phát triển' + mốc từ status; không khớp → 'đã ghi nhận, sẽ cải thiện'.",
+      "vi": {},
+      "en": {}
+    },
+    {
+      "intent_id": "positive_feedback",
+      "label": "positive_feedback",
+      "action_type": "ack_only",
+      "email_type": "we_listen",
+      "route": "ack_neutral",
+      "tone": "acknowledge",
+      "note": "Ack trung tính (cảm ơn/ghi nhận), bỏ RAG + backlog (impl §5).",
+      "vi": {},
+      "en": {}
+    },
+    {
+      "intent_id": "request_new_feature_or_capability",
+      "label": "request_new_feature_or_capability",
+      "action_type": "known_gap",
+      "email_type": "we_listen",
+      "route": "backlog_check",
+      "tone": "roadmap",
+      "note": "Runtime: khớp backlog → 'team sẽ phát triển' + mốc từ status; không khớp → 'đã ghi nhận, sẽ cải thiện'.",
+      "vi": {},
+      "en": {}
+    },
+    {
+      "intent_id": "request_slide_quality_and_edit_improvement",
+      "label": "request_slide_quality_and_edit_improvement",
+      "action_type": "known_gap",
+      "email_type": "we_listen",
+      "route": "backlog_check",
+      "tone": "roadmap",
+      "note": "Runtime: khớp backlog → 'team sẽ phát triển' + mốc từ status; không khớp → 'đã ghi nhận, sẽ cải thiện'.",
+      "vi": {},
+      "en": {}
+    },
+    {
+      "intent_id": "request_ux_and_ui_improvement",
+      "label": "request_ux_and_ui_improvement",
+      "action_type": "known_gap",
+      "email_type": "we_listen",
+      "route": "backlog_check",
+      "tone": "roadmap",
+      "note": "Runtime: khớp backlog → 'team sẽ phát triển' + mốc từ status; không khớp → 'đã ghi nhận, sẽ cải thiện'.",
+      "vi": {},
+      "en": {}
+    },
+    {
+      "intent_id": "unclassified",
+      "label": "Chưa phân loại / không khớp intent nào",
+      "action_type": "ack_only",
+      "email_type": null,
+      "route": "manual_pm",
+      "tone": "escalate",
+      "note": "Sink §4.3 — KHÔNG auto-reply, chuyển PM xử tay (R1).",
+      "vi": {},
+      "en": {}
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "meta": {
+    "catalog": "../01_intent_classification/out/20260826_102555_llm/catalog_a.json",
+    "n_scenarios": 6,
+    "chat_model": "databricks-claude-sonnet-4-6"
+  },
+  "scenarios": [
+    {
+      "intent_id": "vague_negative_sentiment",
+      "label": "vague_negative_sentiment",
+      "action_type": "ack_only",
+      "email_type": "we_apologize",
+      "route": "apology",
+      "tone": "apology",
+      "note": "Feedback tiêu cực chung → xin lỗi + mời nêu chi tiết; bỏ RAG/backlog.",
+      "vi": {},
+      "en": {}
+    },
+    {
+      "intent_id": "ai_output_quality_error",
+      "label": "ai_output_quality_error",
+      "action_type": "known_gap",
+      "email_type": "we_listen",
+      "route": "backlog_check",
+      "tone": "roadmap",
+      "note": "Runtime: khớp backlog → 'team sẽ phát triển' + mốc từ status; không khớp → 'đã ghi nhận, sẽ cải thiện'.",
+      "vi": {},
+      "en": {}
+    },
+    {
+      "intent_id": "bug_technical_error",
+      "label": "bug_technical_error",
+      "action_type": "known_gap",
+      "email_type": "we_listen",
+      "route": "backlog_check",
+      "tone": "roadmap",
+      "note": "Runtime: khớp backlog → 'team sẽ phát triển' + mốc từ status; không khớp → 'đã ghi nhận, sẽ cải thiện'.",
+      "vi": {},
+      "en": {}
+    },
+    {
+      "intent_id": "feature_request_and_ux_improvement",
+      "label": "feature_request_and_ux_improvement",
+      "action_type": "known_gap",
+      "email_type": "we_listen",
+      "route": "backlog_check",
+      "tone": "roadmap",
+      "note": "Runtime: khớp backlog → 'team sẽ phát triển' + mốc từ status; không khớp → 'đã ghi nhận, sẽ cải thiện'.",
+      "vi": {},
+      "en": {}
+    },
+    {
+      "intent_id": "praise_positive_feedback",
+      "label": "praise_positive_feedback",
+      "action_type": "ack_only",
+      "email_type": "we_listen",
+      "route": "ack_neutral",
+      "tone": "acknowledge",
+      "note": "Ack trung tính (cảm ơn/khen), bỏ RAG + backlog (impl §5).",
+      "vi": {},
+      "en": {}
+    },
+    {
+      "intent_id": "unclassified",
+      "label": "Chưa phân loại / không khớp kịch bản nào",
+      "action_type": "ack_only",
+      "email_type": null,
+      "route": "manual_pm",
+      "tone": "escalate",
+      "note": "Sink §4.3 — KHÔNG auto-reply, chuyển PM xử tay (R1).",
+      "vi": {},
+      "en": {}
+    }
+  ]
+}

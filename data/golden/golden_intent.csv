@@ -1,0 +1,62 @@
+﻿id,content,agent,orig_category,intent,rationale,source
+fb_0018,Tài có thể giúp tạo format dựa trên dư liệu file excel có sẵn đưa vào ko,the-powerpoint-er,idea,request_feature,hỏi xin năng lực tạo format từ file excel,real
+fb_0039,"Bổ sung thêm định dạng html và md cho reference , document để đảm bảo trong flow làm việc, internal user có thể tiện lợi move qu…",the-powerpoint-er,idea,request_feature,đề xuất bổ sung định dạng html/md cho reference,real
+fb_0044,Nên thêm mục các từ ngữ chuyên ngành hay dịch sai để người dùng tự input trước khi dịch.,the-translator,idea,request_feature,đề xuất thêm mục nhập từ chuyên ngành trước khi dịch,real
+fb_0047,Có nút sao chép để sao chép nhanh kết quả Tài trả ra,the-brainstormer,idea,request_feature,xin thêm nút sao chép kết quả,real
+fb_0055,Nên có 1 dòng để user mô tả các thông tin cần tóm tắt thay vì để Agent tự lựa chọn thông tin,the-summarizer,idea,request_feature,đề xuất thêm ô để user mô tả thông tin cần tóm tắt,real
+fb_0071,Nên thêm ngôn ngữ đầu ra là Tiếng Trung. Thêm Source file là dịch hình ảnh ạ.,the-translator,idea,request_feature,xin thêm ngôn ngữ đầu ra tiếng Trung + dịch hình ảnh,real
+fb_0076,"chưa hỗ trợ xuất kết quả ra file excel, như hiện tại mình phải cop ra copilot nhờ xuất excel giúp",the-brainstormer,idea,request_feature,xin tính năng xuất kết quả ra file excel,real
+fb_0084,Thêm ảnh tham chiếu (reference) giống Figma Wave được không ạ,the-imaginator,idea,request_feature,xin thêm ảnh tham chiếu kiểu Figma,real
+fb_0086,nên bổ sung định dạng audio/ video,the-summarizer,idea,request_feature,đề xuất bổ sung định dạng audio/video,real
+fb_0091,"Bổ sung tính năng so sánh, phát hiện điểm khác biệt giữa các văn bản (ví dụ thông tư/văn bản mới cập nhật nội dung gì so với văn bả…",the-summarizer,idea,request_feature,đề xuất tính năng so sánh/phát hiện khác biệt văn bản,real
+fb_0093,ở mục slide bên trái tạo thêm nút xóa slide sau khi thấy thừa,the-powerpoint-er,idea,request_feature,xin thêm nút xóa slide,real
+fb_0100,Bổ sung tính năng cho download từng trang slide và cho quay trở về version trước của trang slide.,the-powerpoint-er,idea,request_feature,xin tải từng trang slide + quay lại version trước,real
+fb_0137,Cho phép thao tác paste ảnh nội dung cần thiết kế slide để thao tác nhanh hơn (giống copilot),the-powerpoint-er,idea,request_feature,xin cho phép paste ảnh để thao tác nhanh,real
+fb_0141,"anh/ chị cho thêm tính năng gửi hình ảnh để trao đổi thông tin cho đỡ phải brief lại thông tin bằng các nhập, từ đó rút ngắn thời gian t…",the-brainstormer,idea,request_feature,xin tính năng gửi hình ảnh khi trao đổi,real
+fb_0190,"Tài Studio cần bổ sung nơi lưu trữ những sản phẩm Tài Studio đã tạo ra. Ví dụ khi tôi tạo ra các slide xong, xuất xong thì những slide…",tai,idea,request_feature,đề xuất bổ sung nơi lưu trữ sản phẩm đã tạo,real
+fb_0046,"Để tạo slide về action plan bao gồm action, timeline & PIC thì làm thế nào? Hiện tôi thực hiện bằng cách copy table action plan và p…",the-powerpoint-er,idea,how_to,hỏi 'làm thế nào' để tạo slide action plan,real
+fb_0056,"Team ơi, usage limit của mỗi period dc tính như nào. khi nào được reset. …",tai,other,how_to,"hỏi usage limit tính thế nào, khi nào reset",real
+fb_0074,Có add được nhiều file tham khảo không nhỉ?,the-powerpoint-er,idea,how_to,hỏi có add được nhiều file tham khảo không,real
+fb_0085,"Em hỏi chút, khi em sử dụng AI này và up chứng từ lên để AI hỗ trợ, có bị tính vi phạm an ninh thông tin không?",the-brainstormer,idea,how_to,hỏi việc upload chứng từ có vi phạm an ninh không,real
+fb_0131,làm sao tôi biết được bạn đang dịch đúng,the-translator,idea,how_to,hỏi làm sao biết bản dịch đúng,real
+fb_0146,Có thể kết hợp powerpointer với translator được không?,the-powerpoint-er,praise,how_to,hỏi có thể kết hợp powerpointer với translator không,real
+fb_0032,"Bạn ơi, có giao diện tiếng việt không ạ ?",tai,idea,how_to,hỏi có giao diện tiếng Việt không (availability),real
+fb_0024,"Dear anh chị, owner của agent review lại hướng dẫn sử dụng, user đọc hướng dẫn nhưng chưa rõ phải thao tác như thế nào. Ví dụ t…",the-whiteboarder,other,how_to,user đọc hướng dẫn nhưng chưa rõ thao tác thế nào,real
+fb_0019,Very good,the-scholar,praise,praise,'Very good',real
+fb_0027,this is amazing,tai,idea,praise,'this is amazing',real
+fb_0052,"tuyệt vời. Tài chat xử lý nhanh và hỗ trợ phân tích, so sánh các nội dung văn bản rõ ràng",tai,praise,praise,"khen xử lý nhanh, phân tích rõ ràng",real
+fb_0053,Hỗ trợ xử lý nhanh việc lên ý tưởng cho 1 bài thuyết trình,the-powerpoint-er,praise,praise,khen hỗ trợ lên ý tưởng nhanh,real
+fb_0087,tuyệt vời,the-powerpoint-er,praise,praise,'tuyệt vời',real
+fb_0102,Lần đầu dùng thử và rất ưng cái bụng. Cảm ơn!!!,the-powerpoint-er,praise,praise,'rất ưng cái bụng. Cảm ơn',real
+fb_0104,"tuyệt vời, <3 10 điểm",the-powerpoint-er,praise,praise,"'tuyệt vời, 10 điểm'",real
+fb_0128,loved,the-powerpoint-er,praise,praise,'loved',real
+fb_0135,tks so much . its helpful,the-powerpoint-er,praise,praise,"'tks so much, its helpful'",real
+fb_0162,thật sự hữu ích,tai,praise,praise,'thật sự hữu ích',real
+fb_0164,Slide đẹp hơn Kiro,the-powerpoint-er,praise,praise,'Slide đẹp hơn Kiro',real
+fb_0172,xịnnnn,the-powerpoint-er,praise,praise,'xịnnnn',real
+fb_0187,Very good result,the-translator,idea,praise,'Very good result',real
+fb_0005,K trả lời nội dung nào khi hỏi,tai,bug,complaint,không trả lời nội dung khi hỏi,real
+fb_0009,lỗi,tai,bug,complaint,'lỗi',real
+fb_0030,càng làm càng xấu,the-powerpoint-er,bug,complaint,'càng làm càng xấu',real
+fb_0035,Nút copy không hoạt động,the-brainstormer,bug,complaint,nút copy không hoạt động,real
+fb_0038,"không dịch hết tiếng Anh trong văn bản, output ra bị lỗi font",the-translator,bug,complaint,"không dịch hết, output lỗi font",real
+fb_0060,"Đã upload file nhưng k dịch đc, liên tục báo interrupt",the-translator,bug,complaint,"upload nhưng không dịch được, liên tục báo interrupt",real
+fb_0068,"Dịch quá tệj, đặc biệt với các câu nhiều mệnh đề.",the-translator,bug,complaint,'Dịch quá tệ' với câu nhiều mệnh đề,real
+fb_0089,lỗi liên tục,the-powerpoint-er,bug,complaint,'lỗi liên tục',real
+fb_0096,nút generate outline không hoạt đông,the-powerpoint-er,bug,complaint,nút generate outline không hoạt động,real
+fb_0110,Font chữ của slide bị lỗi,the-powerpoint-er,bug,complaint,font chữ slide bị lỗi,real
+fb_0116,"Hệ thống không dịch được file, chỉ chạy được 1 lúc rồi báo network error",the-translator,bug,complaint,"không dịch được file, báo network error",real
+fb_0149,hiện tại đang ko dịch được.,the-translator,bug,complaint,'hiện tại đang ko dịch được',real
+fb_0156,"Trà kết quả xong tự crash => I'm sorry, I can't help with that. Let me know if there's something else I can assist you with.",tai,bug,complaint,trả kết quả xong tự crash,real
+fb_0166,cái summarizer này đang bịa ra MIK mà trong khi ko có MIK mà là Masterise,the-summarizer,bug,complaint,summarizer bịa nội dung (MIK vs Masterise),real
+fb_0185,coundn't acess,the-brainstormer,bug,complaint,'coundn't acess',real
+fb_0191,lỗi truy cập k vào đc,the-powerpoint-er,bug,complaint,'lỗi truy cập k vào đc',real
+fb_0121,uew,the-powerpoint-er,other,unclassified,'uew' — vô nghĩa,real
+fb_0174,Test feedback,tai,bug,unclassified,'Test feedback' — dữ liệu test,real
+fb_0183,No,the-powerpoint-er,idea,unclassified,'No' — không đủ ngữ cảnh,real
+fb_0186,1,the-powerpoint-er,idea,unclassified,'1' — vô nghĩa,real
+fb_0120,Very quickly,the-powerpoint-er,idea,unclassified,"'Very quickly' — mơ hồ, thiếu ngữ cảnh",real
+fb_0118,tài file dịch về sao,the-translator,idea,unclassified,'tài file dịch về sao' — câu tối nghĩa,real
+craft_00,Tài ơi đọc email của tôi bằng cách nào,tai,,how_to,câu hỏi cách dùng — đọc email (O365),crafted
+craft_01,mình muốn vẽ diagram từ ảnh có sẵn thì làm sao nhỉ,the-whiteboarder,,how_to,câu hỏi cách dùng — vẽ diagram từ ảnh,crafted
+craft_02,xuất slide ra file pptx kiểu gì vậy,the-powerpoint-er,,how_to,câu hỏi cách dùng — export pptx,crafted
