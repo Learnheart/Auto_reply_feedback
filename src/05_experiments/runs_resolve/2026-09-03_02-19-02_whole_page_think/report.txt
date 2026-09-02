@@ -1,0 +1,40 @@
+[resolve] tai: lô 10 dòng → solved=True 0
+[resolve] tai: lô 10 dòng → solved=True 0
+[resolve] tai: lô 5 dòng → solved=True 0
+[resolve] the-ai-visionary: lô 2 dòng → solved=True 0
+[resolve] the-translator: lô 10 dòng → solved=True 0
+[resolve] the-translator: lô 10 dòng → solved=True 0
+[resolve] the-translator: lô 5 dòng → solved=True 0
+[resolve] the-powerpoint-er: lô 10 dòng → solved=True 4
+[resolve] the-powerpoint-er: lô 10 dòng → solved=True 1
+[resolve] the-powerpoint-er: lô 10 dòng → solved=True 0
+[resolve] the-powerpoint-er: lô 9 dòng → solved=True 0
+[resolve] tai-studio: lô 4 dòng → solved=True 0
+[resolve] the-imaginator: lô 3 dòng → solved=True 0
+[resolve] the-whiteboarder: lô 1 dòng → solved=True 0
+[resolve] the-scholar: lô 1 dòng → solved=True 0
+[resolve] the-ai-coach: lô 1 dòng → solved=True 0
+[resolve] the-brainstormer: lô 10 dòng → solved=True 0
+[resolve] the-brainstormer: lô 2 dòng → solved=True 0
+[resolve] the-summarizer: lô 10 dòng → solved=True 0
+[resolve] the-summarizer: lô 2 dòng → solved=True 0
+[resolve] the-canvas-designer: KHÔNG có tài liệu → 2 dòng solved=False
+
+== Eval B2 bước 1 (guideline resolve) trên data\golden\feedback_gold_solved.csv: n=127
+  gold solved=True: 12 | pred True: 5
+  precision 0.800 | recall 0.333 | F1 0.471 | acc 0.929
+  confusion: tp=4 fp=1 fn=8 tn=114
+  quote verbatim (pred True): 1.00 | trùng đoạn gold (trong TP): 1.00
+  gates: {'no_quote': 88, 'ok': 22, 'quote_not_found': 15, 'no_doc': 2}
+  llm: {'calls': 20, 'prompt_tokens': 51790, 'completion_tokens': 14795, 'seconds': 253.74603295326233}
+
+  sai 9 dòng (id | loại | content | quote | lý do):
+    fb_0004 | FN | TL;DR: There must be a clear indicator when a person is out of credits |  | no_quote: Credit status indicators are not mentioned in any guide sect
+    fb_0032 | FN | Bạn ơi, có giao diện tiếng việt không ạ ? | Mode selector | Auto (default) | Quick | Deep research | Think | quote_not_found: Only language modes are listed, no UI language option.
+    fb_0046 | FP | Để tạo slide về action plan bao gồm action, timeline & PIC thì làm thế | Add/remove bullets (+ Add bullet / × to remove) - Add/remove slides (+ Add slide | Table creation via bullet points is supported
+    fb_0047 | FN | Có nút sao chép để sao chép nhanh kết quả Tài trả ra | Output export: At the top-right corner, there are 2 output options: - Copy Outpu | quote_not_found: The 'Copy Output Content' feature matches the request.
+    fb_0070 | FN | Dự án có thể bổ sung cho phép input mô hình ảnh, sau đó chỉnh sửa thàn |  | no_quote: Guide describes using Image Input node for reference images 
+    fb_0084 | FN | Thêm ảnh tham chiếu (reference) giống Figma Wave được không ạ | In the Prompt node, enter a description of the image you want to create. You can | quote_not_found: Guide allows single reference image input via Image Input no
+    fb_0090 | FN | TĂNG FONT SIZE LÊN, CHỮ BÉ LẮM | The top bar provides quick editing actions, including adjusting font size... | quote_not_found: Guide explicitly describes font size adjustment functionalit
+    fb_0093 | FN | ở mục slide bên trái tạo thêm nút xóa slide sau khi thấy thừa | - Add/remove slides (+ Add slide / × to remove) | quote_not_found: The user guide explicitly describes a '× to remove' button f
+    fb_0107 | FN | Cần phiên bản tiếng việt | Language follows your prompt | The EN/VI toggle changes UI only, not response la | ok: No full Vietnamese interface support mentioned.

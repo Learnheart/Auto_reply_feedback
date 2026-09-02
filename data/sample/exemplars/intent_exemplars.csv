@@ -1,0 +1,41 @@
+id,agent,content,label
+ex_bug_01,tai,"Hệ thống báo lỗi khi tôi đang thao tác, không tiếp tục được",bug
+ex_bug_02,the-brainstormer,Nút chức năng bấm vào không hoạt động,bug
+ex_bug_03,tai,"Ứng dụng bị treo giữa chừng, phải tải lại trang mới dùng tiếp được",bug
+ex_bug_04,tai,The app crashes in the middle of processing my request,bug
+ex_bug_05,the-translator,Kết quả trả về bị thiếu nội dung so với file tôi đưa vào,bug
+ex_bug_06,tai,"ko chạy dc, bấm gì cũng đơ",bug
+ex_bug_07,tai,"web báo lỗi 500 hoài, vô ko nổi",bug
+ex_bug_08,the-translator,"up file lên xong nó đứng im luôn, ko thấy trả gì về",bug
+ex_bug_09,the-powerpoint-er,"làm nửa chừng thì văng ra, mất hết phần đang làm dở",bug
+ex_bug_10,tai-studio,"error message pops up every time, can't get any result out",bug
+ex_new_feature_01,tai,Đề xuất bổ sung thêm tính năng mới cho phần này,new_feature
+ex_new_feature_02,tai,Nên cho người dùng thêm tùy chọn để tự điều chỉnh kết quả,new_feature
+ex_new_feature_03,the-translator,Xin hỗ trợ thêm các định dạng file khác khi upload,new_feature
+ex_new_feature_04,tai-studio,"Tính năng này chưa có, mong team bổ sung trong phiên bản sau",new_feature
+ex_new_feature_05,tai,It would be great if you could add this option to the app,new_feature
+ex_new_feature_06,the-powerpoint-er,"cho xin thêm cái nút chỉnh nhanh, chứ h toàn phải làm thủ công",new_feature
+ex_new_feature_07,tai-studio,bổ sung giúp mình chỗ lưu lại mấy cái đã làm với,new_feature
+ex_new_feature_08,the-summarizer,"chưa xài dc file dạng này, mong team cho thêm nha",new_feature
+ex_new_feature_09,the-powerpoint-er,please let us customize the output before downloading,new_feature
+ex_new_feature_10,tai,nên có thêm lựa chọn về ngôn ngữ với cỡ chữ hiển thị,new_feature
+ex_praise_01,the-summarizer,"Công cụ rất hữu ích, tiết kiệm nhiều thời gian cho tôi",praise
+ex_praise_02,tai-studio,"Làm tốt lắm, cảm ơn team nhiều",praise
+ex_praise_03,tai,"Great tool, very helpful for my work",praise
+ex_praise_04,tai,"Dùng rất thích, kết quả ổn áp",praise
+ex_praise_05,the-powerpoint-er,Kết quả tốt ngoài mong đợi,praise
+ex_praise_06,tai,"quá đã, đỡ tốn bao nhiêu công",praise
+ex_praise_07,the-translator,"ngon lành, xài mượt ghê",praise
+ex_praise_08,tai-studio,"đỉnh của chóp, recommend mọi người xài thử",praise
+ex_praise_09,tai,"so good, exactly what I need for my daily tasks",praise
+ex_praise_10,the-brainstormer,"hay quá trời, cảm ơn ạ",praise
+ex_complain_01,the-powerpoint-er,"slide làm ra xấu, nhìn ko chuyên nghiệp gì cả",complain
+ex_complain_02,the-translator,"dịch tệ quá, đọc ko hiểu gì luôn",complain
+ex_complain_03,the-summarizer,"bản tóm tắt sơ sài quá, thiếu hết ý chính",complain
+ex_complain_04,the-translator,"văn phong bản dịch gượng gạo, đọc ko tự nhiên",complain
+ex_complain_05,the-powerpoint-er,The slides look ugly and unprofessional,complain
+ex_complain_06,the-powerpoint-er,"màu mè quá, nhìn rối cả mắt",complain
+ex_complain_07,the-imaginator,"chất lượng ảnh tệ, nhìn giả trân",complain
+ex_complain_08,tai,"trả lời lan man dài dòng, đọc mệt",complain
+ex_complain_09,the-summarizer,"the summary quality is poor, it misses the main points",complain
+ex_complain_10,tai,"nội dung viết nghèo nàn, ko có chiều sâu",complain

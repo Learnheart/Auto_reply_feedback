@@ -1,0 +1,23 @@
+[resolve] tai: lô 10 dòng → solved=True 0
+[resolve] tai: lô 10 dòng → solved=True 3
+[resolve] tai: lô 5 dòng → solved=True 0
+[resolve] the-ai-visionary: lô 2 dòng → solved=True 0
+[resolve] the-translator: lô 10 dòng → solved=True 0
+[resolve] the-translator: lô 10 dòng → solved=True 0
+[resolve] the-translator: lô 5 dòng → solved=True 0
+[resolve] the-powerpoint-er: lô 10 dòng → solved=True 3
+[resolve] the-powerpoint-er: lô 10 dòng → solved=True 5
+[resolve] the-powerpoint-er: lô 10 dòng → solved=True 0
+[resolve] the-powerpoint-er: lô 9 dòng → solved=True 0
+[resolve] tai-studio: lô 4 dòng → solved=True 0
+[resolve] the-imaginator: lô 3 dòng → solved=True 0
+[resolve] the-whiteboarder: lô 1 dòng → solved=True 1
+[resolve] the-scholar: lô 1 dòng → solved=True 0
+[resolve] the-ai-coach: lô 1 dòng → solved=True 0
+[resolve] the-brainstormer: lô 10 dòng → solved=True 3
+[resolve] the-brainstormer: lô 2 dòng → solved=True 0
+[resolve] the-summarizer: lô 10 dòng → solved=True 0
+[resolve] the-summarizer: lô 2 dòng → solved=True 0
+[resolve] the-canvas-designer: KHÔNG có tài liệu → 2 dòng solved=False
+[resolve] 127 dòng bug/new_feature → solved=True 6 | ghi src\03_inference\out\resolve_guideline\gold192_resolved.csv (+ .debug.jsonl)
+[resolve] llm: {'calls': 35, 'prompt_tokens': 55477, 'completion_tokens': 21837, 'seconds': 369.5279083251953}

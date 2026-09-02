@@ -1,0 +1,45 @@
+[resolve] tai: lô 10 dòng → solved=True 0
+[resolve] tai: lô 10 dòng → solved=True 0
+[resolve] tai: lô 5 dòng → solved=True 0
+[resolve] the-ai-visionary: lô 2 dòng → solved=True 0
+[resolve] the-translator: lô 10 dòng → solved=True 0
+[resolve] the-translator: lô 10 dòng → solved=True 0
+[resolve] the-translator: lô 5 dòng → solved=True 0
+[resolve] the-powerpoint-er: lô 10 dòng → solved=True 3
+[resolve] the-powerpoint-er: lô 10 dòng → solved=True 2
+[resolve] the-powerpoint-er: lô 10 dòng → solved=True 2
+[resolve] the-powerpoint-er: lô 9 dòng → solved=True 0
+[resolve] tai-studio: lô 4 dòng → solved=True 0
+[resolve] the-imaginator: lô 3 dòng → solved=True 1
+[resolve] the-whiteboarder: lô 1 dòng → solved=True 0
+[resolve] the-scholar: lô 1 dòng → solved=True 0
+[resolve] the-ai-coach: lô 1 dòng → solved=True 0
+[resolve] the-brainstormer: lô 10 dòng → solved=True 1
+[resolve] the-brainstormer: lô 2 dòng → solved=True 0
+[resolve] the-summarizer: lô 10 dòng → solved=True 0
+[resolve] the-summarizer: lô 2 dòng → solved=True 0
+[resolve] the-canvas-designer: KHÔNG có tài liệu → 2 dòng solved=False
+
+== Eval B2 bước 1 (guideline resolve) trên data\golden\feedback_gold_solved.csv: n=127
+  gold solved=True: 12 | pred True: 9
+  precision 0.556 | recall 0.417 | F1 0.476 | acc 0.913
+  confusion: tp=5 fp=4 fn=7 tn=111
+  quote verbatim (pred True): 1.00 | trùng đoạn gold (trong TP): 1.00
+  gates: {'ok': 71, 'no_quote': 45, 'quote_not_found': 9, 'no_doc': 2}
+  llm: {'calls': 20, 'prompt_tokens': 52690, 'completion_tokens': 7404, 'seconds': 137.6128430366516}
+
+  sai 11 dòng (id | loại | content | quote | lý do):
+    fb_0004 | FN | TL;DR: There must be a clear indicator when a person is out of credits | Token Meter
+The sidebar shows your token usage (e.g., 3 / 10,000). Tips to save  | ok: The guide mentions token usage and saving tokens but does no
+    fb_0032 | FN | Bạn ơi, có giao diện tiếng việt không ạ ? | ## Tips
+- Be specific: "Create a 5-slide presentation about cloud security" → ge | ok: The guide does not mention a Vietnamese interface option.
+    fb_0059 | FN | I don't see my past ppt presentation here |  | no_quote: The guide mentions that previously saved presentations are l
+    fb_0061 | FP | I want to save the progress of slides that I am creating | The homepage of PowerPoint-er displays all previously saved presentations, click | The guide states that previously saved presentations are displayed on the homepa
+    fb_0070 | FN | Dự án có thể bổ sung cho phép input mô hình ảnh, sau đó chỉnh sửa thàn |  | no_quote: The guide does not describe a feature for editing generated 
+    fb_0074 | FP | Có add được nhiều file tham khảo không nhỉ? | You can also upload reference files to provide context. | The guide allows uploading multiple reference files.
+    fb_0090 | FN | TĂNG FONT SIZE LÊN, CHỮ BÉ LẮM | The top bar provides quick editing actions, including adjusting font size... | quote_not_found: The guide states that font size adjustment is available.
+    fb_0093 | FN | ở mục slide bên trái tạo thêm nút xóa slide sau khi thấy thừa |  | no_quote: The guide does not mention a delete slide button in the left
+    fb_0107 | FN | Cần phiên bản tiếng việt | ## Tips
+- Be specific: "Create a 5-slide presentation about cloud security" → ge | ok: The guide does not mention a Vietnamese interface option.
+    fb_0112 | FP | Cần xuất chart dạng định dạng chart trong pptx, hiện tại Tài xuất định | Image insertion is not supported — slides contain text and vector graphics only | The guide explicitly states image insertion is not supported.
+    fb_0134 | FP | I have lot of charts and visualize want to input into the slide but it | Image insertion is not supported — slides contain text and vector graphics only | The guide explicitly states image insertion is not supported.

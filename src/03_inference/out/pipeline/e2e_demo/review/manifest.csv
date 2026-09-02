@@ -1,0 +1,26 @@
+feedback_id,agent,label,confidence,best_label,flag,scenario,source_ref,draft_status,eml_path,delivered_at
+fb_0000,tai,bug,0.570,bug,low_confidence,we_listen,,drafted,bug/fb_0000.eml,2026-09-02T21:13:17+00:00
+fb_0028,the-powerpoint-er,bug,0.488,bug,low_confidence,we_listen,,drafted,bug/fb_0028.eml,2026-09-02T21:13:17+00:00
+fb_0033,the-ai-coach,bug,0.488,bug,low_confidence,we_listen,,drafted,bug/fb_0033.eml,2026-09-02T21:13:17+00:00
+fb_0035,the-brainstormer,bug,0.750,bug,ok,we_listen,,drafted,bug/fb_0035.eml,2026-09-02T21:13:17+00:00
+fb_0043,the-translator,bug,0.559,bug,low_confidence,we_listen,,drafted,bug/fb_0043.eml,2026-09-02T21:13:17+00:00
+fb_0024,the-whiteboarder,new_feature,0.463,new_feature,low_confidence,we_listen,,drafted,new_feature/fb_0024.eml,2026-09-02T21:13:17+00:00
+fb_0032,tai,new_feature,0.502,new_feature,low_confidence,we_listen,,drafted,new_feature/fb_0032.eml,2026-09-02T21:13:17+00:00
+fb_0090,the-powerpoint-er,new_feature,0.600,new_feature,ok,how_to_answer,docx:powerpointer@2026-05-28#Step 4: Slide Edition,drafted,new_feature/fb_0090.eml,2026-09-02T21:13:17+00:00
+fb_0044,the-translator,new_feature,0.466,new_feature,low_confidence,we_listen,,drafted,new_feature/fb_0044.eml,2026-09-02T21:13:17+00:00
+fb_0050,the-brainstormer,new_feature,0.627,new_feature,ok,we_listen,,drafted,new_feature/fb_0050.eml,2026-09-02T21:13:17+00:00
+fb_0019,the-scholar,praise,0.627,praise,ok,thank_you,,drafted,praise/fb_0019.eml,2026-09-02T21:13:17+00:00
+fb_0027,tai,praise,0.644,praise,ok,thank_you,,drafted,praise/fb_0027.eml,2026-09-02T21:13:17+00:00
+fb_0087,the-powerpoint-er,praise,0.650,praise,ok,thank_you,,drafted,praise/fb_0087.eml,2026-09-02T21:13:17+00:00
+fb_0115,the-summarizer,praise,0.611,praise,ok,thank_you,,drafted,praise/fb_0115.eml,2026-09-02T21:13:17+00:00
+fb_0187,the-translator,praise,0.780,praise,ok,thank_you,,drafted,praise/fb_0187.eml,2026-09-02T21:13:17+00:00
+fb_0030,the-powerpoint-er,complain,0.600,complain,low_confidence,apology,,drafted,complain/fb_0030.eml,2026-09-02T21:13:17+00:00
+fb_0068,the-translator,complain,0.549,complain,low_confidence,apology,,drafted,complain/fb_0068.eml,2026-09-02T21:13:17+00:00
+fb_0077,the-imaginator,complain,0.565,complain,low_confidence,apology,,drafted,complain/fb_0077.eml,2026-09-02T21:13:17+00:00
+fb_0106,the-brainstormer,complain,0.592,complain,low_confidence,apology,,drafted,complain/fb_0106.eml,2026-09-02T21:13:17+00:00
+fb_0138,tai,complain,0.591,complain,low_confidence,apology,,drafted,complain/fb_0138.eml,2026-09-02T21:13:17+00:00
+fb_0037,the-powerpoint-er,unclassified,0.446,new_feature,unclassified,we_listen,,drafted,unclassified/fb_0037.eml,2026-09-02T21:13:17+00:00
+fb_0067,the-translator,unclassified,0.302,new_feature,unclassified,we_listen,,drafted,unclassified/fb_0067.eml,2026-09-02T21:13:17+00:00
+fb_0080,the-summarizer,unclassified,0.327,complain,unclassified,apology,,drafted,unclassified/fb_0080.eml,2026-09-02T21:13:17+00:00
+fb_0085,the-brainstormer,unclassified,0.445,bug,unclassified,we_listen,,drafted,unclassified/fb_0085.eml,2026-09-02T21:13:17+00:00
+fb_0092,the-powerpoint-er,unclassified,0.270,new_feature,unclassified,we_listen,,drafted,unclassified/fb_0092.eml,2026-09-02T21:13:17+00:00

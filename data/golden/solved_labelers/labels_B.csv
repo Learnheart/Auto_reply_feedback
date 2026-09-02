@@ -1,0 +1,131 @@
+id,solved,match_type,referenced,rationale
+fb_0000,False,none,,Tài liệu TÀI không mô tả việc trả về HTML thay vì slide hay việc treo lệnh sau đó — đây là lỗi runtime.
+fb_0001,False,none,,Tài liệu TÀI không nói gì về số slide tối thiểu khi tạo presentation.
+fb_0002,False,none,,"Không gen ra slide sau khi input file là lỗi vận hành, tài liệu không đề cập."
+fb_0003,False,none,,"Đề xuất khai tử agent là góp ý sản phẩm, tài liệu không có nội dung tương ứng."
+fb_0004,False,none,,Các trang tài liệu được phép tra cho agent tai không mô tả chỉ báo hết credit/token.
+fb_0005,False,none,,"Không trả lời nội dung nào là lỗi runtime, tài liệu không mô tả."
+fb_0006,False,none,,"Không phản hồi là lỗi runtime, tài liệu không mô tả."
+fb_0008,False,limitation,"Upon page refresh, the progress information or translated file is no longer visible in the user interface","Tài liệu ghi rõ sau khi refresh trang thì tiến trình và file dịch không còn hiển thị, và không có tính năng lịch sử."
+fb_0009,False,none,,"Nội dung quá chung chung (chỉ ghi 'lỗi'), tài liệu không có mục nào tương ứng."
+fb_0010,False,none,,"Báo lỗi không dùng được một cách chung chung, tài liệu không mô tả."
+fb_0011,False,none,,"Báo không sử dụng được, không có mục nào trong tài liệu tương ứng."
+fb_0012,False,none,,"Không sử dụng được TÀI Studio là lỗi hệ thống, tài liệu không đề cập."
+fb_0013,False,none,,Tài liệu TÀI không hướng dẫn về đánh số thứ tự slide trong file đã xuất.
+fb_0014,False,limitation,Layouts depend on bundled templates — no custom animations or complex charts,Tài liệu ghi rõ không hỗ trợ chart phức tạp vì layout phụ thuộc bộ template đóng gói sẵn.
+fb_0015,False,none,,"Không phản hồi là lỗi runtime, tài liệu không mô tả."
+fb_0016,False,none,,Tài liệu TÀI Studio không mô tả marquee/auto-scroll của mục Trending agents.
+fb_0018,False,none,,"Tài liệu chỉ nói upload 'reference files' chung chung, không xác nhận hỗ trợ dữ liệu Excel để tạo format."
+fb_0020,False,none,,Tài liệu không nói gì về việc hiển thị tên các agent dạng song ngữ.
+fb_0021,False,none,,"Treo ở trạng thái still running là lỗi runtime, tài liệu không mô tả trường hợp này."
+fb_0022,False,none,,"Tài liệu chỉ nói panel History hiển thị ảnh gần đây, không nêu cách tìm ảnh cũ hơn cũng không nêu đây là hạn chế."
+fb_0023,False,none,,Tài liệu Office 365 và TÀI không quy định ngôn ngữ trả lời phải khớp ngôn ngữ câu hỏi.
+fb_0024,False,none,,Góp ý về chất lượng tài liệu hướng dẫn; nội dung bị cắt và tài liệu không có mục nào giải quyết.
+fb_0025,False,none,,"Việc lặp vô hạn viết lại trang HTML là lỗi hành vi, tài liệu không mô tả."
+fb_0026,False,none,,Tài liệu The Scholar không nói gì về màu sắc của các nút.
+fb_0028,False,none,,"Lỗi structured output của LLM là lỗi runtime, tài liệu không mô tả."
+fb_0029,True,how_to,The “Ask AI to edit” field allows a short description of the desired changes. This helps guide AI to update the content more accurately.,Tài liệu nêu rõ đã có ô 'Ask AI to edit' để người dùng góp ý chỉnh sửa sau khi có slide draft.
+fb_0031,False,none,,User nói rõ không phải từ chuyên ngành nên giới hạn về thuật ngữ chuyên ngành không áp dụng; tài liệu không mô tả lỗi này.
+fb_0032,False,none,,Các trang tài liệu được phép tra cho agent tai không mô tả giao diện tiếng Việt.
+fb_0033,False,limitation,AI Coach only supports content related to AI and technology at Techcombank.,Yêu cầu viết MOM nằm ngoài phạm vi AI/công nghệ mà AI Coach hỗ trợ; tài liệu nêu rõ giới hạn này và không có workaround.
+fb_0034,False,none,,Tài liệu không mô tả trường hợp nhiều đoạn bị bỏ sót khi dịch.
+fb_0035,False,none,,Tài liệu có nút Copy nhưng không mô tả trường hợp nút không hoạt động — đây là lỗi runtime.
+fb_0036,False,limitation,⚠️ PII Notice: Do not upload documents containing sensitive personal information.,Tài liệu ghi rõ không được upload tài liệu chứa thông tin cá nhân nhạy cảm và không nêu cách thay thế.
+fb_0038,False,none,,Lỗi font ở output không được tài liệu đề cập.
+fb_0039,False,none,,"Tài liệu chỉ liệt kê export PPTX/PDF, không nói gì về định dạng HTML/MD cho reference."
+fb_0040,True,how_to,"If changes have been saved but the original output is needed again, click “Regenerate from outline” to restore the initial generated version.",Tài liệu hướng dẫn bấm 'Regenerate from outline' để khôi phục đúng version được sinh ra ban đầu.
+fb_0041,False,none,,"Tài liệu TÀI chỉ nêu giới hạn dung lượng 20 MB, không nói về định dạng Excel hay ảnh."
+fb_0042,False,none,,"Không ra được kết quả là lỗi runtime, tài liệu không mô tả."
+fb_0043,False,none,,Tài liệu không đề cập việc xử lý mục lục hay danh mục hình khi dịch.
+fb_0044,False,limitation,"Domain‑specific terminology (legal, medical, financial) may need human review","Tài liệu chỉ nêu thuật ngữ chuyên ngành cần người rà soát, không có tính năng nhập từ điển trước khi dịch."
+fb_0045,False,none,,Tài liệu không mô tả tính năng chia sẻ phiên brainstorm cho nhiều người.
+fb_0046,False,none,,"Tài liệu chỉ hướng dẫn viết brief chung, không có hướng dẫn tạo slide dạng bảng action/timeline/PIC."
+fb_0047,True,how_to,Copy Output Content: Copies the full response while preserving its Markdown formatting for easy reuse.,Tài liệu nêu rõ đã có nút Copy Output Content để sao chép nhanh toàn bộ kết quả.
+fb_0049,False,none,,"Báo không dùng được một cách chung chung, tài liệu không mô tả."
+fb_0050,False,limitation,No file upload support — text-based interaction only,"Tài liệu ghi rõ Brainstormer không hỗ trợ upload file, chỉ tương tác bằng văn bản."
+fb_0051,False,limitation,"If a document is too large, it may be truncated — a warning banner will indicate how many characters were translated.","Tài liệu nêu tài liệu quá lớn có thể bị cắt bớt, nhưng không có cách để dịch trọn vẹn."
+fb_0054,True,how_to,"The top bar provides quick editing actions, including adjusting font size, text color, formatting, alignment, and adding bullet points to the content.",Tài liệu nêu rõ thanh công cụ khi edit slide cho phép chỉnh cỡ chữ và màu chữ.
+fb_0055,False,none,,Tài liệu không có ô để người dùng mô tả nội dung cần tóm tắt.
+fb_0057,False,none,,Tài liệu không xác nhận hỗ trợ định dạng Excel/ảnh làm file tham khảo nên nhu cầu chưa được đáp ứng.
+fb_0058,False,none,,Tài liệu không mô tả việc một số trang slide bị bỏ qua khi dịch.
+fb_0059,True,how_to,"The homepage of PowerPoint-er displays all previously saved presentations, click “Open” to see fully.","Tài liệu nêu rõ trang chủ Powerpoint-er hiển thị toàn bộ presentation đã lưu, bấm 'Open' để xem."
+fb_0060,False,none,,"Lỗi interrupt liên tục là lỗi runtime, tài liệu không mô tả."
+fb_0061,True,how_to,"The homepage of PowerPoint-er displays all previously saved presentations, click “Open” to see fully.",Tài liệu xác nhận các presentation được lưu lại và truy cập được từ trang chủ Powerpoint-er.
+fb_0066,False,none,,Tài liệu không có tính năng đồng bộ cuộn giữa bản gốc và bản dịch.
+fb_0069,False,none,,Tài liệu không đề cập việc đính kèm tài liệu tham khảo bằng đường link.
+fb_0070,True,how_to,"If you want to use an image as a reference, drag the Image Input node from the left panel onto the canvas, upload an image (PNG/JPG, up to 10 MB), then connect it to the Generate node.",Tài liệu hướng dẫn cụ thể cách dùng Image Input node để đưa ảnh vào làm tham chiếu rồi chỉnh sửa (image-to-image).
+fb_0071,False,limitation,Two languages are currently supported: Vietnamese and English.,Tài liệu ghi rõ hiện chỉ hỗ trợ hai ngôn ngữ Việt và Anh nên chưa có tiếng Trung.
+fb_0072,False,none,,Tài liệu có mô tả bước Slide Edition nhưng không mô tả trường hợp không edit được — đây là lỗi runtime.
+fb_0073,False,none,,Lỗi font tiếng Việt và việc chọn font không được tài liệu đề cập.
+fb_0074,True,how_to,You can also upload reference files to provide context.,Tài liệu nêu rõ có thể upload các file tham khảo để cung cấp ngữ cảnh.
+fb_0075,False,none,,Tài liệu không đề cập quy tắc đặt tên file hay thông báo lỗi ký tự không hợp lệ.
+fb_0076,False,none,,"Tài liệu chỉ nêu export Markdown và .xmind, không đề cập Excel cũng không nêu đây là hạn chế."
+fb_0079,False,none,,Tài liệu không nêu giới hạn 4000 ký tự của phần brief.
+fb_0081,False,limitation,Image insertion is not supported — slides contain text and vector graphics only,Tài liệu ghi rõ không hỗ trợ chèn hình ảnh vào slide.
+fb_0082,False,none,,"Dịch PDF sai nội dung và chèn code là lỗi chất lượng, tài liệu không nêu giới hạn tương ứng."
+fb_0083,False,none,,Danh sách tool của TÀI không có công cụ xuất Word và tài liệu cũng không nêu đây là hạn chế.
+fb_0084,True,how_to,"If you want to use an image as a reference, drag the Image Input node from the left panel onto the canvas, upload an image (PNG/JPG, up to 10 MB), then connect it to the Generate node.","Tính năng thêm ảnh tham chiếu đã có: kéo Image Input node, upload ảnh rồi nối vào Generate node."
+fb_0086,False,limitation,"- PDF (.pdf)
+- Word (.docx)
+- PowerPoint (.pptx)
+- Plain Text (.txt)","Tài liệu liệt kê rõ chỉ hỗ trợ PDF/DOCX/PPTX/TXT, không có audio hay video."
+fb_0088,False,none,,Lỗi font từ trang 3 không được tài liệu đề cập.
+fb_0089,False,none,,"Báo lỗi liên tục một cách chung chung, tài liệu không mô tả."
+fb_0090,True,how_to,"The top bar provides quick editing actions, including adjusting font size, text color, formatting, alignment, and adding bullet points to the content.",Tài liệu nêu rõ có thể tăng cỡ chữ bằng thanh công cụ trong bước chỉnh sửa slide.
+fb_0091,False,none,,"Tài liệu chỉ hỗ trợ tóm tắt gộp nhiều tài liệu, không có tính năng so sánh/phát hiện khác biệt."
+fb_0093,True,how_to,You can edit: - Slide titles (click to edit) - Bullet points (click to edit) - Add/remove bullets (+ Add bullet / × to remove) - Add/remove slides (+ Add slide / Remove),Tài liệu nêu rõ ở bước Review the Outline có thể thêm/xóa slide bằng + Add slide / Remove.
+fb_0094,False,limitation,"Long-term memory stores preferences only (language, tone, topics), not full chat history","Tài liệu ghi rõ chỉ lưu preferences chứ không lưu lịch sử chat, nên không có cách quay lại phiên đang dở."
+fb_0096,False,none,,"Nút generate outline không hoạt động là lỗi runtime, tài liệu không mô tả."
+fb_0097,False,limitation,No file upload support — text-based interaction only,Tài liệu ghi rõ không hỗ trợ upload file docx/pptx/pdf/ảnh.
+fb_0100,False,none,,Tài liệu không có tính năng tải từng trang slide; phần khôi phục chỉ khôi phục toàn bộ version đầu chứ không theo từng trang.
+fb_0103,False,none,,"Vỡ font khi export là lỗi, tài liệu không nêu giới hạn tương ứng."
+fb_0107,False,none,,Không có mô tả phiên bản hay giao diện tiếng Việt trong tài liệu của agent tai.
+fb_0109,False,none,,"Network error khi dịch file có bảng biểu là lỗi hệ thống, tài liệu không mô tả."
+fb_0110,False,none,,Lỗi font của slide không được tài liệu đề cập.
+fb_0111,False,none,,"Lỗi structured output của LLM là lỗi runtime, tài liệu không mô tả."
+fb_0112,False,limitation,Layouts depend on bundled templates — no custom animations or complex charts,Tài liệu ghi rõ không hỗ trợ chart phức tạp nên không thể xuất chart dạng chart gốc trong PPTX.
+fb_0113,False,limitation,"When the brainstorming reaches a natural conclusion, the session is marked as complete:","Tài liệu mô tả việc phiên tự đánh dấu hoàn thành là hành vi thiết kế, nhưng không có cách mở lại phiên đã complete."
+fb_0114,False,none,,Tài liệu không có tùy chọn nhập độ dài hay số ký tự cho bản tóm tắt.
+fb_0116,False,none,,"Network error khi dịch file là lỗi hệ thống, tài liệu không mô tả."
+fb_0124,False,none,,"Nút Send Feedback che mất option là lỗi bố cục UI, tài liệu không mô tả."
+fb_0125,False,none,,"Tài liệu chỉ nhắc thẻ 'Edit slides in chat', không đủ để khẳng định có vòng lặp feedback và re-generate slide."
+fb_0127,False,limitation,"If a document is too large, it may be truncated — a warning banner will indicate how many characters were translated.","Tài liệu nêu khả năng văn bản bị cắt bớt khi quá lớn, nhưng không có cách khắc phục để dịch toàn bộ."
+fb_0129,False,none,,"Kết quả vẫn là tiếng Anh dù chọn dịch sang Việt là lỗi, tài liệu không mô tả."
+fb_0133,False,none,,Tài liệu không nói gì về kích thước các card trên home page.
+fb_0134,False,limitation,Image insertion is not supported — slides contain text and vector graphics only,Tài liệu ghi rõ không hỗ trợ chèn hình ảnh/visual vào slide.
+fb_0137,False,limitation,Image insertion is not supported — slides contain text and vector graphics only,Tài liệu ghi rõ không hỗ trợ chèn hình ảnh nên không thể paste ảnh vào slide.
+fb_0139,False,none,,Tài liệu không đề cập việc xuất kết quả dưới dạng bảng.
+fb_0140,False,none,,"Lỗi không cuộn chuột được trong ô nhập nhiều dòng là lỗi UI, tài liệu không mô tả."
+fb_0141,False,limitation,No file upload support — text-based interaction only,"Tài liệu ghi rõ không hỗ trợ upload file/ảnh, chỉ tương tác bằng văn bản."
+fb_0142,False,none,,Tài liệu không mô tả trường hợp còn trang chưa được dịch.
+fb_0143,False,limitation,Image insertion is not supported — slides contain text and vector graphics only,"Tài liệu ghi rõ slide chỉ gồm text và vector graphics, không chèn được ảnh."
+fb_0144,False,none,,Tài liệu TÀI không mô tả chất lượng dịch hay việc bỏ sót từ khi dịch.
+fb_0145,False,limitation,"During slide editing, only inline content updates are supported. Adding new text boxes or repositioning existing elements is not available","Tài liệu ghi rõ khi edit slide chỉ cập nhật nội dung inline, không di chuyển/sắp xếp lại phần tử để sửa layout overlap."
+fb_0146,False,none,,Tài liệu Powerpoint-er không đề cập việc kết hợp với The Translator.
+fb_0147,False,none,,Lỗi font tiếng Việt không được tài liệu đề cập.
+fb_0148,False,none,,Tài liệu The Translator không đề cập cơ chế guardrail chặn input.
+fb_0149,False,none,,"Báo không dịch được một cách chung chung, tài liệu không mô tả."
+fb_0152,False,none,,Không có tài liệu hướng dẫn cho the-canvas-designer.
+fb_0153,False,none,,"Tài liệu AI Visionary không mô tả tính năng lưu lịch sử hội thoại, cũng không nêu đây là hạn chế."
+fb_0154,False,none,,Tài liệu không đề cập việc đọc nội dung nằm trong ảnh chụp bên trong file docx.
+fb_0156,False,none,,"Crash rồi trả về câu từ chối là lỗi runtime, tài liệu không mô tả."
+fb_0157,False,none,,Tài liệu nói hiển thị được cả Anh và Việt nhưng không mô tả lỗi chiều Việt sang Anh — đây là lỗi runtime.
+fb_0158,False,none,,Tài liệu không nói gì về vị trí nút Summarize hay việc phải tự xóa file.
+fb_0159,False,none,,Tài liệu The Summarizer không đề cập tích hợp tạo slide từ bản tóm tắt.
+fb_0160,False,none,,Tài liệu TÀI không mô tả việc xử lý file chứa PII hay nút tải không hoạt động.
+fb_0163,False,none,,"Lỗi dịch với một câu cụ thể là lỗi runtime, tài liệu không mô tả."
+fb_0165,False,none,,Tài liệu không mô tả hành vi của nút back giữa bước Outline và bước brief.
+fb_0166,False,none,,Tài liệu không có cảnh báo về việc bịa thông tin trong bản tóm tắt.
+fb_0167,False,none,,Nội dung mô tả không rõ ràng và tài liệu không có mục nào tương ứng.
+fb_0168,False,none,,Tài liệu không đề cập việc upload file Excel để tự sinh insight/báo cáo.
+fb_0171,False,none,,Tài liệu không đề cập việc chuẩn hóa chức danh/bộ phận theo bộ từ điển của HR.
+fb_0173,False,none,,Tài liệu TÀI không mô tả cơ chế guardrail hay việc xóa câu trả lời giữa chừng.
+fb_0175,False,none,,Tài liệu không liệt kê định dạng file tham khảo được hỗ trợ nên không giải thích được lỗi parse PPTX.
+fb_0176,False,none,,Tài liệu có mô tả @ mention nhưng không nói gì về lỗi kích thước/hiển thị của ô @.
+fb_0181,False,none,,Không có tài liệu hướng dẫn cho the-canvas-designer.
+fb_0184,False,none,,"Lỗi 502 khi dịch file 203 KB là lỗi hệ thống (dưới giới hạn 20 MB), tài liệu không mô tả."
+fb_0185,False,none,,"Không truy cập được là lỗi hệ thống, tài liệu không mô tả."
+fb_0188,False,limitation,Adding templates directly is not available; full requirements must be clearly described in text,Tài liệu ghi rõ không thể tự thêm template; layout phụ thuộc bộ template đóng gói sẵn.
+fb_0189,False,none,,Tài liệu không có chỗ để người dùng nhập thêm chỉ dẫn hay độ dài bản tóm tắt.
+fb_0190,False,none,,"Tài liệu TÀI chỉ lưu lịch sử hội thoại, không mô tả kho lưu trữ sản phẩm đã tạo."
+fb_0191,False,none,,"Lỗi truy cập không vào được là lỗi hệ thống, tài liệu không mô tả."

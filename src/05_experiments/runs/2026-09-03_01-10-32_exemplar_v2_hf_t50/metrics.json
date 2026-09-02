@@ -1,0 +1,991 @@
+{
+  "n": 192,
+  "accuracy": 0.4322916666666667,
+  "per_label": {
+    "bug": {
+      "precision": 0.9130434782608695,
+      "recall": 0.3387096774193548,
+      "f1": 0.49411764705882344,
+      "support": 62,
+      "predicted": 23
+    },
+    "new_feature": {
+      "precision": 0.5,
+      "recall": 0.36923076923076925,
+      "f1": 0.4247787610619469,
+      "support": 65,
+      "predicted": 48
+    },
+    "praise": {
+      "precision": 0.6666666666666666,
+      "recall": 0.8,
+      "f1": 0.7272727272727272,
+      "support": 20,
+      "predicted": 24
+    },
+    "complain": {
+      "precision": 0.20512820512820512,
+      "recall": 0.5,
+      "f1": 0.29090909090909095,
+      "support": 16,
+      "predicted": 39
+    },
+    "unclassified": {
+      "precision": 0.2413793103448276,
+      "recall": 0.4827586206896552,
+      "f1": 0.32183908045977017,
+      "support": 29,
+      "predicted": 58
+    }
+  },
+  "confusion": {
+    "bug": {
+      "bug": 21,
+      "new_feature": 14,
+      "praise": 2,
+      "complain": 10,
+      "unclassified": 15
+    },
+    "new_feature": {
+      "bug": 0,
+      "new_feature": 24,
+      "praise": 1,
+      "complain": 13,
+      "unclassified": 27
+    },
+    "praise": {
+      "bug": 0,
+      "new_feature": 0,
+      "praise": 16,
+      "complain": 3,
+      "unclassified": 1
+    },
+    "complain": {
+      "bug": 2,
+      "new_feature": 5,
+      "praise": 0,
+      "complain": 8,
+      "unclassified": 1
+    },
+    "unclassified": {
+      "bug": 0,
+      "new_feature": 5,
+      "praise": 5,
+      "complain": 5,
+      "unclassified": 14
+    }
+  },
+  "flags": {
+    "ok": 134,
+    "low_confidence": 0,
+    "unclassified": 58
+  },
+  "thresholds": {
+    "high": 0.5,
+    "low": 0.5
+  },
+  "query_instruction": null,
+  "answered": {
+    "n": 119,
+    "accuracy": 0.5798319327731093,
+    "per_label": {
+      "bug": {
+        "precision": 0.9130434782608695,
+        "recall": 0.44680851063829785,
+        "f1": 0.6,
+        "support": 47,
+        "predicted": 23
+      },
+      "new_feature": {
+        "precision": 0.5581395348837209,
+        "recall": 0.631578947368421,
+        "f1": 0.5925925925925927,
+        "support": 38,
+        "predicted": 43
+      },
+      "praise": {
+        "precision": 0.8421052631578947,
+        "recall": 0.8421052631578947,
+        "f1": 0.8421052631578947,
+        "support": 19,
+        "predicted": 19
+      },
+      "complain": {
+        "precision": 0.23529411764705882,
+        "recall": 0.5333333333333333,
+        "f1": 0.326530612244898,
+        "support": 15,
+        "predicted": 34
+      }
+    },
+    "confusion": {
+      "bug": {
+        "bug": 21,
+        "new_feature": 14,
+        "praise": 2,
+        "complain": 10
+      },
+      "new_feature": {
+        "bug": 0,
+        "new_feature": 24,
+        "praise": 1,
+        "complain": 13
+      },
+      "praise": {
+        "bug": 0,
+        "new_feature": 0,
+        "praise": 16,
+        "complain": 3
+      },
+      "complain": {
+        "bug": 2,
+        "new_feature": 5,
+        "praise": 0,
+        "complain": 8
+      }
+    }
+  },
+  "abstention": {
+    "gold_unclassified": 29,
+    "caught": 14,
+    "false_accept": 15,
+    "false_abstain": 44
+  },
+  "coverage_curve": [
+    {
+      "threshold": 0.3,
+      "coverage": 0.9895833333333334,
+      "n_answered": 190,
+      "acc_answered": 0.49473684210526314,
+      "acc_answered_gold_real": 0.5802469135802469
+    },
+    {
+      "threshold": 0.35,
+      "coverage": 0.9635416666666666,
+      "n_answered": 185,
+      "acc_answered": 0.5027027027027027,
+      "acc_answered_gold_real": 0.58125
+    },
+    {
+      "threshold": 0.4,
+      "coverage": 0.9322916666666666,
+      "n_answered": 179,
+      "acc_answered": 0.4972067039106145,
+      "acc_answered_gold_real": 0.577922077922078
+    },
+    {
+      "threshold": 0.45,
+      "coverage": 0.8645833333333334,
+      "n_answered": 166,
+      "acc_answered": 0.5060240963855421,
+      "acc_answered_gold_real": 0.5714285714285714
+    },
+    {
+      "threshold": 0.5,
+      "coverage": 0.6979166666666666,
+      "n_answered": 134,
+      "acc_answered": 0.5149253731343284,
+      "acc_answered_gold_real": 0.5798319327731093
+    },
+    {
+      "threshold": 0.55,
+      "coverage": 0.46875,
+      "n_answered": 90,
+      "acc_answered": 0.5666666666666667,
+      "acc_answered_gold_real": 0.6375
+    },
+    {
+      "threshold": 0.6,
+      "coverage": 0.21875,
+      "n_answered": 42,
+      "acc_answered": 0.6904761904761905,
+      "acc_answered_gold_real": 0.7435897435897436
+    },
+    {
+      "threshold": 0.65,
+      "coverage": 0.08854166666666667,
+      "n_answered": 17,
+      "acc_answered": 0.7058823529411765,
+      "acc_answered_gold_real": 0.7058823529411765
+    },
+    {
+      "threshold": 0.7,
+      "coverage": 0.03125,
+      "n_answered": 6,
+      "acc_answered": 0.8333333333333334,
+      "acc_answered_gold_real": 0.8333333333333334
+    },
+    {
+      "threshold": 0.75,
+      "coverage": 0.010416666666666666,
+      "n_answered": 2,
+      "acc_answered": 1.0,
+      "acc_answered_gold_real": 1.0
+    }
+  ],
+  "errors": [
+    [
+      "fb_0001",
+      "new_feature",
+      "complain",
+      0.5646515488624573,
+      "chưa tạo dc 1 slide, mà phải tối thiểu 2 slide"
+    ],
+    [
+      "fb_0002",
+      "bug",
+      "complain",
+      0.6063345074653625,
+      "TAI studio ko work, input file nhưng ko gen ra slide"
+    ],
+    [
+      "fb_0003",
+      "new_feature",
+      "unclassified",
+      0.39577776193618774,
+      "TL;DR: We should sunset AI Visionary and just replace it wit"
+    ],
+    [
+      "fb_0004",
+      "new_feature",
+      "complain",
+      0.5116802453994751,
+      "TL;DR: There must be a clear indicator when a person is out "
+    ],
+    [
+      "fb_0007",
+      "complain",
+      "bug",
+      0.5117393136024475,
+      "Tại sao cứ báo tôi bị hết hạn mức không sử dụng được"
+    ],
+    [
+      "fb_0008",
+      "new_feature",
+      "complain",
+      0.5341250896453857,
+      "The translator không có lịch sử ạ :) lúc nãy em chờ nóa dịch"
+    ],
+    [
+      "fb_0012",
+      "bug",
+      "new_feature",
+      0.514072597026825,
+      "tôi đang ko sử dụng được Tài studio…"
+    ],
+    [
+      "fb_0013",
+      "new_feature",
+      "unclassified",
+      0.4969298839569092,
+      "sau khi tạo được slide từ TAI, tôi add trang mới vào file sl"
+    ],
+    [
+      "fb_0014",
+      "new_feature",
+      "unclassified",
+      0.4952801465988159,
+      "chưa chuyển thể data trong excel thành chart trong ppt được"
+    ],
+    [
+      "fb_0015",
+      "bug",
+      "praise",
+      0.5954484939575195,
+      "k phản hồi"
+    ],
+    [
+      "fb_0016",
+      "new_feature",
+      "unclassified",
+      0.44477012753486633,
+      "The automatic scrolling/marquee for Trending agents is just "
+    ],
+    [
+      "fb_0017",
+      "complain",
+      "unclassified",
+      0.45265987515449524,
+      "Searching for previous chats is very limited. Is this keywor"
+    ],
+    [
+      "fb_0020",
+      "new_feature",
+      "unclassified",
+      0.39831632375717163,
+      "Vui lòng để song ngữ cho tên của các agents không thì người "
+    ],
+    [
+      "fb_0022",
+      "new_feature",
+      "unclassified",
+      0.4392237663269043,
+      "lịch sử lưu ảnh của Tài Thiết kế hơi ít ,muốn tìm lại ảnh cũ"
+    ],
+    [
+      "fb_0023",
+      "bug",
+      "unclassified",
+      0.4577316343784332,
+      "Chat MCP O365 bằng ENG nhưng câu trả lời bằng tiếng Việt"
+    ],
+    [
+      "fb_0024",
+      "new_feature",
+      "unclassified",
+      0.46298328042030334,
+      "Dear anh chị, owner của agent review lại hướng dẫn sử dụng, "
+    ],
+    [
+      "fb_0026",
+      "new_feature",
+      "unclassified",
+      0.45004573464393616,
+      "Mấy cái nút này mầu xấu quá dùng màu xanh không ổn ?"
+    ],
+    [
+      "fb_0028",
+      "bug",
+      "new_feature",
+      0.5105025172233582,
+      "LLM: LLM: structured output failed: No JSON found after all "
+    ],
+    [
+      "fb_0029",
+      "new_feature",
+      "unclassified",
+      0.48395034670829773,
+      "Tự bịa khá nhiều thông tin, cần phải có bước comment sau khi"
+    ],
+    [
+      "fb_0031",
+      "bug",
+      "unclassified",
+      0.4537087082862854,
+      "Vẫn còn 1 đoạn nội dung tiếng Việt (không phải từ chuyên môn"
+    ],
+    [
+      "fb_0033",
+      "bug",
+      "unclassified",
+      0.48787060379981995,
+      "Tôi yêu cầu đưa ra câu trả lời MOM thì có câu trả lời sau đó"
+    ],
+    [
+      "fb_0034",
+      "bug",
+      "complain",
+      0.5040825605392456,
+      "Nhiều đoạn không được dịch"
+    ],
+    [
+      "fb_0036",
+      "bug",
+      "new_feature",
+      0.5969057083129883,
+      "translators does not work translates customer complaints, em"
+    ],
+    [
+      "fb_0038",
+      "bug",
+      "new_feature",
+      0.5711784362792969,
+      "không dịch hết tiếng Anh trong văn bản, output ra bị lỗi fon"
+    ],
+    [
+      "fb_0040",
+      "new_feature",
+      "complain",
+      0.5165479183197021,
+      "Mình ấn re-generate với mong muốn tạo ra slide đẹp hơn, nhưn"
+    ],
+    [
+      "fb_0041",
+      "new_feature",
+      "unclassified",
+      0.38884568214416504,
+      "Ko đưa dữ liệu bằng excel và hình ảnh được"
+    ],
+    [
+      "fb_0042",
+      "bug",
+      "praise",
+      0.7076460123062134,
+      "không ra được kết quả"
+    ],
+    [
+      "fb_0044",
+      "new_feature",
+      "unclassified",
+      0.4656003415584564,
+      "Nên thêm mục các từ ngữ chuyên ngành hay dịch sai để người d"
+    ],
+    [
+      "fb_0045",
+      "new_feature",
+      "unclassified",
+      0.3942962884902954,
+      "Cho phép share. Các chat với nhiều người, nhất là brainstorm"
+    ],
+    [
+      "fb_0046",
+      "new_feature",
+      "unclassified",
+      0.36460113525390625,
+      "Để tạo slide về action plan bao gồm action, timeline & PIC t"
+    ],
+    [
+      "fb_0047",
+      "new_feature",
+      "unclassified",
+      0.47961077094078064,
+      "Có nút sao chép để sao chép nhanh kết quả Tài trả ra"
+    ],
+    [
+      "fb_0049",
+      "bug",
+      "complain",
+      0.663922905921936,
+      "Làm slide không dùng đc ạ"
+    ],
+    [
+      "fb_0051",
+      "bug",
+      "unclassified",
+      0.4211658239364624,
+      "Tài không chỉ dịch được khoảng 10% văn bản up lên, còn lại t"
+    ],
+    [
+      "fb_0052",
+      "praise",
+      "unclassified",
+      0.47959160804748535,
+      "tuyệt vời. Tài chat xử lý nhanh và hỗ trợ phân tích, so sánh"
+    ],
+    [
+      "fb_0053",
+      "praise",
+      "complain",
+      0.5224615931510925,
+      "Hỗ trợ xử lý nhanh việc lên ý tưởng cho 1 bài thuyết trình"
+    ],
+    [
+      "fb_0055",
+      "new_feature",
+      "complain",
+      0.5232435464859009,
+      "Nên có 1 dòng để user mô tả các thông tin cần tóm tắt thay v"
+    ],
+    [
+      "fb_0058",
+      "bug",
+      "complain",
+      0.5414593815803528,
+      "có một số trang slide không dịch mà để nguyên chữ tiếng anh"
+    ],
+    [
+      "fb_0059",
+      "new_feature",
+      "complain",
+      0.5970609188079834,
+      "I don't see my past ppt presentation here"
+    ],
+    [
+      "fb_0061",
+      "new_feature",
+      "complain",
+      0.554567813873291,
+      "I want to save the progress of slides that I am creating"
+    ],
+    [
+      "fb_0062",
+      "unclassified",
+      "complain",
+      0.5371770262718201,
+      "Đang viết quá ngắn gọn, mỗi tình huống cần để 1 slide riêng."
+    ],
+    [
+      "fb_0070",
+      "new_feature",
+      "unclassified",
+      0.4744090139865875,
+      "Dự án có thể bổ sung cho phép input mô hình ảnh, sau đó chỉn"
+    ],
+    [
+      "fb_0072",
+      "bug",
+      "new_feature",
+      0.5404497385025024,
+      "Tài slide vừa gen xong, nhưng không thể edit file được"
+    ],
+    [
+      "fb_0073",
+      "bug",
+      "new_feature",
+      0.5873702764511108,
+      "Lỗi font chữ tiếng việt, nên có lựa chọn font chữ, hoặc font"
+    ],
+    [
+      "fb_0075",
+      "new_feature",
+      "unclassified",
+      0.48796606063842773,
+      "Báo lỗi Filename contains disallowed characters or patterns "
+    ],
+    [
+      "fb_0079",
+      "new_feature",
+      "unclassified",
+      0.47035759687423706,
+      "dề xuất cho nhiều hơn 4000 ký tự để yêu cầu chi tiết hơn. bê"
+    ],
+    [
+      "fb_0081",
+      "new_feature",
+      "complain",
+      0.5723302364349365,
+      "tôi nghĩ cần đưa thêm hình ảnh tượng trưng thì slide sẽ đẹp "
+    ],
+    [
+      "fb_0084",
+      "new_feature",
+      "unclassified",
+      0.48243528604507446,
+      "Thêm ảnh tham chiếu (reference) giống Figma Wave được không "
+    ],
+    [
+      "fb_0088",
+      "bug",
+      "complain",
+      0.5487324595451355,
+      "Bản dịch bị lỗi font từ trang 3"
+    ],
+    [
+      "fb_0093",
+      "new_feature",
+      "complain",
+      0.5084594488143921,
+      "ở mục slide bên trái tạo thêm nút xóa slide sau khi thấy thừ"
+    ],
+    [
+      "fb_0096",
+      "bug",
+      "new_feature",
+      0.6391358971595764,
+      "nút generate outline không hoạt đông"
+    ],
+    [
+      "fb_0098",
+      "unclassified",
+      "complain",
+      0.563355565071106,
+      "Còn thiếu nhiều nội dung quá> Hãy bổ sung cho đầu đủ. Giới h"
+    ],
+    [
+      "fb_0103",
+      "bug",
+      "new_feature",
+      0.5981760025024414,
+      "Export ra file pptx bị vỡ font chữ, không đẹp như preview"
+    ],
+    [
+      "fb_0105",
+      "unclassified",
+      "complain",
+      0.540652334690094,
+      "hãy tạo slide theo mẫu trình bày của TCB"
+    ],
+    [
+      "fb_0108",
+      "complain",
+      "new_feature",
+      0.573146641254425,
+      "Xmind user không có thì không dùng được mục này"
+    ],
+    [
+      "fb_0109",
+      "bug",
+      "new_feature",
+      0.5502957105636597,
+      "Dịch file gồm cả bảng biểu có thể bị lỗi và báo network erro"
+    ],
+    [
+      "fb_0110",
+      "bug",
+      "complain",
+      0.6794782876968384,
+      "Font chữ của slide bị lỗi"
+    ],
+    [
+      "fb_0111",
+      "bug",
+      "new_feature",
+      0.5149480700492859,
+      "LLM: LLM: structured output failed: No JSON found after all "
+    ],
+    [
+      "fb_0112",
+      "new_feature",
+      "unclassified",
+      0.4698188900947571,
+      "Cần xuất chart dạng định dạng chart trong pptx, hiện tại Tài"
+    ],
+    [
+      "fb_0113",
+      "bug",
+      "unclassified",
+      0.4820323884487152,
+      "Chưa muốn kết thúc luồng brainstorm nhưng session đã complet"
+    ],
+    [
+      "fb_0114",
+      "new_feature",
+      "complain",
+      0.6953037977218628,
+      "Nội dung tóm tắt quá ngắn > có thể bổ sung thêm phần input s"
+    ],
+    [
+      "fb_0117",
+      "complain",
+      "bug",
+      0.6283782720565796,
+      "tài liệu chưa trả ra được dưới dạng onepage như tôi yêu cầu"
+    ],
+    [
+      "fb_0118",
+      "unclassified",
+      "new_feature",
+      0.6436198949813843,
+      "tài file dịch về sao"
+    ],
+    [
+      "fb_0119",
+      "unclassified",
+      "complain",
+      0.5516785383224487,
+      "I want to consolidate slide 2 and 3 into 1 slide only"
+    ],
+    [
+      "fb_0121",
+      "unclassified",
+      "praise",
+      0.5740711688995361,
+      "uew"
+    ],
+    [
+      "fb_0124",
+      "bug",
+      "unclassified",
+      0.4703617990016937,
+      "Màn hình khi đưa yêu cầu edit rất khó sử dụng, button send f"
+    ],
+    [
+      "fb_0125",
+      "new_feature",
+      "unclassified",
+      0.4912462830543518,
+      "The powerpoint-er cần bổ sung năng lực tiếp nhận ý kiến phản"
+    ],
+    [
+      "fb_0127",
+      "bug",
+      "complain",
+      0.5019651055335999,
+      "tôi muốn dịch cả văn bản, mà Tài chỉ dịch cho tôi mỗi tiêu đ"
+    ],
+    [
+      "fb_0129",
+      "bug",
+      "unclassified",
+      0.4645808935165405,
+      "Tại sao bàn dịch ra tiếng Việt vẫm là tiếng anh"
+    ],
+    [
+      "fb_0131",
+      "unclassified",
+      "complain",
+      0.5503184199333191,
+      "làm sao tôi biết được bạn đang dịch đúng"
+    ],
+    [
+      "fb_0134",
+      "new_feature",
+      "complain",
+      0.5800184011459351,
+      "I have lot of charts and visualize want to input into the sl"
+    ],
+    [
+      "fb_0137",
+      "new_feature",
+      "praise",
+      0.5647702217102051,
+      "Cho phép thao tác paste ảnh nội dung cần thiết kế slide để t"
+    ],
+    [
+      "fb_0139",
+      "new_feature",
+      "unclassified",
+      0.41187965869903564,
+      "ko cung cấp dưới dạng bảng được"
+    ],
+    [
+      "fb_0140",
+      "bug",
+      "unclassified",
+      0.421911358833313,
+      "trường hợp typing nhiều dòng trong ô chat thì không thể lăn "
+    ],
+    [
+      "fb_0141",
+      "new_feature",
+      "unclassified",
+      0.47916656732559204,
+      "anh/ chị cho thêm tính năng gửi hình ảnh để trao đổi thông t"
+    ],
+    [
+      "fb_0142",
+      "bug",
+      "new_feature",
+      0.5802462697029114,
+      "Vẫn có trang chưa được dịch"
+    ],
+    [
+      "fb_0143",
+      "new_feature",
+      "complain",
+      0.5551522374153137,
+      "It's should be more picture about techcombank on all slide"
+    ],
+    [
+      "fb_0144",
+      "bug",
+      "unclassified",
+      0.33465224504470825,
+      "KHi dịch từ tiếng Anh sang tiếng Việt, có những từ không phả"
+    ],
+    [
+      "fb_0145",
+      "new_feature",
+      "complain",
+      0.6549447178840637,
+      "an interactive loop of Human feedback and agent fix. Ngoài r"
+    ],
+    [
+      "fb_0146",
+      "new_feature",
+      "unclassified",
+      0.47448593378067017,
+      "Có thể kết hợp powerpointer với translator được không?"
+    ],
+    [
+      "fb_0148",
+      "bug",
+      "unclassified",
+      0.3994068205356598,
+      "why it was blocked by guardrail????guardrail blocked (input)"
+    ],
+    [
+      "fb_0149",
+      "bug",
+      "unclassified",
+      0.41686856746673584,
+      "hiện tại đang ko dịch được."
+    ],
+    [
+      "fb_0150",
+      "unclassified",
+      "praise",
+      0.5116540789604187,
+      "Em có feedback như sau ạ …"
+    ],
+    [
+      "fb_0151",
+      "praise",
+      "complain",
+      0.5217306017875671,
+      "Ưu điểm: Có chuẩn bị script cho speaker; Slide thiết kế đẹp,"
+    ],
+    [
+      "fb_0152",
+      "new_feature",
+      "unclassified",
+      0.47337231040000916,
+      "Chữ và icon trên màn hình quá nhỏ các sếp ơi"
+    ],
+    [
+      "fb_0153",
+      "new_feature",
+      "unclassified",
+      0.4126646816730499,
+      "Agent chưa lưu lịch sử các lần trò chuyện trước."
+    ],
+    [
+      "fb_0154",
+      "bug",
+      "new_feature",
+      0.6117556095123291,
+      "Upload file docx, trong file có capture hình ảnh chưa thông "
+    ],
+    [
+      "fb_0155",
+      "complain",
+      "new_feature",
+      0.5508976578712463,
+      "font chữ hơi xấu"
+    ],
+    [
+      "fb_0157",
+      "bug",
+      "complain",
+      0.5063157081604004,
+      "The Summarizer: Chuyển từ tiếng Anh sáng Việt ok nhưng sau đ"
+    ],
+    [
+      "fb_0161",
+      "unclassified",
+      "new_feature",
+      0.5263530015945435,
+      "Tôi gửi 1 file ppt, trong đó có phần ảnh (báo cáo export từ "
+    ],
+    [
+      "fb_0163",
+      "bug",
+      "unclassified",
+      0.47022584080696106,
+      "Lỗi translate khi có câu \"Share some of the design patterns "
+    ],
+    [
+      "fb_0164",
+      "praise",
+      "complain",
+      0.5379907488822937,
+      "Slide đẹp hơn Kiro"
+    ],
+    [
+      "fb_0165",
+      "bug",
+      "new_feature",
+      0.5218513011932373,
+      "khi đi đến bước xem Outline mà chưa ưng ý, muốn quay lại bướ"
+    ],
+    [
+      "fb_0166",
+      "bug",
+      "complain",
+      0.5451917052268982,
+      "cái summarizer này đang bịa ra MIK mà trong khi ko có MIK mà"
+    ],
+    [
+      "fb_0167",
+      "bug",
+      "complain",
+      0.5068039894104004,
+      "đã dịch xong văn bản đầu, mới có 2 tragn thôi"
+    ],
+    [
+      "fb_0169",
+      "unclassified",
+      "new_feature",
+      0.5852248668670654,
+      "SP rất đỉnh. có thể chuyển thể nguyên file cực hữu ích. Tuy "
+    ],
+    [
+      "fb_0170",
+      "unclassified",
+      "new_feature",
+      0.5852248668670654,
+      "SP rất đỉnh. có thể chuyển thể nguyên file cực hữu ích. Tuy "
+    ],
+    [
+      "fb_0171",
+      "new_feature",
+      "unclassified",
+      0.3308921456336975,
+      "các thông tin như chức danh, bộ phận nên được chuẩn hóa theo"
+    ],
+    [
+      "fb_0173",
+      "bug",
+      "unclassified",
+      0.4973936080932617,
+      "The guardrail seems to trigger quite late. Chat was showing "
+    ],
+    [
+      "fb_0174",
+      "unclassified",
+      "praise",
+      0.5430512428283691,
+      "Test feedback"
+    ],
+    [
+      "fb_0175",
+      "bug",
+      "new_feature",
+      0.5829168558120728,
+      "received a failed to parse the file error when uploading a P"
+    ],
+    [
+      "fb_0176",
+      "bug",
+      "unclassified",
+      0.4674831032752991,
+      "@ box doesnt contain and resize"
+    ],
+    [
+      "fb_0177",
+      "complain",
+      "new_feature",
+      0.5931984186172485,
+      "Không có dữ liệu chuẩn"
+    ],
+    [
+      "fb_0178",
+      "complain",
+      "new_feature",
+      0.5819050073623657,
+      "Need to improve pdf translation"
+    ],
+    [
+      "fb_0179",
+      "complain",
+      "new_feature",
+      0.6119941473007202,
+      "Dữ liệu outdate"
+    ],
+    [
+      "fb_0181",
+      "bug",
+      "unclassified",
+      0.27461740374565125,
+      "Ko mở đc Graphics designer."
+    ],
+    [
+      "fb_0182",
+      "unclassified",
+      "new_feature",
+      0.6493471264839172,
+      "Agent này nên bổ sugn tính năng sau:…"
+    ],
+    [
+      "fb_0183",
+      "unclassified",
+      "praise",
+      0.5989996194839478,
+      "No"
+    ],
+    [
+      "fb_0186",
+      "unclassified",
+      "praise",
+      0.6130563020706177,
+      "1"
+    ],
+    [
+      "fb_0188",
+      "new_feature",
+      "unclassified",
+      0.4947037994861603,
+      "Đang dùng format slide cũ TCB 30 năm ( nên cập nhật theme mớ"
+    ]
+  ]
+}

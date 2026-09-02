@@ -1,0 +1,18 @@
+id,agent,content,label
+neg_complain_01,tai,"hệ thống đang lỗi, bấm vào ko chạy",complain
+neg_complain_02,the-powerpoint-er,"làm xong mà ko thấy hiện ra gì hết",complain
+neg_complain_03,tai,"app treo cứng, phải thoát ra vào lại",complain
+neg_complain_04,the-translator,"the feature is broken, it stopped working",complain
+neg_complain_05,tai-studio,"mong có thêm tính năng mới cho bản sau nữa",complain
+neg_complain_06,tai,"ko thấy phản hồi gì, chờ mãi luôn",complain
+neg_new_feature_01,tai,"đang ko sử dụng dc, app bị lỗi rồi",new_feature
+neg_new_feature_02,the-translator,"vô ko được, cứ báo lỗi suốt",new_feature
+neg_new_feature_03,the-translator,"file up lên bị đứng, ko xử lý gì",new_feature
+neg_new_feature_04,tai,it errors out and won't run at all,new_feature
+neg_praise_01,tai,ko thấy trả lời gì hết,praise
+neg_praise_02,the-summarizer,chạy hoài ko xong,praise
+neg_praise_03,the-summarizer,giúp mình làm thống kê cái này với,praise
+neg_praise_04,the-translator,cần cải thiện thêm nhiều,praise
+neg_bug_01,the-powerpoint-er,"kết quả làm ra xấu, nhìn chưa ưng",bug
+neg_bug_02,tai,"chất lượng output còn kém, chưa đạt",bug
+neg_bug_03,the-powerpoint-er,"the result looks bad, not well made",bug

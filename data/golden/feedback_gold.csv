@@ -1,0 +1,193 @@
+﻿agent,user,date,content,label
+tai,hangtt@techcombank.com.vn,2026-08-24,"nhờ Tài tạo slide, nhưng lại chỉ gửi lại html, sau đó các câu lệnh ko nhận nữa",bug
+tai,hangtt@techcombank.com.vn,2026-08-24,"chưa tạo dc 1 slide, mà phải tối thiểu 2 slide",new_feature
+tai,anbx2@techcombank.com.vn,2026-08-24,"TAI studio ko work, input file nhưng ko gen ra slide",bug
+the-ai-visionary,romeo.olympia@techcombank.com.vn,2026-08-22,TL;DR: We should sunset AI Visionary and just replace it with AI Coach. The knowledge grounding of AI Visionary seems to be very …,new_feature
+tai,romeo.olympia@techcombank.com.vn,2026-08-21,TL;DR: There must be a clear indicator when a person is out of credits....,new_feature
+tai,hanghtv@techcombank.com.vn,2026-08-21,K trả lời nội dung nào khi hỏi,bug
+tai,hanghtv@techcombank.com.vn,2026-08-21,Không phản hồi,bug
+the-brainstormer,minhnth@techcombank.com.vn,2026-08-21,Tại sao cứ báo tôi bị hết hạn mức không sử dụng được,complain
+the-translator,quantq2@techcombank.com.vn,2026-08-20,The translator không có lịch sử ạ :) lúc nãy em chờ nóa dịch chán chê mòi xong vô tình tab đấy refresh lại thì nóa mất luôn 😳,new_feature
+tai,antv3@techcombank.com.vn,2026-08-20,lỗi,bug
+tai,antv3@techcombank.com.vn,2026-08-20,lỗi không dùng được,bug
+tai,antv3@techcombank.com.vn,2026-08-20,tôi không sử dụng được,bug
+tai,antv3@techcombank.com.vn,2026-08-20,tôi đang ko sử dụng được Tài studio…,bug
+tai,minhnn14@techcombank.com.vn,2026-08-20,"sau khi tạo được slide từ TAI, tôi add trang mới vào file slide đó thì STT của slide không nhảy theo . tôi cần làm gì.",new_feature
+the-powerpoint-er,phuongntt2@techcombank.com.vn,2026-08-19,chưa chuyển thể data trong excel thành chart trong ppt được,new_feature
+tai,hanghtv@techcombank.com.vn,2026-08-19,k phản hồi,bug
+tai-studio,romeo.olympia@techcombank.com.vn,2026-08-18,The automatic scrolling/marquee for Trending agents is just meh. Let's turn it into just a manual scroll.,new_feature
+tai,romeo.olympia@techcombank.com.vn,2026-08-18,"Searching for previous chats is very limited. Is this keyword match, semantic, hybrid?",complain
+the-powerpoint-er,anhntl5@techcombank.com.vn,2026-08-18,Tài có thể giúp tạo format dựa trên dư liệu file excel có sẵn đưa vào ko,new_feature
+the-scholar,hieutt23@techcombank.com.vn,2026-08-18,Very good,praise
+tai,toandm@techcombank.com.vn,2026-08-18,Vui lòng để song ngữ cho tên của các agents không thì người dùng tìm mệt lắm. Thanks.,new_feature
+tai,hanhlh@techcombank.com.vn,2026-08-17,"Tài chưa đưa ra trả lời, still runing",bug
+the-imaginator,thaontp52@techcombank.com.vn,2026-08-17,"lịch sử lưu ảnh của Tài Thiết kế hơi ít ,muốn tìm lại ảnh cũ hơn thì k thấy",new_feature
+tai,thaontp52@techcombank.com.vn,2026-08-17,Chat MCP O365 bằng ENG nhưng câu trả lời bằng tiếng Việt,bug
+the-whiteboarder,ngocnb2@techcombank.com.vn,2026-08-17,"Dear anh chị, owner của agent review lại hướng dẫn sử dụng, user đọc hướng dẫn nhưng chưa rõ phải thao tác như thế nào. Ví dụ t…",new_feature
+tai,romeo.olympia@techcombank.com.vn,2026-08-15,TAI Chat repeatedly tried to write and rewrite the same html page multiple times until I had to explicitly stop it (eating thru my budg…,bug
+the-scholar,anhdt26@techcombank.com.vn,2026-08-14,Mấy cái nút này mầu xấu quá dùng màu xanh không ổn ?,new_feature
+tai,anhdt26@techcombank.com.vn,2026-08-14,this is amazing,praise
+the-powerpoint-er,minhntn9@techcombank.com.vn,2026-08-12,LLM: LLM: structured output failed: No JSON found after all strategies: line 1 column 1 (char 0)…,bug
+the-powerpoint-er,nhungltc@techcombank.com.vn,2026-08-12,"Tự bịa khá nhiều thông tin, cần phải có bước comment sau khi đã lên slide draft để chỉnh AI đi đúng hướng",new_feature
+the-powerpoint-er,lienttb@techcombank.com.vn,2026-08-08,càng làm càng xấu,complain
+the-translator,phulq@techcombank.com.vn,2026-08-06,Vẫn còn 1 đoạn nội dung tiếng Việt (không phải từ chuyên môn) chưa dịch,bug
+tai,phuongnav@techcombank.com.vn,2026-08-06,"Bạn ơi, có giao diện tiếng việt không ạ ?",new_feature
+the-ai-coach,phuongdtl4@techcombank.com.vn,2026-08-05,"Tôi yêu cầu đưa ra câu trả lời MOM thì có câu trả lời sau đó biến mất sau 1-2phut - hiện thị nội dung: 'I'm sorry, i can't help with that",bug
+the-translator,lamnn@techcombank.com.vn,2026-08-05,Nhiều đoạn không được dịch,bug
+the-brainstormer,cuongnm4@techcombank.com.vn,2026-08-05,Nút copy không hoạt động,bug
+the-translator,jyoti@techcombank.com.vn,2026-08-05,"translators does not work translates customer complaints, emails with responses with names, is there an alternate way to translate …",bug
+the-powerpoint-er,tranghvy@techcombank.com.vn,2026-08-04,bổ sung thêm giúp tôi pah6n tích chi tiết theo từng lực lượng bán,unclassified
+the-translator,anhdtm4@techcombank.com.vn,2026-08-02,"không dịch hết tiếng Anh trong văn bản, output ra bị lỗi font",bug
+the-powerpoint-er,hant48@techcombank.com.vn,2026-07-31,"Bổ sung thêm định dạng html và md cho reference , document để đảm bảo trong flow làm việc, internal user có thể tiện lợi move qu…",new_feature
+the-powerpoint-er,tamct5@techcombank.com.vn,2026-07-30,"Mình ấn re-generate với mong muốn tạo ra slide đẹp hơn, nhưng lại xấu hơn version đầu. Muốn quay lại lấy version đầu nhưng ko được",new_feature
+tai,loanpth3@techcombank.com.vn,2026-07-30,Ko đưa dữ liệu bằng excel và hình ảnh được,new_feature
+the-summarizer,hueht5@techcombank.com.vn,2026-07-30,không ra được kết quả,bug
+the-translator,anhht17@techcombank.com.vn,2026-07-29,"bị lỗi table of contents, table of figures",bug
+the-translator,anhht17@techcombank.com.vn,2026-07-29,Nên thêm mục các từ ngữ chuyên ngành hay dịch sai để người dùng tự input trước khi dịch.,new_feature
+the-brainstormer,cuongvxk@techcombank.com.vn,2026-07-29,"Cho phép share. Các chat với nhiều người, nhất là brainstormer",new_feature
+the-powerpoint-er,thaontp41@techcombank.com.vn,2026-07-29,"Để tạo slide về action plan bao gồm action, timeline & PIC thì làm thế nào? Hiện tôi thực hiện bằng cách copy table action plan và p…",new_feature
+the-brainstormer,anhnq3@techcombank.com.vn,2026-07-27,Có nút sao chép để sao chép nhanh kết quả Tài trả ra,new_feature
+the-powerpoint-er,hanhvtt@techcombank.com.vn,2026-07-27,"nội dung sơ sài, chưa theo đúng yêu c ầu",complain
+the-powerpoint-er,huongbm@techcombank.com.vn,2026-07-27,Làm slide không dùng đc ạ,bug
+the-brainstormer,ngocnb2@techcombank.com.vn,2026-07-26,"Cần phải bổ sung gấp tính năng cho upload các loại file và ảnh, để giúp làm rõ thông tin nhanh hơn. Ngoài ra cần bổ sung tính năng…",new_feature
+the-translator,hienltg@techcombank.com.vn,2026-07-23,"Tài không chỉ dịch được khoảng 10% văn bản up lên, còn lại thì để nguyên",bug
+tai,hoaida@techcombank.com.vn,2026-07-23,"tuyệt vời. Tài chat xử lý nhanh và hỗ trợ phân tích, so sánh các nội dung văn bản rõ ràng",praise
+the-powerpoint-er,hoaida@techcombank.com.vn,2026-07-23,Hỗ trợ xử lý nhanh việc lên ý tưởng cho 1 bài thuyết trình,praise
+the-powerpoint-er,hoaida@techcombank.com.vn,2026-07-23,"cỡ chữ hơi nhỏ, sử dụng nhiều màu sắc, độ tương phản giữa nền và chữ chưa cao",new_feature
+the-summarizer,thaonp10@techcombank.com.vn,2026-07-22,Nên có 1 dòng để user mô tả các thông tin cần tóm tắt thay vì để Agent tự lựa chọn thông tin,new_feature
+tai,toantb@techcombank.com.vn,2026-07-22,"Team ơi, usage limit của mỗi period dc tính như nào. khi nào được reset. …",unclassified
+the-powerpoint-er,anhnnp@techcombank.com.vn,2026-07-21,"không cho upload nhiều file tài liệu cùng lúc, không nhận đình dạng file excel và ảnh",new_feature
+the-translator,trangdth6@techcombank.com.vn,2026-07-17,có một số trang slide không dịch mà để nguyên chữ tiếng anh,bug
+the-powerpoint-er,anhlt11@techcombank.com.vn,2026-07-17,I don't see my past ppt presentation here,new_feature
+the-translator,phuongth2@techcombank.com.vn,2026-07-16,"Đã upload file nhưng k dịch đc, liên tục báo interrupt",bug
+the-powerpoint-er,anhlt11@techcombank.com.vn,2026-07-16,I want to save the progress of slides that I am creating,new_feature
+the-powerpoint-er,trinhlk@techcombank.com.vn,2026-07-16,"Đang viết quá ngắn gọn, mỗi tình huống cần để 1 slide riêng. Hình ảnh về chất lượng nợ giữ nguyên silde ban đầu",unclassified
+the-powerpoint-er,hopnt@techcombank.com.vn,2026-07-16,"Từ slide số 4, hãy làm mỗi slide là 1 vấn đề, kèm theo thách thức, giải pháp tôi đã lựa chọn và những đề xuất tới HO nếu có. 4 nhóm…",unclassified
+the-powerpoint-er,lienvt3@techcombank.com.vn,2026-07-15,Tôi muốn gộp ba targer vào 1 bảng. như sau: hãy thiết kế theo dạng bảng:…,unclassified
+the-powerpoint-er,huydh@techcombank.com.vn,2026-07-15,Silde tạo chưa đẹp,complain
+the-translator,romeo.olympia@techcombank.com.vn,2026-07-15,bility to toggle on/off \sync scroll between original and translation would help a lot for side-by-side validation. (If you are an LLM/hu…,new_feature
+the-translator,duapt@techcombank.com.vn,2026-07-15,1. Đàm bào doanh nghiệp = ĐBDN = Corporate Assurance…,unclassified
+the-translator,huyenpt33@techcombank.com.vn,2026-07-15,"Dịch quá tệj, đặc biệt với các câu nhiều mệnh đề.",complain
+the-powerpoint-er,oanhntk2@techcombank.com.vn,2026-07-14,Dự án bổ sung tính năng TÀI LIỆU THAM KHẢO DƯỚI HÌNH THỨC LÀ một đường link đính kèm (link tài liệu DMS/ hoặc website mà T…,new_feature
+the-imaginator,oanhntk2@techcombank.com.vn,2026-07-14,"Dự án có thể bổ sung cho phép input mô hình ảnh, sau đó chỉnh sửa thành hình ảnh mình mong muốn theo đúng mô tả và concept …",new_feature
+the-translator,songls@techcombank.com.vn,2026-07-14,Nên thêm ngôn ngữ đầu ra là Tiếng Trung. Thêm Source file là dịch hình ảnh ạ.,new_feature
+the-powerpoint-er,thaontp52@techcombank.com.vn,2026-07-14,"Tài slide vừa gen xong, nhưng không thể edit file được",bug
+the-powerpoint-er,huyttq@techcombank.com.vn,2026-07-14,"Lỗi font chữ tiếng việt, nên có lựa chọn font chữ, hoặc font chữ mặc định nên tốt hơn",bug
+the-powerpoint-er,bannd@techcombank.com.vn,2026-07-14,Có add được nhiều file tham khảo không nhỉ?,new_feature
+the-summarizer,thaontp41@techcombank.com.vn,2026-07-13,Báo lỗi Filename contains disallowed characters or patterns nhưng không báo cụ thể disallowed character or pattern là gì để đặt lại. …,new_feature
+the-brainstormer,thaontp52@techcombank.com.vn,2026-07-13,"chưa hỗ trợ xuất kết quả ra file excel, như hiện tại mình phải cop ra copilot nhờ xuất excel giúp",new_feature
+the-imaginator,huongdtm11@techcombank.com.vn,2026-07-13,"hình ảnh còn chưa đẹp, ví dụ hình theo style Oil painting",complain
+the-powerpoint-er,tuva6@techcombank.com.vn,2026-07-13,"giữ nguyên 2 slide đầu, với cấu trúc các phần như vậy",unclassified
+the-powerpoint-er,duybp@techcombank.com.vn,2026-07-11,dề xuất cho nhiều hơn 4000 ký tự để yêu cầu chi tiết hơn. bên cạnh đó Tài chỉ làm tốt lần đầu và yêu cầu chỉnh sửa thì tài làm chưa tốt,new_feature
+the-summarizer,huongltt12@techcombank.com.vn,2026-07-10,Các tầng thành viên bù trừ: Các thành viên bù trừ trực tiếp phải duy trì vốn tối thiểu là 1.000 tỷ đồng; các thành viên bù trừ chung (n…,unclassified
+the-powerpoint-er,tranghvy@techcombank.com.vn,2026-07-10,tôi nghĩ cần đưa thêm hình ảnh tượng trưng thì slide sẽ đẹp va 2chuey6n nghiệp hơn. và bạn vui lo2mng báo sát vào nội dung tôi đã gửi,new_feature
+the-translator,nganbtt@techcombank.com.vn,2026-07-10,"khả năng dịch PDF không ổn, sai nội dung còn chèn cả code trong quá trình dịch",bug
+tai,anhdtm4@techcombank.com.vn,2026-07-10,hiện tại TÀI chưa có công cụ để xuất file Word (.docx) copy ra text không hoàn thiện,new_feature
+the-imaginator,hienntt73@techcombank.com.vn,2026-07-10,Thêm ảnh tham chiếu (reference) giống Figma Wave được không ạ,new_feature
+the-brainstormer,phuongvh6@techcombank.com.vn,2026-07-10,"Em hỏi chút, khi em sử dụng AI này và up chứng từ lên để AI hỗ trợ, có bị tính vi phạm an ninh thông tin không?",unclassified
+the-summarizer,thanhdl3@techcombank.com.vn,2026-07-09,nên bổ sung định dạng audio/ video,new_feature
+the-powerpoint-er,vangdk@techcombank.com.vn,2026-07-09,tuyệt vời,praise
+the-translator,lanpt@techcombank.com.vn,2026-07-09,Bản dịch bị lỗi font từ trang 3,bug
+the-powerpoint-er,kieunp@techcombank.com.vn,2026-07-08,lỗi liên tục,bug
+the-powerpoint-er,haivh@techcombank.com.vn,2026-07-08,"TĂNG FONT SIZE LÊN, CHỮ BÉ LẮM",new_feature
+the-summarizer,,2026-07-08,"Bổ sung tính năng so sánh, phát hiện điểm khác biệt giữa các văn bản (ví dụ thông tư/văn bản mới cập nhật nội dung gì so với văn bả…",new_feature
+the-powerpoint-er,hoannd2@techcombank.com.vn,2026-07-08,"Bạn có thể so sánh với các Công ty khác như Đạm Phú Mỹ, Phân Bón Bình Điền, Hóa chất Miền Nam không?",unclassified
+the-powerpoint-er,nhungnt12@techcombank.com.vn,2026-07-08,ở mục slide bên trái tạo thêm nút xóa slide sau khi thấy thừa,new_feature
+the-brainstormer,thaontp52@techcombank.com.vn,2026-07-08,"Đang brainstorm dở, muốn vào lại để brainstorm tiếp thì lại bị session expired, ko vào lại được",bug
+the-powerpoint-er,hangttm4@techcombank.com.vn,2026-07-07,Gộp vào lại thành 2-3 slide - sử dụng thêm hình ảnh con gà của Techcombank,unclassified
+the-powerpoint-er,thangpd7@techcombank.com.vn,2026-07-07,nút generate outline không hoạt đông,bug
+the-brainstormer,quanvh9@techcombank.com.vn,2026-07-07,"Add a function to add files such as docx, pptx, pdf, images to get more context to have a better brainstorming tasks",new_feature
+the-powerpoint-er,dungvq@techcombank.com.vn,2026-07-07,Còn thiếu nhiều nội dung quá> Hãy bổ sung cho đầu đủ. Giới hạn tối đa 8 slides,unclassified
+the-powerpoint-er,hongpta@techcombank.com.vn,2026-07-06,"thiết kế slide chưa đẹp. Các dữ liệu chi tiết theo bảng biểu bị AI loại trừ, chỉ tóm tắt chung tổng quan --> Cần đào tạo thêm :)",complain
+the-powerpoint-er,thaontp41@techcombank.com.vn,2026-07-06,Bổ sung tính năng cho download từng trang slide và cho quay trở về version trước của trang slide.,new_feature
+the-powerpoint-er,canhdn2@techcombank.com.vn,2026-07-06,"cần thêm thông tin là AWS Connect đã triển khai ở Techcombank đã tích hợp với CRM, TCBMobile và và đơn vị VAC/RBG đang sử dụ…",unclassified
+the-powerpoint-er,bannd@techcombank.com.vn,2026-07-05,Lần đầu dùng thử và rất ưng cái bụng. Cảm ơn!!!,praise
+the-powerpoint-er,hangvtt2@techcombank.com.vn,2026-07-04,"Export ra file pptx bị vỡ font chữ, không đẹp như preview",bug
+the-powerpoint-er,trucdn@techcombank.com.vn,2026-07-03,"tuyệt vời, <3 10 điểm",praise
+the-powerpoint-er,linhnn2@techcombank.com.vn,2026-07-03,hãy tạo slide theo mẫu trình bày của TCB,unclassified
+the-brainstormer,duypd@techcombank.com.vn,2026-07-03,It is asking too much questions,complain
+tai,tungnx5@techcombank.com.vn,2026-07-03,Cần phiên bản tiếng việt,new_feature
+the-brainstormer,tungnx5@techcombank.com.vn,2026-07-03,Xmind user không có thì không dùng được mục này,complain
+the-translator,anhnd10@techcombank.com.vn,2026-07-03,Dịch file gồm cả bảng biểu có thể bị lỗi và báo network error,bug
+the-powerpoint-er,ducdnm@techcombank.com.vn,2026-07-03,Font chữ của slide bị lỗi,bug
+the-powerpoint-er,duongnh10@techcombank.com.vn,2026-07-03,LLM: LLM: structured output failed: No JSON found after all strategies: line 1 column 1 (char 0),bug
+the-powerpoint-er,thaonp3@techcombank.com.vn,2026-07-03,"Cần xuất chart dạng định dạng chart trong pptx, hiện tại Tài xuất định dạng ảnh không chỉnh sửa được",new_feature
+the-brainstormer,phuongnt28@techcombank.com.vn,2026-07-02,Chưa muốn kết thúc luồng brainstorm nhưng session đã complete và ko mở lại được,bug
+the-summarizer,phongtv4@techcombank.com.vn,2026-07-02,Nội dung tóm tắt quá ngắn > có thể bổ sung thêm phần input số ký tự/độ dài của tóm tắt,new_feature
+the-summarizer,hantd@techcombank.com.vn,2026-07-02,Chức năng này khá hay,praise
+the-translator,phongtv4@techcombank.com.vn,2026-07-02,"Hệ thống không dịch được file, chỉ chạy được 1 lúc rồi báo network error",bug
+the-powerpoint-er,thanhntg@techcombank.com.vn,2026-07-02,tài liệu chưa trả ra được dưới dạng onepage như tôi yêu cầu,complain
+the-translator,anhdtk2@techcombank.com.vn,2026-07-02,tài file dịch về sao,unclassified
+the-powerpoint-er,thaonp3@techcombank.com.vn,2026-07-02,I want to consolidate slide 2 and 3 into 1 slide only,unclassified
+the-powerpoint-er,thannv@techcombank.com.vn,2026-07-02,Very quickly,praise
+the-powerpoint-er,huongpt17@techcombank.com.vn,2026-07-02,uew,unclassified
+the-summarizer,huongpt17@techcombank.com.vn,2026-07-02,thống kê tuyến đường vi mô team phạm hương,unclassified
+the-summarizer,huongpt17@techcombank.com.vn,2026-07-02,hãy giúp mình thống kê các tuyến đường vi mô của các bạn,unclassified
+the-powerpoint-er,thaontp41@techcombank.com.vn,2026-07-01,"Màn hình khi đưa yêu cầu edit rất khó sử dụng, button send feedback che mất phần option chọn chỉ nhìn thấy cancel, vì cảm giác kh…",bug
+tai-studio,thaontp41@techcombank.com.vn,2026-07-01,The powerpoint-er cần bổ sung năng lực tiếp nhận ý kiến phản hồi và yêu cầu hoàn thiện/ bổ sung của người dùng và re-generate sli…,new_feature
+the-powerpoint-er,thaontp41@techcombank.com.vn,2026-07-01,Hãy bổ sung phân loại Level giá Product va Customer Level,unclassified
+the-translator,trangtt@techcombank.com.vn,2026-07-01,"tôi muốn dịch cả văn bản, mà Tài chỉ dịch cho tôi mỗi tiêu đề",bug
+the-powerpoint-er,huongvq@techcombank.com.vn,2026-06-30,loved,praise
+the-translator,anhvtk3@techcombank.com.vn,2026-06-30,Tại sao bàn dịch ra tiếng Việt vẫm là tiếng anh,bug
+the-powerpoint-er,dungvs@techcombank.com.vn,2026-06-30,tks,praise
+the-translator,tunn10@techcombank.com.vn,2026-06-30,làm sao tôi biết được bạn đang dịch đúng,unclassified
+the-powerpoint-er,linhntm12@techcombank.com.vn,2026-06-30,GOOD,praise
+tai-studio,mynt20@techcombank.com.vn,2026-06-29,"Home page: the Featured cards should be larger (The summarizer, The Brainstormer, etc.)",new_feature
+the-powerpoint-er,binhnvh@techcombank.com.vn,2026-06-29,I have lot of charts and visualize want to input into the slide but it's not available that option that yet,new_feature
+the-powerpoint-er,dungvs@techcombank.com.vn,2026-06-29,tks so much . its helpful,praise
+the-powerpoint-er,thanhpp3@techcombank.com.vn,2026-06-29,Khá quá nhờ em Tài uí,praise
+the-powerpoint-er,nhunglh1@techcombank.com.vn,2026-06-29,Cho phép thao tác paste ảnh nội dung cần thiết kế slide để thao tác nhanh hơn (giống copilot),new_feature
+tai,quyennt17@techcombank.com.vn,2026-06-29,Trang rất hỗn,complain
+the-brainstormer,hungtt2@techcombank.com.vn,2026-06-29,ko cung cấp dưới dạng bảng được,new_feature
+the-brainstormer,ngoctb10@techcombank.com.vn,2026-06-27,"trường hợp typing nhiều dòng trong ô chat thì không thể lăn chuột để xem các dòng đã nhập, thay vào đó phải dùng nút trỏ lên/ xuốn…",bug
+the-brainstormer,ngoctb10@techcombank.com.vn,2026-06-27,"anh/ chị cho thêm tính năng gửi hình ảnh để trao đổi thông tin cho đỡ phải brief lại thông tin bằng các nhập, từ đó rút ngắn thời gian t…",new_feature
+the-translator,thuypt5@techcombank.com.vn,2026-06-26,Vẫn có trang chưa được dịch,bug
+the-powerpoint-er,vinhnx@techcombank.com.vn,2026-06-26,It's should be more picture about techcombank on all slide,new_feature
+tai,quynhttn11@techcombank.com.vn,2026-06-25,"KHi dịch từ tiếng Anh sang tiếng Việt, có những từ không phải từ chuyên ngành hoặc danh từ riêng nhưng vẫn không dduwocj chuy…",bug
+the-powerpoint-er,khainh2@techcombank.com.vn,2026-06-25,"an interactive loop of Human feedback and agent fix. Ngoài ra, slide design chưa ổn về layout, text arrangement (overlap), size of tex…",new_feature
+the-powerpoint-er,hant48@techcombank.com.vn,2026-06-25,Có thể kết hợp powerpointer với translator được không?,new_feature
+the-powerpoint-er,hant48@techcombank.com.vn,2026-06-25,Lỗi font tiếng Việt,bug
+the-translator,vanlt11@techcombank.com.vn,2026-06-25,"why it was blocked by guardrail????guardrail blocked (input): The input contains a reference to 'Anthropic, PBC' in option D, which is …",bug
+the-translator,hainq3@techcombank.com.vn,2026-06-25,hiện tại đang ko dịch được.,bug
+the-brainstormer,ngoctb10@techcombank.com.vn,2026-06-25,Em có feedback như sau ạ …,unclassified
+the-powerpoint-er,nhungnth6@techcombank.com.vn,2026-06-25,"Ưu điểm: Có chuẩn bị script cho speaker; Slide thiết kế đẹp, dễ nhìn, có lựa chọn Template TCB, tùy chỉnh từng trang;…",praise
+the-canvas-designer,hant48@techcombank.com.vn,2026-06-25,Chữ và icon trên màn hình quá nhỏ các sếp ơi,new_feature
+the-ai-visionary,ducnd5@techcombank.com.vn,2026-06-24,Agent chưa lưu lịch sử các lần trò chuyện trước.,new_feature
+the-summarizer,ngocng@techcombank.com.vn,2026-06-24,"Upload file docx, trong file có capture hình ảnh chưa thông tin -> Không đọc được nội dung file.",bug
+the-powerpoint-er,mailp@techcombank.com.vn,2026-06-24,font chữ hơi xấu,complain
+tai,handx@techcombank.com.vn,2026-06-24,"Trà kết quả xong tự crash => I'm sorry, I can't help with that. Let me know if there's something else I can assist you with.",bug
+the-summarizer,ngocng@techcombank.com.vn,2026-06-24,The Summarizer: Chuyển từ tiếng Anh sáng Việt ok nhưng sau đó chuyển từ Việt sang tiếng Anh chưa work.,bug
+the-summarizer,ngocng@techcombank.com.vn,2026-06-24,Nên tách chuyển nút Summarize lên box Drop files. Hiện đa... người dùng phải tự Delete …,new_feature
+the-summarizer,ngocng@techcombank.com.vn,2026-06-24,Nên tích hợp tính năng tạo Slide với nội dung sau khi summar…,new_feature
+tai,ninhdv2@techcombank.com.vn,2026-06-24,- Bug: Dịch file chứa PII vẫn hiển thị nút tải nhưng không tải được…,bug
+the-translator,thuytt8@techcombank.com.vn,2026-06-24,"Tôi gửi 1 file ppt, trong đó có phần ảnh (báo cáo export từ hệ thống) và phần word (đánh giá insight). Khi sử dụng tính năng transl…",unclassified
+tai,tuantq9@techcombank.com.vn,2026-06-24,thật sự hữu ích,praise
+the-translator,truongpv2@techcombank.com.vn,2026-06-24,"Lỗi translate khi có câu ""Share some of the design patterns we've seen from the trenches and requirements they have…",bug
+the-powerpoint-er,anhpd4@techcombank.com.vn,2026-06-24,Slide đẹp hơn Kiro,praise
+the-powerpoint-er,thaontp52@techcombank.com.vn,2026-06-24,"khi đi đến bước xem Outline mà chưa ưng ý, muốn quay lại bước brief để sửa prompt, thì ấn nút back (ở góc trái phía trên) thì lại đi…",bug
+the-summarizer,nhilt@techcombank.com.vn,2026-06-23,cái summarizer này đang bịa ra MIK mà trong khi ko có MIK mà là Masterise,bug
+the-translator,trangdth6@techcombank.com.vn,2026-06-23,"đã dịch xong văn bản đầu, mới có 2 tragn thôi",bug
+the-powerpoint-er,hiennt23@techcombank.com.vn,2026-06-23,"- Cho phép upload file excel dữ liệu, từ dữ liệu thô define insights để làm báo cáo tự động dựa trên dữ liệu…",new_feature
+tai-studio,anhnd11@techcombank.com.vn,2026-06-23,SP rất đỉnh. có thể chuyển thể nguyên file cực hữu ích. Tuy nhiên khi sử dụng vẫn chưa dùng được vì …,unclassified
+the-translator,anhnd11@techcombank.com.vn,2026-06-23,SP rất đỉnh. có thể chuyển thể nguyên file cực hữu ích. Tuy nhiên khi sử dụng vẫn chưa dùng được vì …,unclassified
+the-translator,trangtt19@techcombank.com.vn,2026-06-23,"các thông tin như chức danh, bộ phận nên được chuẩn hóa theo bộ của HR, ví dụ: SENIOR SPECIALIST --> SENIOR EXPERT, bộ p…",new_feature
+the-powerpoint-er,trangtt19@techcombank.com.vn,2026-06-23,xịnnnn,praise
+tai,romeo.olympia@techcombank.com.vn,2026-06-23,"The guardrail seems to trigger quite late. Chat was showing me the document summary and then in the end, it clears the respons…",bug
+tai,trangdq9@techcombank.com.vn,2026-06-22,Test feedback,unclassified
+the-powerpoint-er,richard.ball@techcombank.com.vn,2026-06-22,received a failed to parse the file error when uploading a PPTX file,bug
+tai-studio,anhdt26@techcombank.com.vn,2026-06-19,@ box doesnt contain and resize,bug
+the-ai-visionary,quyetnv2@techcombank.com.vn,2026-06-19,Không có dữ liệu chuẩn,complain
+the-translator,duongntt31@techcombank.com.vn,2026-06-19,Need to improve pdf translation,complain
+tai,quyetnv2@techcombank.com.vn,2026-06-19,Dữ liệu outdate,complain
+tai,trunglt3@techcombank.com.vn,2026-06-19,Cool,praise
+the-canvas-designer,bangtv@techcombank.com.vn,2026-06-18,Ko mở đc Graphics designer.,bug
+the-powerpoint-er,ngocnb2@techcombank.com.vn,2026-06-18,Agent này nên bổ sugn tính năng sau:…,unclassified
+the-powerpoint-er,hantt75@techcombank.com.vn,2026-06-16,No,unclassified
+the-translator,namth9@techcombank.com.vn,2026-06-15,Tôi upload file word 203 kb để dịch từ tiếng Anh sang tiếng Việt nhưng gặp lỗi Translation request failed (502),bug
+the-brainstormer,donnh@techcombank.com.vn,2026-06-15,coundn't acess,bug
+the-powerpoint-er,hantt75@techcombank.com.vn,2026-06-13,1,unclassified
+the-translator,minhlth2@techcombank.com.vn,2026-06-12,Very good result,praise
+the-powerpoint-er,hoibh@techcombank.com.vn,2026-06-11,Đang dùng format slide cũ TCB 30 năm ( nên cập nhật theme mới nhất)…,new_feature
+the-summarizer,hoanglh3@techcombank.com.vn,2026-06-10,"I need to summary in to 10 pages of word for example, please give room for user to give further instruction",new_feature
+tai,ngocnb2@techcombank.com.vn,2026-06-10,"Tài Studio cần bổ sung nơi lưu trữ những sản phẩm Tài Studio đã tạo ra. Ví dụ khi tôi tạo ra các slide xong, xuất xong thì những slide…",new_feature
+the-powerpoint-er,hangtt36@techcombank.com.vn,2026-06-10,lỗi truy cập k vào đc,bug

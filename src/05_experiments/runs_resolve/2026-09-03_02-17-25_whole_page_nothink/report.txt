@@ -1,0 +1,43 @@
+[resolve] tai: lô 10 dòng → solved=True 0
+[resolve] tai: lô 10 dòng → solved=True 0
+[resolve] tai: lô 5 dòng → solved=True 0
+[resolve] the-ai-visionary: lô 2 dòng → solved=True 0
+[resolve] the-translator: lô 10 dòng → solved=True 0
+[resolve] the-translator: lô 10 dòng → solved=True 0
+[resolve] the-translator: lô 5 dòng → solved=True 0
+[resolve] the-powerpoint-er: lô 10 dòng → solved=True 0
+[resolve] the-powerpoint-er: lô 10 dòng → solved=True 2
+[resolve] the-powerpoint-er: lô 10 dòng → solved=True 0
+[resolve] the-powerpoint-er: lô 9 dòng → solved=True 0
+[resolve] tai-studio: lô 4 dòng → solved=True 0
+[resolve] the-imaginator: lô 3 dòng → solved=True 1
+[resolve] the-whiteboarder: lô 1 dòng → solved=True 0
+[resolve] the-scholar: lô 1 dòng → solved=True 0
+[resolve] the-ai-coach: lô 1 dòng → solved=True 0
+[resolve] the-brainstormer: lô 10 dòng → solved=True 1
+[resolve] the-brainstormer: lô 2 dòng → solved=True 0
+[resolve] the-summarizer: lô 10 dòng → solved=True 0
+[resolve] the-summarizer: lô 2 dòng → solved=True 0
+[resolve] the-canvas-designer: KHÔNG có tài liệu → 2 dòng solved=False
+
+== Eval B2 bước 1 (guideline resolve) trên data\golden\feedback_gold_solved.csv: n=127
+  gold solved=True: 12 | pred True: 4
+  precision 0.500 | recall 0.167 | F1 0.250 | acc 0.906
+  confusion: tp=2 fp=2 fn=10 tn=113
+  quote verbatim (pred True): 1.00 | trùng đoạn gold (trong TP): 1.00
+  gates: {'no_quote': 118, 'ok': 5, 'quote_not_found': 2, 'no_doc': 2}
+  llm: {'calls': 20, 'prompt_tokens': 51850, 'completion_tokens': 4930, 'seconds': 94.9519875049591}
+
+  sai 12 dòng (id | loại | content | quote | lý do):
+    fb_0004 | FN | TL;DR: There must be a clear indicator when a person is out of credits |  | no_quote: The guide does not mention credit indicators or usage limits
+    fb_0029 | FN | Tự bịa khá nhiều thông tin, cần phải có bước comment sau khi đã lên sl |  | no_quote: The guide does not mention a post-generation comment step to
+    fb_0032 | FN | Bạn ơi, có giao diện tiếng việt không ạ ? |  | no_quote: The guide does not mention a Vietnamese interface option.
+    fb_0040 | FN | Mình ấn re-generate với mong muốn tạo ra slide đẹp hơn, nhưng lại xấu  |  | no_quote: The guide does not mention the ability to revert to a previo
+    fb_0054 | FN | cỡ chữ hơi nhỏ, sử dụng nhiều màu sắc, độ tương phản giữa nền và chữ c |  | no_quote: The guide does not mention customization of font size, color
+    fb_0059 | FN | I don't see my past ppt presentation here |  | no_quote: The homepage displays all previously saved presentations, bu
+    fb_0061 | FP | I want to save the progress of slides that I am creating | The homepage of PowerPoint-er displays all previously saved presentations, click | The guide states that previously saved presentations are displayed on the homepa
+    fb_0074 | FP | Có add được nhiều file tham khảo không nhỉ? | You can also upload reference files to provide context. | The guide allows uploading multiple reference files.
+    fb_0084 | FN | Thêm ảnh tham chiếu (reference) giống Figma Wave được không ạ |  | no_quote: The guide does not mention any feature similar to Figma Wave
+    fb_0090 | FN | TĂNG FONT SIZE LÊN, CHỮ BÉ LẮM |  | no_quote: The guide does not mention font size adjustment for Vietname
+    fb_0093 | FN | ở mục slide bên trái tạo thêm nút xóa slide sau khi thấy thừa |  | no_quote: The guide does not mention a 'delete slide' button in the le
+    fb_0107 | FN | Cần phiên bản tiếng việt |  | no_quote: The guide does not mention a Vietnamese language option.

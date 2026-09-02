@@ -1,0 +1,15 @@
+approach: "exemplar_cosine_hf"
+model: "max-cosine toi exemplar + threshold routing 3 vung (§4.3, R3)"
+encoder: "hf:Qwen/Qwen3-Embedding-0.6B (sentence-transformers, CHI dev/eval — plan D7)"
+threshold_high: 0.6
+threshold_low: 0.45
+note: "baseline exemplar v1"
+run_at: "2026-09-03_00-37-03"
+data:
+  golden: "data/golden/feedback_gold.csv (hash 239881f79f1939ae)"
+  exemplars: "data/sample/exemplars/intent_exemplars.csv (hash de5f88927e7cc891)"
+git:
+  sha: "ca3d652"
+  dirty: True
+  changed_files: ['M CHANGELOG.md', ' M data/golden/README.md', ' M docs/architecture.md', ' D src/03_inference/catalog.py', ' M src/03_inference/classify.py', ' D src/03_inference/deliver.py', ' D src/03_inference/embedding_test.py', ' D src/03_inference/graph_client.py', ' D src/03_inference/graph_setup_check.py', ' D src/03_inference/knowledge.py', ' D src/03_inference/outlook_mac.py', ' D src/03_inference/pipeline.py', ' D src/03_inference/render_email.py', ' D src/03_inference/reply_samples.py', ' D src/03_inference/reply_scenarios.py', ' D src/03_inference/respond.py', ' D src/03_inference/tests_delivery.py', ' D src/03_inference/tests_respond.py', '?? data/golden/feedback_gold.csv', '?? data/golden/feedback_gold_192.csv', '?? data/golden/intent_explain.md', '?? data/sample/exemplars/', '?? docs/2026-08-31/', '?? docs/2026-09-02/', '?? docs/2026-09-03/', '?? scripts/make_feedback_gold_5label.py', '?? scripts/relabel_feedback_gold.py', '?? src/03_inference/out/hf_embed_cache.json', '?? src/04_tests/', '?? src/05_experiments/']
+python: "3.12.10"

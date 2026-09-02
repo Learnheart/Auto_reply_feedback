@@ -1,0 +1,137 @@
+[hf] tai model Qwen/Qwen3-Embedding-0.6B (lan dau se download tu HuggingFace)...
+[hf] embed 191 text moi (cache hit 1)
+== Eval B1 embedding-matching tren data\golden\feedback_gold.csv (nguong high=0.6 low=0.45 + instruct-prefix)
+  accuracy strict 5-nhan (lich su): 91/192 = 47.4%
+
+-- (i) Chat luong phan loai khi model TRA LOI (gold co nhan that, khong abstain): 85/155 = 54.8%
+  label            prec  recall     f1  support  predicted
+  bug              0.88    0.35   0.50       60         24
+  new_feature      0.69    0.63   0.66       60         55
+  praise           0.71    0.85   0.77       20         24
+  complain         0.17    0.60   0.27       15         52
+
+  confusion 4x4 (hang=gold, cot=pred):
+                        bug  new_featu     praise   complain
+  bug                    21         14          3         22
+  new_feature             0         38          4         18
+  praise                  0          0         17          3
+  complain                3          3          0          9
+
+  abstention: gold_unclassified=29 | chan dung (caught)=6 | gan nhan nham (false_accept)=23 | bo phieu trang oan (false_abstain)=8
+  phan bo 3 vung: ok=47  low_confidence=131  unclassified=14
+
+-- (ii) Coverage–accuracy (abstain khi conf < t; nhan = exemplar gan nhat)
+       t  coverage  n_ans  acc_ans  acc_gold_real
+    0.30    100.0%    192    46.4%          54.6%
+    0.35    100.0%    192    46.4%          54.6%
+    0.40     97.9%    188    47.3%          54.9%
+    0.45     92.7%    178    47.8%          54.8%
+    0.50     75.5%    145    50.3%          57.0%
+    0.55     49.5%     95    56.8%          63.5%
+    0.60     24.5%     47    66.0%          77.5%
+    0.65     10.4%     20    80.0%          84.2%
+    0.70      2.1%      4    50.0%          66.7%
+    0.75      0.0%      0     0.0%           0.0%
+
+  sai 101 dong theo strict (id | gold -> pred | conf | content):
+    fb_0000 | bug -> complain | 0.61 | nhờ Tài tạo slide, nhưng lại chỉ gửi lại html, sau đó các câ
+    fb_0001 | new_feature -> complain | 0.62 | chưa tạo dc 1 slide, mà phải tối thiểu 2 slide
+    fb_0002 | bug -> complain | 0.58 | TAI studio ko work, input file nhưng ko gen ra slide
+    fb_0003 | new_feature -> unclassified | 0.44 | TL;DR: We should sunset AI Visionary and just replace it wit
+    fb_0004 | new_feature -> complain | 0.46 | TL;DR: There must be a clear indicator when a person is out 
+    fb_0007 | complain -> bug | 0.46 | Tại sao cứ báo tôi bị hết hạn mức không sử dụng được
+    fb_0008 | new_feature -> complain | 0.55 | The translator không có lịch sử ạ :) lúc nãy em chờ nóa dịch
+    fb_0011 | bug -> praise | 0.58 | tôi không sử dụng được
+    fb_0012 | bug -> new_feature | 0.48 | tôi đang ko sử dụng được Tài studio…
+    fb_0013 | new_feature -> complain | 0.53 | sau khi tạo được slide từ TAI, tôi add trang mới vào file sl
+    fb_0015 | bug -> praise | 0.50 | k phản hồi
+    fb_0017 | complain -> unclassified | 0.36 | Searching for previous chats is very limited. Is this keywor
+    fb_0020 | new_feature -> unclassified | 0.44 | Vui lòng để song ngữ cho tên của các agents không thì người 
+    fb_0022 | new_feature -> complain | 0.46 | lịch sử lưu ảnh của Tài Thiết kế hơi ít ,muốn tìm lại ảnh cũ
+    fb_0023 | bug -> complain | 0.47 | Chat MCP O365 bằng ENG nhưng câu trả lời bằng tiếng Việt
+    fb_0024 | new_feature -> complain | 0.47 | Dear anh chị, owner của agent review lại hướng dẫn sử dụng, 
+    fb_0026 | new_feature -> complain | 0.51 | Mấy cái nút này mầu xấu quá dùng màu xanh không ổn ?
+    fb_0028 | bug -> new_feature | 0.50 | LLM: LLM: structured output failed: No JSON found after all 
+    fb_0029 | new_feature -> complain | 0.53 | Tự bịa khá nhiều thông tin, cần phải có bước comment sau khi
+    fb_0031 | bug -> complain | 0.57 | Vẫn còn 1 đoạn nội dung tiếng Việt (không phải từ chuyên môn
+    fb_0034 | bug -> complain | 0.58 | Nhiều đoạn không được dịch
+    fb_0036 | bug -> unclassified | 0.43 | translators does not work translates customer complaints, em
+    fb_0037 | unclassified -> new_feature | 0.52 | bổ sung thêm giúp tôi pah6n tích chi tiết theo từng lực lượn
+    fb_0038 | bug -> complain | 0.58 | không dịch hết tiếng Anh trong văn bản, output ra bị lỗi fon
+    fb_0040 | new_feature -> complain | 0.59 | Mình ấn re-generate với mong muốn tạo ra slide đẹp hơn, nhưn
+    fb_0043 | bug -> complain | 0.52 | bị lỗi table of contents, table of figures
+    fb_0045 | new_feature -> praise | 0.48 | Cho phép share. Các chat với nhiều người, nhất là brainstorm
+    fb_0047 | new_feature -> praise | 0.52 | Có nút sao chép để sao chép nhanh kết quả Tài trả ra
+    fb_0049 | bug -> complain | 0.70 | Làm slide không dùng đc ạ
+    fb_0053 | praise -> complain | 0.54 | Hỗ trợ xử lý nhanh việc lên ý tưởng cho 1 bài thuyết trình
+    fb_0054 | new_feature -> complain | 0.58 | cỡ chữ hơi nhỏ, sử dụng nhiều màu sắc, độ tương phản giữa nề
+    fb_0055 | new_feature -> complain | 0.59 | Nên có 1 dòng để user mô tả các thông tin cần tóm tắt thay v
+    fb_0058 | bug -> complain | 0.59 | có một số trang slide không dịch mà để nguyên chữ tiếng anh
+    fb_0059 | new_feature -> complain | 0.47 | I don't see my past ppt presentation here
+    fb_0062 | unclassified -> complain | 0.62 | Đang viết quá ngắn gọn, mỗi tình huống cần để 1 slide riêng.
+    fb_0063 | unclassified -> new_feature | 0.46 | Từ slide số 4, hãy làm mỗi slide là 1 vấn đề, kèm theo thách
+    fb_0064 | unclassified -> new_feature | 0.46 | Tôi muốn gộp ba targer vào 1 bảng. như sau: hãy thiết kế the
+    fb_0072 | bug -> new_feature | 0.60 | Tài slide vừa gen xong, nhưng không thể edit file được
+    fb_0073 | bug -> new_feature | 0.64 | Lỗi font chữ tiếng việt, nên có lựa chọn font chữ, hoặc font
+    fb_0078 | unclassified -> complain | 0.55 | giữ nguyên 2 slide đầu, với cấu trúc các phần như vậy
+    fb_0081 | new_feature -> complain | 0.58 | tôi nghĩ cần đưa thêm hình ảnh tượng trưng thì slide sẽ đẹp 
+    fb_0082 | bug -> complain | 0.55 | khả năng dịch PDF không ổn, sai nội dung còn chèn cả code tr
+    fb_0085 | unclassified -> new_feature | 0.50 | Em hỏi chút, khi em sử dụng AI này và up chứng từ lên để AI 
+    fb_0088 | bug -> complain | 0.53 | Bản dịch bị lỗi font từ trang 3
+    fb_0093 | new_feature -> complain | 0.51 | ở mục slide bên trái tạo thêm nút xóa slide sau khi thấy thừ
+    fb_0095 | unclassified -> complain | 0.51 | Gộp vào lại thành 2-3 slide - sử dụng thêm hình ảnh con gà c
+    fb_0096 | bug -> new_feature | 0.54 | nút generate outline không hoạt đông
+    fb_0098 | unclassified -> new_feature | 0.61 | Còn thiếu nhiều nội dung quá> Hãy bổ sung cho đầu đủ. Giới h
+    fb_0103 | bug -> new_feature | 0.52 | Export ra file pptx bị vỡ font chữ, không đẹp như preview
+    fb_0105 | unclassified -> complain | 0.55 | hãy tạo slide theo mẫu trình bày của TCB
+    fb_0108 | complain -> new_feature | 0.50 | Xmind user không có thì không dùng được mục này
+    fb_0109 | bug -> new_feature | 0.53 | Dịch file gồm cả bảng biểu có thể bị lỗi và báo network erro
+    fb_0110 | bug -> complain | 0.63 | Font chữ của slide bị lỗi
+    fb_0111 | bug -> new_feature | 0.49 | LLM: LLM: structured output failed: No JSON found after all 
+    fb_0114 | new_feature -> complain | 0.68 | Nội dung tóm tắt quá ngắn > có thể bổ sung thêm phần input s
+    fb_0117 | complain -> bug | 0.58 | tài liệu chưa trả ra được dưới dạng onepage như tôi yêu cầu
+    fb_0118 | unclassified -> new_feature | 0.63 | tài file dịch về sao
+    fb_0119 | unclassified -> complain | 0.50 | I want to consolidate slide 2 and 3 into 1 slide only
+    fb_0121 | unclassified -> praise | 0.56 | uew
+    fb_0122 | unclassified -> praise | 0.48 | thống kê tuyến đường vi mô team phạm hương
+    fb_0123 | unclassified -> praise | 0.47 | hãy giúp mình thống kê các tuyến đường vi mô của các bạn
+    fb_0124 | bug -> new_feature | 0.47 | Màn hình khi đưa yêu cầu edit rất khó sử dụng, button send f
+    fb_0127 | bug -> new_feature | 0.54 | tôi muốn dịch cả văn bản, mà Tài chỉ dịch cho tôi mỗi tiêu đ
+    fb_0129 | bug -> complain | 0.54 | Tại sao bàn dịch ra tiếng Việt vẫm là tiếng anh
+    fb_0131 | unclassified -> complain | 0.58 | làm sao tôi biết được bạn đang dịch đúng
+    fb_0133 | new_feature -> unclassified | 0.44 | Home page: the Featured cards should be larger (The summariz
+    fb_0137 | new_feature -> praise | 0.53 | Cho phép thao tác paste ảnh nội dung cần thiết kế slide để t
+    fb_0140 | bug -> unclassified | 0.45 | trường hợp typing nhiều dòng trong ô chat thì không thể lăn 
+    fb_0142 | bug -> complain | 0.59 | Vẫn có trang chưa được dịch
+    fb_0143 | new_feature -> complain | 0.53 | It's should be more picture about techcombank on all slide
+    fb_0144 | bug -> complain | 0.52 | KHi dịch từ tiếng Anh sang tiếng Việt, có những từ không phả
+    fb_0145 | new_feature -> complain | 0.55 | an interactive loop of Human feedback and agent fix. Ngoài r
+    fb_0146 | new_feature -> praise | 0.47 | Có thể kết hợp powerpointer với translator được không?
+    fb_0147 | bug -> new_feature | 0.51 | Lỗi font tiếng Việt
+    fb_0149 | bug -> complain | 0.70 | hiện tại đang ko dịch được.
+    fb_0150 | unclassified -> new_feature | 0.52 | Em có feedback như sau ạ …
+    fb_0151 | praise -> complain | 0.57 | Ưu điểm: Có chuẩn bị script cho speaker; Slide thiết kế đẹp,
+    fb_0153 | new_feature -> unclassified | 0.44 | Agent chưa lưu lịch sử các lần trò chuyện trước.
+    fb_0155 | complain -> new_feature | 0.57 | font chữ hơi xấu
+    fb_0157 | bug -> complain | 0.55 | The Summarizer: Chuyển từ tiếng Anh sáng Việt ok nhưng sau đ
+    fb_0160 | bug -> new_feature | 0.60 | - Bug: Dịch file chứa PII vẫn hiển thị nút tải nhưng không t
+    fb_0161 | unclassified -> complain | 0.53 | Tôi gửi 1 file ppt, trong đó có phần ảnh (báo cáo export từ 
+    fb_0163 | bug -> complain | 0.50 | Lỗi translate khi có câu "Share some of the design patterns 
+    fb_0164 | praise -> complain | 0.59 | Slide đẹp hơn Kiro
+    fb_0165 | bug -> complain | 0.51 | khi đi đến bước xem Outline mà chưa ưng ý, muốn quay lại bướ
+    fb_0166 | bug -> complain | 0.59 | cái summarizer này đang bịa ra MIK mà trong khi ko có MIK mà
+    fb_0167 | bug -> complain | 0.57 | đã dịch xong văn bản đầu, mới có 2 tragn thôi
+    fb_0169 | unclassified -> new_feature | 0.64 | SP rất đỉnh. có thể chuyển thể nguyên file cực hữu ích. Tuy 
+    fb_0170 | unclassified -> new_feature | 0.64 | SP rất đỉnh. có thể chuyển thể nguyên file cực hữu ích. Tuy 
+    fb_0171 | new_feature -> unclassified | 0.42 | các thông tin như chức danh, bộ phận nên được chuẩn hóa theo
+    fb_0173 | bug -> complain | 0.55 | The guardrail seems to trigger quite late. Chat was showing 
+    fb_0174 | unclassified -> praise | 0.48 | Test feedback
+    fb_0175 | bug -> new_feature | 0.55 | received a failed to parse the file error when uploading a P
+    fb_0176 | bug -> new_feature | 0.50 | @ box doesnt contain and resize
+    fb_0177 | complain -> bug | 0.57 | Không có dữ liệu chuẩn
+    fb_0179 | complain -> new_feature | 0.46 | Dữ liệu outdate
+    fb_0181 | bug -> praise | 0.48 | Ko mở đc Graphics designer.
+    fb_0182 | unclassified -> new_feature | 0.72 | Agent này nên bổ sugn tính năng sau:…
+    fb_0183 | unclassified -> new_feature | 0.61 | No
+    fb_0186 | unclassified -> new_feature | 0.54 | 1
+    fb_0188 | new_feature -> complain | 0.60 | Đang dùng format slide cũ TCB 30 năm ( nên cập nhật theme mớ

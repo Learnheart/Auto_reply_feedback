@@ -1,0 +1,133 @@
+id,solved,match_type,referenced,rationale
+fb_0000,False,none,,Doc TAI khong mo ta hanh vi tra ve html roi treo lenh; day la loi khong duoc tai lieu hoa.
+fb_0001,False,none,,Tai lieu TAI khong noi gi ve so slide toi thieu.
+fb_0002,False,none,,"Loi khong gen duoc slide, khong co muc nao trong doc TAI giai thich."
+fb_0003,False,none,,"De xuat khai tu agent la quyet dinh san pham, doc khong de cap."
+fb_0004,False,none,,Doc TAI/Office365 khong de cap chi bao het credit.
+fb_0005,False,none,,"Khong phan hoi la loi, doc khong de cap."
+fb_0006,False,none,,"Khong phan hoi la loi, doc khong de cap."
+fb_0008,False,limitation,"Upon page refresh, the progress information or translated file is no longer visible in the user interface","Doc ghi ro sau khi refresh trang thi file dich khong con hien thi, khong co lich su."
+fb_0009,False,none,,"Noi dung qua chung chung, doc khong co gi lien quan."
+fb_0010,False,none,,"Loi khong dung duoc, doc khong de cap."
+fb_0011,False,none,,"Loi khong dung duoc, doc khong de cap."
+fb_0012,False,none,,"Loi khong dung duoc TAI Studio, doc khong de cap."
+fb_0013,False,none,,Doc TAI khong huong dan ve so thu tu slide khi them trang moi.
+fb_0014,False,limitation,Layouts depend on bundled templates — no custom animations or complex charts,Doc ghi ro khong ho tro chart phuc tap nen khong chuyen duoc data excel thanh chart.
+fb_0015,False,none,,"Khong phan hoi la loi, doc khong de cap."
+fb_0016,False,none,,Doc TAI Studio khong de cap marquee/trending agents.
+fb_0018,False,none,,"Doc chi noi upload reference files chung chung, khong xac nhan ho tro excel de tao format."
+fb_0020,False,none,,Doc TAI khong noi ve ten agent song ngu.
+fb_0021,False,none,,"Treo khong tra loi la loi, doc khong xac nhan by-design."
+fb_0022,False,none,,"Doc chi noi History hien anh moi tao gan day, khong co cach tim lai anh cu hon."
+fb_0023,False,none,,Doc TAI/Office365 khong quy dinh ngon ngu tra loi theo ngon ngu cau hoi.
+fb_0024,False,none,,"Phan hoi ve chat luong tai lieu huong dan, khong phai tinh nang duoc doc giai quyet."
+fb_0025,False,none,,Vong lap viet lai html va tieu ton budget khong duoc doc TAI mo ta.
+fb_0026,False,none,,Doc The Scholar khong de cap mau sac cac nut giao dien.
+fb_0028,False,none,,Loi structured output failed khong duoc doc mo ta.
+fb_0029,True,how_to,The “Ask AI to edit” field allows a short description of the desired changes. This helps guide AI to update the content more accurately.,Doc co buoc Ask AI to edit sau khi da len slide draft de dieu chinh AI theo dung huong.
+fb_0031,False,none,,"Doan van bi bo sot khong phai thuat ngu chuyen nganh, doc khong giai thich."
+fb_0032,False,none,,Doc TAI khong noi ve giao dien tieng Viet.
+fb_0033,False,limitation,AI Coach only supports content related to AI and technology at Techcombank.,"Doc ghi ro AI Coach chi ho tro noi dung AI/cong nghe, khong co cach lam khac cho yeu cau MOM."
+fb_0034,False,none,,"Nhieu doan khong duoc dich la loi, doc khong mo ta."
+fb_0035,False,none,,"Nut copy co trong doc nhung viec no khong hoat dong la loi, khong duoc tai lieu hoa."
+fb_0036,False,limitation,⚠️ PII Notice: Do not upload documents containing sensitive personal information.,Doc khuyen cao khong upload tai lieu chua thong tin ca nhan nhay cam va khong neu cach thay the.
+fb_0038,False,none,,"Dich thieu kem loi font la bug, doc khong de cap."
+fb_0039,False,none,,"Doc chi ho tro export PPTX/PDF, khong de cap html/md va cung khong ghi la han che."
+fb_0040,True,how_to,"If changes have been saved but the original output is needed again, click “Regenerate from outline” to restore the initial generated version.",Doc huong dan bam Regenerate from outline de khoi phuc lai ban sinh dau tien.
+fb_0041,False,none,,Doc TAI khong liet ke ho tro excel/hinh anh lam input.
+fb_0042,False,none,,"Khong ra ket qua la loi, doc khong de cap."
+fb_0043,False,none,,Loi table of contents/figures sau khi dich khong duoc doc mo ta.
+fb_0044,False,limitation,"Domain‑specific terminology (legal, medical, financial) may need human review","Doc chi ghi thuat ngu chuyen nganh can nguoi review, khong co tinh nang tu dien tu nhap."
+fb_0045,False,none,,Doc Brainstormer khong co tinh nang share chat nhieu nguoi.
+fb_0046,False,none,,Doc khong huong dan cu the cach tao slide action plan dang bang action/timeline/PIC.
+fb_0047,True,how_to,Copy Output Content: Copies the full response while preserving its Markdown formatting for easy reuse.,Doc da co nut Copy Output Content o goc tren ben phai de sao chep nhanh ket qua.
+fb_0049,False,none,,"Loi khong dung duoc, doc khong de cap."
+fb_0050,False,limitation,No file upload support — text-based interaction only,"Doc ghi ro khong ho tro upload file, chi tuong tac van ban."
+fb_0051,False,limitation,"If a document is too large, it may be truncated — a warning banner will indicate how many characters were translated.","Doc neu tai lieu qua lon co the bi cat bot, nhung khong co cach xu ly de dich het."
+fb_0054,True,how_to,"The top bar provides quick editing actions, including adjusting font size, text color, formatting, alignment, and adding bullet points to the content.",Doc cho phep chinh co chu va mau chu ngay tren thanh cong cu khi sua slide.
+fb_0055,False,none,,Doc khong co o nhap huong dan/mo ta noi dung can tom tat.
+fb_0057,False,none,,Doc khong xac nhan upload nhieu file cung luc va khong liet ke excel/anh.
+fb_0058,False,none,,"Mot so trang slide khong duoc dich la loi, doc khong mo ta."
+fb_0059,True,how_to,"The homepage of PowerPoint-er displays all previously saved presentations, click “Open” to see fully.","Doc noi trang chu Powerpoint-er hien tat ca presentation da luu, bam Open de xem."
+fb_0060,False,none,,"Bao interrupt lien tuc la loi, doc khong de cap."
+fb_0061,False,none,,Doc khong mo ta thao tac luu tien do slide dang tao.
+fb_0066,False,none,,Doc khong co tuy chon bat/tat sync scroll giua ban goc va ban dich.
+fb_0069,False,none,,"Doc chi cho upload file tham khao, khong de cap dinh kem link DMS/website."
+fb_0070,True,how_to,"If you want to use an image as a reference, drag the Image Input node from the left panel onto the canvas, upload an image (PNG/JPG, up to 10 MB), then connect it to the Generate node.",Doc huong dan dung node Image Input de dua anh vao lam tham chieu roi sinh anh theo mo ta.
+fb_0071,False,limitation,Two languages are currently supported: Vietnamese and English.,"Doc ghi ro chi ho tro tieng Viet va tieng Anh, khong co tieng Trung hay dich hinh anh."
+fb_0072,False,none,,Khong ro user khong sua duoc o dau; doc khong mo ta loi nay.
+fb_0073,False,none,,"Loi font tieng Viet la bug, doc khong co lua chon font."
+fb_0074,False,none,,"Doc chi noi chung 'upload reference files', khong du can cu khang dinh nhieu file."
+fb_0075,False,none,,Doc khong de cap quy tac dat ten file hay thong bao loi nay.
+fb_0076,False,none,,"Doc chi neu export .xmind va copy markdown, khong noi gi ve excel."
+fb_0079,False,none,,Doc khong de cap gioi han 4000 ky tu cua brief.
+fb_0081,False,limitation,Image insertion is not supported — slides contain text and vector graphics only,Doc ghi ro khong ho tro chen hinh anh vao slide.
+fb_0082,False,none,,"Dich PDF sai noi dung va chen code la loi, doc khong de cap."
+fb_0083,False,none,,Doc TAI khong neu cong cu xuat .docx cung khong ghi day la han che.
+fb_0084,True,how_to,"If you want to use an image as a reference, drag the Image Input node from the left panel onto the canvas, upload an image (PNG/JPG, up to 10 MB), then connect it to the Generate node.",Tinh nang anh tham chieu da co qua node Image Input noi vao Generate.
+fb_0086,False,limitation,"- PDF (.pdf)
+- Word (.docx)
+- PowerPoint (.pptx)
+- Plain Text (.txt)","Doc chi liet ke PDF/DOCX/PPTX/TXT, khong ho tro audio/video."
+fb_0088,False,none,,"Loi font tu trang 3 la bug, doc khong de cap."
+fb_0089,False,none,,"Bao loi lien tuc, doc khong de cap."
+fb_0090,True,how_to,"The top bar provides quick editing actions, including adjusting font size, text color, formatting, alignment, and adding bullet points to the content.",Doc cho phep tang co chu qua thanh cong cu chinh sua slide.
+fb_0091,False,none,,"Doc chi noi tom tat gop nhieu tai lieu, khong co tinh nang so sanh khac biet."
+fb_0093,True,how_to,You can edit: - Slide titles (click to edit) - Bullet points (click to edit) - Add/remove bullets (+ Add bullet / × to remove) - Add/remove slides (+ Add slide / Remove),Doc cho phep them/xoa slide ngay o buoc review outline (+ Add slide / Remove).
+fb_0094,False,limitation,"- Long-term memory stores preferences only (language, tone, topics), not full chat history
+- Each session is independent — the AI doesn't recall previous session content",Doc ghi ro moi session doc lap va khong luu lich su chat nen khong vao lai duoc phien cu.
+fb_0096,False,none,,"Nut generate outline khong hoat dong la loi, doc khong de cap."
+fb_0097,False,limitation,No file upload support — text-based interaction only,Doc ghi ro khong ho tro upload file (docx/pptx/pdf/anh).
+fb_0100,False,none,,Doc co Regenerate from outline nhung khong ho tro download tung trang slide nen chua du.
+fb_0103,False,none,,"Vo font khi export la loi, doc khong de cap."
+fb_0107,False,none,,Doc TAI khong noi ve phien ban tieng Viet.
+fb_0109,False,none,,"Network error khi dich file co bang bieu la loi, doc khong de cap."
+fb_0110,False,none,,"Loi font slide la bug, doc khong de cap."
+fb_0111,False,none,,Loi structured output failed khong duoc doc mo ta.
+fb_0112,False,limitation,Layouts depend on bundled templates — no custom animations or complex charts,Doc ghi ro khong ho tro chart phuc tap trong slide.
+fb_0113,False,limitation,"- A green ""✓ Session complete — canvas is ready"" message appears
+- The input bar is replaced with a ""New session"" button","Doc mo ta khi session complete thi o nhap bi thay bang nut New session, khong co cach mo lai de tiep tuc."
+fb_0114,False,none,,Doc khong co tuy chon do dai/so ky tu cua ban tom tat.
+fb_0116,False,none,,"Network error giua chung la loi, doc khong de cap."
+fb_0124,False,none,,Loi UI nut Send Feedback che option khong duoc doc mo ta.
+fb_0125,False,none,,"Doc GenUI chi nhac 'Edit slides in chat' trong mot o bang, khong du de khang dinh co vong feedback va re-generate."
+fb_0127,False,limitation,"If a document is too large, it may be truncated — a warning banner will indicate how many characters were translated.",Doc neu tai lieu qua lon co the bi cat bot nhung khong co cach de dich toan bo van ban.
+fb_0129,False,none,,"Ban dich van ra tieng Anh la loi, doc khong mo ta."
+fb_0133,False,none,,Doc khong noi ve kich thuoc the Featured tren home page.
+fb_0134,False,limitation,Image insertion is not supported — slides contain text and vector graphics only,Doc ghi ro khong ho tro chen hinh anh/visual vao slide.
+fb_0137,False,none,,Doc khong de cap viec paste anh lam input de thiet ke slide.
+fb_0139,False,none,,Doc khong de cap dinh dang bang trong output canvas.
+fb_0140,False,none,,Loi khong cuon duoc o nhap nhieu dong khong duoc doc mo ta.
+fb_0141,False,limitation,No file upload support — text-based interaction only,Doc ghi ro khong ho tro upload file/hinh anh.
+fb_0142,False,none,,"Van con trang chua duoc dich la loi, doc khong mo ta."
+fb_0143,False,limitation,Image insertion is not supported — slides contain text and vector graphics only,Doc ghi ro khong ho tro chen hinh anh vao slide.
+fb_0144,False,none,,Loi dich thieu tu khong duoc doc TAI mo ta.
+fb_0145,False,none,,Doc co Ask AI to edit nhung khong giai quyet cac loi layout/overlap/size chu user neu.
+fb_0146,False,none,,Doc Powerpoint-er khong noi ve viec ket hop voi Translator.
+fb_0147,False,none,,"Loi font tieng Viet la bug, doc khong de cap."
+fb_0148,False,none,,Guardrail chan input khong duoc doc Translator mo ta.
+fb_0149,False,none,,"Khong dich duoc, doc khong de cap."
+fb_0152,False,none,,Khong co tai lieu cho the-canvas-designer.
+fb_0153,False,none,,Doc AI Visionary khong co tinh nang luu lich su hoi thoai va cung khong ghi day la han che.
+fb_0154,False,none,,Doc khong de cap doc noi dung anh chup chen trong file docx.
+fb_0156,False,none,,"Crash/guardrail xoa ket qua la loi, doc khong de cap."
+fb_0157,False,none,,Doc co hien ket qua song ngu nhung khong mo ta loi chieu Viet sang Anh.
+fb_0158,False,none,,"Doc mo ta nut Summarize nam duoi dropzone, khong de cap de xuat doi vi tri."
+fb_0159,False,none,,Doc Summarizer khong co tinh nang tao slide tu ban tom tat.
+fb_0160,False,none,,"Nut tai hien nhung khong tai duoc la loi, doc khong de cap."
+fb_0163,False,none,,Loi dich voi cau cu the khong duoc doc mo ta.
+fb_0165,False,none,,Doc khong mo ta cach quay lai buoc brief tu man hinh outline.
+fb_0166,False,none,,"Bia thong tin la loi chat luong, doc Summarizer khong de cap."
+fb_0167,False,none,,"Noi dung bi cat cut, khong du can cu doi chieu voi doc."
+fb_0168,False,none,,Doc khong de cap upload file excel de tu dong dinh nghia insight.
+fb_0171,False,limitation,"Domain‑specific terminology (legal, medical, financial) may need human review","Doc chi noi thuat ngu chuyen nganh can nguoi review, khong co bo tu dien HR de chuan hoa."
+fb_0173,False,none,,"Guardrail xoa ket qua muon la loi, doc TAI khong de cap."
+fb_0175,False,none,,Loi parse file PPTX khi upload khong duoc doc mo ta.
+fb_0176,False,none,,Loi hien thi/resize o @ mention khong duoc doc mo ta.
+fb_0181,False,none,,Khong co tai lieu cho the-canvas-designer.
+fb_0184,False,none,,"Loi 502 khi dich la bug, doc khong de cap."
+fb_0185,False,none,,"Loi khong truy cap duoc, doc khong de cap."
+fb_0188,False,limitation,Adding templates directly is not available; full requirements must be clearly described in text,Doc ghi ro khong the tu them template nen khong the doi sang theme moi.
+fb_0189,False,none,,Doc khong cho phep nhap them huong dan/do dai cho ban tom tat.
+fb_0190,False,none,,"Doc TAI chi noi luu lich su hoi thoai, khong co noi luu san pham da tao."
+fb_0191,False,none,,"Loi truy cap, doc khong de cap."

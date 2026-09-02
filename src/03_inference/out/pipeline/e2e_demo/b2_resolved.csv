@@ -1,0 +1,26 @@
+id,agent,user,date,content,gold_label,label,flag,confidence,best_label,solved,referenced
+fb_0000,tai,hangtt@techcombank.com.vn,2026-08-24,"nhờ Tài tạo slide, nhưng lại chỉ gửi lại html, sau đó các câu lệnh ko nhận nữa",bug,bug,low_confidence,0.5695,bug,False,
+fb_0028,the-powerpoint-er,minhntn9@techcombank.com.vn,2026-08-12,LLM: LLM: structured output failed: No JSON found after all strategies: line 1 column 1 (char 0)…,bug,bug,low_confidence,0.4885,bug,False,
+fb_0033,the-ai-coach,phuongdtl4@techcombank.com.vn,2026-08-05,"Tôi yêu cầu đưa ra câu trả lời MOM thì có câu trả lời sau đó biến mất sau 1-2phut - hiện thị nội dung: 'I'm sorry, i can't help with that",bug,bug,low_confidence,0.4879,bug,False,
+fb_0035,the-brainstormer,cuongnm4@techcombank.com.vn,2026-08-05,Nút copy không hoạt động,bug,bug,ok,0.7503,bug,False,
+fb_0043,the-translator,anhht17@techcombank.com.vn,2026-07-29,"bị lỗi table of contents, table of figures",bug,bug,low_confidence,0.5590,bug,False,
+fb_0024,the-whiteboarder,ngocnb2@techcombank.com.vn,2026-08-17,"Dear anh chị, owner của agent review lại hướng dẫn sử dụng, user đọc hướng dẫn nhưng chưa rõ phải thao tác như thế nào. Ví dụ t…",new_feature,new_feature,low_confidence,0.4630,new_feature,False,
+fb_0032,tai,phuongnav@techcombank.com.vn,2026-08-06,"Bạn ơi, có giao diện tiếng việt không ạ ?",new_feature,new_feature,low_confidence,0.5017,new_feature,False,
+fb_0090,the-powerpoint-er,haivh@techcombank.com.vn,2026-07-08,"TĂNG FONT SIZE LÊN, CHỮ BÉ LẮM",new_feature,new_feature,ok,0.6000,new_feature,True,"The top bar provides quick editing actions, including adjusting font size, text color, formatting, alignment, and adding bullet points to the content."
+fb_0044,the-translator,anhht17@techcombank.com.vn,2026-07-29,Nên thêm mục các từ ngữ chuyên ngành hay dịch sai để người dùng tự input trước khi dịch.,new_feature,new_feature,low_confidence,0.4656,new_feature,False,"Domain‑specific terminology (legal, medical, financial) may need human review"
+fb_0050,the-brainstormer,ngocnb2@techcombank.com.vn,2026-07-26,"Cần phải bổ sung gấp tính năng cho upload các loại file và ảnh, để giúp làm rõ thông tin nhanh hơn. Ngoài ra cần bổ sung tính năng…",new_feature,new_feature,ok,0.6274,new_feature,False,No file upload support — text-based interaction only
+fb_0019,the-scholar,hieutt23@techcombank.com.vn,2026-08-18,Very good,praise,praise,ok,0.6269,praise,,
+fb_0027,tai,anhdt26@techcombank.com.vn,2026-08-14,this is amazing,praise,praise,ok,0.6438,praise,,
+fb_0087,the-powerpoint-er,vangdk@techcombank.com.vn,2026-07-09,tuyệt vời,praise,praise,ok,0.6500,praise,,
+fb_0115,the-summarizer,hantd@techcombank.com.vn,2026-07-02,Chức năng này khá hay,praise,praise,ok,0.6110,praise,,
+fb_0187,the-translator,minhlth2@techcombank.com.vn,2026-06-12,Very good result,praise,praise,ok,0.7805,praise,,
+fb_0030,the-powerpoint-er,lienttb@techcombank.com.vn,2026-08-08,càng làm càng xấu,complain,complain,low_confidence,0.5995,complain,,
+fb_0068,the-translator,huyenpt33@techcombank.com.vn,2026-07-15,"Dịch quá tệj, đặc biệt với các câu nhiều mệnh đề.",complain,complain,low_confidence,0.5494,complain,,
+fb_0077,the-imaginator,huongdtm11@techcombank.com.vn,2026-07-13,"hình ảnh còn chưa đẹp, ví dụ hình theo style Oil painting",complain,complain,low_confidence,0.5650,complain,,
+fb_0106,the-brainstormer,duypd@techcombank.com.vn,2026-07-03,It is asking too much questions,complain,complain,low_confidence,0.5923,complain,,
+fb_0138,tai,quyennt17@techcombank.com.vn,2026-06-29,Trang rất hỗn,complain,complain,low_confidence,0.5910,complain,,
+fb_0037,the-powerpoint-er,tranghvy@techcombank.com.vn,2026-08-04,bổ sung thêm giúp tôi pah6n tích chi tiết theo từng lực lượng bán,unclassified,unclassified,unclassified,0.4458,new_feature,,
+fb_0067,the-translator,duapt@techcombank.com.vn,2026-07-15,1. Đàm bào doanh nghiệp = ĐBDN = Corporate Assurance…,unclassified,unclassified,unclassified,0.3017,new_feature,,
+fb_0080,the-summarizer,huongltt12@techcombank.com.vn,2026-07-10,Các tầng thành viên bù trừ: Các thành viên bù trừ trực tiếp phải duy trì vốn tối thiểu là 1.000 tỷ đồng; các thành viên bù trừ chung (n…,unclassified,unclassified,unclassified,0.3267,complain,,
+fb_0085,the-brainstormer,phuongvh6@techcombank.com.vn,2026-07-10,"Em hỏi chút, khi em sử dụng AI này và up chứng từ lên để AI hỗ trợ, có bị tính vi phạm an ninh thông tin không?",unclassified,unclassified,unclassified,0.4450,bug,,
+fb_0092,the-powerpoint-er,hoannd2@techcombank.com.vn,2026-07-08,"Bạn có thể so sánh với các Công ty khác như Đạm Phú Mỹ, Phân Bón Bình Điền, Hóa chất Miền Nam không?",unclassified,unclassified,unclassified,0.2696,new_feature,,

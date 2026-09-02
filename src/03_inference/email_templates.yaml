@@ -1,0 +1,166 @@
+# Câu mẫu email trả lời feedback — ADMIN SỬA TRỰC TIẾP FILE NÀY, KHÔNG SỬA CODE.
+#
+# Module: inference.deliver (B3) — nguồn copy song ngữ cho build_email.py.
+# Architecture: docs/architecture.md §2 (cây thư mục output — khối `folders` bên dưới quyết định
+#   tên folder), §4.3 (routing 3 vùng; flag=unclassified ⇒ template theo best_label),
+#   §4.4 (guideline hit ⇒ "hướng dẫn"; hết chuỗi ⇒ we_listen), §4.6 (enum `scenario`),
+#   §5 (Config: REVIEW_DIR + tên folder nằm ở config).
+# Impl: docs/impl-phase2-auto-feedback-flow.md §3.2 (bảng chọn template; không hit ⇒ we_listen,
+#   biến thể trung tính BỎ câu hứa mốc thời gian), §3.3 (style rules).
+# Plan: docs/2026-09-03/build-email-eml/plan.md (D1 scenario là khoá chọn template, D4 1 message/case)
+# Template spec: template/skill_create_email.md
+#
+# LUẬT VIẾT (build_email.py lint và sẽ FAIL nếu vi phạm):
+#   - KHÔNG em-dash (—). Dùng dấu phẩy, dấu chấm, hoặc viết lại câu.
+#   - KHÔNG emoji / icon trong body.
+#   - Viết đúng "TÀI Studio" (À hoa). Không "Tài Studio", không "Tai Studio".
+#
+# PLACEHOLDER hợp lệ (thiếu giá trị ⇒ build_email FAIL LOUD, không render chuỗi rỗng):
+#   {name}                 tên người nhận, suy từ user_email
+#   {agent}                tên agent trong feedback
+#   {feedback_summary}     KHÔNG dùng trong các câu dưới đây — nó là nội dung BOX ĐỎ, code tự chèn
+#   {resolution_details}   KHÔNG dùng trong các câu dưới đây — nó là nội dung BOX XANH, code tự chèn
+#
+# VI và EN của cùng một scenario phải nói CÙNG MỘT ĐIỀU (yêu cầu: mỗi case 1 message song ngữ).
+
+meta:
+  from: "taistudio@techcombank.com.vn"
+  subject: "[TÀI Studio] Your TÀI Studio feedback"
+  cc:
+    - "romeo.olympia@techcombank.com.vn"
+    - "anhdt26@techcombank.com.vn"
+    - "duongntt31@techcombank.com.vn"
+    - "thucnm@techcombank.com.vn"
+
+  # Logo nhúng inline qua MIME (KHÔNG link ngoài). Đường dẫn tính từ gốc repo.
+  logo_path: "src/assets/tai_logo.png"
+  logo_cid: "tai_logo"
+  logo_alt: "TÀI Studio"
+
+  language_note: "English version below"
+  separator_label: "ENGLISH VERSION"
+
+  footer:
+    support_intro: "Nếu bạn cần hỗ trợ thêm / If you need further assistance:"
+    support_emails:
+      - "anhdt26@techcombank.com.vn"
+      - "duongntt31@techcombank.com.vn"
+      - "thucnm@techcombank.com.vn"
+    discover_text: "Khám phá thêm về TÀI Studio / Discover more about TÀI Studio"
+    discover_url: "https://techcombank.sharepoint.com/sites/AITransformationHub/SitePages/T%C3%A0i_Studio.aspx"
+    signoff: "Trân trọng / Best regards,"
+    team: "Team TÀI Studio"
+    org: "AI Foundation | Techcombank"
+
+  # Nhãn của 2 box (giữ song ngữ trong cùng một nhãn vì box là verbatim, không dịch).
+  labels:
+    feedback_box_vi: "Phản hồi ban đầu:"
+    feedback_box_en: "Original feedback:"
+    resolution_box_vi: "Kết quả xử lý:"
+    resolution_box_en: "Resolution:"
+    source_prefix_vi: "Nguồn:"
+    source_prefix_en: "Source:"
+
+  # Block INTERNAL — PM đọc rồi XOÁ trước khi gửi (§4.5). Không phải nội dung gửi user.
+  internal:
+    title: "INTERNAL — XOÁ KHỐI NÀY TRƯỚC KHI GỬI"
+    low_confidence_warning: "Độ tin cậy phân loại THẤP. Kiểm lại nhãn trước khi gửi."
+    unclassified_warning: "Feedback KHÔNG phân loại được. Template dưới đây dựng theo nhãn gần nhất, hãy đọc kỹ và sửa lại."
+    no_source_warning: "Không có nguồn tài liệu nào khớp. Email chỉ ghi nhận, KHÔNG khẳng định tính năng đã có."
+
+# Nhãn → tên thư mục trong REVIEW_DIR. Đổi tên folder = đổi ở đây, không đụng code.
+folders:
+  bug: "bug"
+  new_feature: "new_feature"
+  praise: "praise"
+  complain: "complain"
+  unclassified: "unclassified"
+
+# 6 kịch bản của feedback_processing.scenario (§4.6).
+# `template`: we_resolved (có box xanh) | we_listen (chỉ box đỏ) | ack (chỉ box đỏ, không hứa hẹn)
+scenarios:
+
+  # bug/new_feature + guideline HIT (solved=True) — kịch bản "hướng dẫn" §4.4
+  how_to_answer:
+    template: we_resolved
+    vi:
+      greeting: "Xin chào {name},"
+      opening: "Phản hồi của bạn rất quan trọng với chúng tôi!"
+      lead: "Chúng tôi vui mừng thông báo rằng nhu cầu bạn nêu hiện đã có thể thực hiện được trên TÀI Studio. Phần hướng dẫn tương ứng nằm ngay bên dưới."
+      closing: "Chúng tôi hy vọng bạn sẽ tiếp tục sử dụng TÀI Studio và đóng góp ý kiến. Mỗi phản hồi của bạn đều tạo nên sự khác biệt!"
+    en:
+      greeting: "Hi {name},"
+      opening: "Your feedback counts!"
+      lead: "We are happy to let you know that what you asked for is already available in TÀI Studio. The relevant guidance is right below."
+      closing: "We hope you will continue using TÀI Studio and sharing your thoughts. Every piece of feedback makes a difference!"
+
+  # bug/new_feature + backlog HIT — CHƯA ROUTE TỚI ĐƯỢC (bước 2 chuỗi §4.4 chưa hiện thực).
+  # Giữ chỗ theo enum §4.6, không xoá. Xem plan §3 D1.
+  known_gap:
+    template: we_listen
+    vi:
+      greeting: "Xin chào {name},"
+      opening: "Cảm ơn bạn đã dành thời gian chia sẻ phản hồi về TÀI Studio."
+      lead: "Team TÀI Studio đã ghi nhận phản hồi này và nội dung tương ứng đang nằm trong kế hoạch phát triển. Chúng tôi sẽ thông báo lại khi tính năng sẵn sàng."
+      closing: "Cảm ơn bạn đã đồng hành cùng TÀI Studio!"
+    en:
+      greeting: "Hi {name},"
+      opening: "Thank you for taking the time to share your feedback about TÀI Studio."
+      lead: "The TÀI Studio team has noted your request and the related work is already on our development plan. We will update you once it is live."
+      closing: "Thank you for being part of the TÀI Studio journey!"
+
+  # bug/new_feature nhưng KHÔNG nguồn nào khớp — ghi nhận, KHÔNG hứa mốc (impl §3.2)
+  we_listen:
+    template: we_listen
+    vi:
+      greeting: "Xin chào {name},"
+      opening: "Cảm ơn bạn đã dành thời gian chia sẻ phản hồi về TÀI Studio."
+      lead: "Team TÀI Studio đã ghi nhận nội dung bạn gửi và sẽ chuyển tới nhóm phụ trách {agent} để xem xét. Chúng tôi rất trân trọng đóng góp của bạn, và mỗi ý kiến đều giúp chúng tôi cải thiện sản phẩm tốt hơn."
+      closing: "Cảm ơn bạn đã đồng hành cùng TÀI Studio!"
+    en:
+      greeting: "Hi {name},"
+      opening: "Thank you for taking the time to share your feedback about TÀI Studio."
+      lead: "The TÀI Studio team has noted what you sent and will pass it to the team behind {agent} for review. We truly value your input, and every piece of feedback helps us improve."
+      closing: "Thank you for being part of the TÀI Studio journey!"
+
+  # praise
+  thank_you:
+    template: ack
+    vi:
+      greeting: "Xin chào {name},"
+      opening: "Cảm ơn bạn rất nhiều vì đã dành thời gian chia sẻ cảm nhận với TÀI Studio."
+      lead: "Những lời động viên như vậy là nguồn khích lệ lớn cho cả đội ngũ, và chúng cho chúng tôi biết mình đang đi đúng hướng."
+      closing: "Chúng tôi rất mong tiếp tục được đồng hành cùng bạn. Xin cảm ơn bạn đã tin tưởng TÀI Studio."
+    en:
+      greeting: "Hi {name},"
+      opening: "Thank you so much for taking the time to share your experience with TÀI Studio."
+      lead: "Encouragement like this means a great deal to our whole team, and it tells us we are on the right track."
+      closing: "We look forward to continuing this journey with you. Thank you for trusting TÀI Studio."
+
+  # complain
+  apology:
+    template: ack
+    vi:
+      greeting: "Xin chào {name},"
+      opening: "Cảm ơn bạn đã phản hồi, và chúng tôi rất xin lỗi vì trải nghiệm chưa tốt mà bạn gặp phải với TÀI Studio."
+      lead: "Chúng tôi hiểu điều này gây ra sự bất tiện cho bạn. Đội ngũ đã tiếp nhận nghiêm túc và sẽ rà soát lại phần liên quan tới {agent}."
+      closing: "Rất mong bạn chia sẻ thêm chi tiết cụ thể để chúng tôi hỗ trợ và cải thiện đúng chỗ. Chúng tôi trân trọng sự thẳng thắn của bạn."
+    en:
+      greeting: "Hi {name},"
+      opening: "Thank you for reaching out, and we are sorry for the experience you had with TÀI Studio."
+      lead: "We understand how inconvenient this must have been. Our team takes it seriously and will review the part related to {agent}."
+      closing: "We would really appreciate more details so we can support you and improve the right things. Thank you for your honest feedback."
+
+  # không xác định được nhãn gần nhất — ack trung tính, KHÔNG hứa gì (impl §3.2)
+  neutral_ack:
+    template: ack
+    vi:
+      greeting: "Xin chào {name},"
+      opening: "Cảm ơn bạn đã gửi phản hồi cho TÀI Studio."
+      lead: "Đội ngũ đã ghi nhận nội dung bạn chia sẻ và sẽ xem xét kỹ để tiếp tục cải thiện sản phẩm."
+      closing: "Rất mong bạn tiếp tục đồng hành và chia sẻ thêm với chúng tôi. Xin cảm ơn bạn."
+    en:
+      greeting: "Hi {name},"
+      opening: "Thank you for sending your feedback to TÀI Studio."
+      lead: "Our team has noted what you shared and will review it carefully to keep improving the product."
+      closing: "We hope you will continue to share more with us. Thank you very much."

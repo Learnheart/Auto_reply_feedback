@@ -1,0 +1,40 @@
+[resolve] tai: lô 10 dòng → solved=True 0
+[resolve] tai: lô 10 dòng → solved=True 0
+[resolve] tai: lô 5 dòng → solved=True 0
+[resolve] the-ai-visionary: lô 2 dòng → solved=True 0
+[resolve] the-translator: lô 10 dòng → solved=True 0
+[resolve] the-translator: lô 10 dòng → solved=True 0
+[resolve] the-translator: lô 5 dòng → solved=True 0
+[resolve] the-powerpoint-er: lô 10 dòng → solved=True 2
+[resolve] the-powerpoint-er: lô 10 dòng → solved=True 5
+[resolve] the-powerpoint-er: lô 10 dòng → solved=True 0
+[resolve] the-powerpoint-er: lô 9 dòng → solved=True 0
+[resolve] tai-studio: lô 4 dòng → solved=True 0
+[resolve] the-imaginator: lô 3 dòng → solved=True 0
+[resolve] the-whiteboarder: lô 1 dòng → solved=True 0
+[resolve] the-scholar: lô 1 dòng → solved=True 0
+[resolve] the-ai-coach: lô 1 dòng → solved=True 0
+[resolve] the-brainstormer: lô 10 dòng → solved=True 2
+[resolve] the-brainstormer: lô 2 dòng → solved=True 0
+[resolve] the-summarizer: lô 10 dòng → solved=True 0
+[resolve] the-summarizer: lô 2 dòng → solved=True 0
+[resolve] the-canvas-designer: KHÔNG có tài liệu → 2 dòng solved=False
+
+== Eval B2 bước 1 (guideline resolve) trên data\golden\feedback_gold_solved.csv: n=127
+  gold solved=True: 12 | pred True: 3
+  precision 1.000 | recall 0.250 | F1 0.400 | acc 0.929
+  confusion: tp=3 fp=0 fn=9 tn=115
+  quote verbatim (pred True): 1.00 | trùng đoạn gold (trong TP): 0.67
+  gates: {'no_quote': 86, 'ok': 32, 'demoted_by_verify': 6, 'quote_not_found': 1, 'no_doc': 2}
+  llm: {'calls': 29, 'prompt_tokens': 53544, 'completion_tokens': 17686, 'seconds': 298.83811044692993}
+
+  sai 9 dòng (id | loại | content | quote | lý do):
+    fb_0004 | FN | TL;DR: There must be a clear indicator when a person is out of credits |  | no_quote: Credit indicator not documented in any guide section.
+    fb_0029 | FN | Tự bịa khá nhiều thông tin, cần phải có bước comment sau khi đã lên sl |  | no_quote: Guide only provides "Ask AI to edit" field for changes, no p
+    fb_0032 | FN | Bạn ơi, có giao diện tiếng việt không ạ ? | Language follows your prompt | The EN/VI toggle changes UI only, not response la | ok: UI language toggle does not affect entire interface.
+    fb_0040 | FN | Mình ấn re-generate với mong muốn tạo ra slide đẹp hơn, nhưng lại xấu  |  | no_quote: Guide allows "Regenerate from outline" but does not address 
+    fb_0054 | FN | cỡ chữ hơi nhỏ, sử dụng nhiều màu sắc, độ tương phản giữa nền và chữ c | The top bar provides quick editing actions, including adjusting font size, text  | demoted_by_verify: Font customization options are explicitly documented.
+    fb_0070 | FN | Dự án có thể bổ sung cho phép input mô hình ảnh, sau đó chỉnh sửa thàn |  | no_quote: Guide only describes basic image editing via AI refinement, 
+    fb_0084 | FN | Thêm ảnh tham chiếu (reference) giống Figma Wave được không ạ |  | no_quote: Guide mentions reference images but does not describe advanc
+    fb_0093 | FN | ở mục slide bên trái tạo thêm nút xóa slide sau khi thấy thừa | - Add/remove slides (+ Add slide / × to remove) | quote_not_found: The user guide explicitly describes a '× to remove' button f
+    fb_0107 | FN | Cần phiên bản tiếng việt | Language follows your prompt | The EN/VI toggle changes UI only, not response la | ok: UI language toggle does not affect entire interface.
